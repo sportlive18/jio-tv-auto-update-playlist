@@ -1,7 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://lemajekaat.streamxlive.workers.dev/'
-
+url = 'https://starmix4k.zonmp.net/'
 headers = {
     'User-Agent': 'OTT Navigator'
 }
@@ -12,10 +11,10 @@ try:
         content = response.read().decode('utf-8')
         
         # Save it to a file
-        with open('jtvplus5.m3u', 'w', encoding='utf-8') as f:
+        with open('jtvplus7.m3u', 'w', encoding='utf-8') as f:
             f.write(content)
             
-        print("Successfully fetched the playlist and saved it to 'jtvplus5.m3u'")
+        print("Successfully fetched the playlist and saved it to 'jtvplus7.m3u'")
         print(f"First few lines:\n{content[:200]}...")
 except urllib.error.HTTPError as e:
     print(f"HTTP Error: {e.code}")
