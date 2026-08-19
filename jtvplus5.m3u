@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz" x-billed-message="StreamX"
-# Generated: 20 Aug 2026, 02:02:31
+# Generated: 20 Aug 2026, 02:58:06
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -7856,7 +7856,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Maa_Music_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59060fae4daf542b9b0dd6a361b62b95:4f4c689aaeb72b0f31e531215a139726
 #EXTVLCOPT:http-user-agent=OTT Navigator
-#EXTHTTP:{"cookie":"__hdnea__=st=1787152008~exp=1787173608~acl=/bpk-tv/Maa_Gold_BTS/WDVLive/*~hmac=c7808c095ad9796fc79b267d310992f26694c55d867f643345a14c41399093a7","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1787170273~exp=1787191873~acl=/bpk-tv/Maa_Gold_BTS/WDVLive/*~hmac=b707765404b0ffdaadeb44291bee149299aab31cad775f1fc1a20d23f9ab766d","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Maa_Gold_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1242" group-title="JioTV+ ▶ | Telugu" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Telugu.png",Sonic Telugu
@@ -9196,17 +9196,17 @@ https://yashlivetv.fun/phpdirect.php?id=0-9-zeecafehd
 #EXTHTTP:{"cookie":"","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://yashlivetv.fun/phpdirect.php?id=0-9-channel_2105335046
 
-#EXTINF:-1 tvg-id="event-0.46600106864858426" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247577_53004_ATM_MAG_FC-Web_1787121237407.png",Atletico de Madrid vs Málaga (LALIGA 2026-27)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://in-mc-flive.fancode.com/mumbai/4247577_english_hls_f72643bc7357476_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1787250674~_GO=Generated~acl=/mumbai/4247577_english_hls_f72643bc7357476_1ta-di_h264/*~Signature=ARceAWNDQtpzETFpAUG_cI2hKL1M12oidpA_32fwROK9yxNoiOJV4DdE6GK09szjJLiqzezdH8ZjOlesb5fxRaDdNw4E
-
-#EXTINF:-1 tvg-id="event-0.8086459244083968" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",United States (ATP Masters Cincinnati Open 2026)
+#EXTINF:-1 tvg-id="event-0.32408552284571324" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",United States (ATP Masters Cincinnati Open 2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787237301~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWOiweTPk39xyP2DrWDiktN4lESgSWTuw0XqBAZEHojpCU8w-HcUBiZx47WgGdyBapX7m6d0R7BQ90Ml-PBZslID
 
-#EXTINF:-1 tvg-id="event-0.667345183934205" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",United States (ATP Masters Cincinnati Open 2026)
+#EXTINF:-1 tvg-id="event-0.38002799012681654" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",United States (ATP Masters Cincinnati Open 2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787237297~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOVV7GmGkbkeUmJLxY5_Si8boUpaii7BZ1WGxfkHPtbJUnQn638d6zjZ9gDbGBY9nXzYTMyOEQvlxMEbx-7Nx8E
+
+#EXTINF:-1 tvg-id="event-0.40310520553157947" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247577_53004_ATM_MAG_FC-Web_1787121237407.png",Atletico de Madrid vs Málaga (LALIGA 2026-27)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://in-mc-flive.fancode.com/mumbai/4247577_english_hls_f72643bc7357476_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1787250674~_GO=Generated~acl=/mumbai/4247577_english_hls_f72643bc7357476_1ta-di_h264/*~Signature=ARceAWNDQtpzETFpAUG_cI2hKL1M12oidpA_32fwROK9yxNoiOJV4DdE6GK09szjJLiqzezdH8ZjOlesb5fxRaDdNw4E
 
 #EXTINF:-1 tvg-id="SONY SAB HD.in" group-title="Sony Liv | STREAMX" group-logo="https://i.postimg.cc/WztjDJSc/Sony-Liv-(1).jpg" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
