@@ -1,7 +1,7 @@
 import urllib.request
 import urllib.error
-url = 'http://airteltataplaygeorolexmix.gojo45749.workers.dev'
-# We MUST use a specific User-Agent like OTT Navigator, TiviMate, or okhttp to get the playlist
+url = ''
+
 headers = {
     'User-Agent': 'OTT Navigator'
 }
