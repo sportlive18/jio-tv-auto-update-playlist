@@ -38,7 +38,7 @@ jobs:
 
           echo "📥 Downloading latest JTV playlist..."
           curl -fSL -o jtv5.m3u \
-            "https://sayan-jiotv.spal75084.workers.dev/jtv.m3u"
+            "https://t.ayush848694.workers.dev/"
 
           echo "🚀 JIOTV Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
 
