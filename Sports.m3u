@@ -277,17 +277,30 @@ https://cloudplay-sonyliv.pages.dev/ten5.m3u8
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 5 HD.in" tvg-name="Sony Sports Ten 5 HD" group-title="Sports" tvg-logo="https://i.postimg.cc/CKrT884b/sonysportsten5hd.webp",Sony TEN 5 HD
 https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
 
-#EXTINF:-1 tvg-id="EsportesPPV" tvg-name="DAZN FHD" tvg-logo="https://i.imgur.com/P0tACHI.png" group-title="DAZN",DAZN 1 FHD
-http://vydns.com:80/live/5Y6fnH/g8F1hQ/27510383.ts
+#EXTINF:-1 tvg-id="Foxsports1.us" group-title="Sports" tvg-logo="https://iili.io/KYJqv0G.png",FOX SPORTS 1 HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd
 
-#EXTINF:-1 tvg-id="SporTV.br" tvg-name="SporTV FHD" tvg-logo="https://i.imgur.com/wkHBCNs.png" group-title=" SPORTV",SporTV  FHD
-http://vydns.com:80/live/5Y6fnH/g8F1hQ/27510330.ts
+
+#EXTINF:-1 tvg-id="Foxsports2.us" group-title="Sports" tvg-logo="https://iili.io/KYJC4V9.png",FOX SPORTS 2 HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0 
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
+
 
 #EXTINF:-1 tvg-id="FoxSports4KEvents1.us" tvg-logo="https://iptv-epg.org/images/6364d3f0f495b6ab9dcf8d3b5c6e0b01/pU85oUhkwd9hFYvskkMhBbr4JcjUM2a0XJ56U_rnGIIkigaTw5xxA1NxHeoZq9LTCH2_lwTyL_o6HAW_OPj3SWzZ4dwuofbe1VTApeBQPKzG6DB0-PHE8g" group-title="Sports",FOX Sports 4K
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/lsilniwjf7/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd
+
 
 #EXTINF:-1 tvg-id="0-1-6z5974924" tvg-logo="https://iptv-epg.org/images/6364d3f0f495b6ab9dcf8d3b5c6e0b01/pU85oUhkwd9hFYvskkMhBbr4JcjUM2a0XJ56U_rnGIIkigaTw5xxA1NxHeoZq9LTCH2_lwTyL_o6HAW_OPj3SWzZ4dwuofbe1VTApeBQPKzG6DB0-PHE8g" group-title="Sports", FOX Sports HDR
 #KODIPROP:inputstream=inputstream.adaptive
@@ -296,4 +309,45 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/lsilniwjf7/out/v1/fc40
 #KODIPROP:inputstream.adaptive.license_key=48afc63fa0ecccc3a71f46d3fda20249:c7cd8801e238a263fe4349a95682b83b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rgmw19qjux/out/v1/c6ac7e638a9d4998891ae85aba377c59/cenc.mpd
 
+#EXTINF:-1 tvg-id="EsportesPPV" tvg-name="DAZN FHD" tvg-logo="https://i.imgur.com/P0tACHI.png" group-title="DAZN",DAZN 1 FHD
+http://vydns.com:80/live/5Y6fnH/g8F1hQ/27510383.ts
 
+#EXTINF:-1 tvg-id="SporTV.br" tvg-name="SporTV FHD" tvg-logo="https://i.imgur.com/wkHBCNs.png" group-title=" SPORTV",SporTV  FHD
+http://vydns.com:80/live/5Y6fnH/g8F1hQ/27510330.ts
+
+
+#EXTINF:-1 tvg-id="UFC1.UFC" tvg-logo="https://iptv-epg.org/logos/USA/UFC1.UFC.png" group-title="Sports",UFC
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd
+
+
+#EXTINF:-1 tvg-id="F1Channel.us" tvg-logo="https://logodownload.org/wp-content/uploads/2024/05/f1-tv-logo-0.png" group-title="Sports",F1 TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=609d795905904705028ef54653019af7:2c791eb611e57a7d7f203022bc1b9ba3
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd
+
+
+#EXTINF:-1 tvg-id="NBAtv.us" tvg-logo="https://dtil.tmsimg.com/assets/s45526_ll_h15_ab.png?w=360&h=270" group-title="Sports",NBA TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/out/v1/066dd9325648468c9ecdc8b272370931/cenc.mpd
+
+
+#EXTINF:-1 tvg-id="motogp_event1.p13" tvg-logo="https://m.media-amazon.com/images/I/21uTWIbyL8L.png" group-title="Sports",MotoGP
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EEDMg6S.png" group-title="Sports" tvg-id="dr_tapsports", Tap Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
