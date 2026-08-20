@@ -6,6 +6,8 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/callection/w
 #EXTINF:-1 tvg-id="unite8sports2" tvg-name="UNITE 8 SPORTS 2 HD" tvg-logo="https://i.ibb.co/HLG7MBqW/images-4.jpg" group-title="Sports",UNITE 8 SPORTS 2 HD
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/callection/wc8/wc8/155990.m3u8
 
+#EXTINF:-1 tvg-id="502" group-title="Sports" tvg-logo="https://i.ibb.co/h1gBmjbj/Unite8-1.png",Unite8 Sports 1 
+http://line.turbohdtv.com:80/live/8TPNW6/4MW25P/373312.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.imgur.com/7BwABte.png", Fubo Sports 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -50,6 +52,12 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+
+#EXTINF:-1 tvg-id="premier1.uk" tvg-name="UK: Premier Sports 1 FHD" tvg-logo="http://xplatinmedia.com:8080/images/436d59757bb4fa7403706c93b0ef79b8.png" group-title="Sports",UK: Premier Sports 1 FHD
+http://25062025.xyz:80/live/susan/randall/480779.ts
+
+#EXTINF:-1 tvg-id="premiersports2.uk" tvg-name="UK: Premier Sports 2  FHD" tvg-logo="http://xplatinmedia.com:8080/images/436d59757bb4fa7403706c93b0ef79b8.png" group-title="Sports",UK: Premier Sports 2  FHD
+http://25062025.xyz:80/live/susan/randall/480781.ts
 
 #EXTINF:-1 tvg-id="tntsports1" tvg-name="TNT SPORTS 1" tvg-logo="https://i.ibb.co/x8j2VVnJ/images-1.png" group-title="Sports",TNT SPORTS 1
 #KODIPROP:inputstream=inputstream.adaptive
