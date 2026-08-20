@@ -1,7 +1,7 @@
 import requests
 import json
 
-JSON_URL = "https://upaidworker.streamxlive.workers.dev/"
+JSON_URL = "https://undefeatable.streamxlive.workers.dev/"
 USER_AGENT = "Sayan10"          
 OUTPUT_FILE = "Star2.m3u"
 
