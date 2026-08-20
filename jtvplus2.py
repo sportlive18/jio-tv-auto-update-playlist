@@ -2,7 +2,7 @@ import requests
 import json
 
 JSON_URL = "https://undefeatable.streamxlive.workers.dev/"
-USER_AGENT = "Sayan10"          
+USER_AGENT = "Sayan10"
 OUTPUT_FILE = "jtvplus2.m3u"
 
 def generate_m3u():
@@ -12,7 +12,6 @@ def generate_m3u():
         resp.raise_for_status()
         data = resp.json()
 
-        # Determine the channel list
         if isinstance(data, list):
             channels = data
         elif isinstance(data, dict) and "channels" in data:
@@ -27,38 +26,31 @@ def generate_m3u():
         m3u_lines = ["#EXTM3U"]
 
         for ch in channels:
-            # Extract fields (using keys from your sample)
             ch_id = ch.get("id", "")
             name = ch.get("name", "Unknown")
-            stream_url = ch.get("url", "")          # key is "url"
+            stream_url = ch.get("url", "")
             cookie = ch.get("cookie", "")
-            key_id = ch.get("keyId", "")            # key is "keyId"
+            key_id = ch.get("keyId", "")
             key = ch.get("key", "")
+            logo = ch.get("logo", "")          # <-- get logo
+            group = ch.get("category", "Sports")
 
-            # Skip incomplete entries
             if not all([stream_url, cookie, key_id, key]):
                 print(f"  Skipping '{name}' – missing required data.")
                 continue
 
             license_key = f"{key_id}:{key}"
 
-            # You can use category from JSON, or hardcode "Sports" as in your example
-            group = ch.get("category", "Sports")     # fallback to "Sports"
-
-            # EXTINF line
+            # EXTINF line with logo
             m3u_lines.append(
-                f'#EXTINF:-1 tvg-id="{ch_id}" tvg-name="{name}" tvg-logo="" group-title="{group}",{name}'
+                f'#EXTINF:-1 tvg-id="{ch_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}'
             )
 
-            # KODIPROP lines (ClearKey)
             m3u_lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
             m3u_lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             m3u_lines.append(f"#KODIPROP:inputstream.adaptive.license_key={license_key}")
-
-            # VLC User‑Agent
             m3u_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
 
-            # HTTP headers as JSON
             headers = {
                 "cookie": cookie,
                 "Origin": "https://www.jiotv.com/",
@@ -66,12 +58,9 @@ def generate_m3u():
             }
             headers_json = json.dumps(headers, separators=(',', ':'))
             m3u_lines.append(f"#EXTHTTP:{headers_json}")
-
-            # Stream URL
             m3u_lines.append(stream_url)
-            m3u_lines.append("")   # blank line
+            m3u_lines.append("")
 
-        # Write file
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_lines))
 
