@@ -32,7 +32,7 @@ def fetch_sports_channels():
     Fetch data from the API, filter Star Sports channels,
     transform them into the target format, and save to star.json.
     """
-    url = "https://upaidworker.streamxlive.workers.dev/"
+    url = "https://undefeatable.streamxlive.workers.dev/"
 
     try:
         response = requests.get(url)
