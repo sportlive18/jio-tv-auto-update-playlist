@@ -1,38 +1,82 @@
-name: Automated Airtel Tv
+name: Update JTV PLUS 6 Playlist
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - 'voot.py'
 jobs:
-  update-file:
+  update-playlist:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    concurrency:
+      group: update-jtv2
+      cancel-in-progress: true
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          
-      - name: Configure Git User
+
+      - name: Configure Git
         run: |
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
-          
-      - name: Sync and Update Log
+
+      - name: Fetch and Reset to Remote
         run: |
-          export TZ="Asia/Kolkata"
-          git pull origin main --rebase
-          curl -sS -L -o airteltv.m3u "http://airteltataplaygeorolexmix.gojo45749.workers.dev"
-          echo "🚀 JIOTV  Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
-          
-      - name: Commit and Push
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
         run: |
-          export TZ="Asia/Kolkata"
-          git add airteltv.m3u 
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "JIOTV Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
-          git push origin main
+          python -m pip install --upgrade pip
+          pip install requests pytz
+
+      - name: Run Script
+        env:
+          TZ: Asia/Kolkata
+        run: |
+          python voot.py
+
+      - name: Commit and Push Changes
+        run: |
+          git add digital.m3u
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "JIOTV Updated ✅ ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+
+          max_retries=5
+          attempt=1
+
+          until [ $attempt -gt $max_retries ]
+          do
+            echo "Push attempt $attempt..."
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin main; then
+              echo "Push succeeded."
+              exit 0
+            else
+              echo "Push failed, retrying ($attempt/$max_retries)..."
+              attempt=$((attempt+1))
+              sleep $((RANDOM % 5 + 1))
+            fi
+          done
+
+          echo "Push
