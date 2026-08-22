@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNMkRUdzZOa3hYNkRITXcxTmNuMStUNFdvbE1kS3gwdlQ3bVVydHhmY2YvNVVZNVRieU93a2ZVL3NoZGpud3dDb3c9PQ==
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNMDVicHlZTUc0Z3dwVS96Nk00K0NrMkNZcisxanp1eC9rUWpRUVV4VUF5WEUwRzkwdEltbGZ6QXRISmtmNC8wTGc9PQ==
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -166,7 +166,7 @@ https://demo.drmlive.net/live/kayo/53208/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/kayohindi1.mpd
 #EXTINF:-1 tvg-logo="https://media.kayosports.com.au/content/dam/nc/fc/sm/kyo/prl/media-centre/logos/KayoSportsLogoNegative.png" group-title="Cricket",Kayo Hindi 1
-https://mix.drmlive.net/mix/kayohindi1.mpd
+#https://mix.drmlive.net/mix/kayohindi1.mpd
 
 #EXTINF:-1 group-title="Cricket",Event 1
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/24.10.07.2.10542 (Android/9)
@@ -282,7 +282,23 @@ https://mix.drmlive.net/mix/fancode-3.m3u8|Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/drmlive/mix/refs/heads/main/fancode.png" group-title="Sports",Fancode Event Extra 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://mix.drmlive.net/mix/fancode-3.m3u8|Referer=https://fancode.com/
+https://mix.drmlive.net/mix/fancode-4.m3u8|Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/drmlive/mix/refs/heads/main/fancode.png" group-title="Sports",Fancode Event Extra 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+https://mix.drmlive.net/mix/fancode-5.m3u8|Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/drmlive/mix/refs/heads/main/fancode.png" group-title="Sports",Fancode Event Extra 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+https://mix.drmlive.net/mix/fancode-6.m3u8|Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/drmlive/mix/refs/heads/main/fancode.png" group-title="Sports",Fancode Event Extra 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+https://mix.drmlive.net/mix/fancode-7.m3u8|Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/drmlive/mix/refs/heads/main/fancode.png" group-title="Sports",Fancode Event Extra 8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+https://mix.drmlive.net/mix/fancode-8.m3u8|Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-logo="https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/sony-liv-logo.png" group-title="Cricket",SLIV Event 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/140.0.5563.58 Mobile Safari/537.36
