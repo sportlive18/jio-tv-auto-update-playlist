@@ -9,6 +9,24 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/callection/w
 #EXTINF:-1 tvg-id="502" group-title="Sports" tvg-logo="https://i.ibb.co/h1gBmjbj/Unite8-1.png",Unite8 Sports 1 
 http://line.turbohdtv.com:80/live/8TPNW6/4MW25P/373312.m3u8
 
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS.png",AU - FOX SPORTS 501
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259842
+
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/skysport1.png",NZ - SKY SPORT 1 HD
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=689432
+
+#EXTINF:-1 tvg-id="SkySpCricket.uk" tvg-logo="http://142.132.202.99:2080/stalker_portal/misc/logos/320/" group-title="IPL-2026", Sky Sports Cricket HD
+http://45.12.32.190:8080/UK-SkySportsCricketFHD/video.m3u8
+
+#EXTINF:-1 tvg-id="SkySports1" tvg-name="Sky Sports NZ 1 FHD" tvg-logo="https://8upload.com/image/67dcf3f71dbaa/sky-sport-1-nz.png?raw=1" group-title="IPL-2026",Sky Sports NZ 1 FHD
+http://45.12.32.190:8080/UK-SkySport1NZ/video.m3u8
+
+#EXTINF:-1 tvg-id="SkySports2" tvg-name="Sky Sports NZ 2 FHD" tvg-logo="https://8upload.com/image/67dcf3f712c8a/sky-sport-2-nz.png?raw=1" group-title="IPL-2026",Sky Sports NZ 2 FHD
+http://45.12.32.190:8080/UK-SkySport2NZ/video.m3u8
+
+#EXTINF:-1 tvg-id="SkySports3" tvg-name="Sky Sports NZ 3 FHD" tvg-logo="https://8upload.com/image/67dcf3f707147/sky-sport-3-nz.png?raw=1" group-title="IPL-2026",Sky Sports NZ 3 FHD
+http://45.12.32.190:8080/UK-SkySport3NZ/video.m3u8
+
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.imgur.com/7BwABte.png", Fubo Sports 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
@@ -385,4 +403,22 @@ https://tglmp02.akamaized.net/out/v1/1063ebb215c14312ba9d4e415ac706d2/manifest.m
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e9c4f7312a854d69b0137f6e8c2a5490:1105fa92173b06885be336b887bc4d26
 https://ucdn.mediaquest.com.ph/bpk-tv/cg_onesportsplus_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="0" group-title="|AU| AUSTRALIA" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS.png",AU - FOX SPORTS 502
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259843
+
+#EXTINF:-1 tvg-id="0" group-title="|AU| AUSTRALIA" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-503.png",AU - FOX SPORTS 503
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259844
+
+#EXTINF:-1 tvg-id="0" group-title="|AU| AUSTRALIA" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS.png",AU - FOX SPORTS 504
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259845
+
+#EXTINF:-1 tvg-id="0" group-title="|AU| AUSTRALIA" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-507.png",AU - FOX SPORTS 505
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=617191
+
+#EXTINF:-1 tvg-id="0" group-title="|AU| AUSTRALIA" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-507.png",AU - FOX SPORTS 506
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=617192
+
+#EXTINF:-1 tvg-id="0" group-title="|AU| AUSTRALIA" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-507.png",AU - FOX SPORTS 507
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259846
 
