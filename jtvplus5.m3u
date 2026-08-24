@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
-# Generated: 25/8/2026, 03:02:48
+# Generated: 25/8/2026, 03:59:51
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -8664,15 +8664,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/4sites/HLSPartner/index.m3u8
 #EXTHTTP:{"cookie":"__hdnea__=st=1787583610~exp=1787605210~acl=/*~hmac=ae7438eb7163b757fef1f5fb55351e307ddb4db0fbae8873a7d8f834bfe11f38","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="event-0.9837304711869875" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247587_53004_MAG_COR_FC-Web.png",LALIGA 2026-27 [English]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://in-mc-flive.fancode.com/mumbai/4247587_english_hls_ba7433a2c221805_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1787684547~_GO=Generated~acl=/mumbai/4247587_english_hls_ba7433a2c221805_1ta-di_h264/*~Signature=ARB3KG2dRSkdmsLbH9xaDm2SX_ppOAtYoIsmWuw9jvKZXozmrjAu40anwgTTqkILg-uv2jlRj_r8YMacrC9Bs3Bf-0ML
-
-#EXTINF:-1 tvg-id="event-0.8611644750820131" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248395_53017_GRD_MRC_FC-Web.png",LALIGA Hypermotion 2026-27 [English]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://in-mc-flive.fancode.com/mumbai/4248395_english_hls_763f536aef8018_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787685765~_GO=Generated~acl=/mumbai/4248395_english_hls_763f536aef8018_1ta-di_h264/*~Signature=ARB3KG09ELWAhwuXu7mPJi3S7rN--MotrY0MNZizOI3NxbH1YZ5YODIfsXvXzUBd3wHVFYxnJVofcAkMNwjQ0PJ0fgIC
-
-#EXTINF:-1 tvg-id="event-0.7954940771969455" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Winston-Salem-Open-2026-old.png",ATP 250 - Winston-Salem Open 2026 [English]
+#EXTINF:-1 tvg-id="event-0.5477426250350511" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Winston-Salem-Open-2026-old.png",ATP 250 - Winston-Salem Open 2026 [English]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248151_english_hls_c400dbc4a246695_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787680293~_GO=Generated~acl=/mumbai/4248151_english_hls_c400dbc4a246695_1ta-di_h264/*~Signature=ARB3KG1THe_YT04WcRn79rSoiKbiTMAo5js0e35qS8ElkX-caNUDtN0wr23knZ_LJlDg_-3GmHsDUbyYCRc0KdoVQgUF
 
