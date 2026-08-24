@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
-# Generated: 24/8/2026, 23:04:10
+# Generated: 25/8/2026, 00:15:52
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -8664,25 +8664,33 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/4sites/HLSPartner/index.m3u8
 #EXTHTTP:{"cookie":"__hdnea__=st=1787583610~exp=1787605210~acl=/*~hmac=ae7438eb7163b757fef1f5fb55351e307ddb4db0fbae8873a7d8f834bfe11f38","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="event-0.17803000811191294" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248003_53005_SDS_NDT_fc-Web.png",2026 [English]
+#EXTINF:-1 tvg-id="event-0.4654023786702305" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248003_53005_SDS_NDT_fc-Web.png",2026 [English]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248003_english_hls_b71aafd8a592403_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787663859~_GO=Generated~acl=/mumbai/4248003_english_hls_b71aafd8a592403_1ta-di_h264/*~Signature=ARB3KG2r1LN9E6QzL3_Bdhre_t5ktZO4Misq3Om8ta83Gf9JOkxokpqx7-iHF4znVt_kPPlXmhJ4p7uUM5p2nhgQCIgI
 
-#EXTINF:-1 tvg-id="event-0.6652759911729554" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",2026 [Hindi]
+#EXTINF:-1 tvg-id="event-0.2137172107153208" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",2026 [Hindi]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248353_hindi_hls_2398459a9e55686_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787665074~_GO=Generated~acl=/mumbai/4248353_hindi_hls_2398459a9e55686_1ta-di_h264/*~Signature=ARB3KG1tnUcKU0soTT785atOBwI-8zZr0G1pYmClizM_pIlw0bgWM-_1jnVEbDmmG5EtRA_dtyNtQvX3_8QyHHvO9-ME
 
-#EXTINF:-1 tvg-id="event-0.4378370835221632" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",2026 [Bhojpuri]
+#EXTINF:-1 tvg-id="event-0.13095940474306744" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",2026 [Bhojpuri]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248353_bhojpuri_hls_ffe69fa71031206_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787665074~_GO=Generated~acl=/mumbai/4248353_bhojpuri_hls_ffe69fa71031206_1ta-di_h264/*~Signature=ARB3KG2NA8qQukj7v5WlzY9pYK-aQ_OEEAiwCzuUELBreHJ5SEdSWOjrEjhOz1jvaFtLSkqlYOJS0TLnkiwzpNPtjAkC
 
-#EXTINF:-1 tvg-id="event-0.27039305018272985" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248275_53025_NEOM_ALQ_FC-Web.png",Roshn Saudi League 2026-2027 [English]
+#EXTINF:-1 tvg-id="event-0.7480887700255876" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248275_53025_NEOM_ALQ_FC-Web.png",Roshn Saudi League 2026-2027 [English]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248275_english_hls_f23c1911b052093_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787675436~_GO=Generated~acl=/mumbai/4248275_english_hls_f23c1911b052093_1ta-di_h264/*~Signature=ARB3KG1C_X3aIx9jfZR-Mq-K6OdSSsMYCEAl4_vHZLdqBF7CN0KSPFGh2VFvGnT0_e3sd4YVhfiyTS5__iO7CnVmlJQB
 
-#EXTINF:-1 tvg-id="event-0.17859339043069133" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247579_53004_OSN_LET_FC-Web.png",LALIGA 2026-27 [English]
+#EXTINF:-1 tvg-id="event-0.006673658225311518" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247579_53004_OSN_LET_FC-Web.png",LALIGA 2026-27 [English]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4247579_english_hls_44b005d4c010964_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1787677257~_GO=Generated~acl=/mumbai/4247579_english_hls_44b005d4c010964_1ta-di_h264/*~Signature=ARB3KG3p0sl3A9PboVM2m7ichmxQXGnjHcpPjIGrPzyqeg2WrYjkjb0LhKehRmBrsn0ZA8U4dFojEjG9AZr1FEbWqIwH
+
+#EXTINF:-1 tvg-id="event-0.8333221021598365" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248276_53025_ITT_HAZ_FC-Web.png",Roshn Saudi League 2026-2027 [English]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://in-mc-flive.fancode.com/mumbai/4248276_english_hls_45c0c8313e66473_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787680292~_GO=Generated~acl=/mumbai/4248276_english_hls_45c0c8313e66473_1ta-di_h264/*~Signature=ARB3KG2EK6ENxMNTGQr7DNPvJxp-pzoOdf55UHRedq16wahLK3t61iZUDwpSHT-rARLNr1NWG0GKJY9xa4BTjgVPh7gC
+
+#EXTINF:-1 tvg-id="event-0.5298786217204148" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Winston-Salem-Open-2026-old.png",ATP 250 - Winston-Salem Open 2026 [English]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://in-mc-flive.fancode.com/mumbai/4248151_english_hls_c400dbc4a246695_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787680293~_GO=Generated~acl=/mumbai/4248151_english_hls_c400dbc4a246695_1ta-di_h264/*~Signature=ARB3KG1THe_YT04WcRn79rSoiKbiTMAo5js0e35qS8ElkX-caNUDtN0wr23knZ_LJlDg_-3GmHsDUbyYCRc0KdoVQgUF
 
 #EXTINF:-1 tvg-id="SONY SAB HD.in" group-title="Sony Liv | STREAMX" group-logo="https://i.postimg.cc/WztjDJSc/Sony-Liv-(1).jpg" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
