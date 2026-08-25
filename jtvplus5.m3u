@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
-# Generated: 25/8/2026, 04:54:55
+# Generated: 25/8/2026, 06:54:33
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -8663,6 +8663,14 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/4sites/HLSPartner/index.m3u8
 #EXTVLCOPT:http-user-agent=OTT Navigator
 #EXTHTTP:{"cookie":"__hdnea__=st=1787583610~exp=1787605210~acl=/*~hmac=ae7438eb7163b757fef1f5fb55351e307ddb4db0fbae8873a7d8f834bfe11f38","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="event-0.5675871906066987" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Winston-Salem-Open-2026-old.png",ATP 250 - Winston-Salem Open 2026 [English]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://in-mc-flive.fancode.com/mumbai/4248151_english_hls_c400dbc4a246695_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787680293~_GO=Generated~acl=/mumbai/4248151_english_hls_c400dbc4a246695_1ta-di_h264/*~Signature=ARB3KG1THe_YT04WcRn79rSoiKbiTMAo5js0e35qS8ElkX-caNUDtN0wr23knZ_LJlDg_-3GmHsDUbyYCRc0KdoVQgUF
+
+#EXTINF:-1 tvg-id="event-0.7178241671192763" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248434_53036_NTS_ACT_fc-web_1787393618710.jpg",2026 [English]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://in-mc-flive.fancode.com/mumbai/4248434_english_hls_fd5b53d92780055_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787703375~_GO=Generated~acl=/mumbai/4248434_english_hls_fd5b53d92780055_1ta-di_h264/*~Signature=ARB3KG2PpQVSc1s1D1wuCuB3t-B33j_5S3UeGiwXXmhvN6k27OgyoSGZMlXcc32rsd3ieTVG2z3Tx6ncAnu_yBCGsb8K
 
 #EXTINF:-1 tvg-id="SONY SAB HD.in" group-title="Sony Liv | STREAMX" group-logo="https://i.postimg.cc/WztjDJSc/Sony-Liv-(1).jpg" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
