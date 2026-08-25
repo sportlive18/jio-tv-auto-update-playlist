@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
-# Generated: 25/8/2026, 10:12:05
+# Generated: 25/8/2026, 11:04:22
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -8664,29 +8664,33 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/4sites/HLSPartner/index.m3u8
 #EXTHTTP:{"cookie":"__hdnea__=st=1787583610~exp=1787605210~acl=/*~hmac=ae7438eb7163b757fef1f5fb55351e307ddb4db0fbae8873a7d8f834bfe11f38","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="event-0.7435298768706274" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [ENG] - India Tour of Sri Lanka 2026
+#EXTINF:-1 tvg-id="event-0.6943606331260059" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",2026 [English]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi2508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787675820~acl=/*~id=12359862764040677603763283709538~hmac=eaabe95d225958046239838c5014be5d612abc4e789ef10cacb4cf4ceb6988f0
+https://in-mc-flive.fancode.com/mumbai/4248440_english_hls_fddf53e1c144358_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787719762~_GO=Generated~acl=/mumbai/4248440_english_hls_fddf53e1c144358_1ta-di_h264/*~Signature=ARB3KG1SRY78G0lF96ltn9LEpF4ZjrwllrfdJyD5VPW18sc7dQdjXev1_sCSAVUszz5WI-m-YzR0QqsmZ79VS8Sx9hkP
 
-#EXTINF:-1 tvg-id="event-0.6125390148563157" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [HIN] - India Tour of Sri Lanka 2026
+#EXTINF:-1 tvg-id="event-0.7680476059492598" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [ENG] - India Tour of Sri Lanka 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi2508/HIN/std_lrh-800300010.m3u8?hdnea=exp=1787675820~acl=/*~id=12359862764040677603763283709538~hmac=eaabe95d225958046239838c5014be5d612abc4e789ef10cacb4cf4ceb6988f0
+https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi2508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787678861~acl=/*~id=60690567204424367293299323809189~hmac=47258e3d1525bd524048bb637e00c4d6147d6ac725def324f7c41fba890e93ed
 
-#EXTINF:-1 tvg-id="event-0.6663661969452492" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [TAM] - India Tour of Sri Lanka 2026
+#EXTINF:-1 tvg-id="event-0.8736724360826895" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [HIN] - India Tour of Sri Lanka 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi2508/TAM/std_lrh-800300010.m3u8?hdnea=exp=1787675820~acl=/*~id=12359862764040677603763283709538~hmac=eaabe95d225958046239838c5014be5d612abc4e789ef10cacb4cf4ceb6988f0
+https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi2508/HIN/std_lrh-800300010.m3u8?hdnea=exp=1787678861~acl=/*~id=60690567204424367293299323809189~hmac=47258e3d1525bd524048bb637e00c4d6147d6ac725def324f7c41fba890e93ed
 
-#EXTINF:-1 tvg-id="event-0.7331106456792414" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [TEL] - India Tour of Sri Lanka 2026
+#EXTINF:-1 tvg-id="event-0.8107242124237123" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [TAM] - India Tour of Sri Lanka 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi2508/TEL/std_lrh-800300010.m3u8?hdnea=exp=1787675820~acl=/*~id=12359862764040677603763283709538~hmac=eaabe95d225958046239838c5014be5d612abc4e789ef10cacb4cf4ceb6988f0
+https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi2508/TAM/std_lrh-800300010.m3u8?hdnea=exp=1787678861~acl=/*~id=60690567204424367293299323809189~hmac=47258e3d1525bd524048bb637e00c4d6147d6ac725def324f7c41fba890e93ed
 
-#EXTINF:-1 tvg-id="event-0.7526126316397965" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [KAN] - India Tour of Sri Lanka 2026
+#EXTINF:-1 tvg-id="event-0.10193755600477117" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [TEL] - India Tour of Sri Lanka 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi2508/KAN/std_lrh-800300010.m3u8?hdnea=exp=1787675820~acl=/*~id=12359862764040677603763283709538~hmac=eaabe95d225958046239838c5014be5d612abc4e789ef10cacb4cf4ceb6988f0
+https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi2508/TEL/std_lrh-800300010.m3u8?hdnea=exp=1787678861~acl=/*~id=60690567204424367293299323809189~hmac=47258e3d1525bd524048bb637e00c4d6147d6ac725def324f7c41fba890e93ed
 
-#EXTINF:-1 tvg-id="event-0.6908058039515819" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022846/1787588203291677_JPL_Mumbai_Kings_vs_Chennai_Strikers_live_landscape_thumb.jpg",Mumbai Kings vs Chennai Strikers - 25 Aug 2026 [ENG] - JITO Premier League 2026
+#EXTINF:-1 tvg-id="event-0.8970720112337" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022838/178758315014528_SL_vs_IND_2nd_Test_Day3_live_landscape_thumb.jpg",Day 3 - 2nd Test - 25 Aug 2026 [KAN] - India Tour of Sri Lanka 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://sonydaimenew.akamaized.net/hls/live/2094588/Cricket_2508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787675820~acl=/*~id=12359862764040677603763283709538~hmac=eaabe95d225958046239838c5014be5d612abc4e789ef10cacb4cf4ceb6988f0
+https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi2508/KAN/std_lrh-800300010.m3u8?hdnea=exp=1787678861~acl=/*~id=60690567204424367293299323809189~hmac=47258e3d1525bd524048bb637e00c4d6147d6ac725def324f7c41fba890e93ed
+
+#EXTINF:-1 tvg-id="event-0.3989156314476574" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022846/1787588203291677_JPL_Mumbai_Kings_vs_Chennai_Strikers_live_landscape_thumb.jpg",Mumbai Kings vs Chennai Strikers - 25 Aug 2026 [ENG] - JITO Premier League 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://sonydaimenew.akamaized.net/hls/live/2094588/Cricket_2508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787678861~acl=/*~id=60690567204424367293299323809189~hmac=47258e3d1525bd524048bb637e00c4d6147d6ac725def324f7c41fba890e93ed
 
 #EXTINF:-1 tvg-id="SONY SAB HD.in" group-title="Sony Liv | STREAMX" group-logo="https://i.postimg.cc/WztjDJSc/Sony-Liv-(1).jpg" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
