@@ -4,35 +4,30 @@ import requests
 import sys
 
 INPUT_URL = "https://t.ayush848694.workers.dev/"
-OUTPUT_FILE = "Star2.m3u"
-USER_AGENT = "Virat Paglu"
+OUTPUT_FILE = "Star3.m3u"
+USER_AGENT = "Virat"
 EXTRA_HEADERS = {
     "Origin": "https://www.jiotv.com/",
     "Referer": "https://www.jiotv.com/"
 }
 
-# Add any other sport keywords here if needed
-SPORT_KEYWORDS = ["STAR SPORTS", "SONY SPORTS", "EUROSPORT", "TEN"]
-
-def is_sports_channel(extinf_line):
-    """Return True if the channel is sports-related."""
-    # Check group-title
-    group_match = re.search(r'group-title="([^"]+)"', extinf_line)
-    if group_match and "SPORTS" in group_match.group(1).upper():
-        return True
-
-    # Check channel name (after the last comma)
+# --- Filter function (only Star Sports, no Digital) ---
+def is_star_sports_channel(extinf_line):
+    """
+    Return True if the channel is a Star Sports channel and does NOT contain "Digital".
+    """
+    # Extract channel name (after the last comma)
     name_match = re.search(r',([^,]+)$', extinf_line)
-    if name_match:
-        name = name_match.group(1).strip().upper()
-        for kw in SPORT_KEYWORDS:
-            if kw in name:
-                return True
-
+    if not name_match:
+        return False
+    name = name_match.group(1).strip().upper()
+    # Must contain "STAR SPORTS" and NOT contain "DIGITAL"
+    if "STAR SPORTS" in name and "DIGITAL" not in name:
+        return True
     return False
 
+# --- Conversion function (unchanged) ---
 def convert_block(lines):
-    """Convert a single channel block to the new format."""
     extinf = None
     props = []
     url = None
@@ -76,20 +71,24 @@ def convert_block(lines):
 
     cookie_value = f'__hdnea__={token}'
     extra_str = ', '.join([f'"{k}":"{v}"' for k, v in EXTRA_HEADERS.items()])
-    cookie_line = f'#EXTHTTP:{{"cookie":"{cookie_value}", {extra_str}}}' if extra_str else f'#EXTHTTP:{{"cookie":"{cookie_value}"}}'
+    if extra_str:
+        cookie_line = f'#EXTHTTP:{{"cookie":"{cookie_value}", {extra_str}}}'
+    else:
+        cookie_line = f'#EXTHTTP:{{"cookie":"{cookie_value}"}}'
     new_props.append(cookie_line)
 
     result = [extinf] + new_props + [base_url]
     return result
 
+# --- Main processing ---
 def process_m3u(content):
     lines = content.splitlines(keepends=True)
     new_lines = []
     i = 0
-
     while i < len(lines):
         line = lines[i]
         if line.startswith('#EXTINF'):
+            # Collect the entire block
             block = []
             block.append(line.rstrip('\n'))
             i += 1
@@ -100,7 +99,8 @@ def process_m3u(content):
                 block.append(lines[i].rstrip('\n'))
                 i += 1
 
-            if not is_sports_channel(block[0]):
+            # Apply filter: only Star Sports, no Digital
+            if not is_star_sports_channel(block[0]):
                 continue
 
             converted = convert_block(block)
@@ -114,16 +114,17 @@ def process_m3u(content):
     return ''.join(new_lines)
 
 def main():
-    print(f"Downloading from {INPUT_URL} ...")
+    print(f"Downloading playlist from {INPUT_URL} ...")
     try:
         resp = requests.get(INPUT_URL, timeout=30)
         resp.raise_for_status()
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Failed to download: {e}")
         sys.exit(1)
 
-    print("Filtering sports channels (Star Sports, Sony Sports, and any group with 'SPORTS')...")
-    output = process_m3u(resp.text)
+    content = resp.text
+    print("Filtering Star Sports channels (excluding Digital)...")
+    output = process_m3u(content)
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(output)
