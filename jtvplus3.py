@@ -4,7 +4,7 @@ import requests
 import sys
 
 INPUT_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtv5.m3u"
-OUTPUT_FILE = "jtvplus.m3u"
+OUTPUT_FILE = "jtvplus3.m3u"
 USER_AGENT = "Virat Paglu"
 EXTRA_HEADERS = {
     "Origin": "https://www.jiotv.com/",
