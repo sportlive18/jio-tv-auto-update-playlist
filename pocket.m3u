@@ -32,7 +32,7 @@ https://m3u.8088y.fun/jtv/Star_Vijay_HD.mpd?tk=testing
 #EXTINF:-1 tvg-id="608" tvg-name="Zee Tamil HD" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Thumbnail_7022fe5b-89a2-4cca-a9d0-58e46baa6d5c.png" group-title="Entertainment", Zee Tamil HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://www.zee5.com
-https://z5.cply9.workers.dev/live-tv/0-9-zeetamil.m3u8
+https://liveserverayush.onrender.com/0-9-zeetamil.m3u8
 
 #EXTINF:-1 tvg-id="674" tvg-logo="https://tatalogo.pages.dev/674.png" group-title="Entertainment",Colors Tamil HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -52,7 +52,8 @@ https://livestream.sunnxt.com/61477b4c8d8d45d5a49e044cc1dffc60/KTVHDB_IN_index.m
 
 #EXTINF:-1 tvg-id="ts1182" group-title="Movies" tvg-logo="https://raw.githubusercontent.com/vijay-iptv/logos/refs/heads/main/Zee_Thirai_HD.png",Zee Thirai HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://liveserverayush.onrender.com/0-9-224.m3u8
+#EXTVLCOPT:http-origin=https://www.zee5.com
+https://z5.cply9.workers.dev/live-tv/0-9-224.m3u8
 
 #EXTINF:-1 tvg-id="ZeeTamil.sg" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-360/channel_list/360x2031c866f9b15d44e38b077973e3ab37e89",Zee Tamil HD APAC
 #EXTVLCOPT:http-user-agent=com.graymatrix.did;Android TV;5.82.6(203230929);Android(10);Xiaomi(Redmi Note 8 Pro)
@@ -456,6 +457,9 @@ https://delta13tatasky.akamaized.net/out/i/5615195.mpd
 #EXTINF:-1 tvg-id="789" tvg-logo="https://tatalogo.pages.dev/1167.png" group-title="Movies",Tata Play Hollywood Local
 https://delta13tatasky.akamaized.net/out/i/6282177.mpd
 
+#EXTINF:-1 tvg-id="1260" tvg-logo="https://bigcchubchat.pages.dev/1260.png" group-title="Movies",Tata Play Tamil Classics
+http://tv.cloudcdn.me:80/live.ts?channelId=132370&uid=3037&deviceMac=00:1A:79:0A:3B:2B
+
 #EXTINF:-1 tvg-id="ts663" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-31376-jlxbt6kg-v2/imageContent-31376-jlxbt6kg-m2.png" group-title="Movies", Tata Play Tamil Cinema
 http://sbhgoldpro.org:80/play/live.php?mac=00:1A:79:1B:A5:64&stream=281614&extension=ts
 
@@ -700,6 +704,9 @@ http://mag.diamondtv.one:80/live/unur/rtdVDBNG2z/302020.ts
 
 #EXTINF: -1 tvg-id="Willow.us" tvg-logo="https://i.postimg.cc/RFNMQVQM/j-Na-Ow-Lv-R-400x400-photoaidcom-cropped.png" group-title="Sports", Willow Cricket
 http://mag.tivi-one-iptv.net:80/play/live.php?mac=A0:BB:3E:07:67:9C&stream=373197&extension=ts
+
+#EXTINF: -1 tvg-id="Willow2.us" tvg-logo="https://emby.tmsimg.com/assets/s100316_ll_h9_ab.png" group-title="Sports", Willow 2
+http://tv.cloudcdn.me:80/live.ts?channelId=287&uid=3037&deviceMac=00:1A:79:0A:3B:2B
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
