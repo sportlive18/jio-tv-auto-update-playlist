@@ -4,7 +4,7 @@ import requests
 import sys
 
 INPUT_URL = "https://t.ayush848694.workers.dev/"
-OUTPUT_FILE = "Star3.m3u"
+OUTPUT_FILE = "Star2.m3u"
 USER_AGENT = "Virat"
 EXTRA_HEADERS = {
     "Origin": "https://www.jiotv.com/",
