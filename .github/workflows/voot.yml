@@ -1,4 +1,4 @@
-name: Update JTV PLUS 6 Playlist
+name: Update Digital
 on:
   schedule:
     - cron: '0 */1 * * *'
