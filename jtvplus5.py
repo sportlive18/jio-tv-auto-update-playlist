@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://starmix4k.zonmp.net/'
+url = 'https://jiotv-plus.rtxcric.workers.dev/playlist.m3u'
 headers = {
     'User-Agent': 'OTT Navigator'
 }
