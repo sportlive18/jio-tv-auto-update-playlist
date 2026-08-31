@@ -14,7 +14,7 @@ try:
         with open('jtvplus4.m3u', 'w', encoding='utf-8') as f:
             f.write(content)
             
-        print("Successfully fetched the playlist and saved it to "jtvplus4.m3u")
+        print("Successfully fetched the playlist and saved it to 'jtvplus4.m3u'")
         print(f"First few lines:\n{content[:200]}...")
 except urllib.error.HTTPError as e:
     print(f"HTTP Error: {e.code}")
