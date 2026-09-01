@@ -2,7 +2,7 @@ import urllib.request
 import urllib.error
 
 # Your API endpoint
-url = 'https://myhotstarapi.bmera5952.workers.dev/?playlist=1'
+url = 'https://premiumplugx.com/htt/hot.php?playlist=1'
 
 # Headers as before
 headers = {'User-Agent': 'OTT Navigator'}
