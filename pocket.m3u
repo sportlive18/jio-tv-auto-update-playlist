@@ -1878,7 +1878,7 @@ http://vtrtelevision.stream.onecloudlive.in:8080/vtrtelevision/vtrhd/index.m3u8
 #EXTINF:-1 tvg-id="CuddaloreVoiceTV" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1754494620_Ver%25202.0_04.png&w=1080&q=75" group-title="Local Channels",Cuddalore Voice TV
 http://voicetv.stream.ashokadigital.net:8080/voicetv/voicetvhd/index.m3u8
 #EXTINF:-1 tvg-name="Maruthi HD" group-title="Local Channels" tvg-logo="https://i.ibb.co/R4DVKDh1/1000122165.jpg",Maruthi HD
-https://stream.onecloudlive.in/maruthitv/maruthitvhd/index.m3u8
+https://live4.onecloudlive.in/maruthitv/maruthitvhd/index.m3u8
 #EXTINF:-1 tvg-id="MaduraiArasiTV" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1781584569_Madurai%20Arasi%20(2).png" tvg-region="Madurai" group-title="Local Channels",Madurai Arasi TV
 https://app.xstream.onecloudlive.in/maduraiarasi/livestream/index.m3u8
 #EXTINF:-1 tvg-id="YatraTV" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1762598647_IMG-20251108-WA0090.jpg" tvg-region="Unknown" group-title="Local Channels",Yatra TV
@@ -2095,6 +2095,8 @@ https://stream.ashokadigital.net/KMTELEVISION/kmtelevision/index.m3u8
 https://app.ashokadigital.net/app/5926fcd7/index.m3u8
 #EXTINF:-1 tvg-id="QTV" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1736392772_IMG-20250109-WA0035.jpg" tvg-region="Kanchipuram" group-title="Local Channels",Q TV
 https://app.ashokadigital.net/app/71b64f7b/index.m3u8
+#EXTINF:-1 tvg-name="velan tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1784299507_ashoka-digital-320x180.gif" group-title="Local Channels",Velan tv
+https://app.ashokadigital.net/app/678dcc8f/index.m3u8
 #EXTINF:-1 tvg-id="SSSTV" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1736392738_cf77d13b-c021-40e7-9596-ce3964e03fc9.png" group-title="Local Channels",SSS TV
 https://app.ashokadigital.net/app/74f6070c/index.m3u8
 #EXTINF:-1 tvg-name="Ashoka Tv" group-title="Local Channels" tvg-logo="https://i.ibb.co/svps8B7N/1000150737.png",Ashoka Tv
