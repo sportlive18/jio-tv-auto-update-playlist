@@ -187,7 +187,7 @@ def generate_converted_m3u():
         
         
         print("\n[*] Converting channels...")
-        output_file = "jtv3.m3u"
+        output_file = "jtvplus7.m3u"
         
         with open(output_file, "w", encoding="utf-8") as f:
             f.write('#EXTM3U\n\n')
