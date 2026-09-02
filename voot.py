@@ -2,7 +2,7 @@ import urllib.request
 import urllib.error
 import re
 
-url = 'https://jhs-channels.rtxcric.workers.dev/playlist.m3u'
+url = 'https://premiumplugx.com/htt/hot.php?playlist=1'
 headers = {'User-Agent': 'OTT Navigator'}
 
 req = urllib.request.Request(url, headers=headers)
@@ -13,7 +13,7 @@ try:
         content = response.read().decode('utf-8')
         
         # Replace tag
-        content = content.replace('@rtxcric', '@sayan10')
+        content = content.replace('', '@sayan10')
         
         # Optional: Keep only digital channels
         lines = content.splitlines()
