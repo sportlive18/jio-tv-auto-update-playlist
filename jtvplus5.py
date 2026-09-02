@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://jiotv-plus.rtxcric.workers.dev/playlist.m3u'
+url = 'https://premiumplugx.com/VIP/playlist.m3u'
 headers = {
     'User-Agent': 'OTT Navigator'
 }
