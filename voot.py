@@ -1,6 +1,5 @@
 import urllib.request
 import urllib.error
-import re
 
 url = 'https://premiumplugx.com/htt/hot.php?playlist=1'
 headers = {'User-Agent': 'OTT Navigator'}
@@ -12,20 +11,31 @@ try:
     with urllib.request.urlopen(req) as response:
         content = response.read().decode('utf-8')
         
-        # Replace tag
-        content = content.replace('', '@sayan10')
-        
-        # Optional: Keep only digital channels
         lines = content.splitlines()
+        
         filtered = []
-        in_entry = False
+        in_digital_entry = False
+        current_entry = []
+        
         for line in lines:
-            if line.startswith('#EXTINF') and 'Digital' in line:
-                in_entry = True
-            if in_entry:
-                filtered.append(line)
-            if line.startswith('https://') and in_entry:
-                in_entry = False
+            if line.startswith('#EXTINF'):
+                if in_digital_entry and current_entry:
+                    filtered.extend(current_entry)
+                current_entry = [line]
+                in_digital_entry = 'Digital' in line
+            else:
+                if in_digital_entry:
+                    current_entry.append(line)
+                    if line.startswith('http'):
+                        filtered.extend(current_entry)
+                        current_entry = []
+                        in_digital_entry = False
+        
+        if in_digital_entry and current_entry:
+            filtered.extend(current_entry)
+        
+        if filtered:
+            filtered = ['#EXTM3U'] + filtered
         
         content = '\n'.join(filtered)
         
