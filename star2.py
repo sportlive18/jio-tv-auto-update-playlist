@@ -3,7 +3,7 @@ import re
 import requests
 import sys
 
-INPUT_URL = "https://t.ayush848694.workers.dev/"
+INPUT_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus7.m3u"
 OUTPUT_FILE = "Star2.m3u"
 USER_AGENT = "Virat"
 EXTRA_HEADERS = {
