@@ -1,9 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="1090500468" tvg-name="Wheel Of Fortune" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016744/1774877224201375_WOF_simulcast_landscape_thumb.jpg" tvg-language="Hindi" group-title="SonyLiv EVENT | Game show",HIN | Wheel Of Fortune
-https://sonymtmnew-akamaized.pages.dev/hls/live/2022321/DAI17ME-WOF/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=3565a5b27b762bab6f7785495f14be82-1776789000255
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+
 #EXTINF:-1 tvg-id="SET HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SET_HD/images/LOGO_HD/image.png" group-title="SonyLiv | Entertainment" group-logo="https://clarity1-tv.vercel.app/IMG/SonyLIV.png", SET HD SonyLiv
 https://sonyliv.joker-verse.workers.dev/master.m3u8?id=1000009246&uid=8004188626&pass=61498d15
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
