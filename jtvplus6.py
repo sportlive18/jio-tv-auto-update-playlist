@@ -37,7 +37,7 @@ def parse_m3u(m3u_content):
                 'group': group_title.group(1) if group_title else 'Unknown',
                 'url': None,
                 'license_key': None,
-                'user_agent': 'Droovy',
+                'user_agent': 'Sayan',
                 'cookie': None,
                 'headers': {}
             }
@@ -187,7 +187,7 @@ def generate_converted_m3u():
         
         
         print("\n[*] Converting channels...")
-        output_file = "jtvplus7.m3u"
+        output_file = "jtvplus6.m3u"
         
         with open(output_file, "w", encoding="utf-8") as f:
             f.write('#EXTM3U\n\n')
