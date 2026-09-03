@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-
 import re
 import requests
 import urllib.parse
+import json  # <-- fixed: imported globally
 
 def parse_m3u(m3u_content):
     """Parse M3U content and extract channels"""
@@ -68,7 +68,7 @@ def parse_m3u(m3u_content):
                             current['headers'][key] = value
                             if key.lower() == 'cookie':
                                 current['cookie'] = value
-            except:
+            except Exception:
                 pass
                 
         # Check for stream URL (not starting with #)
@@ -116,12 +116,11 @@ def convert_channel(channel):
     if channel.get('user_agent'):
         lines.append(f'#EXTVLCOPT:http-user-agent={channel["user_agent"]}')
     
-    # Headers
+    # Headers (cookie, origin, referer)
     headers = {}
     if channel.get('cookie'):
         headers['cookie'] = channel['cookie']
     
-    # Add origin and referer if needed
     if channel.get('headers'):
         if 'Origin' in channel['headers']:
             headers['Origin'] = channel['headers']['Origin']
@@ -129,18 +128,17 @@ def convert_channel(channel):
             headers['Referer'] = channel['headers']['Referer']
     
     if headers:
-        lines.append(f'#EXTHTTP:{json.dumps(headers)}')
+        lines.append(f'#EXTHTTP:{json.dumps(headers)}')  # now json is defined
     
     # Clean URL - remove query parameters that are already handled
     url = channel['url']
-    # Remove User-Agent and Cookie from URL as they're handled by EXTVLCOPT and EXTHTTP
     if '|' in url:
         url = url.split('|')[0]
     
     # Check if URL has query parameters
     if '?' in url:
         base_url, params = url.split('?', 1)
-        # Keep only necessary params
+        # Keep only necessary params (filter out User-Agent and Cookie)
         param_list = []
         for param in params.split('&'):
             if not param.startswith('User-Agent=') and not param.startswith('Cookie='):
@@ -185,7 +183,6 @@ def generate_converted_m3u():
             print(f"  User-Agent: {sample.get('user_agent', 'None')}")
             print(f"  Cookie: {sample.get('cookie', 'None')[:50]}...")
         
-        
         print("\n[*] Converting channels...")
         output_file = "jtvplus6.m3u"
         
@@ -211,5 +208,4 @@ def generate_converted_m3u():
         traceback.print_exc()
 
 if __name__ == "__main__":
-    import json
     generate_converted_m3u()
