@@ -6,15 +6,14 @@ from typing import Dict, List, Set, Any, Optional
 from datetime import datetime
 from urllib.parse import urlparse, parse_qs, urlunparse
 
-# ---------- Constants ----------
 CHANNELS_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json"
 COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/biscuit.json"
 SPORTS_COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/sportsbiscuit.json"
 
-USER_AGENT = "Sayan10"          # Used in #EXTVLCOPT
-UPLOAD_TO_GITHUB = True         # Set False to skip GitHub upload
+USER_AGENT = "Sayan10"         
+UPLOAD_TO_GITHUB = True         
 
-# ---------- Helper Functions ----------
+
 def to_base64(text: str) -> str:
     return base64.b64encode(text.encode("utf-8")).decode("ascii")
 
@@ -33,7 +32,7 @@ def split_url_query(url: str) -> tuple:
     query = parsed.query if parsed.query else None
     return base, query
 
-# ---------- Cookie Extraction ----------
+
 def get_normal_cookie() -> str:
     data = get_json(COOKIE_URL)
     if isinstance(data, str):
@@ -67,7 +66,7 @@ def get_sports_data() -> Dict[str, Any]:
         "sportsCookies": sports_cookies,
     }
 
-# ---------- M3U Entry Generation ----------
+
 def create_channel_entry(channel: Dict[str, Any],
                          normal_cookie: str = "",
                          sports_cookies: Dict[str, str] = {}) -> str:
@@ -79,10 +78,9 @@ def create_channel_entry(channel: Dict[str, Any],
 
     lines = []
 
-    # ---------- EXTINF with tvg-id ----------
     lines.append(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
 
-    # ---------- DASH/MPD handling ----------
+   
     is_mpd = (channel.get("type") == "dash") or (".mpd" in url.lower() and ("?" in url.lower() or url.lower().endswith(".mpd")))
 
     if is_mpd:
@@ -101,7 +99,7 @@ def create_channel_entry(channel: Dict[str, Any],
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(f"#KODIPROP:inputstream.adaptive.license_key={channel['license_url']}")
 
-    # ---------- Determine final URL (with possible query) ----------
+    
     sports_url = sports_cookies.get(channel_id)
     if sports_url:
         final_url_with_query = sports_url
@@ -112,22 +110,22 @@ def create_channel_entry(channel: Dict[str, Any],
         else:
             final_url_with_query = url
 
-    # ---------- Separate base URL and cookie query ----------
+   
     base_url, cookie_query = split_url_query(final_url_with_query)
 
-    # ---------- Add EXTHTTP cookie if present ----------
+    
     if cookie_query:
         lines.append(f'#EXTHTTP:{{"cookie": "{cookie_query}"}}')
 
-    # ---------- Add VLC user-agent ----------
+   
     lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
 
-    # ---------- Final URL (without query) ----------
+   
     lines.append(base_url)
 
     return "\n".join(lines)
 
-# ---------- M3U Generation ----------
+
 def generate_m3u() -> str:
     channels = get_json(CHANNELS_URL)
     normal_cookie = get_normal_cookie()
@@ -143,7 +141,7 @@ def generate_m3u() -> str:
     print(f"Channels generated: {len(entries)}")
     return "#EXTM3U\n\n" + "\n\n".join(entries)
 
-# ---------- GitHub Upload (optional) ----------
+
 def upload_to_github(content: str) -> bool:
     repo_owner = os.environ.get("GITHUB_OWNER")
     repo_name = os.environ.get("GITHUB_REPO")
@@ -157,7 +155,7 @@ def upload_to_github(content: str) -> bool:
         print("⚠️  Upload disabled by UPLOAD_TO_GITHUB flag. Skipping.")
         return False
 
-    path = "jiotv_cf.m3u"
+    path = "jtvplus3.m3u"
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{path}"
     headers = {
         "Authorization": f"Bearer {token}",
