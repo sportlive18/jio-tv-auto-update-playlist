@@ -64,7 +64,7 @@ def extract_from_block(block):
     display_name = None
     license_key = None
     stream_url = None
-    cookie = None
+    cookie = None          # will be extracted from stream_headers line
 
     for line in block:
         if line.startswith('#EXTINF'):
@@ -77,19 +77,28 @@ def extract_from_block(block):
             tvg_logo = tvg_logo.group(1) if tvg_logo else None
             name_match = re.search(r',([^,]+)$', line)
             display_name = name_match.group(1).strip() if name_match else None
+
         elif line.startswith('#KODIPROP:inputstream.adaptive.license_key'):
             val = line.split('=', 1)[1] if '=' in line else ''
             if ':' in val:
                 key_id, key = val.split(':', 1)
                 license_key = (key_id.strip(), key.strip())
+
+        # --- NEW: extract cookie from stream_headers ---
+        elif line.startswith('#KODIPROP:inputstream.adaptive.stream_headers'):
+            # line format: #KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__=st=...~exp=...~...
+            header_value = line.split('=', 1)[1] if '=' in line else ''
+            # header_value may contain "Cookie=..." – extract the part after "Cookie="
+            if header_value.startswith('Cookie='):
+                cookie = header_value[len('Cookie='):].strip()
+            # If there are other headers (e.g., separated by '&' or ';'), you can extend this.
+            # For this M3U, it's just the cookie.
+
         elif not line.startswith('#'):
-            stream_url = line.strip()
-            token_match = re.search(r'__hdnea__=([^&]+)', stream_url)
-            if token_match:
-                cookie = token_match.group(1)
-                base_url = re.sub(r'\?.*', '', stream_url)
-            else:
-                base_url = stream_url
+            # The stream URL (without query parameters, we strip them)
+            raw_url = line.strip()
+            # Keep only the base URL (no query) – cookie is not in the URL anyway
+            base_url = re.sub(r'\?.*', '', raw_url)
             stream_url = base_url
 
     # --- Filtering ---
