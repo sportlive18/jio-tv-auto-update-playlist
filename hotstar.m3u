@@ -984,6 +984,18 @@ https://livetv.hotstar.com/mp2/gec-india-1540075053/f9f3720bed4e4ce0b644bfeec74f
 #EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1788843124~acl=%2f*~id=7fc19597d23ecc4f28a0f2724428bfd8~data=hdntl~hmac=02416c2fec0d3a39fe84c935b7094a6a3796afcfcb8d636d38d2a715609a1199"}
 https://livetv.hotstar.com/mp1/gec-india-1540075056/a8fa5937ab1c4958870402ef81014cbe/index.mpd?|cookie=hdntl=exp=1788843124~acl=%2f*~id=7fc19597d23ecc4f28a0f2724428bfd8~data=hdntl~hmac=02416c2fec0d3a39fe84c935b7094a6a3796afcfcb8d636d38d2a715609a1199&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169@Premium Plugx(Android/15)
 
+#EXTINF:-1 tvg-name="Disney Junior Digital" tvg-logo="https://plain-apac-prod-public.komododecks.com/202609/07/kDx5CloMCE4tFekQtkOQ/image.png" group-title="Kids", Disney Junior Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://streamflexsmm.in/license/500
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169@Premium Plugx(Android/15)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+#EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
+#EXTVLCOPT:http-cookie=hdntl=exp=1788843124~acl=%2f*~id=7fc19597d23ecc4f28a0f2724428bfd8~data=hdntl~hmac=02416c2fec0d3a39fe84c935b7094a6a3796afcfcb8d636d38d2a715609a1199
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1788843124~acl=%2f*~id=7fc19597d23ecc4f28a0f2724428bfd8~data=hdntl~hmac=02416c2fec0d3a39fe84c935b7094a6a3796afcfcb8d636d38d2a715609a1199"}
+https://livetv.hotstar.com/mp1/gec-india-1540075059/9fcb1f02cf7249ef8428b9f3c981e08c/index.mpd?|cookie=hdntl=exp=1788843124~acl=%2f*~id=7fc19597d23ecc4f28a0f2724428bfd8~data=hdntl~hmac=02416c2fec0d3a39fe84c935b7094a6a3796afcfcb8d636d38d2a715609a1199&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169@Premium Plugx(Android/15)
+
 #EXTINF:-1 tvg-name="Super Hungama Digital" tvg-logo="https://plain-apac-prod-public.komododecks.com/202609/07/lNjbGo0Rcgz3vhfoyTN7/image.png" group-title="Kids", Super Hungama Digital
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
