@@ -60,7 +60,7 @@ def generate_m3u(data, cookie, output_file):
 def main():
     m3u_url = 'https://premiumplugx.com/htt/hot.php?playlist=1'
     json_url = 'https://sportlink18.pages.dev/jhs.json'
-    output = 'hotstar.m3u'
+    output = 'digital.m3u'
 
     try:
         cookie = fetch_cookie(m3u_url)
