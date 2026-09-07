@@ -45,7 +45,7 @@ jobs:
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
           # Stage and commit (skip if nothing to commit)
-          git add Star3.m3u
+          git add voot.m3u
           git commit -m "Auto-update playlists: $(date -u)" || echo "No changes to commit"
 
           # Disable immediate exit on error so we can retry pushes
