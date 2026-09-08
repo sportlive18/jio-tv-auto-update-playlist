@@ -1,4 +1,4 @@
-name: Automated JTV by Sayan10
+name: Automated live
 
 on:
   schedule:
@@ -37,7 +37,7 @@ jobs:
           git rebase origin/main
 
           echo "📥 Downloading latest JTV playlist..."
-          curl -fSL -o jtv5.m3u \
+          curl -fSL -o Live.m3u \
             "https://raw.githubusercontent.com/sixpg/LIVE-SPORTS/refs/heads/main/events.m3u"
 
           echo "🚀 live event  Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
