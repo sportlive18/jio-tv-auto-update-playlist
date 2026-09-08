@@ -1,0 +1,84 @@
+name: Automated JTV by Sayan10
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  
+  workflow_dispatch:
+
+concurrency:
+  group: jtv-auto-update
+  cancel-in-progress: false
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Configure Git User
+        run: |
+          git config user.name "sportlive18"
+          git config user.email "271363488+sportlive18@users.noreply.github.com"
+
+      - name: Sync and Update
+        run: |
+          export TZ="Asia/Kolkata"
+
+          echo "🔄 Syncing repository..."
+          git fetch origin main
+          git rebase origin/main
+
+          echo "📥 Downloading latest JTV playlist..."
+          curl -fSL -o jtv5.m3u \
+            "https://raw.githubusercontent.com/sixpg/LIVE-SPORTS/refs/heads/main/events.m3u"
+
+          echo "🚀 live event  Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
+
+      - name: Commit Changes
+        run: |
+          export TZ="Asia/Kolkata"
+
+          git add Live.m3u
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "live event  Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
+
+      - name: Push Changes
+        run: |
+          set -e
+          export TZ="Asia/Kolkata"
+
+          for i in 1 2 3; do
+            echo "🚀 Push attempt $i..."
+
+            git fetch origin main
+
+            if ! git rebase origin/main; then
+              echo "⚠️ Rebase conflict detected"
+              git rebase --abort
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "✅ Successfully pushed to main"
+              exit 0
+            fi
+
+            echo "⚠️ Push failed, retrying..."
+            sleep 5
+          done
+
+          echo "❌ Failed to push after 3 attempts"
+          exit 1
