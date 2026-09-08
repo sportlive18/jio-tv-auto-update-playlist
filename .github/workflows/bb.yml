@@ -58,7 +58,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "JIOTV Updated ✅ ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git commit -m "Bigg Boss Updated ✅ ($(date -u '+%Y-%m-%d %H:%M UTC'))"
 
           max_retries=5
           attempt=1
