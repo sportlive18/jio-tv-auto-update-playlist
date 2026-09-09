@@ -36,7 +36,7 @@ jobs:
       - name: Download and Update Playlist
         run: |
           echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
-          curl -sS -L -o jtvplus8.m3u "https://m3u.cloudplay.qzz.io/jiotvplus.m3u"
+          curl -sS -L -o jtvplus8.m3u "https://server.vodep39240327.workers.dev/channel/raw?=m3u"
           echo "✅ Playlist downloaded successfully"
           echo "📝 File size: $(wc -c < jtvplus8.m3u) bytes"
       
