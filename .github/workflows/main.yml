@@ -33,14 +33,33 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pytz
 
+      # ---- Debug: list files before running script ----
+      - name: List files before script
+        run: ls -la
+
       - name: Run jtv.py
         run: python jtv.py
+
+      # ---- Debug: list files after script and check exit code ----
+      - name: List files after script
+        run: ls -la
+
+      - name: Check if output files exist
+        run: |
+          if [ ! -f jtv.m3u ] || [ ! -f jtv.json ]; then
+            echo "ERROR: jtv.m3u or jtv.json not found after running script!"
+            exit 1
+          fi
+          echo "Both files exist."
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
-          git add jtv.m3u jtv.json
+          # Add (force add even if ignored)
+          git add -f jtv.m3u jtv.json
+
+          # Commit only if there are changes; if not, exit gracefully
           git commit -m "Auto-update playlists: $(date -u)" || echo "No changes to commit"
           git push origin main
