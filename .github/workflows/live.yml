@@ -38,7 +38,7 @@ jobs:
 
           echo "📥 Downloading latest JTV playlist..."
           curl -fSL -o Live.m3u \
-            "https://raw.githubusercontent.com/sixpg/LIVE-SPORTS/refs/heads/main/events.m3u"
+            "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.m3u"
 
           echo "🚀 live event  Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
 
