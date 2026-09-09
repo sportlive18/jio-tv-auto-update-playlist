@@ -2,19 +2,19 @@ name: Update JioTV Playlist
 
 on:
   schedule:
-    - cron: '*/30 * * * *'          # Runs every 30 minutes
-  workflow_dispatch:                # Allows manual trigger
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - 'jtv.py'                    # Runs only if jtv.py changes
+      - 'jtv.py'
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
-      contents: write               # Required to push changes back
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -33,33 +33,27 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pytz
 
-      - name: List files before script (debug)
-        run: ls -la
-
       - name: Run jtv.py
         run: python jtv.py
-
-      - name: List files after script (debug)
-        run: ls -la
+        # If jtv.py exits with a non-zero code, the workflow fails here
+        # with a clear error — no need for a separate verify step.
 
       - name: Verify output files exist
         run: |
           if [ ! -f jtv.m3u ] || [ ! -f jtv.json ]; then
-            echo "ERROR: jtv.m3u or jtv.json not found after running script!"
+            echo "ERROR: jtv.m3u or jtv.json not found!"
+            echo "--- Directory listing ---"
+            ls -la
             exit 1
           fi
           echo "Both files exist."
+          wc -l jtv.m3u jtv.json
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
-
-          # Force-add the generated files (even if .gitignore ignores them)
           git add -f jtv.m3u jtv.json
-
-          # Commit only if there are changes; if not, skip silently
-          git commit -m "Auto-update playlists: $(date -u)" || echo "No changes to commit"
-
-          # Push the commit (if any) to main
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Auto-update playlists: $(date -u)"
           git push origin main
