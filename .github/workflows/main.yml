@@ -1,20 +1,20 @@
-name: Update JioTV Playlist 
+name: Update JioTV Playlist
 
 on:
   schedule:
-    - cron: '*/30 * * * *'          # every 30 minutes
-  workflow_dispatch:
+    - cron: '*/30 * * * *'          # Runs every 30 minutes
+  workflow_dispatch:                # Allows manual trigger
   push:
     branches:
       - main
     paths:
-      - 'jtv.py'
+      - 'jtv.py'                    # Runs only if jtv.py changes
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write               # Required to push changes back
 
     steps:
       - name: Checkout Repository
@@ -33,18 +33,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pytz
 
-      # ---- Debug: list files before running script ----
-      - name: List files before script
+      - name: List files before script (debug)
         run: ls -la
 
       - name: Run jtv.py
         run: python jtv.py
 
-      # ---- Debug: list files after script and check exit code ----
-      - name: List files after script
+      - name: List files after script (debug)
         run: ls -la
 
-      - name: Check if output files exist
+      - name: Verify output files exist
         run: |
           if [ ! -f jtv.m3u ] || [ ! -f jtv.json ]; then
             echo "ERROR: jtv.m3u or jtv.json not found after running script!"
@@ -57,9 +55,11 @@ jobs:
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
-          # Add (force add even if ignored)
+          # Force-add the generated files (even if .gitignore ignores them)
           git add -f jtv.m3u jtv.json
 
-          # Commit only if there are changes; if not, exit gracefully
+          # Commit only if there are changes; if not, skip silently
           git commit -m "Auto-update playlists: $(date -u)" || echo "No changes to commit"
+
+          # Push the commit (if any) to main
           git push origin main
