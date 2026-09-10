@@ -997,7 +997,7 @@ https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.m
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=bd7282e920e5437a9b1f01bc6f81795c:99763370f0763b0f7119aab091cc70c8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
-https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=ZeeThi&kid=bd7282e9-20e5-437a-9b1f-01bc6f81795c
+#https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=ZeeThi&kid=bd7282e9-20e5-437a-9b1f-01bc6f81795c
 
 #EXTINF:-1 tvg-id="SonyYAY!.sg" tvg-name="Sony YAY!" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/BD814A07-3CF5-4686-B552-31FF782BB8F7/0-16x9.png?width=530" group-title="Astro GO",Sony YAY!
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1005,7 +1005,7 @@ https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=582e9e382cb0495886afbabdbdb6fbf7:c0f550839b235443724cd007392b6e40
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
-https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=SonyYay&kid=582e9e38-2cb0-4958-86af-babdbdb6fbf7
+#https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=SonyYay&kid=582e9e38-2cb0-4958-86af-babdbdb6fbf7
 
 #EXTINF:-1 tvg-id="ZeeCinema" tvg-name="Zee Cinema" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/490_144.png" group-title="Astro GO",Z Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
@@ -1091,9 +1091,9 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2305/default_ott.mpd
 https://ucdn.mediaquest.com.ph/bpk-tv/cg_hitsnow/default/index.mpd
 
 #EXTINF:-1 tvg-id="ROCKEntertainment.sg" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/3A21C3E7-8514-4978-BEAA-6EE4DAB2C5B8/0-16x9.png?width=530" group-title="Astro GO",ROCK Entertainment
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdnbal1.indihometv.com/atm/DASH/rock_entertainment/rock_entertainment-avc1_2500000=7-3277707030000000.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=86e5c7921a434f60b9287d3c9e5a6041:fab817af24eab2a73ae89145797cf556
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_rockentertainment/default/index.mpd
 
 #EXTINF:-1 tvg-id="ROCKACtion" tvg-logo="https://linear-poster.astro.com.my/prod/logo/RockAction.png" group-title="Astro GO",ROCK Action
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1215,15 +1215,6 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/1600/default_primary.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; Philips Google TV TA7 Build/RTM5.220609.199; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.179 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/dashiso/5171/default_ott.mpd
 
-#EXTINF:-1 tvg-id="701" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/28EEC6E6-98AD-44E7-8CF3-101111099742/0-16x9.png?width=530" group-title="Astro GO",unifi Sports 1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=90c7eb5d66b442a9a591775cc1154bc9:4af842b9ad5315a01d7655b8b502196f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
-https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=unifi1&kid=90c7eb5d-66b4-42a9-a591-775cc1154bc9
-
-
 #EXTINF:-1 tvg-id="SPOTV" group-title="Astro GO" tvg-logo="https://linear-poster.astro.com.my/prod/logo/SPOTV.png",SPOTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1241,7 +1232,7 @@ https://ucdn.mediaquest.com.ph/bpk-tv/dr_spotv2hd/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=9e8888ac964d430cbfef9c922ee6714b:9b1dbd9f59a39a9ebaf1fb8e665a3ef3
 https://tglmp02.akamaized.net/out/v1/1063ebb215c14312ba9d4e415ac706d2/manifest.mpd
 
-#EXTINF:-1 tvg-id="cg_onesportsplus_hd1" tvg-logo="https://i.imgur.com/imI97L2.png" group-title="Astro GO",One Sports HD
+#EXTINF:-1 tvg-id="OneSports.sg" tvg-logo="https://i.imgur.com/imI97L2.png" group-title="Astro GO",One Sports HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e9c4f7312a854d69b0137f6e8c2a5490:1105fa92173b06885be336b887bc4d26
@@ -1597,7 +1588,7 @@ https://account33.livebox.co.in/7GREEN4Khls/live.m3u8
 http://cdn.utvtamil.in/utvkovai/utv/playlist.m3u8
 #EXTINF:-1 tvg-id="IdhayamTV2" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1786437660_c693de12-bd16-4691-b98b-e7055e31d6ac-Photoroom.png" tvg-region="Unknown" group-title="Local Channels",Idhayam TV
 https://tvstream.cloudlive24.com/live/8527530ab689bf8a710430c189aa2906.m3u8
-#EXTINF:-1 tvg-id="AlphaTV" tvg-logo="https://api.maduraiiptv.in/uploads/channel/logos/1788507924.webp" tvg-region="Unknown" group-title="PLC",Alpha TV
+#EXTINF:-1 tvg-id="AlphaTV" tvg-logo="https://api.maduraiiptv.in/uploads/channel/logos/1788507924.webp" tvg-region="Unknown" group-title="Local Channels",Alpha TV
 https://bk7l2z5nlx53-hls-live.5centscdn.com/alpha/55f071ebe5152828fdcc330c765659ea.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Local Channels" tvg-logo="" tvg-country="IN" tvg-url="" group-title="Local Channels",MANASU TV
 https://stream6.livebox.co.in/manasutvhls/live.m3u8
@@ -1881,7 +1872,7 @@ https://stream.onecloudlive.in/bass/velurtv/index.m3u8
 https://stream.onecloudlive.in/jaytv/jaytvhd/index.m3u8
 #EXTINF:-1  tvg-name="VTR Television" group-title="Local Channels" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/06/20240614_13212930020408404338437.png",VTR Television 
 https://app.xstream.onecloudlive.in/vtrtelevision/vtrhd/index.m3u8
-#EXTINF:-1 tvg-id="GopuramTV" tvg-logo="https://api.maduraiiptv.in/uploads/channel/logos/1788507469.webp" tvg-region="Unknown" group-title="PLC",Gopuram TV
+#EXTINF:-1 tvg-id="GopuramTV" tvg-logo="https://api.maduraiiptv.in/uploads/channel/logos/1788507469.webp" tvg-region="Unknown" group-title="Local Channels",Gopuram TV
 https://gopuram.stream.onecloudlive.in/gopuram/gopuramhd/index.m3u8
 #EXTINF:-1 tvg-id="CuddaloreVoiceTV" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1754494620_Ver%25202.0_04.png&w=1080&q=75" group-title="Local Channels",Cuddalore Voice TV
 http://voicetv.stream.ashokadigital.net:8080/voicetv/voicetvhd/index.m3u8
@@ -2870,15 +2861,15 @@ https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 https://amg00426-littledotstudio-realwildnz-samsungnz-wz0bm.amagi.tv/playlist/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8
 
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://spoo.me/Friends" group-title="Premium 24/7", Friends
-https://restream-live.realiptv.to/9015289/9510735AJAljd/30797
+http://englands.store:80/live/ZNH8U63H5CUQ666/2kpDmwe7AI/1254424.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://spoo.me/HIMYM" group-title="Premium 24/7", How I Met Your Mother
 http://proxpanel.cc:80/h1wqD6CY/byxHYgX/102162
 #EXTINF:-1 tvg-id="" tvg-name="24.7.Dummy.us" tvg-logo="http://68.235.35.107:25461/logos/80ef8369e565220df706b0bbb7b43ada.png" group-title="Premium 24/7",The Big Bang Theory
-https://restream-live.realiptv.to/9015289/9510735AJAljd/40554
+http://alasadino.com:80/live/5b75ae16e9/85e8f17616b3/741457.ts
 #EXTINF:-1 tvg-name="24.7.Dummy.us" tvg-logo="http://68.235.35.107:25461/logos/93c3b2b46ece7baafe13ddbf51cc7c8a.png" group-title="Premium 24/7",Two And a Half Men
-https://restream-live.realiptv.to/9015289/9510735AJAljd/87901
+http://englands.store:80/live/ZNH8U63H5CUQ666/2kpDmwe7AI/621205.m3u8
 #EXTINF:-1 tvg-name="24.7.Dummy.us" tvg-logo="https://i.ibb.co/f8Sc1h6/Sin-t-tulo-1.png" group-title="Premium 24/7",Malcolm in the Middle
-https://restream-live.realiptv.to/9015289/9510735AJAljd/513642
+http://alasadino.com:80/live/5b75ae16e9/85e8f17616b3/741440.m3u8
 
 #EXTINF:-1 tvg-id="OnePiece.pluto" tvg-logo="https://images.pluto.tv/channels/5ff4b9ccf938f8000779eb99/colorLogoPNG.png" group-title="Premium 24/7",One Piece
 https://jmp2.uk/plu-62e94ec74823db0007277a8f.m3u8
@@ -3090,35 +3081,33 @@ https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.
 #EXTINF:-1 tvg-id="TBS.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/32239.png" group-title="USA Channels",TBS
 https://tvsen6.aynaott.com/tbs/index.m3u8
 #EXTINF:-1 tvg-id="truTV.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/838090.png" group-title="USA Channels",TRU
-http://23.237.104.106:8080/USA_TRUTV/index.m3u8
+https://nubexplay.com:8443/play/t25EVMXqzTdqgZ-uxjREasqxSBzF-MSlqv9lhAxU_D2kJMCyWbAUKba-JLkZG5ME
 #EXTINF:-1 tvg-id="TVLand.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/32271.png" group-title="USA Channels", TV LAND
-http://206.212.244.63/164/index.m3u8
+http://bgdc.live:25461/rodneys3888/3888/10454
 #EXTINF:-1 tvg-id="Fuse.us" tvg-logo="https://p-img.movetv.com/1280x720/8f57243d7b1a32dde244b7934a0f0081.jpeg" group-title="USA Channels", FUSE
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FXX.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/327234.png" group-title="USA Channels", FXX
 http://23.237.104.106:8080/USA_FXX/index.m3u8
 #EXTINF:-1 tvg-id="FX.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/327235.png" group-title="USA Channels", FX
-http://84.17.50.102/fx/index.m3u8
+http://bgdc.live:25461/rodneys3888/3888/63320
 #EXTINF:-1 tvg-id="EEntertainmentTelevision.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/master/countries/united-states/e-entertainment-us.png" group-title="USA Channels",E! ENTERTAINMENT
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 tvg-id="CWWPIX.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/master/countries/united-states/cw-us.png" group-title="USA Channels",The CW
-https://ccctv.xyz:2096/live/n24/SUZsBNHv12/14111.ts
+http://bgdc.live:25461/rodneys3888/3888/48476
 #EXTINF:-1 tvg-id="MTV.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/master/countries/canada/mtv-ca.png" group-title="USA Channels",MTV
 http://198.58.104.90:8989/mtv/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/32155.png" group-title="USA Channels" , Nickelodeon 
 http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="ParamountNetwork.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/791321.png" group-title="USA Channels",Paramount Network
-http://206.212.244.63/137/index.m3u8
+http://bgdc.live:25461/rodneys3888/3888/10439
 #EXTINF:-1 tvg-id="USA.Network.us" tvg-name="USA Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11207_dark_360w_270h.png" group-title="USA Channels",USA Network
 http://190.11.225.124:5000/live/usa_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Syfy.us" tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/778321.png" group-title="USA Channels", SYFY
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="Paramount+withShowtime.us" tvg-name="Showtime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/showtime-us.png" group-title="USA Channels",Showtime
-https://ccctv.xyz:2096/live/n24/SUZsBNHv12/4738.ts
-#EXTINF:-1 tvg-id="HBO2.us" tvg-name="HBO 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png" group-title="USA Channels",HBO 2
-http://40.160.24.53/HBO_HD/index.m3u8
+http://bgdc.live:25461/rodneys3888/3888/14168
 #EXTINF:-1 tvg-logo="https://supair.dishanywhere.com/supair-images/channels/thumbnail/407201.png" group-title="USA Channels" tvg-id="TNT.us", TNT
-http://206.212.244.63/161/index.m3u8
+https://nubexplay.com:8443/play/t25EVMXqzTdqgZ-uxjREasqxSBzF-MSlqv9lhAxU_D2KuZdF61LB06sPymkrd3HB
 #EXTINF:-1 tvg-id="A&E.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="USA Channels", A&E
 http://23.239.31.26:8989/aande/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/master/countries/united-states/boomerang-us.png" group-title="USA Channels" tvg-id="Boomerang.us",Boomerang
@@ -3375,27 +3364,6 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyZl5vPjNB-alkSeC9KwMZuFxOFOGwYDFKg&s" group-title="Sports", Starzplay Sports 1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b253c726c24c7c94a3ddf9b1907e2c76:097963d6ad73c3d712a104981de0ed42
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyZl5vPjNB-alkSeC9KwMZuFxOFOGwYDFKg&s" group-title="Sports", Starzplay Sports 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ee861edcd99093153a763a94b14c2c5a:ab3991f6a7729ba1ea4bcdba0c1ae6c0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://sps2.starzplayarabia.com/out/v1/15e7d1ffb99746dda03f71dbbbc3c08b/index.mpd
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyZl5vPjNB-alkSeC9KwMZuFxOFOGwYDFKg&s" group-title="Sports", Starzplay Sports 3
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=117c29396ec6fd295880013241a466e1:3dfb883251884e66d784111877c44b13
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://sps3.starzplayarabia.com/out/v1/95528122fa434bcd948c9ed2e7afabee/index.mpd
 
 #EXTINF:-1 tvg-id="CRE" tvg-name="CricLife 1" tvg-logo="https://www.ooredoo.qa/web/wp-content/uploads/2023/08/10-CricLife1-Logo_02_Web-site-logo-150x120pxl_.png" group-title="Sports",CricLife 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
