@@ -1,225 +1,226 @@
-import requests
-import json
-from datetime import datetime
-import pytz
-import os
 import re
-import sys
+import json
+import time
+import urllib.request
+import urllib.error
 
-MAIN_LIST_URL = "https://sportlink-sky-f1.pages.dev/jtv.json"
-GENERIC_COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
-SPORTS_SOURCE_URL = "https://sonujson-v3.pages.dev/Data/sports.json"
+CHANNELS_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json"
+COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/biscuit.json"
+SPORTS_COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/sportsbiscuit.json"
+
+M3U_FILE = "jtv.m3u"
+JSON_FILE = "jtv.json"
+
+USER_AGENT = "Sayan10"
 
 
-def generate_m3u_playlist(channels_data):
-    m3u_lines = ["#EXTM3U"]
+# ---------------- JSON FETCHER ----------------
+def get_json(url: str):
+    fresh_url = f"{url}{'&' if '?' in url else '?'}t={int(time.time() * 1000)}"
 
-    USER_AGENT = "Virat Paglu"
-    ORIGIN = "https://www.jiotv.com/"
-    REFERER = "https://www.jiotv.com/"
+    req = urllib.request.Request(
+        fresh_url,
+        headers={
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+            "User-Agent": "Mozilla/5.0",
+        },
+    )
 
-    for channel in channels_data:
-        channel_id = channel.get("id", "")
-        channel_name = channel.get("name", "")
-        channel_logo = channel.get("logo", "")
-        channel_url = channel.get("url", "")
-        key_id = channel.get("keyId", "")
-        key = channel.get("key", "")
-        channel_cookie = channel.get("cookie", "")
+    with urllib.request.urlopen(req) as response:
+        if not (200 <= response.status < 300):
+            raise Exception(f"Failed to fetch {url}: {response.status}")
+        raw = response.read().decode("utf-8")
 
-        if key_id == "null" or key == "null" or not key_id or not key:
+    return json.loads(raw)
+
+
+# ---------------- NORMAL COOKIE ----------------
+def get_normal_cookie() -> str:
+    data = get_json(COOKIE_URL)
+
+    if isinstance(data, str):
+        return data
+
+    if isinstance(data, list):
+        for item in data:
+            if item and isinstance(item, dict) and item.get("cookie"):
+                return item.get("cookie") or ""
+        return ""
+
+    if isinstance(data, dict):
+        return data.get("cookie") or ""
+
+    return ""
+
+
+# ---------------- SPORTS DATA ----------------
+def get_sports_data():
+    data = get_json(SPORTS_COOKIE_URL)
+
+    sports_cookies = {}
+    results = []
+    results.extend(data.get("successful_results") or [])
+    results.extend(data.get("failed_results") or [])
+
+    for item in results:
+        if not isinstance(item, dict):
             continue
-        if not channel_url or not channel_cookie:
+        if not item.get("channel_id"):
             continue
 
-        license_key = f"{key_id}:{key}"
-
-        group_title = "Unknown"
-        if "sports" in channel_url.lower() or "sport" in channel_name.lower():
-            group_title = "Sports"
-        elif "news" in channel_name.lower() or "news" in channel_url.lower():
-            group_title = "News"
-        elif "movie" in channel_name.lower() or "cinema" in channel_name.lower():
-            group_title = "Movies"
-        elif "music" in channel_name.lower():
-            group_title = "Music"
-        elif "entertainment" in channel_name.lower() or "tv" in channel_name.lower():
-            group_title = "Entertainment"
-
-        extinf = (
-            f'#EXTINF:-1 tvg-id="{channel_id}" '
-            f'tvg-name="{channel_name}" '
-            f'tvg-logo="{channel_logo}" '
-            f'group-title="{group_title}",{channel_name}'
+        error_details = item.get("error_details") or {}
+        final_url = (
+            item.get("final_url")
+            or error_details.get("final_url")
+            or ""
         )
-        m3u_lines.append(extinf)
-        m3u_lines.append('#KODIPROP:inputstream.adaptive.manifest_type=mpd')
-        m3u_lines.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
-        m3u_lines.append(f'#KODIPROP:inputstream.adaptive.license_key={license_key}')
-        m3u_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
-
-        headers = {
-            "cookie": channel_cookie,
-            "Origin": ORIGIN,
-            "Referer": REFERER,
-        }
-        headers_json = json.dumps(headers, separators=(',', ':'))
-        m3u_lines.append(f'#EXTHTTP:{headers_json}')
-        m3u_lines.append(channel_url)
-        m3u_lines.append("")
-
-    return "\n".join(m3u_lines)
-
-
-def normalize_name(name):
-    return re.sub(r"\s+", " ", (name or "").strip().lower())
-
-
-def fetch_sports_source_channels():
-    print("Fetching sports.json source (per-channel cookies)...")
-    resp = requests.get(SPORTS_SOURCE_URL, timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
-
-    raw_channels = data.get("channels", [])
-    normalized = []
-    for ch in raw_channels:
-        normalized.append({
-            "id": ch.get("id", ""),
-            "name": ch.get("name", ""),
-            "url": ch.get("stream_url", ""),
-            "cookie": ch.get("cookie", ""),
-            "keyId": ch.get("key_id", ""),
-            "key": ch.get("key", ""),
-            "logo": ch.get("logo", ""),
-        })
-    print(f"  -> {len(normalized)} channels fetched from sports.json source")
-    return normalized
-
-
-def fetch_and_update_jtv():
-    # 1. Fetch main channel list
-    print("Fetching main channel list...")
-    channel_response = requests.get(MAIN_LIST_URL, timeout=30)
-    channel_response.raise_for_status()
-    channels_data = channel_response.json()
-    print(f"  -> {len(channels_data)} channels in main list")
-
-    # 2. Fetch generic cookie
-    print("Fetching primary cookie source...")
-    cookie_response = requests.get(GENERIC_COOKIE_URL, timeout=30)
-    cookie_response.raise_for_status()
-    cookie_data = cookie_response.json()
-    print(f"  -> Cookie data type: {type(cookie_data)}, length: {len(cookie_data) if isinstance(cookie_data, list) else 'N/A'}")
-
-    # 3. Extract generic cookie — handle both list and dict formats
-    generic_cookie = None
-    if isinstance(cookie_data, list):
-        for item in cookie_data:
-            if isinstance(item, dict) and "cookie" in item:
-                generic_cookie = item["cookie"]
-                break
-    elif isinstance(cookie_data, dict) and "cookie" in cookie_data:
-        generic_cookie = cookie_data["cookie"]
-
-    if not generic_cookie:
-        # Log the raw response to help debug
-        print(f"❌ Cookie data received:\n{json.dumps(cookie_data, indent=2)[:500]}")
-        raise ValueError("No cookie found in the primary source. Cannot continue.")
-
-    print(f"  -> Generic cookie extracted (length: {len(generic_cookie)})")
-
-    # 4. Current time in IST
-    ist = pytz.timezone('Asia/Kolkata')
-    current_time_ist = datetime.now(ist)
-    formatted_time = current_time_ist.strftime("%d/%m/%Y, %I:%M:%S %p").lower()
-
-    # 5. Fetch sports channels (per-channel cookies), placed first
-    merged_channels = {}
-    name_index = {}
-    sports_added = 0
-    try:
-        sports_channels = fetch_sports_source_channels()
-        for sch in sports_channels:
-            cid = sch.get("id", "")
-            if not cid:
-                continue
-            merged_channels[cid] = sch
-            name_key = normalize_name(sch.get("name", ""))
-            if name_key:
-                name_index[name_key] = cid
-            sports_added += 1
-    except Exception as e:
-        print(f"⚠️  Could not fetch sports.json source, continuing without it: {e}")
-
-    # 6. Merge main-list channels (generic cookie), skipping duplicates
-    main_added = 0
-    main_skipped = 0
-    for channel in channels_data:
-        cid = channel.get("id", "")
-        name_key = normalize_name(channel.get("name", ""))
-
-        if cid in merged_channels or (name_key and name_key in name_index):
-            main_skipped += 1
+        if not final_url:
             continue
 
-        merged_channels[cid] = {
-            "id": cid,
-            "name": channel.get("name", ""),
-            "url": channel.get("url", ""),
-            "cookie": generic_cookie,
-            "keyId": channel.get("keyId", ""),
-            "key": channel.get("key", ""),
-            "logo": channel.get("logo", ""),
-        }
-        if name_key:
-            name_index[name_key] = cid
-        main_added += 1
+        # Change /output/ to /WDVLive/ while keeping query string unchanged.
+        final_url = re.sub(r"/output/", "/WDVLive/", final_url, count=1, flags=re.I)
+        sports_cookies[str(item["channel_id"])] = final_url
 
-    print(f"  -> {sports_added} channels from sports.json (own cookie, listed first)")
-    print(f"  -> {main_added} channels from main list (generic cookie), {main_skipped} skipped as duplicates")
-
-    # 7. Final structure
-    updated_json = {
-        "updatedAt": formatted_time,
-        "channels": list(merged_channels.values()),
+    return {
+        "sportsIds": set(sports_cookies.keys()),
+        "sportsCookies": sports_cookies,
     }
 
-    # 8. Save jtv.json
-    print("Saving JSON file...")
-    with open("jtv.json", "w", encoding="utf-8") as f:
-        json.dump(updated_json, f, indent=2, ensure_ascii=False)
-    print("✓ JSON saved as: jtv.json")
 
-    # 9. Save jtv.m3u
-    print("Generating M3U playlist...")
-    m3u_content = generate_m3u_playlist(updated_json["channels"])
-    with open("jtv.m3u", "w", encoding="utf-8") as f:
-        f.write(m3u_content)
-    print("✓ M3U saved as: jtv.m3u")
+# ---------------- SHARED HELPERS ----------------
+def extract_keys(channel):
+    key_id = channel.get("keyId") or ""
+    key = channel.get("key") or ""
 
-    # 10. Stats
-    total_channels = len(updated_json["channels"])
-    valid_channels = len([
-        c for c in updated_json["channels"]
-        if c.get("keyId") not in (None, "null", "")
-        and c.get("key") not in (None, "null", "")
-    ])
-    skipped_channels = total_channels - valid_channels
+    if not key_id and isinstance(channel.get("clearkey"), dict) and channel.get("clearkey"):
+        try:
+            key_id, key = next(iter(channel["clearkey"].items()))
+        except StopIteration:
+            pass
 
-    print("\n" + "="*50)
-    print("✅ SUMMARY")
-    print("="*50)
-    print(f"Total channels processed : {total_channels}")
-    print(f"Valid channels in M3U    : {valid_channels}")
-    print(f"Skipped (null keys)      : {skipped_channels}")
-    print(f"Updated at               : {formatted_time}")
-    print("="*50)
+    return key_id, key
 
 
+def resolve_final_url(channel, sports_cookies):
+    """Return the stream URL, sports override wins."""
+    channel_id = str(channel.get("id") or "")
+    url = channel.get("url") or ""
+    return sports_cookies.get(channel_id) or url
+
+
+# ---------------- M3U BUILDER ----------------
+def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
+    if sports_cookies is None:
+        sports_cookies = {}
+
+    channel_id = str(channel.get("id") or "")
+    name = channel.get("name") or ""
+    logo = channel.get("logo") or ""
+    group = channel.get("group") or channel.get("category") or "Other"
+    url = channel.get("url") or ""
+
+    key_id, key = extract_keys(channel)
+    final_url = resolve_final_url(channel, sports_cookies)
+
+    lines = []
+
+    # EXTINF with tvg-id
+    lines.append(
+        f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" '
+        f'tvg-logo="{logo}" group-title="{group}",{name}'
+    )
+
+    # Detect DASH/MPD
+    is_mpd = (
+        channel.get("type") == "dash"
+        or bool(re.search(r"\.mpd(?:\?|$)", final_url, re.I))
+        or bool(re.search(r"\.mpd(?:\?|$)", url, re.I))
+    )
+
+    if is_mpd:
+        lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+        lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+
+        if key_id and key:
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(
+                f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
+            )
+        elif channel.get("license_url"):
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(
+                f'#KODIPROP:inputstream.adaptive.license_key={channel.get("license_url")}'
+            )
+
+    # EXTHTTP cookie (only if we actually have one)
+    if normal_cookie:
+        # Ensure cookie has proper JSON escaping
+        cookie_json = json.dumps({"cookie": normal_cookie})
+        lines.append(f"#EXTHTTP:{cookie_json}")
+
+    # VLC user-agent
+    lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+
+    lines.append(final_url)
+    return "\n".join(lines)
+
+
+# ---------------- JSON BUILDER ----------------
+def build_channel_object(channel, normal_cookie="", sports_cookies=None):
+    if sports_cookies is None:
+        sports_cookies = {}
+
+    key_id, key = extract_keys(channel)
+
+    return {
+        "id": str(channel.get("id") or ""),
+        "name": channel.get("name") or "",
+        "url": resolve_final_url(channel, sports_cookies),
+        "cookie": normal_cookie,
+        "keyId": key_id,
+        "key": key,
+        "logo": channel.get("logo") or "",
+    }
+
+
+# ---------------- GENERATE ----------------
+def generate_outputs():
+    channels = get_json(CHANNELS_URL)
+    normal_cookie = get_normal_cookie()
+    sports_data = get_sports_data()
+
+    print(f"Channels loaded: {len(channels)}")
+    print(f"Sports-specific URLs loaded: {len(sports_data['sportsIds'])}")
+
+    m3u_entries = []
+    json_entries = []
+
+    for channel in channels:
+        m3u_entries.append(
+            create_channel_entry(channel, normal_cookie, sports_data["sportsCookies"])
+        )
+        json_entries.append(
+            build_channel_object(channel, normal_cookie, sports_data["sportsCookies"])
+        )
+
+    print(f"Channels generated: {len(m3u_entries)}")
+
+    m3u_content = "\n\n".join(["#EXTM3U", ""] + m3u_entries)
+    json_content = json.dumps(json_entries, indent=2, ensure_ascii=False)
+
+    return m3u_content, json_content
+
+
+# ---------------- MAIN ----------------
 if __name__ == "__main__":
-    try:
-        fetch_and_update_jtv()
-    except Exception as e:
-        print(f"\n❌ FATAL ERROR: {e}", file=sys.stderr)
-        sys.exit(1)   # <-- non-zero exit so the workflow step fails visibly
+    m3u_content, json_content = generate_outputs()
+
+    with open(M3U_FILE, "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        f.write(json_content)
+
+    print(f"M3U saved to {M3U_FILE}")
+    print(f"JSON saved to {JSON_FILE}")
