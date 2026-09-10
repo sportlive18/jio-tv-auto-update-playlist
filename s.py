@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://la.drmlive.net/tp/playlist'
+url = 'https://m3u8.live.wwelive.site/live.m3u8?id=233'
 # We MUST use a specific User-Agent like OTT Navigator, TiviMate, or okhttp to get the playlist
 headers = {
     'User-Agent': 'OTT Navigator'
