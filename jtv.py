@@ -4,7 +4,7 @@ import time
 import urllib.request
 import urllib.error
 
-CHANNELS_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json"
+CHANNELS_URL = "https://raw.githubusercontent.com/sportlive18/Sky-F1/refs/heads/main/jtv.json"
 COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/biscuit.json"
 SPORTS_COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/sportsbiscuit.json"
 
