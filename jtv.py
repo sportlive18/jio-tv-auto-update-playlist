@@ -3,6 +3,7 @@ import json
 import time
 import urllib.request
 import urllib.error
+import sys
 
 CHANNELS_URL = "https://raw.githubusercontent.com/sportlive18/Sky-F1/refs/heads/main/jtv.json"
 COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/biscuit.json"
@@ -17,7 +18,6 @@ USER_AGENT = "Sayan10"
 # ---------------- JSON FETCHER ----------------
 def get_json(url: str):
     fresh_url = f"{url}{'&' if '?' in url else '?'}t={int(time.time() * 1000)}"
-
     req = urllib.request.Request(
         fresh_url,
         headers={
@@ -26,37 +26,44 @@ def get_json(url: str):
             "User-Agent": "Mozilla/5.0",
         },
     )
-
-    with urllib.request.urlopen(req) as response:
-        if not (200 <= response.status < 300):
-            raise Exception(f"Failed to fetch {url}: {response.status}")
-        raw = response.read().decode("utf-8")
-
-    return json.loads(raw)
+    try:
+        with urllib.request.urlopen(req, timeout=15) as response:
+            if not (200 <= response.status < 300):
+                raise Exception(f"HTTP {response.status} for {url}")
+            raw = response.read().decode("utf-8")
+        return json.loads(raw)
+    except Exception as e:
+        print(f"[ERROR] Failed to fetch {url}: {e}", file=sys.stderr)
+        raise
 
 
 # ---------------- NORMAL COOKIE ----------------
 def get_normal_cookie() -> str:
-    data = get_json(COOKIE_URL)
+    try:
+        data = get_json(COOKIE_URL)
+    except Exception:
+        print("[WARN] Could not fetch normal cookie, continuing without it.")
+        return ""
 
     if isinstance(data, str):
         return data
-
     if isinstance(data, list):
         for item in data:
             if item and isinstance(item, dict) and item.get("cookie"):
-                return item.get("cookie") or ""
+                return item["cookie"]
         return ""
-
     if isinstance(data, dict):
         return data.get("cookie") or ""
-
     return ""
 
 
 # ---------------- SPORTS DATA ----------------
 def get_sports_data():
-    data = get_json(SPORTS_COOKIE_URL)
+    try:
+        data = get_json(SPORTS_COOKIE_URL)
+    except Exception:
+        print("[WARN] Could not fetch sports data, continuing without it.")
+        return {"sportsIds": set(), "sportsCookies": {}}
 
     sports_cookies = {}
     results = []
@@ -78,7 +85,6 @@ def get_sports_data():
         if not final_url:
             continue
 
-        # Change /output/ to /WDVLive/ while keeping query string unchanged.
         final_url = re.sub(r"/output/", "/WDVLive/", final_url, count=1, flags=re.I)
         sports_cookies[str(item["channel_id"])] = final_url
 
@@ -103,7 +109,6 @@ def extract_keys(channel):
 
 
 def resolve_final_url(channel, sports_cookies):
-    """Return the stream URL, sports override wins."""
     channel_id = str(channel.get("id") or "")
     url = channel.get("url") or ""
     return sports_cookies.get(channel_id) or url
@@ -124,14 +129,11 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
     final_url = resolve_final_url(channel, sports_cookies)
 
     lines = []
-
-    # EXTINF with tvg-id
     lines.append(
         f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" '
         f'tvg-logo="{logo}" group-title="{group}",{name}'
     )
 
-    # Detect DASH/MPD
     is_mpd = (
         channel.get("type") == "dash"
         or bool(re.search(r"\.mpd(?:\?|$)", final_url, re.I))
@@ -144,24 +146,16 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
 
         if key_id and key:
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
-            lines.append(
-                f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
-            )
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}")
         elif channel.get("license_url"):
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
-            lines.append(
-                f'#KODIPROP:inputstream.adaptive.license_key={channel.get("license_url")}'
-            )
+            lines.append(f'#KODIPROP:inputstream.adaptive.license_key={channel.get("license_url")}')
 
-    # EXTHTTP cookie (only if we actually have one)
     if normal_cookie:
-        # Ensure cookie has proper JSON escaping
         cookie_json = json.dumps({"cookie": normal_cookie})
         lines.append(f"#EXTHTTP:{cookie_json}")
 
-    # VLC user-agent
     lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
-
     lines.append(final_url)
     return "\n".join(lines)
 
@@ -186,28 +180,35 @@ def build_channel_object(channel, normal_cookie="", sports_cookies=None):
 
 # ---------------- GENERATE ----------------
 def generate_outputs():
+    print("[INFO] Fetching channels...")
     channels = get_json(CHANNELS_URL)
-    normal_cookie = get_normal_cookie()
-    sports_data = get_sports_data()
+    print(f"[INFO] Channels loaded: {len(channels)}")
 
-    print(f"Channels loaded: {len(channels)}")
-    print(f"Sports-specific URLs loaded: {len(sports_data['sportsIds'])}")
+    print("[INFO] Fetching normal cookie...")
+    normal_cookie = get_normal_cookie()
+    print(f"[INFO] Cookie: {'found' if normal_cookie else 'not found'}")
+
+    print("[INFO] Fetching sports data...")
+    sports_data = get_sports_data()
+    print(f"[INFO] Sports URLs loaded: {len(sports_data['sportsIds'])}")
 
     m3u_entries = []
     json_entries = []
 
     for channel in channels:
-        m3u_entries.append(
-            create_channel_entry(channel, normal_cookie, sports_data["sportsCookies"])
-        )
-        json_entries.append(
-            build_channel_object(channel, normal_cookie, sports_data["sportsCookies"])
-        )
+        m3u_entries.append(create_channel_entry(channel, normal_cookie, sports_data["sportsCookies"]))
+        json_entries.append(build_channel_object(channel, normal_cookie, sports_data["sportsCookies"]))
 
-    print(f"Channels generated: {len(m3u_entries)}")
+    print(f"[INFO] Channels processed: {len(m3u_entries)}")
 
-    m3u_content = "\n\n".join(["#EXTM3U", ""] + m3u_entries)
-    json_content = json.dumps(json_entries, indent=2, ensure_ascii=False)
+    # Timestamp forces a real change every run so git always sees a diff
+    timestamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    m3u_content = f"#EXTM3U x-tvg-url=\"\" updated=\"{timestamp}\"\n\n" + "\n\n".join(m3u_entries)
+    json_output = {
+        "updated": timestamp,
+        "channels": json_entries,
+    }
+    json_content = json.dumps(json_output, indent=2, ensure_ascii=False)
 
     return m3u_content, json_content
 
@@ -218,9 +219,8 @@ if __name__ == "__main__":
 
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.write(m3u_content)
+    print(f"[INFO] M3U saved → {M3U_FILE}")
 
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         f.write(json_content)
-
-    print(f"M3U saved to {M3U_FILE}")
-    print(f"JSON saved to {JSON_FILE}")
+    print(f"[INFO] JSON saved → {JSON_FILE}")
