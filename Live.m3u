@@ -3,9 +3,29 @@
 #  Developed by: Monirul Islam
 #  Telegram: https://t.me/monirul_Islam_SM
 #  Telegram channel : https://t.me/sm_iptv_bd
-#  Last Updated: 2026-09-11 01:03:24 AM (BD Time)
-#  Live Channels Count: 62
+#  Last Updated: 2026-09-11 02:02:56 AM (BD Time)
+#  Live Channels Count: 44
 #=================================
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Venezuela%20Vs%20Peru.jpg" group-title="Volleyball", Venezuela Vs Peru - Sport Tv BR FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CF%20Estrela%20Amadora%20Vs%20Sporting%20Braga.jpg" group-title="Football", CF Estrela Amadora Vs Sporting Braga - FHD STREAMING .
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CF%20Estrela%20Amadora%20Vs%20Sporting%20Braga.jpg" group-title="Football", CF Estrela Amadora Vs Sporting Braga - SPORT TV HD
+https://tmaxapp.site/pt658svs/sporttv1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CF%20Estrela%20Amadora%20Vs%20Sporting%20Braga.jpg" group-title="Football", CF Estrela Amadora Vs Sporting Braga - BEIN SPORTS USA
+https://tmaxapp.site/8wirwjs76erftg/beinusa.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/York%20Knights%20Vs%20Bradford%20Bulls.jpg" group-title="Rugby", York Knights Vs Bradford Bulls - FOX SOCCER HD
+https://tmaxapp.site/8wirwjs76erftg/foxsoccer.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Bayern%20M%C3%BCnchen%20Vs%20Bod%C3%B8Glimt.jpg" group-title="Football", FC Bayern München Vs Bodø/Glimt - TNT3 SPORTS FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -101,88 +121,6 @@ https://chatgpt.hereisman.net/playlist/56168/load-playlist?&.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - PARAMOUNT+ FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4ab625e1136af7114b9c222d4b5f0916:443566ff55ac8c14546a2ef716e28825
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/q69cjonkxm/out/v1/43733cfc2d6f43d1a2a5eb34935987ae/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - TNT3 SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - PARAMOUNT + FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4ab625e1136af7114b9c222d4b5f0916:443566ff55ac8c14546a2ef716e28825
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/q69cjonkxm/out/v1/43733cfc2d6f43d1a2a5eb34935987ae/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - UFFA LIVE + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56170/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - BEIN2 ARABIC HD
-https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - HD QUALITY
-https://www.rtmpcdn.com/live/88baf42d-6bb2-490c-b308-6a2b2f77bb71.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/PSV%20Eindhoven%20Vs%20Shakhtar%20Donetsk.jpg" group-title="Football", PSV Eindhoven Vs Shakhtar Donetsk - HD QUALITY
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/VAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - PARAMOUNT+ FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b7c47c55bb2e36c4bdf8e62190551845:6bdc6b7181336205e8fbd70c1abcb630
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/dagal4p349/out/v1/9bee813b23794c0987f1b45663173b81/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - TNT2 SPORTS HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - UFFA LIVE + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56169/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - CBS NETWORK HD
-https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - DAZN2 DE HD
-https://tmaxapp.site/8wirwjs76erftg/dazn2de.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - HD QUALITY
-https://www.rtmpcdn.com/live/bf5477a3-55c0-478a-a3c6-7492c2897ac1.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fenerbah%C3%A7e%20Vs%20AS%20Roma.jpg" group-title="Football", Fenerbahçe Vs AS Roma - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.55/hls/VAAAQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Atlanta%20Braves%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", Atlanta Braves Vs Tampa Bay Rays - HD QUALITY MLB
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56167/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Atlanta%20Braves%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", Atlanta Braves Vs Tampa Bay Rays - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream6.pro/hls/dazhfiach15.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Atlanta%20Braves%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", Atlanta Braves Vs Tampa Bay Rays - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/VEEE.m3u8?
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/TENNIS%20%20EVENTO%20%20Vs%20TENNIS%20%20EVENTO.jpg" group-title="Other", TENNIS | EVENTO  Vs TENNIS | EVENTO - SKY TENNIS - FHD.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
 https://bl.rutube.ru/livestream/5f5dc9d64b43dfc740e92f2bdf2b0d38/index.m3u8?s=8W3-qi6L4hzOhynVnQ1rXw&e=2075285627&scheme=https
@@ -257,22 +195,7 @@ https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/LIVE%20EVENTO%20Vs%20LIVE%20EVENTO.jpg" group-title="Football", LIVE EVENTO Vs LIVE EVENTO - STREAM
 https://file.genoads.com/ch1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/York%20Knights%20Vs%20Bradford%20Bulls.jpg" group-title="Rugby", York Knights Vs Bradford Bulls - FOX SOCCER HD
-https://tmaxapp.site/8wirwjs76erftg/foxsoccer.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CF%20Estrela%20Amadora%20Vs%20Sporting%20Braga.jpg" group-title="Football", CF Estrela Amadora Vs Sporting Braga - FHD STREAMING .
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CF%20Estrela%20Amadora%20Vs%20Sporting%20Braga.jpg" group-title="Football", CF Estrela Amadora Vs Sporting Braga - SPORT TV HD
-https://tmaxapp.site/pt658svs/sporttv1.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CF%20Estrela%20Amadora%20Vs%20Sporting%20Braga.jpg" group-title="Football", CF Estrela Amadora Vs Sporting Braga - BEIN SPORTS USA
-https://tmaxapp.site/8wirwjs76erftg/beinusa.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Venezuela%20Vs%20Peru.jpg" group-title="Volleyball", Venezuela Vs Peru - Sport Tv BR FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Seattle%20Mariners%20Vs%20Texas%20Rangers.jpg" group-title="Baseball", Seattle Mariners Vs Texas Rangers - STREAM TV + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/.m3u8
