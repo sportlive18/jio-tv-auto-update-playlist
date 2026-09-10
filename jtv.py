@@ -7,7 +7,7 @@ import re
 import sys
 
 MAIN_LIST_URL = "https://sportlink-sky-f1.pages.dev/jtv.json"
-GENERIC_COOKIE_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/cookie.json"
+GENERIC_COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_SOURCE_URL = "https://sonujson-v3.pages.dev/Data/sports.json"
 
 
