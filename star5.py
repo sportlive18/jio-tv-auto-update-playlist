@@ -8,7 +8,11 @@ CHANNELS_URL = "https://sportlink18.pages.dev/jtvp.json"
 COOKIES_URL  = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/sportsbiscuit.json"
 OUTPUT_FILE  = "star.json"
 
+# Only keep channels whose name matches this pattern (case-insensitive)
+NAME_FILTER = re.compile(r"star\s*sports", re.IGNORECASE)
+
 IST = timezone(timedelta(hours=5, minutes=30))
+
 
 # ---------- your helper functions ----------
 def format_expiry(exp_ts: str) -> str:
@@ -23,6 +27,7 @@ def format_expiry(exp_ts: str) -> str:
     ampm = "AM" if dt.hour < 12 else "PM"
     return f"{dt.day}/{dt.month}/{dt.year} {hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
 
+
 def get_cookie_expiry(cookie: str) -> str:
     """Extract exp=<unix_ts> from a __hdnea__ cookie string."""
     if not cookie:
@@ -30,11 +35,12 @@ def get_cookie_expiry(cookie: str) -> str:
     exp_match = re.search(r"exp=(\d+)", cookie)
     return format_expiry(exp_match.group(1)) if exp_match else ""
 
-# ---------- helper to extract __hdnea__ ----------
+
 def extract_hdnea(final_url: str) -> str | None:
     """Return the full __hdnea__ query string (including prefix) from a URL."""
     match = re.search(r"(__hdnea__=[^&]+)", final_url)
     return match.group(1) if match else None
+
 
 # ---------- fetch data ----------
 channels_resp = requests.get(CHANNELS_URL)
@@ -46,19 +52,23 @@ cookies_resp.raise_for_status()
 cookie_data = cookies_resp.json()
 
 # Build a lookup: channel_id -> final_url
-failed_map = {}
-for item in cookie_data.get("failed_results", []):
-    cid = str(item["channel_id"])
-    failed_map[cid] = item["error_details"]["final_url"]
+failed_map = {
+    str(item["channel_id"]): item["error_details"]["final_url"]
+    for item in cookie_data.get("failed_results", [])
+}
 
-# ---------- build combined output ----------
+# ---------- build combined output (Star Sports only) ----------
 combined = []
 
 for ch in channels:
+    name = ch.get("name", "")
+    if not NAME_FILTER.search(name):
+        continue  # skip non–Star Sports channels
+
     cid = str(ch["id"])
     final_url = failed_map.get(cid)
     if not final_url:
-        print(f"Warning: no cookie URL for channel {cid} ({ch['name']})")
+        print(f"Warning: no cookie URL for channel {cid} ({name})")
         continue
 
     hdnea_full = extract_hdnea(final_url)
@@ -66,14 +76,12 @@ for ch in channels:
         print(f"Warning: no __hdnea__ token found for channel {cid}")
         continue
 
-    cookie_expires = get_cookie_expiry(hdnea_full)
-
     combined.append({
         "id": cid,
-        "name": ch["name"],
+        "name": name,
         "stream_url": ch["url"],
         "cookie": hdnea_full,
-        "cookie_expires": cookie_expires,
+        "cookie_expires": get_cookie_expiry(hdnea_full),
         "key_id": ch["keyId"],
         "key": ch["key"],
         "logo": ch["logo"],
@@ -83,4 +91,4 @@ for ch in channels:
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(combined, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Combined JSON written to {OUTPUT_FILE} ({len(combined)} channels)")
+print(f"✅ Star Sports JSON written to {OUTPUT_FILE} ({len(combined)} channels)")
