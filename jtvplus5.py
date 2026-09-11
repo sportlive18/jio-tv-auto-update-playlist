@@ -10,7 +10,7 @@ CHANNELS_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/m
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
-USER_AGENT = "Sayan10"         
+USER_AGENT = "Virat🐐"     
 UPLOAD_TO_GITHUB = True         
 
 
