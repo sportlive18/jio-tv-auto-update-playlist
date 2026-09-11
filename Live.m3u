@@ -3,9 +3,29 @@
 #  Developed by: Monirul Islam
 #  Telegram: https://t.me/monirul_Islam_SM
 #  Telegram channel : https://t.me/sm_iptv_bd
-#  Last Updated: 2026-09-11 06:03:11 AM (BD Time)
-#  Live Channels Count: 61
+#  Last Updated: 2026-09-11 10:02:57 AM (BD Time)
+#  Live Channels Count: 44
 #=================================
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CD%20Marathon%20Vs%20LD%20Alajuelense.jpg" group-title="Football", CD Marathon Vs LD Alajuelense - CBS SPORTS FHD
+#EXTVLCOPT:http-referrer=https://amazon.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CD%20Marathon%20Vs%20LD%20Alajuelense.jpg" group-title="Football", CD Marathon Vs LD Alajuelense - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.46/hls/CACACAAAAQQ.m3u8?
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Millonarios%20Vs%20Deportivo%20Cali.jpg" group-title="Football", Millonarios Vs Deportivo Cali - FOX DEPORTES FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Millonarios%20Vs%20Deportivo%20Cali.jpg" group-title="Football", Millonarios Vs Deportivo Cali - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.46/hls/CACACAAAAQ.m3u8?
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/TNA%20iMPACT%20Vs%20TNA%20iMPACT.jpg" group-title="Boxing", TNA iMPACT Vs TNA iMPACT - QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
@@ -18,40 +38,6 @@ https://chatgpt.hereisman.net/playlist/56187/load-playlist?&.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Miami%20Hurricanes%20Vs%20Florida%20A%26M%20Rattlers.jpg" group-title="American football", Miami Hurricanes Vs Florida A&M Rattlers - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.43/hls/FJJJaA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20White%20Sox%20Vs%20Pittsburgh%20Pirates.jpg" group-title="Baseball", Chicago White Sox Vs Pittsburgh Pirates - TNT1 SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20White%20Sox%20Vs%20Pittsburgh%20Pirates.jpg" group-title="Baseball", Chicago White Sox Vs Pittsburgh Pirates - HD QUALITY MLB
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56185/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20White%20Sox%20Vs%20Pittsburgh%20Pirates.jpg" group-title="Baseball", Chicago White Sox Vs Pittsburgh Pirates - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.43/hls/FJJJa.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20White%20Sox%20Vs%20Pittsburgh%20Pirates.jpg" group-title="Baseball", Chicago White Sox Vs Pittsburgh Pirates - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-https://edgestream4.pro/hls/bzagLHzach19.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Colorado%20Rockies.jpg" group-title="Baseball", New York Yankees Vs Colorado Rockies - MLB HD QUALITY
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56180/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Colorado%20Rockies.jpg" group-title="Baseball", New York Yankees Vs Colorado Rockies - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-https://edgestream2.pro/hls/Czajafjihafch18.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Colorado%20Rockies.jpg" group-title="Baseball", New York Yankees Vs Colorado Rockies - MLB HD
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-https://edgestream6.pro/hls/Czajafjihafch18.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Colorado%20Rockies.jpg" group-title="Baseball", New York Yankees Vs Colorado Rockies - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.43/hls/UVVV.m3u8?
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/TENNIS%20%20EVENTO%20%20Vs%20TENNIS%20%20EVENTO.jpg" group-title="Other", TENNIS | EVENTO  Vs TENNIS | EVENTO - SKY TENNIS - FHD.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
@@ -115,11 +101,6 @@ http://193.47.62.190/hls/XAXAXA.m3u8?
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.41/hls/FHHHQQQQQQQQ.m3u8?
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Brazil%20Vs%20Colombia.jpg" group-title="Volleyball", Brazil Vs Colombia - Sport Tv BR FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Barbados%20Tridents%20Vs%20St%20Kitts%20and%20Nevis%20Patriots.jpg" group-title="Cricket", Barbados Tridents Vs St Kitts and Nevis Patriots - TNT2 SPORTS HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -139,14 +120,6 @@ https://tmaxapp.site/8wirwjs76erftg/skysport1nz615866.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Barbados%20Tridents%20Vs%20St%20Kitts%20and%20Nevis%20Patriots.jpg" group-title="Cricket", Barbados Tridents Vs St Kitts and Nevis Patriots - FOX CRICKET HD
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Salcedo%20FC%20Vs%20Cibao%20FC.jpg" group-title="Football", Salcedo FC Vs Cibao FC - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.43/hls/FJJJ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Salcedo%20FC%20Vs%20Cibao%20FC.jpg" group-title="Football", Salcedo FC Vs Cibao FC - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.43/hls/FJJJ.m3u8?
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/LIVE%20EVENTO%20Vs%20LIVE%20EVENTO.jpg" group-title="Football", LIVE EVENTO Vs LIVE EVENTO - HD STREAMING
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
@@ -155,63 +128,37 @@ https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/LIVE%20EVENTO%20Vs%20LIVE%20EVENTO.jpg" group-title="Football", LIVE EVENTO Vs LIVE EVENTO - STREAM
 https://file.genoads.com/ch1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Independiente%20del%20Valle%20Vs%20Flamengo.jpg" group-title="Football", Independiente del Valle Vs Flamengo - BEIN3 SPORTS FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - TSN4 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Independiente%20del%20Valle%20Vs%20Flamengo.jpg" group-title="Football", Independiente del Valle Vs Flamengo - BEIN SPORTS USA
-https://tmaxapp.site/8wirwjs76erftg/beinusa.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Independiente%20del%20Valle%20Vs%20Flamengo.jpg" group-title="Football", Independiente del Valle Vs Flamengo - BEIN2 ARABIC HD
-https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Independiente%20del%20Valle%20Vs%20Flamengo.jpg" group-title="Football", Independiente del Valle Vs Flamengo - ESPN3 SPORTS FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - TSN1 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8a60d7889ff126ee1895335e92254f8e:de1b0ce19fa804a1c473eb8ef2d5cf6d
-https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(a38d1401-ee01-4802-812a-7cb460c9832c)/master.mpd
+#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Independiente%20del%20Valle%20Vs%20Flamengo.jpg" group-title="Football", Independiente del Valle Vs Flamengo - STREAM TV + LIVE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - NFL SERVER + 3
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/56186/load-playlist?&.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/.m3u8
+https://edgestream5.pro/hls/JHDAJBDnjdna30.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Independiente%20del%20Valle%20Vs%20Flamengo.jpg" group-title="Football", Independiente del Valle Vs Flamengo - LOW QUALITY (USE VPN)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - RDS2 HD
+https://tmaxapp.site/8wirwjs76erftg/rds2ca.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - HD QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.46/hls/CACACAAAA.m3u8?
+http://193.47.62.48/hls/YYYY.m3u?
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cienciano%20Vs%20Montevideo%20City%20Torque.jpg" group-title="Football", Cienciano Vs Montevideo City Torque - BeIN2 SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cienciano%20Vs%20Montevideo%20City%20Torque.jpg" group-title="Football", Cienciano Vs Montevideo City Torque - D SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cienciano%20Vs%20Montevideo%20City%20Torque.jpg" group-title="Football", Cienciano Vs Montevideo City Torque - SPORTS2 TV HD
-https://tmaxapp.site/pt658svs/sporttv2.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cienciano%20Vs%20Montevideo%20City%20Torque.jpg" group-title="Football", Cienciano Vs Montevideo City Torque - BEIN3 ARABIC HD
-https://tmaxapp.site/8wirwjs76erftg/bein3ar.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cienciano%20Vs%20Montevideo%20City%20Torque.jpg" group-title="Football", Cienciano Vs Montevideo City Torque - beiN ES HD
-https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cienciano%20Vs%20Montevideo%20City%20Torque.jpg" group-title="Football", Cienciano Vs Montevideo City Torque - LOW QUALITY (USE VPN)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.46/hls/CACACAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sport%20Recife%20Vs%20Ponte%20Preta.jpg" group-title="Football", Sport Recife Vs Ponte Preta - STREAM TV + LIVE
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.46/hls/CACACAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sport%20Recife%20Vs%20Ponte%20Preta.jpg" group-title="Football", Sport Recife Vs Ponte Preta - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.46/hls/CACACAA.m3u8?
+http://193.47.62.58/hls/YYYY.m3u8?
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - TSN5 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -219,28 +166,11 @@ http://193.47.62.46/hls/CACACAA.m3u8?
 #KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - TSN4 SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - TSN3 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream5.pro/hls/JHDAJBDnjdna30.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - TSN1 SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - NFL SERVER + 1
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
@@ -250,27 +180,29 @@ https://chatgpt.hereisman.net/playlist/56183/load-playlist?&.m3u8
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 https://chatgpt.hereisman.net/playlist/56182/load-playlist?&.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - NFL SERVER + 3
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56186/load-playlist?&.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - NFL SERVER + 4
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 https://chatgpt.hereisman.net/playlist/56184/load-playlist?&.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.58/hls/YYYY.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Los%20Angeles%20Rams%20Vs%20San%20Francisco%2049ers.jpg" group-title="American football", Los Angeles Rams Vs San Francisco 49ers - HD QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.48/hls/YYYY.m3u?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Millonarios%20Vs%20Deportivo%20Cali.jpg" group-title="Football", Millonarios Vs Deportivo Cali - FOX DEPORTES FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Pumas%20UNAM%20Vs%20Club%20Le%C3%B3n.jpg" group-title="Football", Pumas UNAM Vs Club León - CANAL MX FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Millonarios%20Vs%20Deportivo%20Cali.jpg" group-title="Football", Millonarios Vs Deportivo Cali - LOW QUALITY (USE VPN)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Pumas%20UNAM%20Vs%20Club%20Le%C3%B3n.jpg" group-title="Football", Pumas UNAM Vs Club León - TUDN MEXICO FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Pumas%20UNAM%20Vs%20Club%20Le%C3%B3n.jpg" group-title="Football", Pumas UNAM Vs Club León - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.46/hls/CACACAAAAQ.m3u8?
+http://193.47.62.46/hls/CACACAAAAQQQ.m3u8?
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CD%20Luis%20%C3%81ngel%20Firpo%20Vs%20CD%20Olimpia.jpg" group-title="Football", CD Luis Ángel Firpo Vs CD Olimpia - STREAM TV + LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.46/hls/CACACAAAAQQQQ.m3u8?
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CD%20Luis%20%C3%81ngel%20Firpo%20Vs%20CD%20Olimpia.jpg" group-title="Football", CD Luis Ángel Firpo Vs CD Olimpia - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.46/hls/CACACAAAAQQQQ.m3u8?
