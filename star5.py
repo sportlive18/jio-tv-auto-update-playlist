@@ -13,6 +13,9 @@ M3U_URL = "https://raw.githubusercontent.com/qwerty180506/Geo/refs/heads/main/ji
 # Allowed JioTV domains
 ALLOWED_DOMAINS = ["jiotvpllive.cdn.jio.com", "jiotvmblive.cdn.jio.com"]
 
+# Output file
+OUTPUT_FILE = "star.json"
+
 
 def format_expiry(exp_ts: str) -> str:
     """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
@@ -33,6 +36,19 @@ def get_cookie_expiry(cookie: str) -> str:
         return ""
     exp_match = re.search(r"exp=(\d+)", cookie)
     return format_expiry(exp_match.group(1)) if exp_match else ""
+
+
+def derive_id_from_url(url: str) -> str:
+    """
+    Fallback: derive an identifier from the stream URL path.
+    e.g. '.../bpk-tv/CNBCTV18Prime_MOB/WDVLive/index.mpd' -> 'CNBCTV18Prime_MOB'
+    """
+    if not url:
+        return None
+    m = re.search(r'/bpk-tv/([^/]+)/', url)
+    if m:
+        return m.group(1)
+    return None
 
 
 def parse_m3u(content: str):
@@ -109,14 +125,11 @@ def extract_from_block(block):
                 cookie = header_value or cookie
 
         elif not line.startswith('#'):
-            # The stream URL (may contain __hdnea__ query param with cookie)
             raw_url = line.strip()
-            # Extract base URL (strip query params)
             base_url = re.sub(r'\?.*', '', raw_url)
             stream_url = base_url
-            # If cookie not yet found, try to extract from URL query
+            # Extract cookie from URL query string if not already found
             if not cookie:
-                # Match __hdnea__=... value in the URL
                 hdnea_match = re.search(r'__hdnea__=([^&]+)', raw_url)
                 if hdnea_match:
                     cookie = "__hdnea__=" + hdnea_match.group(1)
@@ -135,9 +148,11 @@ def extract_from_block(block):
     if 'digital' in name_to_check.lower():
         return None
 
-    # Build JSON object
+    # --- ID fallback chain ---
+    final_id = tvg_id or derive_id_from_url(stream_url) or tvg_name or display_name
+
     obj = {
-        "id": tvg_id,
+        "id": final_id,
         "name": display_name or tvg_name,
         "stream_url": stream_url,
         "cookie": cookie,
@@ -166,11 +181,10 @@ def main():
         if obj:
             star_channels.append(obj)
 
-    # Write to star.json
-    with open("star.json", "w", encoding="utf-8") as f:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(star_channels, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to star.json")
+    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
