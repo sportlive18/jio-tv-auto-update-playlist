@@ -8,10 +8,11 @@ from datetime import datetime, timedelta, timezone
 IST = timezone(timedelta(hours=5, minutes=30))
 
 # M3U source
-M3U_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/mixiptv.m3u"
+M3U_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus3.m3u"
 
 # Allowed JioTV domains
 ALLOWED_DOMAINS = ["jiotvpllive.cdn.jio.com", "jiotvmblive.cdn.jio.com"]
+
 
 def format_expiry(exp_ts: str) -> str:
     """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
@@ -25,12 +26,14 @@ def format_expiry(exp_ts: str) -> str:
     ampm = "AM" if dt.hour < 12 else "PM"
     return f"{dt.day}/{dt.month}/{dt.year} {hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
 
+
 def get_cookie_expiry(cookie: str) -> str:
     """Extract exp=<unix_ts> from a __hdnea__ cookie string."""
     if not cookie:
         return ""
     exp_match = re.search(r"exp=(\d+)", cookie)
     return format_expiry(exp_match.group(1)) if exp_match else ""
+
 
 def parse_m3u(content: str):
     """Yield blocks of lines, each block corresponding to one channel entry."""
@@ -51,6 +54,7 @@ def parse_m3u(content: str):
             yield block
         else:
             i += 1
+
 
 def extract_from_block(block):
     """
@@ -77,20 +81,45 @@ def extract_from_block(block):
             tvg_logo = tvg_logo.group(1) if tvg_logo else None
             name_match = re.search(r',([^,]+)$', line)
             display_name = name_match.group(1).strip() if name_match else None
+
         elif line.startswith('#KODIPROP:inputstream.adaptive.license_key'):
             val = line.split('=', 1)[1] if '=' in line else ''
             if ':' in val:
                 key_id, key = val.split(':', 1)
                 license_key = (key_id.strip(), key.strip())
-        elif not line.startswith('#'):
-            stream_url = line.strip()
-            token_match = re.search(r'__hdnea__=([^&]+)', stream_url)
-            if token_match:
-                cookie = token_match.group(1)
-                base_url = re.sub(r'\?.*', '', stream_url)
+
+        # --- Extract cookie from #EXTHTTP:{...} (JSON) ---
+        elif line.startswith('#EXTHTTP:'):
+            raw = line.split(':', 1)[1].strip() if ':' in line else ''
+            try:
+                headers = json.loads(raw)
+                if isinstance(headers, dict):
+                    cookie = headers.get('cookie') or headers.get('Cookie') or cookie
+            except (json.JSONDecodeError, ValueError):
+                m = re.search(r'"cookie"\s*:\s*"([^"]+)"', raw, re.IGNORECASE)
+                if m:
+                    cookie = m.group(1)
+
+        # --- Also support KODIPROP stream_headers variant ---
+        elif line.startswith('#KODIPROP:inputstream.adaptive.stream_headers'):
+            header_value = line.split('=', 1)[1].strip() if '=' in line else ''
+            if header_value.lower().startswith('cookie='):
+                cookie = header_value[len('Cookie='):].strip()
             else:
-                base_url = stream_url
+                cookie = header_value or cookie
+
+        elif not line.startswith('#'):
+            # The stream URL (may contain __hdnea__ query param with cookie)
+            raw_url = line.strip()
+            # Extract base URL (strip query params)
+            base_url = re.sub(r'\?.*', '', raw_url)
             stream_url = base_url
+            # If cookie not yet found, try to extract from URL query
+            if not cookie:
+                # Match __hdnea__=... value in the URL
+                hdnea_match = re.search(r'__hdnea__=([^&]+)', raw_url)
+                if hdnea_match:
+                    cookie = "__hdnea__=" + hdnea_match.group(1)
 
     # --- Filtering ---
     # 1. Must be a Star Sports channel
@@ -99,10 +128,10 @@ def extract_from_block(block):
         return None
 
     # 2. Must be from JioTV (allowed domains)
-    if not any(domain in stream_url for domain in ALLOWED_DOMAINS):
+    if not stream_url or not any(domain in stream_url for domain in ALLOWED_DOMAINS):
         return None
 
-    # 3. Exclude digital-only streams (if "Digital" appears in the name)
+    # 3. Exclude digital-only streams
     if 'digital' in name_to_check.lower():
         return None
 
@@ -118,6 +147,7 @@ def extract_from_block(block):
         "logo": tvg_logo
     }
     return obj
+
 
 def main():
     print(f"Fetching M3U from {M3U_URL} ...")
@@ -136,11 +166,12 @@ def main():
         if obj:
             star_channels.append(obj)
 
-    # Write to star.json
-    with open("star.json", "w", encoding="utf-8") as f:
+    # Write to star2.json
+    with open("star2.json", "w", encoding="utf-8") as f:
         json.dump(star_channels, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to star.json")
+    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to star2.json")
+
 
 if __name__ == "__main__":
     main()
