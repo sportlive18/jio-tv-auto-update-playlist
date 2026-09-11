@@ -20,7 +20,7 @@ def fetch_json(json_url):
 
 def generate_m3u(data, cookie, output_file):
     """Create an M3U playlist with cookie and headers for voot.json streams."""
-    user_agent = 'Hotstar;in.startv.hotstar/25.02.24.8.11169@virat10'
+    user_agent = 'Virat Kohli'
     lines = ['#EXTM3U']
 
     for item in data:
