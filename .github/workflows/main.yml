@@ -8,7 +8,11 @@ on:
     branches:
       - main
     paths:
-      - 'jtv.py'
+      - 'jtv.py'  # Only trigger on script changes, not playlist updates
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: false  # Don't cancel running jobs, queue them
 
 jobs:
   update-playlist:
@@ -36,24 +40,45 @@ jobs:
       - name: Run jtv.py
         run: python jtv.py
 
-      - name: Verify output files exist
+      - name: Verify output files
         run: |
-          if [ ! -f jtv.m3u ] || [ ! -f jtv.json ]; then
-            echo "ERROR: jtv.m3u or jtv.json not found!"
-            ls -la
-            exit 1
-          fi
-          echo "Both files exist."
-          wc -l jtv.m3u jtv.json
+          echo "=== Directory listing ==="
+          ls -la
+
+          for FILE in jtv.m3u jtv.json; do
+            if [ ! -f "$FILE" ]; then
+              echo "ERROR: $FILE not found!"
+              exit 1
+            fi
+
+            LINES=$(wc -l < "$FILE")
+            echo "$FILE: $LINES lines"
+
+            if [ "$LINES" -lt 10 ]; then
+              echo "ERROR: $FILE is too small — likely empty or broken!"
+              cat "$FILE"
+              exit 1
+            fi
+          done
+
+          echo "Verification passed."
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "sportlive18"
-          git config --global user.email "271363488+sportlive18@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           git add -f jtv.m3u jtv.json
+
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes to commit — skipping push"
             exit 0
           fi
-          git commit -m "Auto-update playlists: $(date -u)"
+
+          # [skip ci] prevents this commit from triggering another workflow run
+          git commit -m "Auto-update playlists: $(date -u) [skip ci]"
+
+          # Pull with rebase just before push to avoid conflicts
+          git pull --rebase origin main
+
           git push origin main
