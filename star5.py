@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 IST = timezone(timedelta(hours=5, minutes=30))
 
 # M3U source
-M3U_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus3.m3u"
+M3U_URL = "https://raw.githubusercontent.com/qwerty180506/Geo/refs/heads/main/jiotv_cf.m3u"
 
 # Allowed JioTV domains
 ALLOWED_DOMAINS = ["jiotvpllive.cdn.jio.com", "jiotvmblive.cdn.jio.com"]
@@ -166,11 +166,11 @@ def main():
         if obj:
             star_channels.append(obj)
 
-    # Write to star2.json
-    with open("star2.json", "w", encoding="utf-8") as f:
+    # Write to star.json
+    with open("star.json", "w", encoding="utf-8") as f:
         json.dump(star_channels, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to star2.json")
+    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to star.json")
 
 
 if __name__ == "__main__":
