@@ -516,3 +516,14 @@ https://livetv.hotstar.com/mp1/gec-india-1540075056/a8fa5937ab1c4958870402ef8101
 #EXTVLCOPT:http-cookie=hdntl=exp=1789202149~acl=%2f*~id=1f3704241163c7063921868d560f6ae9~data=hdntl~hmac=53661f5a6bf7e70fc7828c2ea8cd8911ffd02fceedd6ebbda02a4857ef62da12
 #EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1789202149~acl=%2f*~id=1f3704241163c7063921868d560f6ae9~data=hdntl~hmac=53661f5a6bf7e70fc7828c2ea8cd8911ffd02fceedd6ebbda02a4857ef62da12"}
 https://livetv.hotstar.com/mp2/gec-india-1540075050/4249b1f5294741fe9b93bb703122f7b3/index.mpd?|cookie=hdntl=exp=1789202149~acl=%2f*~id=1f3704241163c7063921868d560f6ae9~data=hdntl~hmac=53661f5a6bf7e70fc7828c2ea8cd8911ffd02fceedd6ebbda02a4857ef62da12&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&user-agent=Virat Kohli
+#EXTINF:-1 tvg-name="MTV HD DIGITAL by @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8633/1786020488633-h" group-title="Entertainment", MTV HD DIGITAL by @virat10
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8b5ceacdaff6457b961887cda56b0000:afde944e9cb24f29addedcd192c915e7
+#EXTVLCOPT:http-user-agent=Virat Kohli
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+#EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
+#EXTVLCOPT:http-cookie=hdntl=exp=1789202149~acl=%2f*~id=1f3704241163c7063921868d560f6ae9~data=hdntl~hmac=53661f5a6bf7e70fc7828c2ea8cd8911ffd02fceedd6ebbda02a4857ef62da12
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1789202149~acl=%2f*~id=1f3704241163c7063921868d560f6ae9~data=hdntl~hmac=53661f5a6bf7e70fc7828c2ea8cd8911ffd02fceedd6ebbda02a4857ef62da12"}
+https://livetv.hotstar.com/mp1/gec-india-1540075041/3a3fc861054b441a9e52e12627c7a2dd/index.mpd?|cookie=hdntl=exp=1789202149~acl=%2f*~id=1f3704241163c7063921868d560f6ae9~data=hdntl~hmac=53661f5a6bf7e70fc7828c2ea8cd8911ffd02fceedd6ebbda02a4857ef62da12&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&user-agent=Virat Kohli
