@@ -8,7 +8,7 @@ COOKIE_URL = "https://premiumplugx.com/htt/hot.php?playlist=1"
 JSON_URL   = "https://sportlink18.pages.dev/voot.json"
 OUTPUT     = "voot.m3u"
 
-USER_AGENT = "Hotstar;in.startv.hotstar/25.02.24.8.11169@Premium Plugx(Android/15)"
+USER_AGENT = "Virat Kohli"
 REFERER    = "https://www.hotstar.com/"
 ORIGIN     = "https://www.hotstar.com"
 TIMEOUT    = 15
