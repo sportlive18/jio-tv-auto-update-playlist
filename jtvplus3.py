@@ -11,6 +11,7 @@ COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
 UPLOAD_TO_GITHUB = True         
+USER_AGENT = "Virat Kohli 🐐"     
 
 
 def to_base64(text: str) -> str:
