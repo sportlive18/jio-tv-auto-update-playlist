@@ -64,6 +64,10 @@ https://livetv.hotstar.com/out/v1/llg-tv-mum/1540072843_hindi_5e0a66fc/gec-india
 https://livetv.hotstar.com/out/v1/llg-tv-mum/1540077800_hindi_7537fdaa/gec-india_hls_unencrypted/master-ap-1080-4.m3u8?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports Khel Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/270/1782998020270-h.jpg" group-title="Sports", Star Sports Khel Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -72,6 +76,10 @@ https://livetv.hotstar.com/out/v1/llg-tv-mum/1540077800_hindi_7537fdaa/gec-india
 https://livetv.hotstar.com/mp2/gec-india-1540073624/4a56d383d1074f3d908a7f9b7a3321f1/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 1 Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7482/1782284567482-h.jpg" group-title="Sports", Star Sports 1 Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -80,6 +88,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540073624/4a56d383d1074f3d908a7f9b7a33
 https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 2 Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7957/1783000567957-h.jpg" group-title="Sports", Star Sports 2 Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -88,6 +100,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb1
 https://livetv.hotstar.com/mp1/gec-india-1540068250/1d0752e2f605404886fec4ab49cc3350/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 2 Hindi Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6371/1783000736371-h.jpg" group-title="Sports", Star Sports 2 Hindi Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -96,6 +112,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068250/1d0752e2f605404886fec4ab49cc
 https://livetv.hotstar.com/mp2/gec-india-1540068298/9f99e1af0bdc465b8a3015e3a1a689d8/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 2 Telugu Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2716/1783000912716-h.jpg" group-title="Sports", Star Sports 2 Telugu Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -104,6 +124,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068298/9f99e1af0bdc465b8a3015e3a1a6
 https://livetv.hotstar.com/mp1/gec-india-1540068283/9fdb797729344658957bd7382590c557/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 1 Hindi Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8867/1782284658867-h.jpg" group-title="Sports", Star Sports 1 Hindi Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -112,6 +136,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068283/9fdb797729344658957bd7382590
 https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 1 Telugu Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6361/1782284846361-h.jpg" group-title="Sports", Star Sports 1 Telugu Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -120,6 +148,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232
 https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c477839581/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 1 Tamil Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6839/1782284756839-h.jpg" group-title="Sports", Star Sports 1 Tamil Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -128,6 +160,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c47783
 https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e7efe/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 1 Kannada Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8138/1782284928138-h.jpg" group-title="Sports", Star Sports 1 Kannada Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -136,6 +172,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e
 https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 2 Tamil Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6676/1783000836676-h.jpg" group-title="Sports", Star Sports 2 Tamil Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -144,6 +184,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360
 https://livetv.hotstar.com/mp2/gec-india-1540068337/9e957d4aa8054fdfa75a02de6c38e8d0/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 2 Kannada Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4797/1783000974797-h.jpg" group-title="Sports", Star Sports 2 Kannada Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -152,6 +196,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068337/9e957d4aa8054fdfa75a02de6c38
 https://livetv.hotstar.com/mp2/gec-india-1540068325/822fe9161d924f25a8f14d9a4e6f1b34/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports 3 Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2523/1783001062523-h.jpg" group-title="Sports", Star Sports 3 Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -160,6 +208,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068325/822fe9161d924f25a8f14d9a4e6f
 https://livetv.hotstar.com/mp1/gec-india-1540068301/c776132a964441e1b929b2c0451222af/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports Select 1 Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1176/1783001141176-h.jpg" group-title="Sports", Star Sports Select 1 Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -168,6 +220,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068301/c776132a964441e1b929b2c04512
 https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08b8f1/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Sports Select 2 Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7266/1783001217266-h.jpg" group-title="Sports", Star Sports Select 2 Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -176,6 +232,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08
 https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Asianet Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7408/1782289617408-h.jpg" group-title="Entertainment", Asianet Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -184,6 +244,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a02
 https://livetv.hotstar.com/mp1/gec-india-1540068259/16bbee01f356442bb4ec4d6b021c20e2/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Plus Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2384/1782291852384-h.jpg" group-title="Entertainment", Star Plus Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -192,6 +256,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068259/16bbee01f356442bb4ec4d6b021c
 https://livetv.hotstar.com/mp1/gec-india-1540068289/6479fde4af2c441087fba8aa8a6b7b65/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Jalsha Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4452/1782290464452-h.jpg" group-title="Entertainment", Star Jalsha Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -200,6 +268,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068289/6479fde4af2c441087fba8aa8a6b
 https://livetv.hotstar.com/mp2/gec-india-1540068265/c4602383aada4e3fb92f0f0740187c66/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Maa Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1759/1782290731759-h.jpg" group-title="Entertainment", Star Maa Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -208,6 +280,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068265/c4602383aada4e3fb92f0f074018
 https://livetv.hotstar.com/mp1/gec-india-1540068277/f9eb70f10233442f82a6e3c4e8b2df70/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Pravah Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5780/1782291675780-h.jpg" group-title="Entertainment", Star Pravah Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -216,6 +292,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068277/f9eb70f10233442f82a6e3c4e8b2
 https://livetv.hotstar.com/mp1/gec-india-1540068310/f72c707651fa4b55a913511378ee7d09/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Bangla Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8049/1782291598049-h.jpg" group-title="Entertainment", Colors Bangla Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -224,6 +304,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068310/f72c707651fa4b55a913511378ee
 https://livetv.hotstar.com/mp1/gec-india-1540068268/f1fd9ca8ce4f41ddb1e53cf019864c0f/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Vijay Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/698/1782289770698-h.jpg" group-title="Entertainment", Star Vijay Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -232,6 +316,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068268/f1fd9ca8ce4f41ddb1e53cf01986
 https://livetv.hotstar.com/mp1/gec-india-1540068331/e2defeea709d42799aee76fe0d59bbe8/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Suvarna Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6396/1782290646396-h.jpg" group-title="Entertainment", Star Suvarna Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -240,6 +328,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068331/e2defeea709d42799aee76fe0d59
 https://livetv.hotstar.com/mp2/gec-india-1540068319/ae448c47ad3e4f2c9059f6fcfe4fbdc9/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/108/1782291760108-h.jpg" group-title="Entertainment", Colors Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -248,6 +340,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068319/ae448c47ad3e4f2c9059f6fcfe4f
 https://livetv.hotstar.com/mp2/gec-india-1540068292/51e8ee3bc81a4d4cbd1cfde7f4748fc2/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Kannada Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3440/1782291243440-h.jpg" group-title="Entertainment", Colors Kannada Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -256,6 +352,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068292/51e8ee3bc81a4d4cbd1cfde7f474
 https://livetv.hotstar.com/mp1/gec-india-1540068316/2933e227fb43430cad08b7778ec85e41/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Vijay Super Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1929/1782285031929-h.jpg" group-title="Entertainment", Vijay Super Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -264,6 +364,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068316/2933e227fb43430cad08b7778ec8
 https://livetv.hotstar.com/mp1/gec-india-1540068340/fcf299d934c2434b812dbf26d16355e8/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Asianet Plus Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9207/1782286239207-h.jpg" group-title="Entertainment", Asianet Plus Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -272,6 +376,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068340/fcf299d934c2434b812dbf26d163
 https://livetv.hotstar.com/mp2/gec-india-1540068714/d1405aea010f40739f1521c6c5b48fc0/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Super Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6181/1782290986181-h.jpg" group-title="Entertainment", Colors Super Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -280,6 +388,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068714/d1405aea010f40739f1521c6c5b4
 https://livetv.hotstar.com/mp2/gec-india-1540068720/b22b29885f2f408eb20ab6e2c04615b0/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Utsav Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9181/1782291429181-h.jpg" group-title="Entertainment", Star Utsav Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -288,6 +400,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068720/b22b29885f2f408eb20ab6e2c046
 https://livetv.hotstar.com/mp1/gec-india-1540068693/b584e228e7d94a318177b28e7b03d432/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Marathi Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5106/1782291335106-h.jpg" group-title="Entertainment", Colors Marathi Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -296,6 +412,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068693/b584e228e7d94a318177b28e7b03
 https://livetv.hotstar.com/mp2/gec-india-1540068768/c31f5cd2f90344c99600a92bac207188/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Rishtey Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9097/1782290579097-h.jpg" group-title="Entertainment", Colors Rishtey Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -304,6 +424,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068768/c31f5cd2f90344c99600a92bac20
 https://livetv.hotstar.com/mp1/gec-india-1540068702/807fee4649e74970af364da5030ce386/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Bharat Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8704/1782288318704-h.jpg" group-title="Entertainment", Star Bharat Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -312,6 +436,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068702/807fee4649e74970af364da5030c
 https://livetv.hotstar.com/mp2/gec-india-1540068696/fbf749b57ef444e8b2af5fbed29c350b/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Kiran Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7412/1782282697412-h.jpg" group-title="Entertainment", Star Kiran Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -320,6 +448,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068696/fbf749b57ef444e8b2af5fbed29c
 https://livetv.hotstar.com/mp1/gec-india-1540069651/f206d1cfa6ca42db9ed1b9921b67bbf4/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Asianet Movies Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7227/1782288617227-h.jpg" group-title="Movies", Asianet Movies Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -328,6 +460,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540069651/f206d1cfa6ca42db9ed1b9921b67
 https://livetv.hotstar.com/mp1/gec-india-1540068262/e4a83726042d44a4bf478be1a852b2a8/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Bangla Cinema Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4599/1782289524599-h.jpg" group-title="Movies", Colors Bangla Cinema Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -336,6 +472,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068262/e4a83726042d44a4bf478be1a852
 https://livetv.hotstar.com/mp2/gec-india-1540068271/e4f7e2acf07c457ea414f7c3cfbbf57c/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Jalsha Movies Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1445/1782291521445-h.jpg" group-title="Movies", Jalsha Movies Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -344,6 +484,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068271/e4f7e2acf07c457ea414f7c3cfbb
 https://livetv.hotstar.com/mp2/gec-india-1540068274/3c19d12531e5431d9bc02d243fcdde3e/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Maa Movies Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2722/1782288522722-h.jpg" group-title="Movies", Maa Movies Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -352,6 +496,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068274/3c19d12531e5431d9bc02d243fcd
 https://livetv.hotstar.com/mp1/gec-india-1540068286/7f555c63f0854f7b8737681943681333/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Gold Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6567/1784547656567-h.jpg" group-title="Movies", Star Gold Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -360,6 +508,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068286/7f555c63f0854f7b873768194368
 https://livetv.hotstar.com/mp2/gec-india-1540068304/18d2dc585a4b4b97a060ee1f8396a47a/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Cineplex Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3042/1782291173042-h.jpg" group-title="Movies", Colors Cineplex Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -368,6 +520,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068304/18d2dc585a4b4b97a060ee1f8396
 https://livetv.hotstar.com/mp1/gec-india-1540068307/438b1ba9504f4df0b83599a59f6744d6/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Colors Kannada Cinema Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3489/1782291093489-h.jpg" group-title="Movies", Colors Kannada Cinema Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -376,6 +532,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068307/438b1ba9504f4df0b83599a59f67
 https://livetv.hotstar.com/mp1/gec-india-1540068328/abfd5d76e8844bf9bd7807b3bf21f757/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Nick Plus Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/470/1783938260470-h.jpg" group-title="Kids", Nick Plus Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -384,6 +544,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068328/abfd5d76e8844bf9bd7807b3bf21
 https://livetv.hotstar.com/mp1/gec-india-1540074047/22c4e4fc4e8c4a1897019c4c6ad698c2/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Nick Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6807/1784039246807-h.jpg" group-title="Kids", Nick Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -392,6 +556,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540074047/22c4e4fc4e8c4a1897019c4c6ad6
 https://livetv.hotstar.com/mp2/gec-india-1540068253/6e383b1fb53c42d0a49ed6adfaf41082/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Sonic Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6294/1782290926294-h.jpg" group-title="Kids", Sonic Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -400,6 +568,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540068253/6e383b1fb53c42d0a49ed6adfaf4
 https://livetv.hotstar.com/mp1/gec-india-1540068791/78782613f6f54c38bf5961e9f066328a/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Disney Channel Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1540/1785251571540-h.jpg" group-title="Kids", Disney Channel Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -408,6 +580,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540068791/78782613f6f54c38bf5961e9f066
 https://livetv.hotstar.com/mp2/gec-india-1540075053/f9f3720bed4e4ce0b644bfeec74f8fee/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Super Hungama Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6961/1785252356961-h" group-title="Kids", Super Hungama Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -416,6 +592,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540075053/f9f3720bed4e4ce0b644bfeec74f
 https://livetv.hotstar.com/mp1/gec-india-1540075047/feca5fc6c1234205b01efe48d12d4c7f/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Disney Junior Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1599/1785251761599-h" group-title="Kids", Disney Junior Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -424,6 +604,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540075047/feca5fc6c1234205b01efe48d12d
 https://livetv.hotstar.com/mp1/gec-india-1540075059/9fcb1f02cf7249ef8428b9f3c981e08c/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Disney Channel International Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/328/1785251670328-h" group-title="Kids", Disney Channel International Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -432,6 +616,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540075059/9fcb1f02cf7249ef8428b9f3c981
 https://livetv.hotstar.com/mp1/gec-india-1540075056/a8fa5937ab1c4958870402ef81014cbe/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="National Geography Digital" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5075/1785250005075-h" group-title="Documentary", National Geography Digital
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -440,6 +628,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540075056/a8fa5937ab1c4958870402ef8101
 https://livetv.hotstar.com/mp2/gec-india-1540075050/4249b1f5294741fe9b93bb703122f7b3/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="MTV HD DIGITAL" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8633/1786020488633-h" group-title="Entertainment", MTV HD DIGITAL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -448,6 +640,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540075050/4249b1f5294741fe9b93bb703122
 https://livetv.hotstar.com/mp1/gec-india-1540075041/3a3fc861054b441a9e52e12627c7a2dd/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="STAR SPORTS 1 SELECT HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7226/597226-h.jpg" group-title="Sports", STAR SPORTS 1 SELECT HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -456,6 +652,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540075041/3a3fc861054b441a9e52e12627c7
 https://livetv.hotstar.com/mp2/gec-india-1540065791/8bb5cd7a8e274186977473a6771d9352/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 HD" tvg-logo="https://i.ibb.co/x8739M8d/SS2HD.jpg" group-title="Sports", STAR SPORTS 2 HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -464,6 +664,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540065791/8bb5cd7a8e274186977473a6771d
 https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="STAR SPORTS 1 HD" tvg-logo="https://i.ibb.co/pmVQWFZ/SS1HD.jpg" group-title="Sports", STAR SPORTS 1 HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -472,6 +676,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a1
 https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 SELECT HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7227/597227-h.jpg" group-title="Sports", STAR SPORTS 2 SELECT HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -480,6 +688,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a6
 https://livetv.hotstar.com/mp1/gec-india-1540065794/e2408fbafb9d4a5ab23775b69e5737d7/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="STAR SPORTS 1 Hindi HD" tvg-logo="https://img.media.jio.com/tvpimages/5/6/301982_1749665314605_l_medium.jpg" group-title="Sports", STAR SPORTS 1 Hindi HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -488,6 +700,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540065794/e2408fbafb9d4a5ab23775b69e57
 https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Suvarna" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h" group-title="Entertainment", Star Suvarna
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -496,6 +712,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b
 https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Pravah" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h" group-title="Entertainment", Star Pravah
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -504,6 +724,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9
 https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62d4cc/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Asianet Plus" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h" group-title="Entertainment", Asianet Plus
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -512,6 +736,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62
 https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8457b/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Jalsha" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h" group-title="Entertainment", Star Jalsha
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -520,6 +748,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8
 https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51388e/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Maa Movies" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h" group-title="Movies", Star Maa Movies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -528,6 +760,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51
 https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0bb8d/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Asianet" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h" group-title="Entertainment", Asianet
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -536,6 +772,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0
 https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273fe097/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="StarPlus" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h" group-title="Entertainment", StarPlus
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -544,6 +784,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273f
 https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c625cb0/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Vijay" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h" group-title="Entertainment", Star Vijay
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -552,6 +796,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c62
 https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e618c5/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Utsav" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h" group-title="Entertainment", Star Utsav
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -560,6 +808,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e6
 https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c589b3/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Maa" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h" group-title="Entertainment", Star Maa
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -568,6 +820,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c5
 https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0533b/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Bharat" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h" group-title="Entertainment", Star Bharat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -576,6 +832,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0
 https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a42da/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Gold" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h" group-title="Movies", Star Gold
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -584,6 +844,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a
 https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Jalsha Movies" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h" group-title="Movies", Jalsha Movies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -592,6 +856,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652
 https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20c3a6/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Asianet Movies" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h" group-title="Movies", Asianet Movies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -600,6 +868,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20
 https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a1a60/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Maa Gold" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h" group-title="Movies", Maa Gold
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -608,6 +880,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a
 https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab10805ec4/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="Star Suvarna Plus" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h" group-title="Entertainment", Star Suvarna Plus
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -616,6 +892,10 @@ https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab1080
 https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd421d5/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="ESPN 1 AFRICA LIVE" tvg-logo="https://cdn.sanity.io/images/1pn9obcz/production/467001ec48f124382a8e5662dddb0a7b07e72913-1920x1080.jpg" group-title="Other", ESPN 1 AFRICA LIVE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
@@ -624,6 +904,10 @@ https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd4
 https://live09p.hotstar.com/mp2/hsiallow-espn-za-1540053640/00a77f6ba11c4e5d99acd0de761c4497/index.mpd?cookie=hdntl%3Dexp%3D1789274165~acl%3D%252f%2A~id%3D480a0869e3594ab30e4a9bc7f4d28d53~data%3Dhdntl~hmac%3D192c91541f8dde1ca239af539251ce76bc30037b9e49f519f4e6b96832c19ef4&referer=https%3A%2F%2Fwww.hotstar.com%2F&origin=https%3A%2F%2Fwww.hotstar.com&user-agent=Virat+Kohli
 
 #EXTINF:-1 tvg-name="EPL MPD TEST" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Other", EPL MPD TEST
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat Kohli&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+#KODIPROP:inputstream.adaptive.license_key=:
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
