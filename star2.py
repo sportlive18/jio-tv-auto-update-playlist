@@ -5,46 +5,44 @@ import re
 
 # ---------- CONFIG ----------
 COOKIE_URL = "https://premiumplugx.com/htt/hot.php?playlist=1"
-JSON_URL   = "https://sportlink18.pages.dev/hstar.json"
-OUTPUT     = "hotstar.m3u"
+JSON_URL   = "https://sportlink18.pages.dev/star.json"
+OUTPUT     = "Star2.m3u"
 
 USER_AGENT = "Virat Kohli"
 REFERER    = "https://www.hotstar.com/"
 ORIGIN     = "https://www.hotstar.com"
 TIMEOUT    = 15
-
-# Order matters: first match wins
-PRIORITY = [
-    ["bigboss", "big boss", "bigg boss"],          # 1. Bigg Boss channels
-    ["tata ipl"],                                   # 2. TATA IPL LIVE TV
-    ["savdhaan india"],                             # 3. Savdhaan India: Crime 24/7
-]
 # ----------------------------
+
+UA_MOZ = "Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
 
 
 def http_get(url, headers=None, timeout=TIMEOUT):
-    req = urllib.request.Request(
-        url, headers=headers or {"User-Agent": "Mozilla/5.0"}
-    )
+    req = urllib.request.Request(url, headers=headers or {"User-Agent": UA_MOZ})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="ignore")
 
 
 def fetch_cookie(url):
+    """Return cookie string from a playlist or plain-text endpoint."""
     text = http_get(url, headers={"User-Agent": "OTT Navigator"})
 
+    # 1) #EXTVLCOPT:http-cookie=... style
     m = re.search(r"#EXTVLCOPT:http-cookie=([^\s\r\n]+)", text)
     if m:
         return m.group(1).strip()
 
+    # 2) bare hdntl=... cookie
     m = re.search(r"(hdntl=[^\s\r\n&\"']+)", text)
     if m:
         return m.group(1).strip()
 
+    # 3) generic "Cookie: ..." header line
     m = re.search(r"Cookie:\s*([^\r\n]+)", text, re.IGNORECASE)
     if m:
         return m.group(1).strip()
 
+    # 4) fallback: whole body if it looks like a cookie
     stripped = text.strip()
     if stripped and "=" in stripped and len(stripped) < 4000:
         return stripped
@@ -53,10 +51,12 @@ def fetch_cookie(url):
 
 
 def fetch_json(url):
-    return json.loads(http_get(url))
+    text = http_get(url, headers={"User-Agent": UA_MOZ})
+    return json.loads(text)
 
 
 def build_url(url, cookie):
+    """Append auth params as query string for Hotstar CDN."""
     sep = "&" if "?" in url else "?"
     params = {
         "cookie": cookie,
@@ -67,31 +67,7 @@ def build_url(url, cookie):
     return url + sep + urllib.parse.urlencode(params)
 
 
-def sort_items(items):
-    """Order: Bigg Boss -> TATA IPL -> Savdhaan India -> rest."""
-    buckets = [[] for _ in PRIORITY]
-    rest = []
-
-    for it in items:
-        name = (it.get("name") or "").lower()
-        placed = False
-        for i, keys in enumerate(PRIORITY):
-            if any(k in name for k in keys):
-                buckets[i].append(it)
-                placed = True
-                break
-        if not placed:
-            rest.append(it)
-
-    ordered = []
-    for b in buckets:
-        ordered.extend(b)
-    ordered.extend(rest)
-    return ordered
-
-
 def generate_m3u(items, cookie, out_file):
-    items = sort_items(items)
     lines = ["#EXTM3U"]
     written = 0
 
@@ -111,14 +87,12 @@ def generate_m3u(items, cookie, out_file):
             f'group-title="{category}", {name}'
         )
 
-        # ClearKey DRM for MPD entries
+        # ClearKey DRM for MPD channels
         if url.lower().endswith(".mpd") and key_id and key:
             lines.append("#KODIPROP:inputstream=inputstream.adaptive")
             lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
-            lines.append(
-                f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
-            )
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}")
 
         lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
@@ -130,7 +104,7 @@ def generate_m3u(items, cookie, out_file):
         )
 
         lines.append(build_url(url, cookie))
-        lines.append("")
+        lines.append("")  # blank line between entries
         written += 1
 
     with open(out_file, "w", encoding="utf-8") as f:
