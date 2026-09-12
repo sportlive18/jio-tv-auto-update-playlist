@@ -1,215 +1,216 @@
-#!/usr/bin/env python3
-
-
-import re
+import os
+import json
+import base64
 import requests
-import urllib.parse
+from typing import Dict, List, Set, Any, Optional
+from datetime import datetime
+from urllib.parse import urlparse, parse_qs, urlunparse
 
-def parse_m3u(m3u_content):
-    """Parse M3U content and extract channels"""
-    lines = m3u_content.split('\n')
-    channels = []
-    current = {}
-    
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        
-        if not line:
-            i += 1
+CHANNELS_URL = "https://sportlink-sky-f1.pages.dev/jtv.json"
+COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
+SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
+
+USER_AGENT = "Virat🐐"     
+UPLOAD_TO_GITHUB = True         
+
+
+def to_base64(text: str) -> str:
+    return base64.b64encode(text.encode("utf-8")).decode("ascii")
+
+def get_json(url: str) -> Any:
+    cache_buster = f"{'&' if '?' in url else '?'}t={int(datetime.now().timestamp() * 1000)}"
+    fresh_url = url + cache_buster
+    headers = {"Cache-Control": "no-cache", "Pragma": "no-cache"}
+    resp = requests.get(fresh_url, headers=headers)
+    resp.raise_for_status()
+    return resp.json()
+
+def split_url_query(url: str) -> tuple:
+    """Return (base_url, query_string). query_string is None if absent."""
+    parsed = urlparse(url)
+    base = urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, "", ""))
+    query = parsed.query if parsed.query else None
+    return base, query
+
+
+def get_normal_cookie() -> str:
+    data = get_json(COOKIE_URL)
+    if isinstance(data, str):
+        return data
+    if isinstance(data, list):
+        for item in data:
+            if isinstance(item, dict) and "cookie" in item:
+                return item["cookie"]
+        return ""
+    if isinstance(data, dict):
+        return data.get("cookie", "")
+    return ""
+
+def get_sports_data() -> Dict[str, Any]:
+    data = get_json(SPORTS_COOKIE_URL)
+    sports_cookies = {}
+    results = data.get("successful_results", []) + data.get("failed_results", [])
+
+    for item in results:
+        channel_id = item.get("channel_id")
+        if not channel_id:
             continue
-        
-        # Check for EXTINF line
-        if line.startswith('#EXTINF:'):
-            # Parse EXTINF
-            tvg_id = re.search(r'tvg-id="([^"]*)"', line)
-            tvg_name = re.search(r'tvg-name="([^"]*)"', line)
-            tvg_logo = re.search(r'tvg-logo="([^"]*)"', line)
-            group_title = re.search(r'group-title="([^"]*)"', line)
-            
-            name_parts = line.split(',')
-            channel_name = name_parts[-1].strip() if len(name_parts) > 1 else "Unknown"
-            
-            current = {
-                'id': tvg_id.group(1) if tvg_id else '',
-                'name': tvg_name.group(1) if tvg_name else channel_name,
-                'logo': tvg_logo.group(1) if tvg_logo else '',
-                'group': group_title.group(1) if group_title else 'Unknown',
-                'url': None,
-                'license_key': None,
-                'user_agent': 'Droovy',
-                'cookie': None,
-                'headers': {}
-            }
-            
-        # Check for KODIPROP license key
-        elif line.startswith('#KODIPROP:inputstream.adaptive.license_key=') and current:
-            license_key = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '').strip()
-            if ':' in license_key:
-                current['license_key'] = license_key
-            
-        # Check for EXTVLCOPT user-agent
-        elif line.startswith('#EXTVLCOPT:http-user-agent=') and current:
-            current['user_agent'] = line.replace('#EXTVLCOPT:http-user-agent=', '').strip()
-            
-        # Check for EXTHTTP headers
-        elif line.startswith('#EXTHTTP:') and current:
-            try:
-                headers_str = line.replace('#EXTHTTP:', '').strip()
-                # Remove curly braces and parse
-                if headers_str.startswith('{') and headers_str.endswith('}'):
-                    headers_str = headers_str[1:-1]
-                    # Parse key-value pairs
-                    for part in headers_str.split(','):
-                        if ':' in part:
-                            key, value = part.split(':', 1)
-                            key = key.strip().strip('"')
-                            value = value.strip().strip('"')
-                            current['headers'][key] = value
-                            if key.lower() == 'cookie':
-                                current['cookie'] = value
-            except:
-                pass
-                
-        # Check for stream URL (not starting with #)
-        elif not line.startswith('#') and current:
-            current['url'] = line
-            
-            # Extract cookie from URL if present
-            if 'Cookie=' in line:
-                cookie_match = re.search(r'Cookie=([^&|]+)', line)
-                if cookie_match:
-                    current['cookie'] = cookie_match.group(1)
-            
-            # Extract user-agent from URL if present
-            if 'User-Agent=' in line:
-                ua_match = re.search(r'User-Agent=([^&|]+)', line)
-                if ua_match:
-                    current['user_agent'] = urllib.parse.unquote(ua_match.group(1))
-            
-            # Only add if we have a URL
-            if current['url']:
-                channels.append(current.copy())
-            current = {}
-        
-        i += 1
-    
-    return channels
+        final_url = item.get("final_url") or item.get("error_details", {}).get("final_url", "")
+        if not final_url:
+            continue
+        modified_url = final_url.replace("/output/", "/WDVLive/")
+        sports_cookies[str(channel_id)] = modified_url
 
-def convert_channel(channel):
-    """Convert a single channel to desired format"""
+    return {
+        "sportsIds": set(sports_cookies.keys()),
+        "sportsCookies": sports_cookies,
+    }
+
+
+def create_channel_entry(channel: Dict[str, Any],
+                         normal_cookie: str = "",
+                         sports_cookies: Dict[str, str] = {}) -> str:
+    name = channel.get("name", "")
+    logo = channel.get("logo", "")
+    group = channel.get("group") or channel.get("category") or "Other"
+    url = channel.get("url", "")
+    channel_id = str(channel.get("id", ""))
+
     lines = []
-    
-    # EXTINF line
-    lines.append(f'#EXTINF:-1 tvg-id="{channel["id"]}" tvg-name="{channel["name"]}" tvg-logo="{channel["logo"]}" group-title="{channel["group"]}",{channel["name"]}')
-    
-    # KODIPROP properties
-    lines.append('#KODIPROP:inputstream=inputstream.adaptive')
-    lines.append('#KODIPROP:inputstream.adaptive.manifest_type=mpd')
-    
-    # License key
-    if channel.get('license_key'):
-        lines.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
-        lines.append(f'#KODIPROP:inputstream.adaptive.license_key={channel["license_key"]}')
-    
-    # User-Agent
-    if channel.get('user_agent'):
-        lines.append(f'#EXTVLCOPT:http-user-agent={channel["user_agent"]}')
-    
-    # Headers
-    headers = {}
-    if channel.get('cookie'):
-        headers['cookie'] = channel['cookie']
-    
-    # Add origin and referer if needed
-    if channel.get('headers'):
-        if 'Origin' in channel['headers']:
-            headers['Origin'] = channel['headers']['Origin']
-        if 'Referer' in channel['headers']:
-            headers['Referer'] = channel['headers']['Referer']
-    
-    if headers:
-        lines.append(f'#EXTHTTP:{json.dumps(headers)}')
-    
-    # Clean URL - remove query parameters that are already handled
-    url = channel['url']
-    # Remove User-Agent and Cookie from URL as they're handled by EXTVLCOPT and EXTHTTP
-    if '|' in url:
-        url = url.split('|')[0]
-    
-    # Check if URL has query parameters
-    if '?' in url:
-        base_url, params = url.split('?', 1)
-        # Keep only necessary params
-        param_list = []
-        for param in params.split('&'):
-            if not param.startswith('User-Agent=') and not param.startswith('Cookie='):
-                param_list.append(param)
-        
-        if param_list:
-            url = f"{base_url}?{'&'.join(param_list)}"
-        else:
-            url = base_url
-    
-    lines.append(url)
-    return '\n'.join(lines) + '\n\n'
 
-def generate_converted_m3u():
-    # Input M3U URL
-    m3u_url = "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u"
+    lines.append(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
+
+   
+    is_mpd = (channel.get("type") == "dash") or (".mpd" in url.lower() and ("?" in url.lower() or url.lower().endswith(".mpd")))
+
+    if is_mpd:
+        lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+        lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+
+        # Clearkey logic
+        if channel.get("keyId") and channel.get("key"):
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={channel['keyId']}:{channel['key']}")
+        elif "clearkey" in channel and isinstance(channel["clearkey"], dict) and channel["clearkey"]:
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            key_id, key = next(iter(channel["clearkey"].items()))
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}")
+        elif channel.get("license_url"):
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={channel['license_url']}")
+
     
-    print("=" * 60)
-    print("M3U to Kodi Format Converter")
-    print("=" * 60)
+    sports_url = sports_cookies.get(channel_id)
+    if sports_url:
+        final_url_with_query = sports_url
+    else:
+        if normal_cookie:
+            sep = "&" if "?" in url else "?"
+            final_url_with_query = f"{url}{sep}{normal_cookie}"
+        else:
+            final_url_with_query = url
+
+   
+    base_url, cookie_query = split_url_query(final_url_with_query)
+
     
+    if cookie_query:
+        lines.append(f'#EXTHTTP:{{"cookie": "{cookie_query}"}}')
+
+   
+    lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+
+   
+    lines.append(base_url)
+
+    return "\n".join(lines)
+
+
+def generate_m3u() -> str:
+    channels = get_json(CHANNELS_URL)
+    normal_cookie = get_normal_cookie()
+    sports_data = get_sports_data()
+
+    print(f"Channels loaded: {len(channels)}")
+    print(f"Sports-specific URLs loaded: {len(sports_data['sportsIds'])}")
+
+    entries = []
+    for ch in channels:
+        entries.append(create_channel_entry(ch, normal_cookie, sports_data["sportsCookies"]))
+
+    print(f"Channels generated: {len(entries)}")
+    return "#EXTM3U\n\n" + "\n\n".join(entries)
+
+
+def upload_to_github(content: str) -> bool:
+    repo_owner = os.environ.get("GITHUB_OWNER")
+    repo_name = os.environ.get("GITHUB_REPO")
+    token = os.environ.get("GITHUB_TOKEN")
+
+    if not all([repo_owner, repo_name, token]):
+        print("⚠️  GitHub credentials missing. Skipping upload.")
+        return False
+
+    if not UPLOAD_TO_GITHUB:
+        print("⚠️  Upload disabled by UPLOAD_TO_GITHUB flag. Skipping.")
+        return False
+
+    path = "jtvplus3.m3u"
+    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{path}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "User-Agent": "Python-Script",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+    # Fetch existing file
+    existing_resp = requests.get(api_url, headers=headers)
+    sha = None
+    existing_content = ""
+    if existing_resp.status_code == 200:
+        existing_json = existing_resp.json()
+        sha = existing_json.get("sha")
+        if existing_json.get("content"):
+            existing_content = base64.b64decode(existing_json["content"]).decode("utf-8")
+
+    def normalize(s: str) -> str:
+        return s.strip().replace("\r", "")
+
+    if sha and normalize(existing_content) == normalize(content):
+        print("No changes detected. Skipping commit.")
+        return True
+
+    payload = {
+        "message": f"Auto update playlist {datetime.now().isoformat()}",
+        "content": to_base64(content),
+        "sha": sha,
+    }
+
+    put_resp = requests.put(api_url, headers=headers, json=payload)
+    if not put_resp.ok:
+        print(f"❌ GitHub upload failed: {put_resp.status_code} - {put_resp.text}")
+        return False
+
+    print(f"✅ GitHub upload successful ({put_resp.status_code})")
+    return True
+
+# ---------- Main ----------
+def main(output_file: str = "jtvplus7.m3u"):
     try:
-        # Download M3U
-        print(f"\n[*] Downloading M3U: {m3u_url}")
-        response = requests.get(m3u_url, timeout=30)
-        response.raise_for_status()
-        m3u_content = response.text
-        print(f"[+] Downloaded {len(m3u_content)} bytes")
-        
-        # Parse M3U
-        print("\n[*] Parsing M3U...")
-        channels = parse_m3u(m3u_content)
-        print(f"[+] Found {len(channels)} channels")
-        
-        # Show sample
-        if channels:
-            print("\n[*] Sample channel:")
-            sample = channels[0]
-            print(f"  ID: {sample['id']}")
-            print(f"  Name: {sample['name']}")
-            print(f"  License Key: {sample.get('license_key', 'None')}")
-            print(f"  User-Agent: {sample.get('user_agent', 'None')}")
-            print(f"  Cookie: {sample.get('cookie', 'None')[:50]}...")
-        
-        
-        print("\n[*] Converting channels...")
-        output_file = "jtvplus7.m3u"
-        
+        m3u = generate_m3u()
+
+        # Always save locally
         with open(output_file, "w", encoding="utf-8") as f:
-            f.write('#EXTM3U\n\n')
-            
-            converted = 0
-            for ch in channels:
-                try:
-                    block = convert_channel(ch)
-                    f.write(block)
-                    converted += 1
-                except Exception as e:
-                    print(f"  [-] Error converting {ch.get('name', 'Unknown')}: {e}")
-            
-        print(f"\n[+] Successfully converted {converted} channels")
-        print(f"[+] Output saved to: {output_file}")
-        print("=" * 60)
-        
+            f.write(m3u)
+        print(f"📁 Playlist saved locally as '{output_file}'")
+
+        # Try GitHub upload if enabled and credentials exist
+        upload_to_github(m3u)
+
+        print("✅ Playlist updated successfully")
     except Exception as e:
-        print(f"\n[-] Error: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"❌ Error: {e}")
+        raise
 
 if __name__ == "__main__":
-    import json
-    generate_converted_m3u()
+    main()
