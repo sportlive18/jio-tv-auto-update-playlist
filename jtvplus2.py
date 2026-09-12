@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://allinonereborn2.online/m3u/jtv223.m3u'
+url = 'https://premiumplugx.top/jiostb/mjelo.php?view=raw'
 # We MUST use a specific User-Agent like OTT Navigator, TiviMate, or okhttp to get the playlist
 headers = {
     'User-Agent': 'OTT Navigator'
