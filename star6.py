@@ -2,20 +2,25 @@
 """
 Merge JioTV __hdnea__ cookies from M3U playlist into the JSON channel list.
 Keeps only Star Sports and Sony Sports channels.
+Outputs the transformed schema with cookie_expires in IST.
 """
 
 import json
 import re
 import requests
+from datetime import datetime, timezone, timedelta
 
 M3U_URL  = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus6.m3u"
 JSON_URL = "https://sportlink18.pages.dev/jtvplus.json"
 OUT_FILE = "star2.json"
 
-# Keywords to keep (case‑insensitive substring match on channel name)
 KEEP_KEYWORDS = ["Star Sports", "Sony Sports"]
 
+# IST = UTC + 5:30
+IST = timezone(timedelta(hours=5, minutes=30))
 
+
+# ---------------------------------------------------------------- helpers
 def fetch(url: str) -> str:
     r = requests.get(url, timeout=30)
     r.raise_for_status()
@@ -46,27 +51,62 @@ def parse_m3u_cookies(m3u_text: str) -> dict:
     return cookies
 
 
+def format_expiry(exp_ts: str) -> str:
+    """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
+    try:
+        dt = datetime.fromtimestamp(int(exp_ts), tz=IST)
+    except (ValueError, OSError, TypeError):
+        return ""
+    hour12 = dt.hour % 12
+    if hour12 == 0:
+        hour12 = 12
+    ampm = "AM" if dt.hour < 12 else "PM"
+    return f"{dt.day}/{dt.month}/{dt.year} {hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
+
+
+def get_cookie_expiry(cookie: str) -> str:
+    """Extract exp=<unix_ts> from a __hdnea__ cookie and format it in IST."""
+    if not cookie:
+        return ""
+    exp_match = re.search(r"exp=(\d+)", cookie)
+    if not exp_match:
+        return ""
+    return format_expiry(exp_match.group(1))
+
+
+def transform(ch: dict, cookie: str) -> dict:
+    """Convert source JSON object to the target output schema."""
+    return {
+        "id":          str(ch.get("id", "")),
+        "name":        ch.get("name", ""),
+        "stream_url":  ch.get("url", ""),
+        "cookie":      cookie,
+        "cookie_expires": get_cookie_expiry(cookie),
+        "key_id":      ch.get("keyId", ""),
+        "key":         ch.get("key", ""),
+        "logo":        ch.get("logo", ""),
+    }
+
+
+# ---------------------------------------------------------------- main
 def merge_and_filter(json_url: str, cookie_map: dict) -> list:
     channels = json.loads(fetch(json_url))
     merged = 0
     kept = []
 
     for ch in channels:
-        cid = str(ch.get("id", ""))
+        cid  = str(ch.get("id", ""))
         name = ch.get("name", "")
 
         # --- filter: only Star Sports / Sony Sports ---
         if not any(kw.lower() in name.lower() for kw in KEEP_KEYWORDS):
             continue
 
-        # --- attach cookie ---
-        if cid in cookie_map:
-            ch["cookie"] = cookie_map[cid]
+        cookie = cookie_map.get(cid, "")
+        if cookie:
             merged += 1
-        else:
-            ch["cookie"] = ""
 
-        kept.append(ch)
+        kept.append(transform(ch, cookie))
 
     print(f"[+] Kept {len(kept)} channels (Star Sports / Sony Sports)")
     print(f"[+] Cookies merged for {merged}/{len(kept)} kept channels")
