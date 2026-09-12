@@ -1,54 +1,17 @@
 #!/usr/bin/env python3
-"""
-Merge JioTV __hdnea__ cookies from M3U playlist into the JSON channel list.
-Keeps only Star Sports and Sony Sports channels.
-Outputs the transformed schema with cookie_expires in IST.
-"""
-
-import json
 import re
+import json
 import requests
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 
-M3U_URL  = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus6.m3u"
-JSON_URL = "https://sportlink18.pages.dev/jtvplus.json"
-OUT_FILE = "star2.json"
-
-KEEP_KEYWORDS = ["Star Sports", "Sony Sports"]
-
-# IST = UTC + 5:30
+# Timezone for IST
 IST = timezone(timedelta(hours=5, minutes=30))
 
+# M3U source
+M3U_URL = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus3.m3u"
 
-# ---------------------------------------------------------------- helpers
-def fetch(url: str) -> str:
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    return r.text
-
-
-def parse_m3u_cookies(m3u_text: str) -> dict:
-    """Return {tvg_id: cookie_string} from the M3U playlist."""
-    cookies = {}
-    current_id = None
-
-    for line in m3u_text.splitlines():
-        line = line.strip()
-        if line.startswith("#EXTINF:"):
-            m = re.search(r'tvg-id="([^"]*)"', line)
-            current_id = m.group(1) if m else None
-        elif line.startswith("#EXTHTTP:") and current_id:
-            payload = line[len("#EXTHTTP:"):].strip()
-            try:
-                data = json.loads(payload)
-                cookie = data.get("cookie", "")
-                if cookie:
-                    cookies[current_id] = cookie
-            except json.JSONDecodeError:
-                pass
-            current_id = None
-
-    return cookies
+# Allowed JioTV domains
+ALLOWED_DOMAINS = ["jiotvpllive.cdn.jio.com", "jiotvmblive.cdn.jio.com"]
 
 
 def format_expiry(exp_ts: str) -> str:
@@ -65,66 +28,145 @@ def format_expiry(exp_ts: str) -> str:
 
 
 def get_cookie_expiry(cookie: str) -> str:
-    """Extract exp=<unix_ts> from a __hdnea__ cookie and format it in IST."""
+    """Extract exp=<unix_ts> from a __hdnea__ cookie string."""
     if not cookie:
         return ""
     exp_match = re.search(r"exp=(\d+)", cookie)
-    if not exp_match:
-        return ""
-    return format_expiry(exp_match.group(1))
+    return format_expiry(exp_match.group(1)) if exp_match else ""
 
 
-def transform(ch: dict, cookie: str) -> dict:
-    """Convert source JSON object to the target output schema."""
-    return {
-        "id":          str(ch.get("id", "")),
-        "name":        ch.get("name", ""),
-        "stream_url":  ch.get("url", ""),
-        "cookie":      cookie,
-        "cookie_expires": get_cookie_expiry(cookie),
-        "key_id":      ch.get("keyId", ""),
-        "key":         ch.get("key", ""),
-        "logo":        ch.get("logo", ""),
+def parse_m3u(content: str):
+    """Yield blocks of lines, each block corresponding to one channel entry."""
+    lines = content.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith('#EXTINF'):
+            block = [lines[i]]
+            i += 1
+            while i < len(lines) and (lines[i].startswith('#') or lines[i].strip() == ''):
+                if lines[i].strip() != '':
+                    block.append(lines[i].strip())
+                i += 1
+            if i < len(lines) and not lines[i].startswith('#'):
+                block.append(lines[i].strip())
+                i += 1
+            yield block
+        else:
+            i += 1
+
+
+def extract_from_block(block):
+    """
+    Parse a block and return a dict if it's a Star Sports channel from JioTV.
+    Returns None if it doesn't match the criteria.
+    """
+    extinf = None
+    tvg_id = None
+    tvg_name = None
+    tvg_logo = None
+    display_name = None
+    license_key = None
+    stream_url = None
+    cookie = None
+
+    for line in block:
+        if line.startswith('#EXTINF'):
+            extinf = line
+            tvg_id = re.search(r'tvg-id="([^"]+)"', line)
+            tvg_id = tvg_id.group(1) if tvg_id else None
+            tvg_name = re.search(r'tvg-name="([^"]+)"', line)
+            tvg_name = tvg_name.group(1) if tvg_name else None
+            tvg_logo = re.search(r'tvg-logo="([^"]+)"', line)
+            tvg_logo = tvg_logo.group(1) if tvg_logo else None
+            name_match = re.search(r',([^,]+)$', line)
+            display_name = name_match.group(1).strip() if name_match else None
+
+        elif line.startswith('#KODIPROP:inputstream.adaptive.license_key'):
+            val = line.split('=', 1)[1] if '=' in line else ''
+            if ':' in val:
+                key_id, key = val.split(':', 1)
+                license_key = (key_id.strip(), key.strip())
+
+        # --- Extract cookie from #EXTHTTP:{...} (JSON) ---
+        elif line.startswith('#EXTHTTP:'):
+            raw = line.split(':', 1)[1].strip() if ':' in line else ''
+            try:
+                headers = json.loads(raw)
+                if isinstance(headers, dict):
+                    cookie = headers.get('cookie') or headers.get('Cookie') or cookie
+            except (json.JSONDecodeError, ValueError):
+                # Fallback: regex in case JSON is malformed
+                m = re.search(r'"cookie"\s*:\s*"([^"]+)"', raw, re.IGNORECASE)
+                if m:
+                    cookie = m.group(1)
+
+        # --- Also support KODIPROP stream_headers variant ---
+        elif line.startswith('#KODIPROP:inputstream.adaptive.stream_headers'):
+            header_value = line.split('=', 1)[1].strip() if '=' in line else ''
+            if header_value.lower().startswith('cookie='):
+                cookie = header_value[len('Cookie='):].strip()
+            else:
+                # value itself might be the cookie
+                cookie = header_value or cookie
+
+        elif not line.startswith('#'):
+            # The stream URL (strip query params)
+            raw_url = line.strip()
+            base_url = re.sub(r'\?.*', '', raw_url)
+            stream_url = base_url
+
+    # --- Filtering ---
+    # 1. Must be a Star Sports channel
+    name_to_check = display_name or tvg_name or ''
+    if 'star sports' not in name_to_check.lower():
+        return None
+
+    # 2. Must be from JioTV (allowed domains)
+    if not stream_url or not any(domain in stream_url for domain in ALLOWED_DOMAINS):
+        return None
+
+    # 3. Exclude digital-only streams
+    if 'digital' in name_to_check.lower():
+        return None
+
+    # Build JSON object
+    obj = {
+        "id": tvg_id,
+        "name": display_name or tvg_name,
+        "stream_url": stream_url,
+        "cookie": cookie,
+        "cookie_expires": get_cookie_expiry(cookie) if cookie else "",
+        "key_id": license_key[0] if license_key else None,
+        "key": license_key[1] if license_key else None,
+        "logo": tvg_logo
     }
+    return obj
 
 
-# ---------------------------------------------------------------- main
-def merge_and_filter(json_url: str, cookie_map: dict) -> list:
-    channels = json.loads(fetch(json_url))
-    merged = 0
-    kept = []
+def main():
+    print(f"Fetching M3U from {M3U_URL} ...")
+    try:
+        resp = requests.get(M3U_URL, timeout=30)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Failed to download M3U: {e}")
+        return
 
-    for ch in channels:
-        cid  = str(ch.get("id", ""))
-        name = ch.get("name", "")
+    content = resp.text
+    star_channels = []
 
-        # --- filter: only Star Sports / Sony Sports ---
-        if not any(kw.lower() in name.lower() for kw in KEEP_KEYWORDS):
-            continue
+    for block in parse_m3u(content):
+        obj = extract_from_block(block)
+        if obj:
+            star_channels.append(obj)
 
-        cookie = cookie_map.get(cid, "")
-        if cookie:
-            merged += 1
+    # Write to star2.json
+    with open("star2.json", "w", encoding="utf-8") as f:
+        json.dump(star_channels, f, indent=2, ensure_ascii=False)
 
-        kept.append(transform(ch, cookie))
-
-    print(f"[+] Kept {len(kept)} channels (Star Sports / Sony Sports)")
-    print(f"[+] Cookies merged for {merged}/{len(kept)} kept channels")
-    return kept
+    print(f"✅ Saved {len(star_channels)} Star Sports channel(s) (JioTV only) to star2.json")
 
 
 if __name__ == "__main__":
-    print("[*] Fetching M3U...")
-    m3u = fetch(M3U_URL)
-    print(f"[+] {len(m3u):,} bytes")
-
-    print("[*] Parsing cookies...")
-    cookie_map = parse_m3u_cookies(m3u)
-    print(f"[+] Found {len(cookie_map)} cookie entries")
-
-    print("[*] Fetching JSON, filtering, and merging...")
-    result = merge_and_filter(JSON_URL, cookie_map)
-
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
-    print(f"[+] Written -> {OUT_FILE}")
+    main()
