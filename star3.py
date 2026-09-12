@@ -67,6 +67,41 @@ def build_url(url, cookie):
     return url + sep + urllib.parse.urlencode(params)
 
 
+def is_mpd(url):
+    """Return True if the URL path ends with .mpd (ignores query string)."""
+    try:
+        path = urllib.parse.urlparse(url).path
+    except Exception:
+        path = url
+    return path.lower().endswith(".mpd")
+
+
+def get_clearkey(item):
+    """Extract (key_id, key) from an item using several possible field names."""
+    key_id = (
+        item.get("keyId")
+        or item.get("key_id")
+        or item.get("kid")
+        or item.get("clearkey_id")
+    )
+    key = (
+        item.get("key")
+        or item.get("clearkey")
+        or item.get("ck")
+    )
+
+    # Sometimes keys come as a single "kid:key" string
+    if not key_id and not key:
+        combined = item.get("clearkey") or item.get("license_key") or ""
+        if isinstance(combined, str) and ":" in combined:
+            a, b = combined.split(":", 1)
+            return a.strip(), b.strip()
+
+    if key_id and key:
+        return str(key_id).strip(), str(key).strip()
+    return None, None
+
+
 def sort_items(items):
     """Order: Bigg Boss -> TATA IPL -> Savdhaan India -> rest."""
     buckets = [[] for _ in PRIORITY]
@@ -103,22 +138,30 @@ def generate_m3u(items, cookie, out_file):
         name     = item.get("name", "Unknown")
         logo     = item.get("logo", "")
         category = item.get("group") or item.get("category") or "Other"
-        key_id   = item.get("keyId")
-        key      = item.get("key")
 
         lines.append(
             f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" '
             f'group-title="{category}", {name}'
         )
 
-        # ClearKey DRM for MPD entries
-        if url.lower().endswith(".mpd") and key_id and key:
+        # ---- DRM / manifest type props (always for MPD) ----
+        if is_mpd(url):
+            key_id, key = get_clearkey(item)
+
             lines.append("#KODIPROP:inputstream=inputstream.adaptive")
             lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
-            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            # Headers for the manifest + segments (needed by Kodi's adaptive addon)
             lines.append(
-                f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
+                "#KODIPROP:inputstream.adaptive.stream_headers="
+                f"User-Agent={USER_AGENT}&Referer={REFERER}&Origin={ORIGIN}"
             )
+            lines.append(
+                f"#KODIPROP:inputstream.adaptive.license_key={key_id or ''}:{key or ''}"
+            )
+            if key_id and key:
+                lines.append(
+                    "#KODIPROP:inputstream.adaptive.license_type=clearkey"
+                )
 
         lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
