@@ -1,4 +1,4 @@
-name: Automated JTV by Sayan10
+name: Automated JTV 5
 
 on:
   schedule:
@@ -38,7 +38,7 @@ jobs:
 
           echo "📥 Downloading latest JTV playlist..."
           curl -fSL -o jtv5.m3u \
-            "https://m3u.cloudplay.qzz.io/jtvx.txt"
+            "https://sayan-jiotv.spal75084.workers.dev/jtv.m3u"
 
           echo "🚀 JIOTV Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
 
