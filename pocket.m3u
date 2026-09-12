@@ -163,7 +163,7 @@ https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/mas
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/Jothi_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="99" group-title="Tamil" tvg-logo="https://tatalogo.pages.dev/99.png",D Tamil
+#EXTINF:-1 tvg-id="99" group-title="Tamil" tvg-logo="https://tatalogo.pages.dev/99.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",D Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=28cc7ab1093057648dc408417bb57d43:45d146719c37669b4ab7f700fe63e82f
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -218,7 +218,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/MTV_HD_Plus_MOB/WDVLive/index.mpd?__hdnea
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_International_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="jio-2327" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Lionsgate_Play.png",Lionsgate Play
+#EXTINF:-1 tvg-id="jio-2327" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Lionsgate_Play.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Lionsgate Play
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e102510d93855b6099797d7663926563:636665fc62b93f67db5266665615ea55
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
@@ -236,13 +236,13 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_News_MOB/WDVLive/index.mpd?__hdnea__=
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://onekey.virey40690.workers.dev/mpd/3045
 
-#EXTINF:-1 tvg-id="525" group-title="News" tvg-logo="https://tatalogo.pages.dev/525.png",Raj News 24x7
+#EXTINF:-1 tvg-id="525" group-title="News" tvg-logo="https://tatalogo.pages.dev/525.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Raj News 24x7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dbf09ac3d0f45b4ab418d62d206b4865:f440838bdffa36d041e405dc2734dab2
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_News_24x7_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="198" group-title="News" tvg-logo="https://tatalogo.pages.dev/198.png",Jaya Plus
+#EXTINF:-1 tvg-id="198" group-title="News" tvg-logo="https://tatalogo.pages.dev/198.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Jaya Plus
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e1aefaf169735829b2a6fb77e403eac2:941252b4e0873390b6909258b7fc5b89
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -311,7 +311,7 @@ https://sliv.tgaadi.workers.dev/ten4sd.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 https://sonyliv.joker-verse.workers.dev/master.m3u8?id=1000009275&uid=8004188626&pass=61498d15
 
-#EXTINF:-1 tvg-id="812" group-title="Sports" tvg-logo="https://tatalogo.pages.dev/812.png",Eurosport HD
+#EXTINF:-1 tvg-id="812" group-title="Sports" tvg-logo="https://tatalogo.pages.dev/812.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Eurosport HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b3bcfaeae129566f80a3afb2b533f917:6843545622aa27cab11368ffb3cae72a
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -380,13 +380,13 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Super_Hungama_MOB/WDVLive/index.mpd?__hdn
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_Junior_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="119" group-title="Kids" tvg-logo="https://tatalogo.pages.dev/119.png",Discovery Kids
+#EXTINF:-1 tvg-id="119" group-title="Kids" tvg-logo="https://tatalogo.pages.dev/119.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Discovery Kids
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=001a44205b2158be9db4bca1636ae5ac:9d1bddb7d66d4a73801abde7bc460a89
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsHin_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="45" group-title="Kids" tvg-logo="https://tatalogo.pages.dev/45.png",Sony YAY!
+#EXTINF:-1 tvg-id="45" group-title="Kids" tvg-logo="https://tatalogo.pages.dev/45.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Sony YAY!
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=271a8e6c5d9d5696a11c474a5c18371c:d6e2ece0c28b900dc6a868991cdf2517
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -404,7 +404,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_HD_Plus_MOB/WDVLive/index.mpd?__hdne
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/History_18_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="341" group-title="Infotainment" tvg-logo="https://tatalogo.pages.dev/219.png",Discovery HD
+#EXTINF:-1 tvg-id="341" group-title="Infotainment" tvg-logo="https://tatalogo.pages.dev/219.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Discovery HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cec7a51dedca5c10b6de7502d7bf0322:808231afe4b919a46e0fed39c8d95f63
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -422,7 +422,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/National_Geographic_HD_MOB/WDVLive/index.
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="130" group-title="Infotainment" tvg-logo="https://tatalogo.pages.dev/130.png",Animal Planet HD
+#EXTINF:-1 tvg-id="130" group-title="Infotainment" tvg-logo="https://tatalogo.pages.dev/130.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Animal Planet HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6920695b57925f3a94588dfee72e8b1c:9b5192a1a4b5b408291ba2fe104d6ac8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -434,7 +434,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDHin_MOB/WDVLive/index.mpd?_
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_MOB/WDVLive/index.mpd?__hdnea__=st=1789192811~exp=1789214411~acl=/*~hmac=ccfa0e1e8ba0fdb29cbcd23ab107addf8ce551720903eb1da0d1734a75f9a8fa
 
-#EXTINF:-1 tvg-id="444" group-title="Infotainment" tvg-logo="https://tatalogo.pages.dev/444.png",Travelxp Tamil
+#EXTINF:-1 tvg-id="444" group-title="Infotainment" tvg-logo="https://tatalogo.pages.dev/444.png" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}",Travelxp Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cf6ced63e3985712bfac07d09f21f2d6:703e7ab711207c756355edf6c38d96cc
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
