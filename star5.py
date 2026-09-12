@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 # ---------- configuration ----------
 CHANNELS_URL = "https://sportlink18.pages.dev/jtvp.json"
-COOKIES_URL  = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/sportsbiscuit.json"
+COOKIES_URL  = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 OUTPUT_FILE  = "star.json"
 
 # Only keep channels whose name matches this pattern (case-insensitive)
