@@ -10,8 +10,8 @@ from datetime import datetime
 from urllib.parse import urlparse, urlunparse
 
 CHANNELS_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json"
-COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/biscuit.json"
-SPORTS_COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/sportsbiscuit.json"
+COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
+SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
 M3U_FILE = "jtv.m3u"
 JSON_FILE = "jtv.json"
