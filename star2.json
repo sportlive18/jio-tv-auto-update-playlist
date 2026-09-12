@@ -10,26 +10,6 @@
     "logo": "https://img.media.jio.com/imagespublic/17/8/DDSports_1579505057008_tv.jpg"
   },
   {
-    "id": "892",
-    "name": "Sony Sports Ten 3 Hindi HD",
-    "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/index.mpd",
-    "cookie": "__hdnea__=st=1789177551~exp=1789199151~acl=/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/*~hmac=e177a09fb1d8d2737966bba39a933a6d9f48bee5868ab21dfa6fe177e301eb95",
-    "cookie_expires": "12/9/2026 1:15:51 PM IST",
-    "key_id": "08638117638b55649c6befa7f5cb34f6",
-    "key": "58ddb6bbdf8d8b1e2aac2b5312e99086",
-    "logo": "https://img.media.jio.com/tvpimages/1/58/300255_1758886957880_l_medium.jpg"
-  },
-  {
-    "id": "155",
-    "name": "Sony Sports Ten 5 HD",
-    "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen5HDSTB_BTS/WDVLive/index.mpd",
-    "cookie": "__hdnea__=st=1789177552~exp=1789199152~acl=/bpk-tv/SonySportsTen5HDSTB_BTS/WDVLive/*~hmac=0011b227fb5bb49dd65061a6344201810ffdf66241e6d1f9e6a9379ec5d76459",
-    "cookie_expires": "12/9/2026 1:15:52 PM IST",
-    "key_id": "233d5f64b5b1547dae38f5a8b0b85efa",
-    "key": "3b000618435f702db7d9910d8265584a",
-    "logo": "https://img.media.jio.com/tvpimages/31/97/300258_1753198241206_l_medium.jpg"
-  },
-  {
     "id": "162",
     "name": "Sony Sports Ten 1 HD",
     "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen1HDSTB_BTS/WDVLive/index.mpd",
@@ -45,9 +25,39 @@
     "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen2HDSTB_BTS/WDVLive/index.mpd",
     "cookie": "__hdnea__=st=1789177553~exp=1789199153~acl=/bpk-tv/SonySportsTen2HDSTB_BTS/WDVLive/*~hmac=06c0c9a8d8ba363562ac96d0ed476bd3423ead44b5e3b93fedb308b2825f58d7",
     "cookie_expires": "12/9/2026 1:15:53 PM IST",
-    "key_id": "8619386d035251ad9340fc40879a52c6",
-    "key": "9c5fb4a4f95089d9d1a3dc19b0d06e47",
+    "key_id": "",
+    "key": "",
     "logo": "https://img.media.jio.com/tvpimages/94/91/300273_1753198175927_l_medium.jpg"
+  },
+  {
+    "id": "892",
+    "name": "Sony Sports Ten 3 Hindi HD",
+    "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/index.mpd",
+    "cookie": "__hdnea__=st=1789177551~exp=1789199151~acl=/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/*~hmac=e177a09fb1d8d2737966bba39a933a6d9f48bee5868ab21dfa6fe177e301eb95",
+    "cookie_expires": "12/9/2026 1:15:51 PM IST",
+    "key_id": "",
+    "key": "",
+    "logo": "https://img.media.jio.com/tvpimages/1/58/300255_1758886957880_l_medium.jpg"
+  },
+  {
+    "id": "3585",
+    "name": "Sony Ten 4 Kannada",
+    "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyTen4Kan_BTS/WDVLive/index.mpd",
+    "cookie": "__hdnea__=st=1789177880~exp=1789199480~acl=/bpk-tv/SonyTen4Kan_BTS/WDVLive/*~hmac=a5ab998238e8338e5faf4c6ac2f2e4993083072897f12273465ede6439fe30fa",
+    "cookie_expires": "12/9/2026 1:21:20 PM IST",
+    "key_id": "41bc0007e57d5995891f90ea26a2f9ce",
+    "key": "583c979d19179b595e1800cbbdbcb8f3",
+    "logo": "https://img.media.jio.com/tvpimages/68/30/301740_1758886912776_l_medium.jpg"
+  },
+  {
+    "id": "155",
+    "name": "Sony Sports Ten 5 HD",
+    "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen5HDSTB_BTS/WDVLive/index.mpd",
+    "cookie": "__hdnea__=st=1789177552~exp=1789199152~acl=/bpk-tv/SonySportsTen5HDSTB_BTS/WDVLive/*~hmac=0011b227fb5bb49dd65061a6344201810ffdf66241e6d1f9e6a9379ec5d76459",
+    "cookie_expires": "12/9/2026 1:15:52 PM IST",
+    "key_id": "",
+    "key": "",
+    "logo": "https://img.media.jio.com/tvpimages/31/97/300258_1753198241206_l_medium.jpg"
   },
   {
     "id": "1984",
