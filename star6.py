@@ -10,7 +10,7 @@ import re
 import requests
 from datetime import datetime, timezone, timedelta
 
-M3U_URL  = "https://m3u.cloudplay.qzz.io/jtvx.txt"
+M3U_URL  = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus6.m3u"
 JSON_URL = "https://sportlink18.pages.dev/jtvplus.json"
 OUT_FILE = "star2.json"
 
