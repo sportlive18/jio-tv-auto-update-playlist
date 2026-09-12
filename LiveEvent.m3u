@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:11:07 AM 09-12-2026
+#LAST_UPDATE:01:00 PM 09-12-2026
 #https://whatsapp.com/channel/0029VbC2oQsC6ZvmwpR3v73v
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="591_1" tvg-name="Motorsports: Formula 1 (SKY Via APPLE TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png" group-title="Motorsport",Motorsports: Formula 1 (SKY Via APPLE TV)
@@ -378,7 +378,15 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 
-#EXTINF:-1 tvg-id="12591_1" tvg-name="Football: Genoa vs Frosinone (beIN ENGLISH - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (beIN ENGLISH - AQ)
+#EXTINF:-1 tvg-id="12591_1" tvg-name="Football: Genoa vs Frosinone (PARAMOUNT+ - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (PARAMOUNT+ - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8f3824e2c35f1426ef3f26eda98e9fb0:0e2844fec24fbb352a7dded62ef95244
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ov7y1yf5x2/out/v1/26b0e7ac9968443f80a025e3f949c4b9/cenc.mpd
+
+#EXTINF:-1 tvg-id="12591_2" tvg-name="Football: Genoa vs Frosinone (beIN ENGLISH - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (beIN ENGLISH - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -386,10 +394,27 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
-#EXTINF:-1 tvg-id="12591_2" tvg-name="Football: Genoa vs Frosinone (SPORT TV HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (SPORT TV HD)
+#EXTINF:-1 tvg-id="12591_3" tvg-name="Football: Genoa vs Frosinone (CBS SPORTS HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (CBS SPORTS HD)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/56229/load-playlist?
+
+#EXTINF:-1 tvg-id="12591_4" tvg-name="Football: Genoa vs Frosinone (SPORT TV HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (SPORT TV HD)
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/pt658svs/sporttv1.m3u8
+
+#EXTINF:-1 tvg-id="12591_5" tvg-name="Football: Genoa vs Frosinone (CRICFy LIVE)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (CRICFy LIVE)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://player.up909.com/
+https://live.uu6611.com/live/hd-en-1-4549077.m3u8?txSecret=a68b205d2961457d1e24f48ec7f4d712&txTime=6AA58FAF
+
+#EXTINF:-1 tvg-id="12591_6" tvg-name="Football: Genoa vs Frosinone (LOW SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Genoa vs Frosinone (LOW SERVER)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.41/hls/IHHHHAAAAAAA.m3u8?
 
 #EXTINF:-1 tvg-id="12592_1" tvg-name="Football: Lazio vs AC Milan (beIN ENGLISH - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Football: Lazio vs AC Milan (beIN ENGLISH - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
@@ -419,6 +444,32 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/pt658svs/sporttv3.m3u8
+
+#EXTINF:-1 tvg-id="12594_1" tvg-name="Football: Real Racing Club vs Deportivo Alavés (PREMIER SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",Football: Real Racing Club vs Deportivo Alavés (PREMIER SPORTS - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+
+#EXTINF:-1 tvg-id="12594_2" tvg-name="Football: Real Racing Club vs Deportivo Alavés (D SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",Football: Real Racing Club vs Deportivo Alavés (D SPORTS - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
+
+#EXTINF:-1 tvg-id="12594_3" tvg-name="Football: Real Racing Club vs Deportivo Alavés (ESPN DEPORTES HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",Football: Real Racing Club vs Deportivo Alavés (ESPN DEPORTES HD)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/56228/load-playlist?
+
+#EXTINF:-1 tvg-id="12594_4" tvg-name="Football: Real Racing Club vs Deportivo Alavés (LOW SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",Football: Real Racing Club vs Deportivo Alavés (LOW SERVER)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.50/hls/IGGGCCCCAA.m3u8?
 
 #EXTINF:-1 tvg-id="12595_1" tvg-name="Football: Athletic Club vs Elche (PREMIER SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",Football: Athletic Club vs Elche (PREMIER SPORTS - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
@@ -493,6 +544,18 @@ https://tmaxapp.site/ligue6sc6/mlaliga1.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/8wirwjs76erftg/dazn1de.m3u8
 
+#EXTINF:-1 tvg-id="12605_1" tvg-name="Football: Bolton Wanderers vs Cardiff City (CRICFy LIVE)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Bolton Wanderers vs Cardiff City (CRICFy LIVE)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live.dyrur1.com/live/72339818_2992acd9211624b821a21c6e6da4c677_540p.m3u8
+
+#EXTINF:-1 tvg-id="12605_2" tvg-name="Football: Bolton Wanderers vs Cardiff City (LOW SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Bolton Wanderers vs Cardiff City (LOW SERVER)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.59/hls/IRRRQQ.m3u8?
+
 #EXTINF:-1 tvg-id="12606_1" tvg-name="Football: Derby County vs Birmingham City (beIN ENGLISH - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (beIN ENGLISH - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -500,15 +563,31 @@ https://tmaxapp.site/8wirwjs76erftg/dazn1de.m3u8
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 
-#EXTINF:-1 tvg-id="12606_2" tvg-name="Football: Derby County vs Birmingham City (SKY FOOTBALL HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (SKY FOOTBALL HD)
+#EXTINF:-1 tvg-id="12606_2" tvg-name="Football: Derby County vs Birmingham City (CBS SPORTS HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (CBS SPORTS HD)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/56227/load-playlist?
+
+#EXTINF:-1 tvg-id="12606_3" tvg-name="Football: Derby County vs Birmingham City (SKY FOOTBALL HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (SKY FOOTBALL HD)
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/8wirwjs76erftg/skysportsfootball.m3u8
 
-#EXTINF:-1 tvg-id="12606_3" tvg-name="Football: Derby County vs Birmingham City (CBS NETWORK HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (CBS NETWORK HD)
+#EXTINF:-1 tvg-id="12606_4" tvg-name="Football: Derby County vs Birmingham City (CBS NETWORK HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (CBS NETWORK HD)
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
+
+#EXTINF:-1 tvg-id="12606_5" tvg-name="Football: Derby County vs Birmingham City (CRICFy LIVE)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (CRICFy LIVE)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live2.dyrur1.com/live/72339822_201c65104531c0f5b5b42acf48f7c7ff_540p.m3u8
+
+#EXTINF:-1 tvg-id="12606_6" tvg-name="Football: Derby County vs Birmingham City (LOW SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Derby County vs Birmingham City (LOW SERVER)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.59/hls/IRRRQQQ.m3u8?
 
 #EXTINF:-1 tvg-id="12607_1" tvg-name="Football: West Bromwich Albion vs Queens Park Rangers (CBS SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: West Bromwich Albion vs Queens Park Rangers (CBS SPORTS - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
@@ -517,6 +596,18 @@ https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 #KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-id="12607_2" tvg-name="Football: West Bromwich Albion vs Queens Park Rangers (CRICFy LIVE)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: West Bromwich Albion vs Queens Park Rangers (CRICFy LIVE)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live.dyrur1.com/live/jr7owip4l0vagq0_a47b0fbf631486cd2a7050e1b9b11818_540p.m3u8
+
+#EXTINF:-1 tvg-id="12607_3" tvg-name="Football: West Bromwich Albion vs Queens Park Rangers (LOW SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: West Bromwich Albion vs Queens Park Rangers (LOW SERVER)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.59/hls/IRRRQQQQ.m3u8?
 
 #EXTINF:-1 tvg-id="12610_1" tvg-name="Football: Middlesbrough vs Norwich City (CBS SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Football: Middlesbrough vs Norwich City (CBS SPORTS - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
@@ -613,6 +704,13 @@ https://tmaxapp.site/pt658svs/sporttv1.m3u8
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/8wirwjs76erftg/beinusa.m3u8
+
+#EXTINF:-1 tvg-id="12625_1" tvg-name="Football: FC Andorra vs Real Sociedad B (CRICFy LIVE)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/54/image/dark" group-title="Football",Football: FC Andorra vs Real Sociedad B (CRICFy LIVE)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.50/hls/IGGGCCCCA.m3u8?
 
 #EXTINF:-1 tvg-id="12638_1" tvg-name="Football: Santos vs Cruzeiro (PREMIER SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="Football",Football: Santos vs Cruzeiro (PREMIER SPORTS - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
