@@ -5,7 +5,7 @@ def fetch_and_save_cookie(output_file="cookie.json"):
     """
     Fetch the first channel's cookie from the remote JSON and save it as a JSON file.
     """
-    url = "https://sonujson-v3.pages.dev/Data/sports.json"
+    url = "https://sonujson-v4.pages.dev/Data/sports.json"
 
     try:
         response = requests.get(url, timeout=10)
