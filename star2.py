@@ -67,6 +67,42 @@ def build_url(url, cookie):
     return url + sep + urllib.parse.urlencode(params)
 
 
+def is_mpd(url):
+    """True if the URL path ends with .mpd, even if a query/hash is present."""
+    try:
+        path = urllib.parse.urlparse(url).path
+    except Exception:
+        path = url
+    return path.lower().endswith(".mpd")
+
+
+def get_clearkey(item):
+    """Return (kid, key) using several possible JSON field names, else (None, None)."""
+    key_id = (
+        item.get("keyId")
+        or item.get("key_id")
+        or item.get("kid")
+        or item.get("clearkey_id")
+    )
+    key = (
+        item.get("key")
+        or item.get("clearkey")
+        or item.get("ck")
+    )
+
+    # Combined "kid:key" string?
+    if not key_id or not key:
+        combined = item.get("clearkey") or item.get("license_key") or ""
+        if isinstance(combined, str) and ":" in combined:
+            a, b = combined.split(":", 1)
+            key_id = key_id or a.strip()
+            key    = key    or b.strip()
+
+    if key_id and key:
+        return str(key_id).strip(), str(key).strip()
+    return None, None
+
+
 def generate_m3u(items, cookie, out_file):
     lines = ["#EXTM3U"]
     written = 0
@@ -79,20 +115,32 @@ def generate_m3u(items, cookie, out_file):
         name     = item.get("name", "Unknown")
         logo     = item.get("logo", "")
         category = item.get("group") or item.get("category") or "Other"
-        key_id   = item.get("keyId")
-        key      = item.get("key")
 
         lines.append(
             f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" '
             f'group-title="{category}", {name}'
         )
 
-        # ClearKey DRM for MPD channels
-        if url.lower().endswith(".mpd") and key_id and key:
+        # ---- MPD handling (works with or without query string) ----
+        if is_mpd(url):
+            key_id, key = get_clearkey(item)
+
             lines.append("#KODIPROP:inputstream=inputstream.adaptive")
             lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
-            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
-            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}")
+            # Headers that Kodi's adaptive addon forwards to manifest + segments
+            lines.append(
+                "#KODIPROP:inputstream.adaptive.stream_headers="
+                f"User-Agent={USER_AGENT}&Referer={REFERER}&Origin={ORIGIN}"
+            )
+            # Always emit license_key (Kodi errors out if missing on some builds)
+            lines.append(
+                f"#KODIPROP:inputstream.adaptive.license_key={key_id or ''}:{key or ''}"
+            )
+            # ClearKey DRM only when we actually have a keypair
+            if key_id and key:
+                lines.append(
+                    "#KODIPROP:inputstream.adaptive.license_type=clearkey"
+                )
 
         lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
