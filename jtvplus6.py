@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://m3u.cloudplay.qzz.io/jiotvplus.m3u'
+url = 'https://m3u.cloudplay.qzz.io/jtvx.txt'
 
 headers = {
     'User-Agent': 'OTT Navigator'
