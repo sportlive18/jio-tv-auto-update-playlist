@@ -1,50 +1,20 @@
-#!/usr/bin/env python3
-"""
-Merge JioTV __hdnea__ cookies from M3U playlist into the JSON channel list.
-Outputs the transformed schema with cookie_expires in IST.
-"""
-
 import json
 import re
 import requests
 from datetime import datetime, timezone, timedelta
 
-M3U_URL  = "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio.m3u"
-JSON_URL = "https://sportlink18.pages.dev/Star.json"
-OUT_FILE = "star2.json"
+# ---------- configuration ----------
+CHANNELS_URL = "https://sportlink18.pages.dev/jtvp.json"
+COOKIES_URL  = "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sportcookie.json"
+OUTPUT_FILE  = "star.json"
 
-# IST = UTC + 5:30
+# Only keep channels whose name matches this pattern (case-insensitive)
+NAME_FILTER = re.compile(r"star\s*sports", re.IGNORECASE)
+
 IST = timezone(timedelta(hours=5, minutes=30))
 
-# ---------------------------------------------------------------- helpers
-def fetch(url: str) -> str:
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    return r.text
 
-def parse_m3u_cookies(m3u_text: str) -> dict:
-    """Return {tvg_id: cookie_string} from the M3U playlist."""
-    cookies = {}
-    current_id = None
-
-    for line in m3u_text.splitlines():
-        line = line.strip()
-        if line.startswith("#EXTINF:"):
-            m = re.search(r'tvg-id="([^"]*)"', line)
-            current_id = m.group(1) if m else None
-        elif line.startswith("#EXTHTTP:") and current_id:
-            payload = line[len("#EXTHTTP:"):].strip()
-            try:
-                data = json.loads(payload)
-                cookie = data.get("cookie", "")
-                if cookie:
-                    cookies[current_id] = cookie
-            except json.JSONDecodeError:
-                pass
-            current_id = None
-
-    return cookies
-
+# ---------- your helper functions ----------
 def format_expiry(exp_ts: str) -> str:
     """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
     try:
@@ -57,58 +27,68 @@ def format_expiry(exp_ts: str) -> str:
     ampm = "AM" if dt.hour < 12 else "PM"
     return f"{dt.day}/{dt.month}/{dt.year} {hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
 
+
 def get_cookie_expiry(cookie: str) -> str:
-    """Extract exp=<unix_ts> from a __hdnea__ cookie and format it in IST."""
+    """Extract exp=<unix_ts> from a __hdnea__ cookie string."""
     if not cookie:
         return ""
     exp_match = re.search(r"exp=(\d+)", cookie)
-    if not exp_match:
-        return ""
-    return format_expiry(exp_match.group(1))
+    return format_expiry(exp_match.group(1)) if exp_match else ""
 
-def transform(ch: dict, cookie: str) -> dict:
-    """Convert source JSON object to the target output schema."""
-    return {
-        "id":          str(ch.get("id", "")),
-        "name":        ch.get("name", ""),
-        "stream_url":  ch.get("url", ""),
-        "cookie":      cookie,
-        "cookie_expires": get_cookie_expiry(cookie),
-        "key_id":      ch.get("keyId", ""),
-        "key":         ch.get("key", ""),
-        "logo":        ch.get("logo", ""),
-    }
 
-# ---------------------------------------------------------------- main
-def merge_all(json_url: str, cookie_map: dict) -> list:
-    """Merge cookies into every channel without filtering."""
-    channels = json.loads(fetch(json_url))
-    merged = 0
-    result = []
+def extract_hdnea(final_url: str) -> str | None:
+    """Return the full __hdnea__ query string (including prefix) from a URL."""
+    match = re.search(r"(__hdnea__=[^&]+)", final_url)
+    return match.group(1) if match else None
 
-    for ch in channels:
-        cid = str(ch.get("id", ""))
-        cookie = cookie_map.get(cid, "")
-        if cookie:
-            merged += 1
-        result.append(transform(ch, cookie))
 
-    print(f"[+] Processed {len(result)} channels")
-    print(f"[+] Cookies merged for {merged}/{len(result)} channels")
-    return result
+# ---------- fetch data ----------
+channels_resp = requests.get(CHANNELS_URL)
+channels_resp.raise_for_status()
+channels = channels_resp.json()
 
-if __name__ == "__main__":
-    print("[*] Fetching M3U...")
-    m3u = fetch(M3U_URL)
-    print(f"[+] {len(m3u):,} bytes")
+cookies_resp = requests.get(COOKIES_URL)
+cookies_resp.raise_for_status()
+cookie_data = cookies_resp.json()
 
-    print("[*] Parsing cookies...")
-    cookie_map = parse_m3u_cookies(m3u)
-    print(f"[+] Found {len(cookie_map)} cookie entries")
+# Build a lookup: channel_id -> final_url
+failed_map = {
+    str(item["channel_id"]): item["error_details"]["final_url"]
+    for item in cookie_data.get("failed_results", [])
+}
 
-    print("[*] Fetching JSON and merging...")
-    result = merge_all(JSON_URL, cookie_map)
+# ---------- build combined output (Star Sports only) ----------
+combined = []
 
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
-    print(f"[+] Written -> {OUT_FILE}")
+for ch in channels:
+    name = ch.get("name", "")
+    if not NAME_FILTER.search(name):
+        continue  # skip non–Star Sports channels
+
+    cid = str(ch["id"])
+    final_url = failed_map.get(cid)
+    if not final_url:
+        print(f"Warning: no cookie URL for channel {cid} ({name})")
+        continue
+
+    hdnea_full = extract_hdnea(final_url)
+    if not hdnea_full:
+        print(f"Warning: no __hdnea__ token found for channel {cid}")
+        continue
+
+    combined.append({
+        "id": cid,
+        "name": name,
+        "stream_url": ch["url"],
+        "cookie": hdnea_full,
+        "cookie_expires": get_cookie_expiry(hdnea_full),
+        "key_id": ch["keyId"],
+        "key": ch["key"],
+        "logo": ch["logo"],
+    })
+
+# ---------- write result ----------
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(combined, f, indent=2, ensure_ascii=False)
+
+print(f"✅ Star Sports JSON written to {OUTPUT_FILE} ({len(combined)} channels)")
