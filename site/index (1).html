@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#0a0d18">
+  <meta name="description" content="Gmax-JioTV — Premium Live TV. Watch all your favorite channels in one place.">
+  <title>Gmax-JioTV • Live TV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- ========== TOP NAV ========== -->
+  <header class="top-nav">
+    <div class="nav-inner">
+      <a href="./index.html" class="brand" aria-label="Gmax-JioTV Home">
+        <span class="brand-icon">📺</span>
+        <span class="brand-text">
+          <span class="brand-title">Gmax-JioTV</span>
+          <span class="brand-sub">Live TV</span>
+        </span>
+      </a>
+
+      <div class="nav-search-wrap">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input type="search" id="search-input" placeholder="Search channels, sports, movies…" autocomplete="off" spellcheck="false">
+        <button type="button" id="search-clear" class="search-clear hidden" aria-label="Clear search">✕</button>
+      </div>
+
+      <div class="nav-actions">
+        <a href="./epg.html" class="nav-btn epg-btn" title="TV Guide">
+          <span class="nav-btn-icon">📅</span>
+          <span class="nav-btn-label">EPG</span>
+        </a>
+        <a href="./favorites.html" class="nav-btn fav-nav-btn" title="Favorites">
+          <span class="nav-btn-icon">♥</span>
+          <span class="nav-btn-label">Favs</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- ========== HERO BANNER ========== -->
+    <section class="hero" id="hero-section" aria-label="Featured">
+      <div class="hero-track" id="hero-track">
+        <!-- slides injected by JS -->
+      </div>
+      <div class="hero-dots" id="hero-dots"></div>
+      <button type="button" class="hero-arrow hero-prev" id="hero-prev" aria-label="Previous">‹</button>
+      <button type="button" class="hero-arrow hero-next" id="hero-next" aria-label="Next">›</button>
+    </section>
+
+    <!-- ========== MOST VIEWED ========== -->
+    <section class="most-viewed-section hidden" id="most-viewed-section">
+      <div class="section-header">
+        <h2 class="section-title">Most Viewed</h2>
+        <span class="section-hint">Based on your watch history</span>
+      </div>
+      <div class="slider-wrap">
+        <button type="button" class="slider-nav slider-prev" id="mv-prev" aria-label="Previous">‹</button>
+        <div class="slider-track" id="most-viewed-track"></div>
+        <button type="button" class="slider-nav slider-next" id="mv-next" aria-label="Next">›</button>
+      </div>
+    </section>
+
+    <!-- ========== FILTER BAR ========== -->
+    <section class="filter-bar" id="filter-bar">
+      <div class="filter-row">
+        <div class="category-chips" id="category-chips">
+          <!-- chips injected -->
+        </div>
+        <div class="filter-controls">
+          <select id="language-select" class="lang-select" aria-label="Language">
+            <option value="all">All Languages</option>
+          </select>
+          <button type="button" id="clear-filters" class="clear-filters-btn hidden" title="Clear all filters">✕ Clear</button>
+        </div>
+      </div>
+      <div class="results-meta">
+        <span id="results-count">Loading channels…</span>
+      </div>
+    </section>
+
+    <!-- ========== CHANNEL GRID ========== -->
+    <section class="channels-section">
+      <div id="channels-grid" class="channels-grid" role="list">
+        <!-- cards injected -->
+      </div>
+      <div id="empty-state" class="empty-state hidden">
+        <div class="empty-icon">📺</div>
+        <h3>No channels found</h3>
+        <p>Try a different search or clear the filters.</p>
+        <button type="button" id="empty-clear" class="btn-primary">Clear filters</button>
+      </div>
+      <div id="loading-state" class="loading-state">
+        <div class="spinner"></div>
+        <p>Loading playlists…</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== NOTIFICATION BELL ========== -->
+  <div class="notif-widget" id="notif-widget">
+    <button type="button" class="notif-bell" id="notif-bell" aria-label="Notifications">
+      🔔
+      <span class="notif-badge hidden" id="notif-badge">1</span>
+    </button>
+    <div class="notif-panel hidden" id="notif-panel">
+      <div class="notif-panel-header">
+        <strong>Notifications</strong>
+        <button type="button" id="notif-close" aria-label="Close">✕</button>
+      </div>
+      <div class="notif-body" id="notif-body">
+        <p class="notif-empty">No new notifications</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Gmax-JioTV</span>
+      <span class="footer-sep">•</span>
+      <span>Powered by GmaxHub</span>
+      <span class="footer-sep">•</span>
+      <span id="footer-channel-count">0 channels</span>
+    </div>
+  </footer>
+
+  <script src="./main.js" type="module"></script>
+</body>
+</html>
