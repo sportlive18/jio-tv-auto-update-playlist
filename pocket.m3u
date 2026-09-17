@@ -537,13 +537,14 @@ https://d1msejlow1t3l4.cloudfront.net/fta/srisankaratamil/playlist.m3u8
 http://live.balajibroadband.com:3500/live/auto/3279.m3u8
 
 #EXTINF:-1 tvg-id="ts1067" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-249-j5fyl7tk-v1/imageContent-249-j5fyl7tk-m1.png" group-title="Tamil", Star Sports 1 Tamil
-http://a47.streamtrx.xyz:80/play/live.php?mac=00:1A:79:7A:D2:0E&stream=155873&extension=m3u8
+http://servicepro4.shop:80/A5N1Q44FF41F6AE/Joaa64rSD1/1090646
 
 #EXTINF:-1 tvg-id="ts1187" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Tamil_Thumbnail_62ccb7be-f9e6-49c0-8382-7ee6a812fe50.png" group-title="Tamil", Star Sports 2 Tamil
 http://tv.cloudcdn.me:80/live.ts?channelId=132885&uid=7133&deviceMac=00:1A:79:4A:02:91
 
 #EXTINF:-1 tvg-name="Bigboss 24/7 TAMIL" tvg-logo="https://static.wikia.nocookie.net/bigbrother/images/0/01/Tamil10_Logo.png/revision/latest/thumbnail/width/360/height/360?cb=20260807161818" group-title="Tamil", Biggboss 24/7
-http://tv.cloudcdn.me:80/live.ts?channelId=132411&uid=3037&deviceMac=00:1A:79:0A:3B:2B
+https://bb.lazyspace.online/uplink/1271698289/lazyspace-to-Niggachu/9ba6b368ce2a996539b29fb33a498bda0b40d960a18510852b8767cac4965d7a/index.m3u8
+#http://tv.cloudcdn.me:80/live.ts?channelId=132411&uid=3037&deviceMac=00:1A:79:0A:3B:2B
 
 #EXTINF:-1 tvg-id="SairamTV.in@SD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sairam_tv_in.png" group-title="Tamil",Sairam TV
 https://cdn.pishow.tv/ott/live/1611/master.m3u8
@@ -580,8 +581,7 @@ http://datahub11.com:8080/live/1Aoen7elp5/IgMJ60tmAa/467679.ts
 https://greengold.cdn.runn.tv/greengold/stream/grngld/playlist.m3u8
 
 #EXTINF: -1 tvg-id="2258" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/07/20240707_1001225329215954789331277.png" group-title="Kids",Animax
-https://amg02159-kcglobal-amg02159c1-samsung--521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
-
+https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="wowkidztam" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_km3QTLe_VSMeK--jH5I0QYM5MJFC35SsvHEY4UwukZlg=s900-c-k-c0x00ffffff-no-rj" group-title="Kids",Wow Kidz Tamil
 https://yuppparoriglin.akamaized.net//181224//smil:wowkidztam.smil//playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 
@@ -1590,8 +1590,8 @@ https://account33.livebox.co.in/7GREEN4Khls/live.m3u8
 http://cdn.utvtamil.in/utvkovai/utv/playlist.m3u8
 #EXTINF:-1 tvg-id="IdhayamTV" tvg-logo="http://phoenixcreations.online/ott/jayamott/uploads/1778983521_WhatsApp%20Image%202026-05-17%20at%207.34.56%20AM.jpeg" tvg-region="Unknown" group-title="Local Channels",Idhayam TV
 http://sanplayout.xyz/live2/idhayamtv/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Local Channels" tvg-logo="" tvg-country="IN" tvg-url="" group-title="Local Channels",MANASU TV
-https://stream6.livebox.co.in/manasutvhls/live.m3u8
+#EXTINF:-1 tvg-name="SURIYAN TV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1771897816.webp" group-title="Local Channels",SURIYAN TV
+https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8
 #EXTINF:-1  tvg-name="Annai" group-title="Local Channels" tvg-logo="https://i.ibb.co/F4htQDVY/Annai-TVHD.jpg",Annai TV
 https://annainew.livebox.co.in/annailivehls/live.m3u8
 #EXTINF:-1  tvg-name="7star" group-title="Local Channels" tvg-logo="https://i.ibb.co/C3gpVrps/7-Star-Television.jpg",7Star TV
@@ -1600,6 +1600,8 @@ https://annainew.livebox.co.in/7startvhls/livestream.m3u8
 https://annainew.livebox.co.in/ammatvhls/live.m3u8
 #EXTINF:-1  tvg-name="Annai" group-title="Local Channels" tvg-logo="https://i.ibb.co/JFzHmL4C/Sai-TV.jpg",Sai TV
 https://annainew.livebox.co.in/srisaihls/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Local Channels" tvg-logo="" tvg-country="IN" tvg-url="" group-title="Local Channels",MANASU TV
+https://stream6.livebox.co.in/manasutvhls/live.m3u8
 
     IPCLOUD 
   
@@ -2002,6 +2004,8 @@ http://real-vk.proxy.nellaiiptv.com/PDPTV/index.m3u8
 https://sx.nellaiiptv.com/app-restream/5akaf8-vmusictv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="V TAMIL TV" tvg-logo="https://api.maduraiiptv.in/uploads/channel/logos/v_tamil_tv_1770713302.webp" group-title="Local Channels",V TAMIL
 https://sx.nellaiiptv.com/app-restream/88kp4t-vtamizhtv/index.m3u8
+#EXTINF:-1 tvg-name="V BHAKTHI TV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1789398135.webp" group-title="Local Channels",V BHAKTHI TV
+https://siii.mystreams.in/live/vbhakthi/index.m3u8
 #EXTINF:-1 tvg-id="SMSTV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/sms_tv_1770712766.webp" tvg-region="Tirunelveli" group-title="Local Channels",SMS TV
 https://sx.nellaiiptv.com/live/smstv/index.m3u8
 #EXTINF:-1 tvg-id="PDPTV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/pdp_tv_1770711747.webp" tvg-region="Tirunelveli" group-title="Local Channels",PDP TV
@@ -2021,7 +2025,7 @@ http://sx.nellaiiptv.com:8033/app-restream/2fx62e-royaltv/index.m3u8
 #EXTINF:-1 tvg-id="ThendralNellai" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/thentral_tv_1770712936.webp" tvg-region="Tirunelveli" group-title="Local Channels",Thendral TV Nellai
 https://sx.nellaiiptv.com/app-restream/j0tt23-thendraltv/index.m3u8
 #EXTINF:-1 tvg-id="SharkTV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/shark_tv_1770713207.webp" tvg-region="Tirunelveli" group-title="Local Channels",Shark TV
-https://sx.nellaiiptv.com/app-restream/av4i2-sharktv/index.m3u8
+http://sharktv.stream.mystreams.in/sharktv/sharktv/index.m3u8
 #EXTINF:-1 tvg-id="GJVTV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/gjv_tv_1770713443.webp" tvg-region="Tirunelveli" group-title="Local Channels",GJV TV
 https://sx.nellaiiptv.com/app-restream/dbjd1j-gjvtv/index.m3u8
 #EXTINF:-1 tvg-id="NaveenTV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1772874205.webp" tvg-region="Tirunelveli" group-title="Local Channels",Naveen TV
@@ -2538,11 +2542,11 @@ http://117.247.192.123:8080/vds/vds.m3u8
 #EXTINF:-1 group-title="Local Channels" tvg-category="Local",S TV 
 https://apis.avmediawork.in/tvhls/stv.m3u8
 #EXTINF:-1 tvg-id="VTamil" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/VTamil.png" tvg-region="Unknown" group-title="Local Channels",V Tamil
-https://stream.dureshtech.com/vtv/vtv/index.m3u8
+http://stream.dureshtech.com/vtv/vtv/index.m3u8
 #EXTINF:-1 tvg-id="VezhamugamTV" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1777284662_New%20Ai%20Logp%20copy.png" tvg-region="Madurai" group-title="Local Channels",Vezhamugam TV
 http://live.mintv.in/vezhamugam/live/playlist.m3u8
 #EXTINF:-1 tvg-id="166" tvg-name="Velavan Tv" tvg-logo="https://i.ibb.co/zVSZrMrR/1000135655.webp" group-title="Local Channels",Velan Tv
-https://cloudstream4k.com:443/velantvhdkanchi/bsk/playlist.m3u8
+https://cloudstream4k.com/velantvhdkanchi/bsk/playlist.m3u8
 #EXTINF:-1 tvg-id="ShakthiChannel" tvg-logo="" tvg-region="Puducherry" group-title="Local Channels",Shakthi Channel
 https://cloudstream4k.com/shakthihd/bsk/playlist.m3u8
 #EXTINF:-1 group-title="Local Channels" tvg-category="Local",Royal TV Guduvancheri 
@@ -2569,6 +2573,8 @@ https://view.rcserver.in/tmp_hls23/kaalaitv/index.m3u8
 https://view.rcserver.in/tmp_hls16/senthamiltv/index.m3u8
 #EXTINF:-1 tvg-id="SKTVKarur" tvg-name-ta="டிவி" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/SKTVKarur.png" tvg-region="Karur" group-title="Local Channels",SK TV Karur
 https://view.rcserver.in/tmp_hls24/sktv/index.m3u8
+#EXTINF:-1 tvg-name="AMMA VISION TV" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1789321018.webp" group-title="Entertainment",AMMA VISION TV
+https://view.rcserver.in/tmp_hls19/ammavision/index.m3u8
 #EXTINF:-1 tvg-id="SKMusic" tvg-name-ta="டிவி" tvg-logo="" tvg-region="Karur" group-title="Music",SK Music
 https://view.rcserver.in/tmp_hls18/skmusic/index.m3u8
 #EXTINF:-1 tvg-id="BanyanTV" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/BanyanTV.png" tvg-region="Unknown" group-title="Local Channels",Banyan TV
