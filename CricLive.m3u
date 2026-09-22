@@ -2,6 +2,26 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-22 06:00:38 AM (BD Time)"
-# Total Active Links: 0
+#"last updated": "2026-09-22 11:00:47 AM (BD Time)"
+# Total Active Links: 4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", Japan vs India - Willow Cricket
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.playerr03.com:7060/hls/willowsd.m3u8?md5=ZEFE0ebbni1ic7Zin7q_pw&expires=1790058035&ch=willowsd&s=49bb4c2c0cad8d67779ed7da7bfb5fb3
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", Japan vs India - Willow HD
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.playerr03.com:7060/hls/hdwillos5.m3u8?md5=8S8ITL2rL4HeaO5kbbiJXA&expires=1790058038&ch=hdwillos5&s=5704b7967a4be233c5d61d2e64a75e2d
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", Japan vs India - CricGo 1
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.playerr03.com:7060/hls/cricgo1.m3u8?md5=zP750VAS0ipv62Z3egSoOg&expires=1790058041&ch=cricgo1&s=c02a95285b4464048fb7802752a2d53d
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Queensland%20vs%20New%20South%20Wales.png" group-title="Australia Domestic One-Day Cup 2026-27", Queensland vs New South Wales - CricGo 6
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.playerr03.com:7060/hls/cricgo6.m3u8?md5=wilJwfy1-0NK59SJJD2jIQ&expires=1790058045&ch=cricgo6&s=2b234fbc44e370b29c64836954f2cb9b
 
