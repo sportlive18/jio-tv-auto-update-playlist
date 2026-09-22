@@ -10,7 +10,7 @@ CHANNELS_URL = "https://sportlink10-ajp.pages.dev/jtv.json"
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
-USER_AGENT = "Virat🐐"
+USER_AGENT = "Virat"
 REFERER = "https://www.jiotv.com/"
 ORIGIN = "https://www.jiotv.com/"
 UPLOAD_TO_GITHUB = True
