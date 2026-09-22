@@ -1,54 +1,68 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:07:26 AM 09-22-2026
+#LAST_UPDATE:12:46 PM 09-22-2026
 #Created by - Sayan 10
-#EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - FANCODE ENG - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - FANCODE ENG - FHD
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=227091e30e129f3d085506e8153c208a:5e082e054635e0532947eedb4f5b1861
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oz1myqmjwy/out/v1/a511251e49ee413ab48bad03d3d32863/cenc.mpd
 
-#EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow Cricbuzz - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow Cricbuzz - HD
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://tvsen5.aynascope.net/willowhd/index.m3u8
+
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Sky Cricket - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Sky Cricket - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - SonyLIV Asia - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - SonyLIV Asia - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/criclive1209/ENG/master.m3u8
+
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Fox Cricket - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Fox Cricket - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
+
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Sky Cricket - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Sky Cricket - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/K999.m3u8
+http://193.47.62.41/hls/DDDDAAA.m3u8
 
-#EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow Cricbuzz - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fffbd595a239d4e97d8f4bc9704a2d76:614232c4a473ebbd72e77c860c03db2f
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/k8bzrz6q6c/out/v1/3271c6590df74153a1e57c50fe47b94b/cenc.mpd
-
-#EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow CricBuzz - ALT" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow CricBuzz - ALT
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fffbd595a239d4e97d8f4bc9704a2d76:614232c4a473ebbd72e77c860c03db2f
-https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/k8bzrz6q6c/out/v1/3271c6590df74153a1e57c50fe47b94b/cenc.mpd
-
-#EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - FANCODE HIN (IN IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - FANCODE HIN (IN IP)
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - TAMASHA - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - TAMASHA - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
-#EXTVLCOPT:http-referrer=https://fancode.com/
-https://dai-fancode.pages.dev/mumbai/4249214_hindi_hls_58428cc2d396091_1ta-di_h264/index.m3u8
+https://cdn06khi-n.tamashaweb.com:8087/jazzauth/PAKvsEng-Test-SVOD-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xOS8yMDI2IDk6NDQ6NDcgQU0maGFzaF92YWx1ZT1VVmp4c1lmVFhEQ3hPNklqNDRUalV3PT0mdmFsaWRtaW51dGVzPTYw
 
-#EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - FANCODE ENG (IN IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - FANCODE ENG (IN IP)
+#EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - TAPMAD - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - TAPMAD - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
-#EXTVLCOPT:http-referrer=https://fancode.com/
-https://dai-fancode.pages.dev/mumbai/4249214_english_hls_891bdfaa5646721_1ta-di_h264/index.m3u8
+#EXTVLCOPT:http-referrer=https://tapmad.com/
+https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8
 
 #EXTINF:-1 tvg-id="14" tvg-name="SRI LANKA TOUR OF ENGLAND: ENG vs SL - Willow Cricbizz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",SRI LANKA TOUR OF ENGLAND: ENG vs SL - Willow Cricbizz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e91b0ecde03ad0d00251784f516ff4f6:33790c0313d3853c4e1a941170827549
-https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/acwviu4yoa/out/v1/e2a305a5f12840cdbd24c1f8046fe1be/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=70b921e2eae48d00b0a2249b0de197b4:4b994f1b4666368565dd56a76975843e
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ww2lshzug5/out/v1/de6a9587a2a3473ab685fb93d1de0929/cenc.mpd
+
+#EXTINF:-1 tvg-id="14" tvg-name="SRI LANKA TOUR OF ENGLAND: ENG vs SL - Willow Cricbizz - ALT" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",SRI LANKA TOUR OF ENGLAND: ENG vs SL - Willow Cricbizz - ALT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=70b921e2eae48d00b0a2249b0de197b4:4b994f1b4666368565dd56a76975843e
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ww2lshzug5/out/v1/de6a9587a2a3473ab685fb93d1de0929/cenc.mpd
 
 #EXTINF:-1 tvg-id="14" tvg-name="SRI LANKA TOUR OF ENGLAND: ENG vs SL - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",SRI LANKA TOUR OF ENGLAND: ENG vs SL - SonyLiv ENG - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -56,7 +70,7 @@ https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/acwviu4yoa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/criclive1909/ENG/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/criclive2209/ENG/master.m3u8
 
 #EXTINF:-1 tvg-id="14" tvg-name="SRI LANKA TOUR OF ENGLAND: ENG vs SL - SKY CRICKET - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",SRI LANKA TOUR OF ENGLAND: ENG vs SL - SKY CRICKET - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -68,13 +82,63 @@ https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=ui
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/JYYYAAAA.m3u8
+http://193.47.62.59/hls/K999.m3u8
 
 #EXTINF:-1 tvg-id="14" tvg-name="SRI LANKA TOUR OF ENGLAND: ENG vs SL - TAPMAD ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",SRI LANKA TOUR OF ENGLAND: ENG vs SL - TAPMAD ENG - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://tapmad.com/
-https://d8j84o343a5m2.cloudfront.net/live/testtapmad4/master.m3u8
+https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
+
+#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FANCODE - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-origin=https://amazon.com
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
+
+#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FANCODE - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FANCODE - SD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd
+
+#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - TNT SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - TNT SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tmaxapp.site/8wirwjs76erftg/tntsports1.m3u8
+
+#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - TapMad Asia - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - TapMad Asia - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://tapmad.com
+https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8
+
+#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FanCode - AQ (IND-IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FanCode - AQ (IND-IP)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://in-mc-pdlive.fancode.com/mumbai/143607_english_hls_4aaf721a353393_1ta-di_h264/index.m3u8
+
+#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FanCode - AQ (BD-IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FanCode - AQ (BD-IP)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://bd-mc-pdlive.fancode.com/mumbai/143607_english_hls_4aaf721a353393_1ta-di_h264/index.m3u8
+
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://www.styxsports.com/
+https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8
+
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - FANCODE - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
 
 #EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SPORTS TV - FHD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SPORTS TV - FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -647,65 +711,25 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/AG2026_D2109/ENG/master.
 #EXTVLCOPT:http-referrer=https://tapmad.com
 https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=26b5d1e236534979b5f85ffa22a37dbf:cfd708ebfd7d08d24fd0033b9bd9e62e
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd
-
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - ALT" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - ALT
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=26b5d1e236534979b5f85ffa22a37dbf:cfd708ebfd7d08d24fd0033b9bd9e62e
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd
-
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - TAPMAD ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - TAPMAD ENG - AQ
+#EXTINF:-1 tvg-id="760" tvg-name="Asian Games: AFG vs JPN - Sky Sports Cricket - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: AFG vs JPN - Sky Sports Cricket - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://tapmad.com/
-https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.42/hls/YVVV.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ
+#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: HK vs MAS - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: HK vs MAS - FANCODE IN
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2209/HIN/master.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+https://dai-fancode.pages.dev/mumbai/4249173_english_hls_7428890b2635008_1ta-di_h264/index.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ
+#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: HK vs MAS - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: HK vs MAS - FANCODE IN
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi2209/ENG/master.m3u8
-
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi2209/TAM/master.m3u8
-
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi2209/TEL/master.m3u8
-
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094590/cricodi2209/KAN/master.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+https://dai-fancode.pages.dev/mumbai/4249173_english_hls_7428890b2635008_1ta-di_h264/index.m3u8
 
 #EXTINF:-1 tvg-id="764" tvg-name="Bundesliga: Union Berlin vs Elversberg - SPORT TV - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Union Berlin vs Elversberg - SPORT TV - FHD
 #KODIPROP:inputstream=inputstream.adaptive
