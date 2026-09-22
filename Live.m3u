@@ -3,9 +3,46 @@
 #  Developed by: Monirul Islam
 #  Telegram: https://t.me/monirul_Islam_SM
 #  Telegram channel : https://t.me/sm_iptv_bd
-#  Last Updated: 2026-09-22 06:03:29 PM (BD Time)
-#  Live Channels Count: 9
+#  Last Updated: 2026-09-22 11:03:16 PM (BD Time)
+#  Live Channels Count: 47
 #=================================
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - EUROSPORT FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - TNT1 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - TNT2 SPORTS HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - TNT4UK SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - TNT3 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - EUROSPORT FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f4751abc997473d9138d17b5944be04:a0aefedd2376a54b8b50f9b7c2d50ac7
+https://cache01.zapitv.com/live/eds_c2/eurosport_1_hd/dash_live_ez/eurosport_1_hd.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cycling%20Vs%20Cycling.jpg" group-title="Other", Cycling Vs Cycling - QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/TNNNN.m3u8?
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/England%20Vs%20Sri%20Lanka.jpg" group-title="Cricket", England Vs Sri Lanka - Willow Cricbuzz - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -39,6 +76,115 @@ https://ois.poltumola.xyz/dx15md/index.m3u8
 #EXTVLCOPT:http-referrer=https://megatech.com
 https://ois.poltumola.xyz/dx15hd/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Brisbane%20Bullets%20Vs%20New%20Zealand%20Breakers.jpg" group-title="Basketball", Brisbane Bullets Vs New Zealand Breakers - LOW QUALITY (USE VPN)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Bayern%20M%C3%BCnchen%20Vs%20Manchester%20City.jpg" group-title="Football", FC Bayern München Vs Manchester City - PARAMOUNT+ FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3c9543a74d78a005c82719a6a662db9:2fcf3569cb18f2cf2b4648fb8728b4f9
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/3i0e0ntjj3/out/v1/2ef18dfe418f4b7a995479a22929cc8a/d74227da-c61e-4d2b-94b4-72beafd1424d-cenc.mpd?aws_sessionId=1f6cfae6-45ff-4e0f-8a7f-f0ef52d46861
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Bayern%20M%C3%BCnchen%20Vs%20Manchester%20City.jpg" group-title="Football", FC Bayern München Vs Manchester City - ESPN2 ARG FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a81ee4a694fecd6aa8a682e5024b313c:6d15568e1dab59e7202ae12e71505185
+https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(62567d5c-295c-4ffd-ac7e-c9749e874884)/master.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Bayern%20M%C3%BCnchen%20Vs%20Manchester%20City.jpg" group-title="Football", FC Bayern München Vs Manchester City - CBS Sports Network USA
+https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Bayern%20M%C3%BCnchen%20Vs%20Manchester%20City.jpg" group-title="Football", FC Bayern München Vs Manchester City - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/TTTTa.m3u8?
+http://193.47.62.59/hls/diiiAAAAQQQQ.m3u8?
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Inter%20Vs%20BK%20H%C3%A4cken%20FF.jpg" group-title="Football", Inter Vs BK Häcken FF - PARAMOUNT+ FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ddf7e0372d22b3d66a96c40d525afc53:e9ee8c29f596c7930a7f6aa19ae17c10
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/wjk3oxvqgg/out/v1/da998713c7cb41ea997ca61f2be99af1/edf54060-4e24-4b83-b7be-52a63c89ca7b-cenc.mpd?aws_sessionId=7801e13f-a4d1-4c7b-9155-4594a56e375a
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Inter%20Vs%20BK%20H%C3%A4cken%20FF.jpg" group-title="Football", Inter Vs BK Häcken FF - CBS NETWORK FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Inter%20Vs%20BK%20H%C3%A4cken%20FF.jpg" group-title="Football", Inter Vs BK Häcken FF - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/dvvv.m3u8?
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Germany.jpg" group-title="Volleyball", Poland Vs Germany - SKY AREENA
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+https://fhlsport722.tm3troops31patrol.ru/token-IRN9n7mcKPaGuWV5lfY6zGmAlJuA13%2FjayaowaNIFWX0s%2BGZHUFbA5QtqRJWWkoGRnrZ3zVnmv9xdZNHVUUY%2F4o%2BTUmxMIWza/cfall/s2001/v3b/3qr42s0rnUE0pQbiY3OfLKxhZGO4p3EgZv50o3N%3D/hedy/sx_828191/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Walsall%20Vs%20Stevenage.jpg" group-title="Football", Walsall Vs Stevenage - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Peterborough%20United%20Vs%20Colchester%20United.jpg" group-title="Football", Peterborough United Vs Colchester United - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Plymouth%20Argyle%20Vs%20Crystal%20Palace%20U21.jpg" group-title="Football", Plymouth Argyle Vs Crystal Palace U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Luton%20Town%20Vs%20Ipswich%20Town%20U21.jpg" group-title="Football", Luton Town Vs Ipswich Town U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Gillingham%20Vs%20Cambridge%20United.jpg" group-title="Football", Gillingham Vs Cambridge United - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Swindon%20Town%20Vs%20Newport%20County.jpg" group-title="Football", Swindon Town Vs Newport County - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Milton%20Keynes%20Dons%20Vs%20Crawley%20Town.jpg" group-title="Football", Milton Keynes Dons Vs Crawley Town - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Rochdale%20Vs%20Liverpool%20U21.jpg" group-title="Football", Rochdale Vs Liverpool U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cheltenham%20Town%20Vs%20Exeter%20City.jpg" group-title="Football", Cheltenham Town Vs Exeter City - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Notts%20County%20Vs%20Grimsby%20Town.jpg" group-title="Football", Notts County Vs Grimsby Town - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Burton%20Albion%20Vs%20Nottingham%20Forest%20U21.jpg" group-title="Football", Burton Albion Vs Nottingham Forest U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Leicester%20City%20Vs%20Fulham%20U21.jpg" group-title="Football", Leicester City Vs Fulham U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Oldham%20Athletic%20Vs%20Fleetwood%20Town.jpg" group-title="Football", Oldham Athletic Vs Fleetwood Town - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Barnsley%20Vs%20Leeds%20United%20U21.jpg" group-title="Football", Barnsley Vs Leeds United U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Accrington%20Stanley%20Vs%20Sunderland%20U21.jpg" group-title="Football", Accrington Stanley Vs Sunderland U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Wigan%20Athletic%20Vs%20Blackpool.jpg" group-title="Football", Wigan Athletic Vs Blackpool - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/York%20City%20Vs%20Rotherham%20United.jpg" group-title="Football", York City Vs Rotherham United - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Crewe%20Alexandra%20Vs%20Aston%20Villa%20U21.jpg" group-title="Football", Crewe Alexandra Vs Aston Villa U21 - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chesterfield%20Vs%20Port%20Vale.jpg" group-title="Football", Chesterfield Vs Port Vale - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Salford%20City%20Vs%20Sheffield%20Wednesday.jpg" group-title="Football", Salford City Vs Sheffield Wednesday - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Tranmere%20Rovers%20Vs%20Shrewsbury%20Town.jpg" group-title="Football", Tranmere Rovers Vs Shrewsbury Town - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", New York Yankees Vs Tampa Bay Rays - HD QUALITY MLB
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/56910/load-playlist?&.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", New York Yankees Vs Tampa Bay Rays - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream3.pro/hls/dazhfiach15.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", New York Yankees Vs Tampa Bay Rays - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/dvvvAAAAA.m3u8?
