@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:05:21 PM 09-22-2026
+#LAST_UPDATE:08:24 PM 09-22-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -863,21 +863,30 @@ https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/diiiAAAAQQQQ.m3u8
 
-#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - CBS NETWORK HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - FANCODE - FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 
-#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - BEIN SPORTS EXTRA" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - BEIN SPORTS EXTRA
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - ESPN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - ESPN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917016
+https://instreams.pro/live/tv401917016/index.m3u8?st=W4slvKPYbpcaCtDcjbBfJw&e=1790112612
 
 #EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/dvvv.m3u8
+http://193.47.62.59/hls/i555AAAA.m3u8
+
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - CBS NETWORK HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 
 #EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: Inter vs HÃ¤cken - PARAMOUNT+ FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Inter vs HÃ¤cken - PARAMOUNT+ FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -900,26 +909,33 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/dvvv.m3u8
 
-#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: Inter vs HÃ¤cken - BeIN SPORTS ARABIC" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Inter vs HÃ¤cken - BeIN SPORTS ARABIC
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/bein1ar.m3u8
-
-#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Juventus vs Benfica - BeIN SPORTS ARABIC" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Juventus vs Benfica - BeIN SPORTS ARABIC
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/bein1ar.m3u8
-
 #EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/72e1a9e2-2d8a-4241-97f6-23a6c6ae0314.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.56/hls/i555.m3u8
 
 #EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/OOOOH.m3u8
+http://193.47.62.59/hls/i555.m3u8
+
+#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - FANCODE - FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+
+#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - CBS NETWORK - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - CBS NETWORK - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
 
 #EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - ESPN2 SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - ESPN2 SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -928,21 +944,11 @@ http://193.47.62.59/hls/OOOOH.m3u8
 #KODIPROP:inputstream.adaptive.license_key=a81ee4a694fecd6aa8a682e5024b313c:6d15568e1dab59e7202ae12e71505185
 https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(62567d5c-295c-4ffd-ac7e-c9749e874884)/master.mpd
 
-#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - BeIN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - BeIN SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8
-
-#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/fca856ec-5bba-4914-b2b1-c36664148eae.m3u8
-
 #EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/OOOOHHH.m3u8
+http://193.47.62.56/hls/i555AA.m3u8
 
 #EXTINF:-1 tvg-id="824" tvg-name="Ligue 1: Lille vs Le Havre - PRIME VIDEO FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Lille vs Le Havre - PRIME VIDEO FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1212,30 +1218,31 @@ https://chatgpt.hereisman.net/playlist/56670/load-playlist?&.m3u8
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/ZLLLQ.m3u8
+http://193.47.62.50/hls/a444.m3u8
 
 #EXTINF:-1 tvg-id="1055" tvg-name="Football League Trophy: Barnsley vs Leeds U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Barnsley vs Leeds U21 - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/ZLLL.m3u8
+http://193.47.62.50/hls/a444A.m3u8
 
 #EXTINF:-1 tvg-id="1056" tvg-name="Football League Trophy: Burton vs Forest U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Burton vs Forest U21 - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/ZLLLQQ.m3u8
+http://193.47.62.50/hls/a444Aa.m3u8
 
 #EXTINF:-1 tvg-id="1057" tvg-name="Football League Trophy: Crewe vs Aston Villa U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Crewe vs Aston Villa U21 - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/ZLLLQQQ.m3u8
+http://193.47.62.50/hls/a444Aaaaa.m3u8
 
 #EXTINF:-1 tvg-id="1058" tvg-name="Football League Trophy: Leicester vs Fulham U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Leicester vs Fulham U21 - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://193.47.62.59/hls/ZLLLQQQQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/a444Aaaaaqq.m3u8
 
 #EXTINF:-1 tvg-id="1065" tvg-name="Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1254,6 +1261,18 @@ http://193.47.62.59/hls/K999QQQ.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/K999QQQQQ.m3u8
+
+#EXTINF:-1 tvg-id="1071" tvg-name="Football League Trophy: Plymouth vs Crystal Palace U21" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Plymouth vs Crystal Palace U21
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/f888AAAAA.m3u8
+
+#EXTINF:-1 tvg-id="1074" tvg-name="Football League Trophy: Bradford vs Newcastle U21" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Bradford vs Newcastle U21
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/L666AAAAAA.m3u8
 
 #EXTINF:-1 tvg-id="770" tvg-name="Serie A: Inter vs Parma - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Inter vs Parma - BEIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
