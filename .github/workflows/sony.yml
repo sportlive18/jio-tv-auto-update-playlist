@@ -2,30 +2,28 @@ name: Update Sony Playlist
 
 on:
   schedule:
-    - cron: '30 * * * *'      # every hour at minute 0 (UTC)
+    - cron: '30 * * * *'
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'sony.py'
+    branches: [main]
+    paths: ['sony.py']
+
+# Serialize runs of this workflow. Do NOT cancel in progress — a mid-push
+# cancel can leave the ref in a weird state.
+concurrency:
+  group: update-sony
+  cancel-in-progress: false
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
-    concurrency:
-      group: update-sony
-      cancel-in-progress: true
-
     env:
       TZ: Asia/Kolkata
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -36,33 +34,51 @@ jobs:
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
-      - name: Fetch and Reset to Remote
-        run: |
-          git fetch origin main
-          git reset --hard origin/main
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
       - name: Run Script
-        run: |
-          python sony.py
+        run: python sony.py
 
-      - name: Commit and Push Changes
+      - name: Commit
         run: |
           git add sony5.m3u
-
           if git diff --cached --quiet; then
+            echo "NO_CHANGES=1" >> "$GITHUB_ENV"
             echo "No changes to commit."
-            exit 0
+          else
+            git commit -m "Auto-update Sony playlist ($(date -u '+%Y-%m-%d %H:%M UTC'))"
           fi
 
-          git commit -m "Auto-update Sony playlist ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+      - name: Push with retry
+        if: env.NO_CHANGES != '1'
+        run: |
+          set -e
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i: syncing with origin/main..."
+            git fetch origin main
 
-          # Rebase onto latest remote (keep our generated file on conflicts)
-          git pull --rebase -X theirs origin main
+            # Replay our commit on top of whatever is on the remote now.
+            # -X theirs = if sony5.m3u conflicts, keep OUR generated version.
+            if ! git rebase -X theirs origin/main; then
+              echo "Rebase conflict — aborting rebase and retrying."
+              git rebase --abort || true
+              sleep $((i * 3))
+              continue
+            fi
 
-          # Push only if remote hasn't moved since rebase
-          git push --force-with-lease origin main
+            # --force-with-lease uses the freshly fetched ref as the lease,
+            # so it only succeeds if nobody pushed between fetch and push.
+            if git push --force-with-lease=main:origin/main origin HEAD:main; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+
+            echo "Push rejected, backing off and retrying..."
+            sleep $((i * 3))
+          done
+
+          echo "Failed to push after 5 attempts." >&2
+          exit 1
