@@ -5,12 +5,15 @@ import json
 import sys
 import requests
 from typing import Dict, List
-from urllib.parse import unquote, quote
+from urllib.parse import unquote
 
 # --- JioTV defaults ---
 REFERER = "https://www.jiotv.com/"
 ORIGIN = "https://www.jiotv.com/"
 FALLBACK_USER_AGENT = "Sayan10"
+
+# Placeholder UAs found in source playlists that should be replaced by FALLBACK_USER_AGENT
+PLACEHOLDER_USER_AGENTS = {"droovy"}
 
 INPUT_URL = "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u"
 OUTPUT_FILE = "jtv3.m3u"
@@ -26,15 +29,29 @@ def parse_kv_pairs(s: str) -> Dict[str, str]:
     """Parse 'A=1&B=2&C=3' into {'A': '1', 'B': '2', 'C': '3'} (values are URL-decoded)."""
     out: Dict[str, str] = {}
     for pair in s.split("&"):
-        if "=" not in pair:
+        pair = pair.strip()
+        if not pair or "=" not in pair:
             continue
         k, v = pair.split("=", 1)
         out[k.strip()] = unquote(v.strip())
     return out
 
 
+def pop_header(headers: Dict[str, str], name: str, default=None):
+    """Case-insensitive header pop."""
+    name_lower = name.lower()
+    for k in list(headers.keys()):
+        if k.lower() == name_lower:
+            return headers.pop(k)
+    return default
+
+
 def parse_m3u(content: str) -> List[dict]:
-    """Parse an M3U where the stream line is: URL|Header=value&Header=value"""
+    """Parse an M3U where headers may appear on:
+       - the stream line as URL|Header=value&Header=value
+       - #KODIPROP:inputstream.adaptive.stream_headers=...
+       - #EXTHTTP:{...json...}
+    """
     channels: List[dict] = []
     current: dict = {}
 
@@ -73,6 +90,19 @@ def parse_m3u(content: str) -> List[dict]:
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
             current["license_key"] = line.split("=", 1)[1].strip()
 
+        elif line.startswith("#KODIPROP:inputstream.adaptive.stream_headers="):
+            blob = line.split("=", 1)[1].strip()
+            for k, v in parse_kv_pairs(blob).items():
+                current["headers"].setdefault(k, v)
+
+        elif line.startswith("#EXTHTTP:"):
+            try:
+                json_str = line.split(":", 1)[1].strip()
+                for k, v in json.loads(json_str).items():
+                    current["headers"].setdefault(k, v)
+            except (ValueError, json.JSONDecodeError):
+                pass
+
         elif not line.startswith("#"):
             url = line
             headers: Dict[str, str] = {}
@@ -81,8 +111,11 @@ def parse_m3u(content: str) -> List[dict]:
                 url, header_blob = line.split("|", 1)
                 headers = parse_kv_pairs(header_blob)
 
+            # Merge: existing (#KODIPROP / #EXTHTTP) first, pipe-suffix overrides
+            merged = dict(current.get("headers") or {})
+            merged.update(headers)
+            current["headers"] = merged
             current["url"] = url.strip()
-            current["headers"] = headers
             channels.append(current.copy())
             current = {}
 
@@ -92,12 +125,13 @@ def parse_m3u(content: str) -> List[dict]:
 def build_entry(ch: dict) -> str:
     headers = dict(ch.get("headers") or {})
 
-    user_agent = (
-        headers.pop("User-Agent", None)
-        or headers.pop("User-agent", None)
-        or FALLBACK_USER_AGENT
-    )
-    cookie = headers.pop("Cookie", None) or headers.pop("cookie", None) or ""
+    input_ua = pop_header(headers, "User-Agent")
+    if input_ua and input_ua.strip().lower() not in PLACEHOLDER_USER_AGENTS:
+        user_agent = input_ua.strip()
+    else:
+        user_agent = FALLBACK_USER_AGENT
+
+    cookie = pop_header(headers, "Cookie") or ""
 
     lines = []
 
@@ -126,11 +160,8 @@ def build_entry(ch: dict) -> str:
     if cookie:
         full_headers["Cookie"] = cookie
 
-    # URL-encode values so embedded '&', '=', spaces, etc. don't corrupt parsing
-    stream_headers = "&".join(
-        f"{quote(str(k), safe='')}={quote(str(v), safe='')}"
-        for k, v in full_headers.items()
-    )
+    # Raw values (no percent-encoding) — matches what Kodi expects
+    stream_headers = "&".join(f"{k}={v}" for k, v in full_headers.items())
     lines.append(
         f"#KODIPROP:inputstream.adaptive.stream_headers={stream_headers}"
     )
@@ -149,7 +180,7 @@ def build_entry(ch: dict) -> str:
 
 def main():
     print("=" * 60)
-    print("JioTV M3U Converter (pipe-suffix headers → full Kodi format)")
+    print("JioTV M3U Converter")
     print("=" * 60)
 
     try:
@@ -183,7 +214,6 @@ def main():
     except Exception as e:
         print(f"\n[-] Error: {e}")
         import traceback
-
         traceback.print_exc()
         sys.exit(1)
 
