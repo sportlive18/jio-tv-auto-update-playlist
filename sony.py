@@ -4,7 +4,7 @@ import urllib.request
 import sys
 
 # ---------- Configuration ----------
-JSON_URL = "https://sportlink-jtv.pages.dev/sony.json"
+JSON_URL = "https://sportlink-jtv.pages.dev/Sony.json"
 PLAYLIST_URL = "https://premiumplugx.com/Sliv/sony_playlist.php?m3u"
 OUTPUT_FILE = "sony5.m3u"
 USER_AGENT = "virat@10"
