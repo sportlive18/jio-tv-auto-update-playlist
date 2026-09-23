@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNMDVicHlZTUc0Z3dwVS96Nk00K0NrM2xqRlFYMUNOWE4vaUpHY2RUcnVxUFY4ZHI2SEpRUzVnWmVMemhlV05LR3c9PQ==
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNLzNBRm92MzlnQ2NaZGRFNWNjeG1LM2g5cEJnRkxzTWgwWWZVZjl4M3BiNzlUSVF6QUtOa2F0M1dGWm0xNDNKSVE9PQ==
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3459,6 +3459,8 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-241
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-270
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-12371780574435970.png" group-title="Entertainment",KAUMUDY
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1237
+#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-1460.jpg" group-title="Entertainment",GOLDMINES 2
+https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1460
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-14621780572389956.png" group-title="Entertainment",GS TV
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1462
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-1482.png" group-title="Entertainment",MK TELEVISION
@@ -3533,10 +3535,14 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-37
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-26
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-32.png" group-title="Infotainment",DD ARUNPRABHA
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-32
+#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-1461.jpg" group-title="Movies",GOLDMINES MOVIES
+https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1461
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-419.png" group-title="Movies",B4U MOVIES
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-419
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-2271780574937832.png" group-title="Movies",B4U KADAK
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-227
+#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-1459.jpg" group-title="Movies",GOLDMINES
+https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1459
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/695291646.jpg" group-title="Movies",Oscar Movies
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=695291646
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-2331780575279003.png" group-title="Movies",OSCAR MOVIES BHOJPURI
