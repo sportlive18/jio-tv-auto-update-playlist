@@ -1,63 +1,75 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode | Sportlink (3 channels) =====
+#===== Fancode | Sportlink (4 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Wednesday, 23 September 2026 at 12:07:14 pm
+#DATE:- Wednesday, 23 September 2026 at 2:49:13 pm
 
-#EXTINF:-1 tvg-id="4249275" tvg-name="South Australia Vs Tasmania @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249275_53072_SAU_TAS_FC-Web.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | South Australia Vs Tasmania
-https://dai-fancode.pages.dev/mumbai/4249275_english_hls_c22877f6a446513_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-id="4249576" tvg-name="Rourkela Superstars Vs Puri Titans @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249576_53080_ROR_PUT_fc-web_1789983233576.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Rourkela Superstars Vs Puri Titans
+https://dai-fancode.pages.dev/mumbai/4249576_english_hls_4b6be661ce28460_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-id="4248537" tvg-name="Day 1 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Day 1
-https://dai-fancode.pages.dev/mumbai/4248537_english_hls_7f3682290a58025_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-id="4249525" tvg-name="Sreenidi Deccan Fc Vs Mohun Bagan Super Giant @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/MM.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Sreenidi Deccan Fc Vs Mohun Bagan Super Giant
+https://dai-fancode.pages.dev/mumbai/4249525_english_hls_73c8848a9a58417_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#===== SonyLIV | Sportlink (6 channels) =====
-#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790123848842536_AG26_Weightlifting_final_Womens_49kg_Mirabai_Chanu_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Weigh2309/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790187855~acl=/*~id=80526269269486403016999431924114~hmac=23edcda3de1dbe91e9a7eceaf4ff652065825a29fc6c822dceba77fe2d3a0982
+#EXTINF:-1 tvg-id="4248544" tvg-name="Day 1 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Day 1
+https://dai-fancode.pages.dev/mumbai/4248544_english_hls_b589a455ac4366_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790123848842536_AG26_Weightlifting_final_Womens_49kg_Mirabai_Chanu_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2022316/AG_Weigh2309/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790187855~acl=/*~id=80526269269486403016999431924114~hmac=23edcda3de1dbe91e9a7eceaf4ff652065825a29fc6c822dceba77fe2d3a0982
+#===== SonyLIV | Sportlink (9 channels) =====
+#EXTINF:-1 tvg-name="India vs People's Republic Of China - Badminton - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024512/1790119595842245_AG26_23Sep_Badminton_Mens_India_vs_China_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink",  India vs People's Republic Of China - Badminton - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120306/AG_Strea2209/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
 
-#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790123848842536_AG26_Weightlifting_final_Womens_49kg_Mirabai_Chanu_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2094587/AG_Weigh2309/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790187855~acl=/*~id=80526269269486403016999431924114~hmac=23edcda3de1dbe91e9a7eceaf4ff652065825a29fc6c822dceba77fe2d3a0982
+#EXTINF:-1 tvg-name="India vs People's Republic Of China - Badminton - 23 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024512/1790119595842245_AG26_23Sep_Badminton_Mens_India_vs_China_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink",  India vs People's Republic Of China - Badminton - 23 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120305/AG_Strea2209/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
 
-#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790123848842536_AG26_Weightlifting_final_Womens_49kg_Mirabai_Chanu_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2018458/AG_Weigh2309/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790187855~acl=/*~id=80526269269486403016999431924114~hmac=23edcda3de1dbe91e9a7eceaf4ff652065825a29fc6c822dceba77fe2d3a0982
+#EXTINF:-1 tvg-name="India vs People's Republic Of China - Badminton - 23 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024512/1790119595842245_AG26_23Sep_Badminton_Mens_India_vs_China_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink",  India vs People's Republic Of China - Badminton - 23 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120304/AG_Strea2209/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
 
-#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790123848842536_AG26_Weightlifting_final_Womens_49kg_Mirabai_Chanu_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2022319/AG_Weigh2309/HIN/std_lrh-800300010.m3u8?hdnea=exp=1790187855~acl=/*~id=80526269269486403016999431924114~hmac=23edcda3de1dbe91e9a7eceaf4ff652065825a29fc6c822dceba77fe2d3a0982
+#EXTINF:-1 tvg-name="India vs People's Republic Of China - Badminton - 23 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024512/1790119595842245_AG26_23Sep_Badminton_Mens_India_vs_China_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink",  India vs People's Republic Of China - Badminton - 23 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120307/AG_Strea2209/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
 
-#EXTINF:-1 tvg-name="India vs People's Republic of China - Badminton - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024512/1790119595842245_AG26_23Sep_Badminton_Mens_India_vs_China_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink",  India vs People's Republic of China - Badminton - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2022322/AG_AGMDS2209/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790187855~acl=/*~id=80526269269486403016999431924114~hmac=23edcda3de1dbe91e9a7eceaf4ff652065825a29fc6c822dceba77fe2d3a0982
+#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790126176136536_AG26_Weightlifting_final_Womens_53kg_Gyaneshwari_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Weigh2309/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
+
+#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790126176136536_AG26_Weightlifting_final_Womens_53kg_Gyaneshwari_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022316/AG_Weigh2309/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
+
+#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790126176136536_AG26_Weightlifting_final_Womens_53kg_Gyaneshwari_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2094587/AG_Weigh2309/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
+
+#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790126176136536_AG26_Weightlifting_final_Womens_53kg_Gyaneshwari_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2018458/AG_Weigh2309/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
+
+#EXTINF:-1 tvg-name="Women's Final - Weightlifting - 23 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024517/1790126176136536_AG26_Weightlifting_final_Womens_53kg_Gyaneshwari_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Women's Final - Weightlifting - 23 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022319/AG_Weigh2309/HIN/std_lrh-800300010.m3u8?hdnea=exp=1790198196~acl=/*~id=51451485615560589832144986574810~hmac=3a15b869b9038de5e48c57e2c661f95d2a26971d604321604426795c5761969f
 
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:12:32 PM 23-09-2026
+#LAST_UPDATE:03:02 PM 23-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:18
 
-#===== Prime Video | Sportlink (4 channels) =====
+#===== Prime Video | Sportlink (5 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:12:32 PM 23-09-2026
+#LAST_UPDATE:03:02 PM 23-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:3
+#LIVE_COUNT:5
 #UPCOMING_COUNT:0
+
+#EXTINF:-1 tvg-id="B0HJZ7DKBT" tvg-name="Swimming 08 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.3e554eac-3734-4aff-922b-68c6197acaee/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Swimming 08
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HFHJZTYX" tvg-name="Predator Pro Billiard Series: Vietnam @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.97c308f7-4df4-4358-b7b8-5f8edb70f55c/15/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Predator Pro Billiard Series: Vietnam
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HK7V4V39" tvg-name="Gymnastics 03 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.6296294d-f7c8-4568-8cd6-d9d56462686f/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Gymnastics 03
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HG6GHJNT" tvg-name="Tennis Today Live-Singapore-WTA, Seoul-WTA, Chengdu-ATP & Hangzhou-ATP Early Rounds @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.081b731a-539c-4b6c-add0-745e213fa3e0/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Tennis Today Live-Singapore-WTA, Seoul-WTA, Chengdu-ATP & Hangzhou-ATP Early Rounds
 #KODIPROP:inputstream=inputstream.adaptive
@@ -66,37 +78,39 @@ https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixo
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
 
-#===== AXS | Sportlink (6 channels) =====
+#EXTINF:-1 tvg-id="B0HG18RRJ9" tvg-name="International Brawling Championship 5 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.a0ce69b8-99df-4f8a-ad58-2aa8e3c22550/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",International Brawling Championship 5
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
+
+#===== AXS | Sportlink (5 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 12:32:25 PM 23-09-2026
+#last update time: 3:17:28 PM 23-09-2026
 
 #EXTINF:-1 tvg-name="WTA Singapore - WTA Singapore @virat10" tvg-id="74871" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Singapore.jpg" group-title="AXS | Sportlink", WTA Singapore - WTA Singapore
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790231549-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6e747474a07ebb546fe0f550dd84d4c7
-
-#EXTINF:-1 tvg-name="Sebastian Baez vs Jenson Brooksby - ATP Chengdu @virat10" tvg-id="75844" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sebastian%20Baez%20vs%20Jenson%20Brooksby.jpg" group-title="AXS | Sportlink", Sebastian Baez vs Jenson Brooksby - ATP Chengdu
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790231555-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-82d7debf8b4057b40319fdab9f60c607
-
-#EXTINF:-1 tvg-name="China PR U23 vs UAE U23 - Asian Games @virat10" tvg-id="67365" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/China%20PR%20U23%20vs%20UAE%20U23.jpg" group-title="AXS | Sportlink", China PR U23 vs UAE U23 - Asian Games
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92fb166bf7688dc3dbb8d0/chunks.m3u8?is_vip=false&token=1790231560-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-265b2da96b8e4de1a3e5be1efafa9213
-
-#EXTINF:-1 tvg-name="Iran U23 vs Korea DPR U23 - Asian Games @virat10" tvg-id="67366" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Iran%20U23%20vs%20Korea%20DPR%20U23.jpg" group-title="AXS | Sportlink", Iran U23 vs Korea DPR U23 - Asian Games
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92fb166bf7688dc3dbb8cf/chunks.m3u8?is_vip=false&token=1790231566-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-39d16f7eaa3014e7549320796deb2c27
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790241452-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-bbf59c44c8106bb11dcd6636f9e9e76f
 
 #EXTINF:-1 tvg-name="PANCRASE 366 - MMA @virat10" tvg-id="66634" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/PANCRASE%20366.jpg" group-title="AXS | Sportlink", PANCRASE 366 - MMA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/53766/720p/chunks.m3u8?is_vip=false&token=1790231572-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-67edbf2bf14402462b6482d5676bfd8b
+https://livecdn-tc-iptv.rumsport10.live/live_abr/53766/720p/chunks.m3u8?is_vip=false&token=1790241457-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6cef9698268dd4fac81b469e23a79ce8
+
+#EXTINF:-1 tvg-name="Vit Kopriva vs Jia Hu - ATP Chengdu @virat10" tvg-id="75845" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vit%20Kopriva%20vs%20Jia%20Hu.jpg" group-title="AXS | Sportlink", Vit Kopriva vs Jia Hu - ATP Chengdu
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790241464-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-11103c1bdad0b668a04342c490118e45
+
+#EXTINF:-1 tvg-name="Alina Korneeva vs Darya Astakhova - WTA Seoul @virat10" tvg-id="75847" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Alina%20Korneeva%20vs%20Darya%20Astakhova.jpg" group-title="AXS | Sportlink", Alina Korneeva vs Darya Astakhova - WTA Seoul
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/510517/720p/chunks.m3u8?is_vip=false&token=1790241481-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e7f38e294f3e389947e67018bddf1ae7
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
