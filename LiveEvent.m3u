@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:05:13 PM 09-23-2026
+#LAST_UPDATE:08:29 PM 09-23-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -795,35 +795,48 @@ http://193.47.62.59/hls/U888AAAQQQQ.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/vlllqQQQq.m3u8
 
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - FANCODE - FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
+
 #EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.50/hls/JFFFAAAA.m3u8
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - BeIN SPORTS XTRA" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - BeIN SPORTS XTRA
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - FANCODE - FHD
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - CBS SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - CBS SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=6fc55289aea6fe9032310fb1d8255ed9:c653b155ae613c4cc1670bf8cd380980
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0
+#EXTVLCOPT:http-referrer=https://www.amazon.com/
+#EXTVLCOPT:http-origin=https://www.amazon.com
+https://otte.live.cache-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ildsgxtg8v/out/v1/45871796294349fc85974dd035c8254b/7074e10d-4852-4e90-ac0f-169ec4abdd44-cenc.mpd
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - ESPN DEPORTES HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - ESPN DEPORTES HD
-https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=264911
-
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - beIN sports Xtra HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - beIN sports Xtra HD
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - Bein ARABIC HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - Bein ARABIC HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd/
+https://fhlsport954.tm3drop33weeps.ru/token-IkR4nLCcKPeG7mchxfY6yD6ElMCBgirjZCaow6NGQWWjs7WdHUFaCZQkqwtJVU8GRXjBwzNpk%2F55fpNIUxMK%2FJFgREK%2BMA%3D%3Da/cfall/s2001/v3b/qs18rp3qnUE0pQbiY3OfLKxhZGO4p3EgZv50o3N%3D/hedy/sx_829391/index.m3u8
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - CABLENET SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - CABLENET SPORTS HD
-https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=851533
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - FANCODE HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - FANCODE HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f28-fancode/chunks.m3u8?is_vip=false&token=1790269423-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-246321b9456ed0d6b96d239ff1f4f930
+
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - CBS SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - CBS SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f28/chunks.m3u8?is_vip=false&token=1790269427-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-d8988b14aaaec7552ad417d832a5b22e
 
 #EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Servette FCCF vs Lyonnes - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Servette FCCF vs Lyonnes - FANCODE - FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -838,32 +851,33 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.50/hls/JFFFAAAAA.m3u8
 
-#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - PARAMOUNT+ FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - PARAMOUNT+ FHD
+#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - FANCODE - FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ddf7e0372d22b3d66a96c40d525afc53:e9ee8c29f596c7930a7f6aa19ae17c10
-https://otte.cache.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/wjk3oxvqgg/out/v1/da998713c7cb41ea997ca61f2be99af1/edf54060-4e24-4b83-b7be-52a63c89ca7b-cenc.mpd?aws_sessionId=7801e13f-a4d1-4c7b-9155-4594a56e375a
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
 
 #EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - CBS SPORTS AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - CBS SPORTS AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-origin=https://amazon.com
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
 
 #EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/dvvv.m3u8
+http://193.47.62.59/hls/IQQQEEEEQAA.m3u8
 
 #EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.56/hls/i555.m3u8
+http://193.47.62.59/hls/IQQQEEEEQAAA.m3u8
 
 #EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -871,6 +885,20 @@ http://193.47.62.56/hls/i555.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/i555.m3u8
+
+#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Chelsea vs Austria Wien - ESPN ARG FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Chelsea vs Austria Wien - ESPN ARG FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a81ee4a694fecd6aa8a682e5024b313c:6d15568e1dab59e7202ae12e71505185
+https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(62567d5c-295c-4ffd-ac7e-c9749e874884)/master.mpd
+
+#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Chelsea vs Austria Wien - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Chelsea vs Austria Wien - FANCODE - FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 
 #EXTINF:-1 tvg-id="824" tvg-name="Ligue 1: Lille vs Le Havre - PRIME VIDEO FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Lille vs Le Havre - PRIME VIDEO FHD
 #KODIPROP:inputstream=inputstream.adaptive
