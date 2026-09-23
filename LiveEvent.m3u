@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:01:31 AM 09-23-2026
+#LAST_UPDATE:06:38 AM 09-23-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -684,33 +684,6 @@ https://chatgpt.hereisman.net/playlist/56802/load-playlist
 #EXTVLCOPT:http-origin=https://streamscenter.online
 https://edgestream1.pro/hls/377qj1h2727.m3u8
 
-#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fffbd595a239d4e97d8f4bc9704a2d76:614232c4a473ebbd72e77c860c03db2f
-https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k8bzrz6q6c/out/v1/3271c6590df74153a1e57c50fe47b94b/cenc.mpd
-
-#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/K999.m3u8
-
-#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - SonyLiv ENG - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/AG2026_D2109/ENG/master.m3u8
-
-#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - TAPMAD ENG- AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - TAPMAD ENG- AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://tapmad.com
-https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
-
 #EXTINF:-1 tvg-id="760" tvg-name="Asian Games: AFG vs JPN - Sky Sports Cricket - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: AFG vs JPN - Sky Sports Cricket - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -838,64 +811,64 @@ http://193.47.62.59/hls/U888AAAQQQQ.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/vlllqQQQq.m3u8
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: Bayern vs Man City - CBS SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Bayern vs Man City - CBS SPORTS FHD
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - CBS SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - CBS SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c3c9543a74d78a005c82719a6a662db9:2fcf3569cb18f2cf2b4648fb8728b4f9
 https://otte.cache.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/3i0e0ntjj3/out/v1/2ef18dfe418f4b7a995479a22929cc8a/d74227da-c61e-4d2b-94b4-72beafd1424d-cenc.mpd?aws_sessionId=1f6cfae6-45ff-4e0f-8a7f-f0ef52d46861
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: Bayern vs Man City - ESPN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Bayern vs Man City - ESPN SPORTS FHD
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - ESPN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - ESPN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a81ee4a694fecd6aa8a682e5024b313c:6d15568e1dab59e7202ae12e71505185
 https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(62567d5c-295c-4ffd-ac7e-c9749e874884)/master.mpd
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: Bayern vs Man City - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Bayern vs Man City - CBS NETWORK HD
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - CBS NETWORK HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 
-#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: Bayern vs Man City - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Bayern vs Man City - GHD SPORTS HD
+#EXTINF:-1 tvg-id="807" tvg-name="UEFA Women's Champions League: OH Leuven vs Roma - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: OH Leuven vs Roma - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/diiiAAAAQQQQ.m3u8
 
-#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - FANCODE - FHD
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Servette FCCF vs Lyonnes - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Servette FCCF vs Lyonnes - FANCODE - FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 
-#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - ESPN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - ESPN SPORTS HD
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Servette FCCF vs Lyonnes - ESPN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Servette FCCF vs Lyonnes - ESPN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917016
 https://instreams.pro/live/tv401917016/index.m3u8?st=W4slvKPYbpcaCtDcjbBfJw&e=1790112612
 
-#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - GHD SPORTS HD
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Servette FCCF vs Lyonnes - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Servette FCCF vs Lyonnes - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/i555AAAA.m3u8
 
-#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Arsenal vs HB KÃ¸ge - CBS NETWORK HD
+#EXTINF:-1 tvg-id="808" tvg-name="UEFA Women's Champions League: Servette FCCF vs Lyonnes - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Servette FCCF vs Lyonnes - CBS NETWORK HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 
-#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: Inter vs HÃ¤cken - PARAMOUNT+ FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Inter vs HÃ¤cken - PARAMOUNT+ FHD
+#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - PARAMOUNT+ FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - PARAMOUNT+ FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ddf7e0372d22b3d66a96c40d525afc53:e9ee8c29f596c7930a7f6aa19ae17c10
 https://otte.cache.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/wjk3oxvqgg/out/v1/da998713c7cb41ea997ca61f2be99af1/edf54060-4e24-4b83-b7be-52a63c89ca7b-cenc.mpd?aws_sessionId=7801e13f-a4d1-4c7b-9155-4594a56e375a
 
-#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: Inter vs HÃ¤cken - CBS SPORTS AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Inter vs HÃ¤cken - CBS SPORTS AQ
+#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - CBS SPORTS AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - CBS SPORTS AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -903,52 +876,24 @@ https://otte.cache.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-mani
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
 
-#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: Inter vs HÃ¤cken - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Inter vs HÃ¤cken - GHD SPORTS HD
+#EXTINF:-1 tvg-id="809" tvg-name="UEFA Women's Champions League: FC Barcelona vs Paris - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: FC Barcelona vs Paris - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/dvvv.m3u8
 
-#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS HD
+#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.56/hls/i555.m3u8
 
-#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Juventus vs Benfica - GHD SPORTS SD
+#EXTINF:-1 tvg-id="810" tvg-name="UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Chelsea vs Austria Wien - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/i555.m3u8
-
-#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - FANCODE - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-
-#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - CBS NETWORK - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - CBS NETWORK - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
-
-#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - ESPN2 SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - ESPN2 SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a81ee4a694fecd6aa8a682e5024b313c:6d15568e1dab59e7202ae12e71505185
-https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(62567d5c-295c-4ffd-ac7e-c9749e874884)/master.mpd
-
-#EXTINF:-1 tvg-id="811" tvg-name="UEFA Women's Champions League: Real Madrid vs PSG - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/696/image/dark" group-title="Football",UEFA Women's Champions League: Real Madrid vs PSG - GHD SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.56/hls/i555AA.m3u8
 
 #EXTINF:-1 tvg-id="824" tvg-name="Ligue 1: Lille vs Le Havre - PRIME VIDEO FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Lille vs Le Havre - PRIME VIDEO FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1050,6 +995,12 @@ http://193.47.62.59/hls/BB55AAAAAAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/add98371-b40a-4c3d-bc85-bd00e69df78c.m3u8
 
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Azerbaijan vs Tajikistan - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Azerbaijan vs Tajikistan - GHD SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.57/hls/TITITI.m3u8
+
 #EXTINF:-1 tvg-id="843" tvg-name="AEW Dynamite - FOX SPORTS FHD" tvg-logo="https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png" group-title="WWE",AEW Dynamite - FOX SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1076,6 +1027,156 @@ https://chatgpt.hereisman.net/playlist/54227/load-playlist?&.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.52/hls/foooAAa.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Gibraltar vs TomÃ© and PrÃ­ncipe - GHD SPORTS  - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Gibraltar vs TomÃ© and PrÃ­ncipe - GHD SPORTS  - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/RBBBAAA.m3u8
+
+#EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: Palestine vs New Zealand - PREMIER SPORTS - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Palestine vs New Zealand - PREMIER SPORTS - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.42/hls/AMMMAAAAAAAA.m3u8
+
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - Blue Sports - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - Blue Sports - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+https://cdn4.zohanayaan.com:1686/hls/do59.m3u8?md5=o5FvHDTAjynNoc1ENsOPVA&expires=1786896104
+
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - GHD SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live2.jxa76.com/live/sd-6MxiKJhWn6KVsSDquD_540p.m3u8?txSecret=38fced72fbea6a79a4a5ce8d75a303a2&txTime=1A00C447817
+
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - GHD SPORTS - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - GHD SPORTS - SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream2.pro/hls/b0h5fNwDKH.m3u8
+
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - Fast Forward - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - Fast Forward - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.42/hls/zoooaaaaaaaX.m3u8
+
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - FAST SERVER - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - FAST SERVER - HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/54747?ad=111
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/54747?ad=111
+https://chatgpt.hereisman.net/playlist/54747/load-playlist
+
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - Blue Sports - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - Blue Sports - SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+https://cdn4.zohanayaan.com:1686/hls/do59.m3u8?md5=o5FvHDTAjynNoc1ENsOPVA&expires=1786896104
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - GHD SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/54750/load-playlist?&.m3u8
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - GHD SPORTS - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - GHD SPORTS - SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live2.jxa76.com/live/sd-6MwarbMJVgFmb11ntb_540p.m3u8?txSecret=c77177ef1ddb26c832a04a4a8ae95990&txTime=1A00C6E4098
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - Leauge+ Live - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - Leauge+ Live - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.42/hls/emmm.m3u8
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - Leauge+ Live - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - Leauge+ Live - SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+https://cdn8.zohanayaan.com:1686/hls/do52.m3u8?md5=H6GgS-r_D6D0ekDDvFGNNA&expires=1786899668
+
+#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - ZIGGO SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - ZIGGO SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.56/hls/dmmmA.m3u8
+
+#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - GHD SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live2.jxa76.com/live/sd-6MxiZdZhBxcGJkjMdm_540p.m3u8?txSecret=df120d58cc86e0faf7f3785aaec65bd5&txTime=1A00C6B7B1F
+
+#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - DAZN SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - DAZN SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+https://cdn7.zohanayaan.com:1686/hls/do18.m3u8?md5=kL7mhSLEBVAQqI4ht_vXhw&expires=1786899655
+
+#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - CBS SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - CBS SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+https://cdn3.zohanayaan.com:1686/hls/do7.m3u8?md5=m9gN-1oeVe2d6UJb1FxnZA&expires=1786899653
+
+#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - Robin Hood - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - Robin Hood - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+https://cdn5.zohanayaan.com:1686/hls/do28.m3u8?md5=i9yUq5HEfpJ-9rRKMnj57Q&expires=1786899657
+
+#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - DAZN SPORTS - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - DAZN SPORTS - SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=club-friendly/2026-08-16/s04-rma
+#EXTVLCOPT:http-origin=https://damitv.st/embed/?id=club-friendly/2026-08-16/s04-rma
+https://messi.damitv.st/live-hls/channel/club-friendly/2026-08-16/s04-rma/playlist.m3u8?tk=FCmawAi5DaunIL4dc1cgQQ&e=1786935637
+
+#EXTINF:-1 tvg-id="875" tvg-name="International Friendly Games: Uzbekistan vs Iran - CBS GOLAZO AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Uzbekistan vs Iran - CBS GOLAZO AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-id="875" tvg-name="International Friendly Games: Uzbekistan vs Iran - FOX DEPORTES - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Uzbekistan vs Iran - FOX DEPORTES - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 tvg-id="875" tvg-name="International Friendly Games: Uzbekistan vs Iran - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Uzbekistan vs Iran - GHD SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/avvvvaa.m3u8
+
+#EXTINF:-1 tvg-id="875" tvg-name="International Friendly Games: Uzbekistan vs Iran - LFG TV Live - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Uzbekistan vs Iran - LFG TV Live - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream2.pro/hls/eJmauBDCIf.m3u8
 
 #EXTINF:-1 tvg-id="989" tvg-name="Liga Portugal Betclic: AcadÃ©mico Viseu vs Estoril - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="Football",Liga Portugal Betclic: AcadÃ©mico Viseu vs Estoril - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1214,65 +1315,17 @@ https://edgestream2.pro/hls/ueyeztrazb4.m3u8
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 https://chatgpt.hereisman.net/playlist/56670/load-playlist?&.m3u8
 
-#EXTINF:-1 tvg-id="1054" tvg-name="Football League Trophy: Accrington vs Sunderland U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Accrington vs Sunderland U21 - GHD SPORTS HD
+#EXTINF:-1 tvg-id="1075" tvg-name="Asian Games: Iran U23 vs North Korea U23" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1862/image/dark" group-title="Football",Asian Games: Iran U23 vs North Korea U23
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/a444.m3u8
+http://193.47.62.55/hls/FRRRA.m3u8
 
-#EXTINF:-1 tvg-id="1055" tvg-name="Football League Trophy: Barnsley vs Leeds U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Barnsley vs Leeds U21 - GHD SPORTS HD
+#EXTINF:-1 tvg-id="1076" tvg-name="Asian Games: China U23 vs UAE U23" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1862/image/dark" group-title="Football",Asian Games: China U23 vs UAE U23
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/a444A.m3u8
-
-#EXTINF:-1 tvg-id="1056" tvg-name="Football League Trophy: Burton vs Forest U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Burton vs Forest U21 - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/a444Aa.m3u8
-
-#EXTINF:-1 tvg-id="1057" tvg-name="Football League Trophy: Crewe vs Aston Villa U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Crewe vs Aston Villa U21 - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/a444Aaaaa.m3u8
-
-#EXTINF:-1 tvg-id="1058" tvg-name="Football League Trophy: Leicester vs Fulham U21 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Leicester vs Fulham U21 - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/a444Aaaaaqq.m3u8
-
-#EXTINF:-1 tvg-id="1065" tvg-name="Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/bbbbaqq.m3u8
-
-#EXTINF:-1 tvg-id="1066" tvg-name="Liga Profesional de FÃºtbol: LanÃºs vs Estudiantes" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: LanÃºs vs Estudiantes
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/K999QQQ.m3u8
-
-#EXTINF:-1 tvg-id="1070" tvg-name="BrasileirÃ£o SÃ©rie B: CuiabÃ¡ vs NÃ¡utico" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/390/image/dark" group-title="Football",BrasileirÃ£o SÃ©rie B: CuiabÃ¡ vs NÃ¡utico
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/K999QQQQQ.m3u8
-
-#EXTINF:-1 tvg-id="1071" tvg-name="Football League Trophy: Plymouth vs Crystal Palace U21" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Plymouth vs Crystal Palace U21
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.55/hls/f888AAAAA.m3u8
-
-#EXTINF:-1 tvg-id="1074" tvg-name="Football League Trophy: Bradford vs Newcastle U21" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/334/image/dark" group-title="Football",Football League Trophy: Bradford vs Newcastle U21
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/L666AAAAAA.m3u8
+http://193.47.62.55/hls/FRRR.m3u8
 
 #EXTINF:-1 tvg-id="770" tvg-name="Serie A: Inter vs Parma - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Inter vs Parma - BEIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
