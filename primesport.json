@@ -1,31 +1,28 @@
 {
   "HeaderInfo": {
     "PlaylistName": "Prime Video Free Sports",
-    "LastUpdate": "11:32 PM 24-09-2026",
+    "LastUpdate": "12:02 AM 25-09-2026",
     "Telegram": "https://t.me/livesportsplay",
     "Owner": "Md Sohanur Rahman Hady"
   },
   "Stats": {
-    "LiveCount": 3,
+    "LiveCount": 2,
     "UpcomingCount": 0
   },
   "Matches": [
     {
-      "match_id": "B0HGYJY5ZM",
-      "title": "MVP Open, Round 1",
-      "synopsis": "MVP Open, Round 1",
+      "match_id": "B0HJF16Z3L",
+      "title": "Sep 24 - PTT College Station",
+      "synopsis": "Sep 24 - PTT College Station",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.24bb77ff-840e-4fd0-93d9-555cee37be09/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HGYJY5ZM",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2e48ba06-ae8f-4fe3-9fae-a11cdd94495e/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HJF16Z3L",
       "is_free": false,
       "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ugvo0vho9p/out/v1/fc7d1d525ec34aa589a2f02f40c92791/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ugvo0vho9p/out/v1/fc7d1d525ec34aa589a2f02f40c92791/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ugvo0vho9p/out/v1/fc7d1d525ec34aa589a2f02f40c92791/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ugvo0vho9p/out/v1/fc7d1d525ec34aa589a2f02f40c92791/cenc.mpd"
+        "Original Server": "https://ABIMILFAAAAAAAAMPMBV5JLF5YL73.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqyOzvBhpqtSZvA2pjbG91ZGZyb250Angpc3NpZDoxOGUyNjJlNy01M2E2LTRlNjUtODU1OS05YTIyODMxNzA1YTMZATihBaECeDMvOWM5c28zdzh4Ni9vdXQvdjEvYTQ2NzliMDEzNWM4NDVlNWJlZThiYjI0ZTU1OTc0MDMZATyBYlVTWCBHXnQFZCBZtmA2H-HyCBFy-mRffsQkMVf7Pfu7HNp7Cg/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/9c9so3w8x6/out/v1/a4679b0135c845e5bee8bb24e5597403/d947b7a7-73f1-41bc-8017-660597458fd1-cenc.mpd"
       },
-      "drm_key": "dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b"
+      "drm_key": "39713a6fc1ec354feef6804a2f627d7e:3da97e5e83e973fb2ddee1cf22eafa26"
     },
     {
       "match_id": "B0HHJGTFSX",
@@ -40,20 +37,6 @@
         "Original Server": "https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpqyPPxBhpqtS1xA2ZmYXN0bHkCeClzc2lkOmRmNjY1M2M3LWE3YTItNDZmZS04YjhlLWFhODY0OTFkYTk5YRkBOKEFoQJ4My9nYWozMGdyOHZ2L291dC92MS81N2I0NTRjMGVhMmY0ODUzYjExNDI2Y2JiYzE5MWRmYRkBPIFiVVNYIBc70-QoADu_lkzwGrCAM-9d9bHoBMEFeYeIYskByvbh/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/gaj30gr8vv/out/v1/57b454c0ea2f4853b11426cbbc191dfa/b55ea47d-abcc-43d2-ac01-c0906e70f198-cenc.mpd"
       },
       "drm_key": "3791ffbf317c8c626a342577cc5b6a17:fd1d8bdaf19f11be65107b6bacfb4f6e"
-    },
-    {
-      "match_id": "B0HJF16Z3L",
-      "title": "Sep 24 - PTT College Station",
-      "synopsis": "Sep 24 - PTT College Station",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2e48ba06-ae8f-4fe3-9fae-a11cdd94495e/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HJF16Z3L",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://ABIMILFAAAAAAAAMPMBV5JLF5YL73.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqyOzvBhpqtSZvA2pjbG91ZGZyb250Angpc3NpZDoxOGUyNjJlNy01M2E2LTRlNjUtODU1OS05YTIyODMxNzA1YTMZATihBaECeDMvOWM5c28zdzh4Ni9vdXQvdjEvYTQ2NzliMDEzNWM4NDVlNWJlZThiYjI0ZTU1OTc0MDMZATyBYlVTWCBHXnQFZCBZtmA2H-HyCBFy-mRffsQkMVf7Pfu7HNp7Cg/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/9c9so3w8x6/out/v1/a4679b0135c845e5bee8bb24e5597403/d947b7a7-73f1-41bc-8017-660597458fd1-cenc.mpd"
-      },
-      "drm_key": "39713a6fc1ec354feef6804a2f627d7e:3da97e5e83e973fb2ddee1cf22eafa26"
     }
   ]
 }
