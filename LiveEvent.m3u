@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:06:32 AM 09-24-2026
+#LAST_UPDATE:12:10 PM 09-24-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -90,55 +90,43 @@ http://193.47.62.59/hls/K999.m3u8
 #EXTVLCOPT:http-referrer=https://tapmad.com/
 https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
 
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FANCODE - AQ
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-origin=https://amazon.com
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=71a0d47149350b92846f380f637114f8:bf5386127fc245e3525c39060550d621
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/alfdweafqm/out/v1/a429fd66def345f7baf21a2a43c12dfd/cenc.mpd
 
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FANCODE - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FANCODE - SD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd
-
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - TNT SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - TNT SPORTS - HD
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - SKY CRICKET FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - SKY CRICKET FHD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/tntsports1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
 
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - TapMad Asia - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - TapMad Asia - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://tapmad.com
-https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8
-
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FanCode - AQ (IND-IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FanCode - AQ (IND-IP)
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://in-mc-pdlive.fancode.com/mumbai/143607_english_hls_4aaf721a353393_1ta-di_h264/index.m3u8
-
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FanCode - AQ (BD-IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FanCode - AQ (BD-IP)
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://bd-mc-pdlive.fancode.com/mumbai/143607_english_hls_4aaf721a353393_1ta-di_h264/index.m3u8
-
-#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://www.styxsports.com/
-https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8
-
-#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - FANCODE - AQ
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - FANCODE ENG FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - FANCODE ENG FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - SKY SPORTS+ HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - SKY SPORTS+ HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/RRRRA.m3u8
+
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - SKY CRICKET HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - SKY CRICKET HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9258/index.m3u8
+
+#EXTINF:-1 tvg-id="21" tvg-name="One Day International: SA vs AUS - FANCODE ENG - (IN IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: SA vs AUS - FANCODE ENG - (IN IP)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+https://dai-fancode.pages.dev/mumbai/4249778_english_hls_a11e04665e35882_1ta-di_h264/index.m3u8
 
 #EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SPORTS TV - FHD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SPORTS TV - FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -147,12 +135,14 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1
 #KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
 
-#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - APPLE TV - FHD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - APPLE TV - FHD
+#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - FORMULA TV FHD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - FORMULA TV FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2931643903051b86cb1da0f2fc7fc452:3c735702318bc3df46242d0e05b07cbc
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/dv6mgnfk44/out/v1/e1b7e90fd36b43e4abb212f5607c223f/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=609d795905904705028ef54653019af7:2c791eb611e57a7d7f203022bc1b9ba3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-origin=https://amazon.com
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd
 
 #EXTINF:-1 tvg-id="267" tvg-name="Formula1 - TSN Sports - AQ" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - TSN Sports - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -169,35 +159,23 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1
 #KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 
-#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - F1 SKY FEED - HD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - F1 SKY FEED - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/55739/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SKY SPORTS - NZ" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SKY SPORTS - NZ
+#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SKY SPORTS F1 - HD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SKY SPORTS F1 - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/OZZZAAAA.m3u8
+http://193.47.62.44/hls/RRRR.m3u8
 
-#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SKY SPORTS -  HD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SKY SPORTS -  HD
+#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SKY SPORTS F1 - SD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SKY SPORTS F1 - SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7342/index.m3u8
+
+#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SKY F1 SPORTS - SD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SKY F1 SPORTS - SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-origin=https://streamscenter.online
 https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8
-
-#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SKY F1 SPORTS - SD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SKY F1 SPORTS - SD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/55739?ad=111
-#EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/55739?ad=111
-https://chatgpt.hereisman.net/playlist/55739/load-playlist
-
-#EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SPORTCAST - SD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SPORTCAST - SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/0aeeb4af-9141-46a6-b13b-56cf8bbffc95/master.m3u8
 
 #EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - HD SERVER" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - HD SERVER
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -984,121 +962,23 @@ http://193.47.62.52/hls/foooAAa.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.50/hls/JFFFA.m3u8
 
-#EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: Palestine vs New Zealand - PREMIER SPORTS - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Palestine vs New Zealand - PREMIER SPORTS - AQ
+#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.42/hls/AMMMAAAAAAAA.m3u8
-
-#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - Blue Sports - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - Blue Sports - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-https://cdn4.zohanayaan.com:1686/hls/do59.m3u8?md5=o5FvHDTAjynNoc1ENsOPVA&expires=1786896104
-
-#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - GHD SPORTS - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live2.jxa76.com/live/sd-6MxiKJhWn6KVsSDquD_540p.m3u8?txSecret=38fced72fbea6a79a4a5ce8d75a303a2&txTime=1A00C447817
-
-#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - GHD SPORTS - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - GHD SPORTS - SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-origin=https://streame.center
-https://edgestream2.pro/hls/b0h5fNwDKH.m3u8
-
-#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - Fast Forward - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - Fast Forward - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.42/hls/zoooaaaaaaaX.m3u8
-
-#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - FAST SERVER - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - FAST SERVER - HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/54747?ad=111
-#EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/54747?ad=111
-https://chatgpt.hereisman.net/playlist/54747/load-playlist
-
-#EXTINF:-1 tvg-id="858" tvg-name="International Friendly Games: Japan vs Uruguay - Blue Sports - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Japan vs Uruguay - Blue Sports - SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-https://cdn4.zohanayaan.com:1686/hls/do59.m3u8?md5=o5FvHDTAjynNoc1ENsOPVA&expires=1786896104
+http://193.47.62.50/hls/FUUUAaA.m3u8
 
 #EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - GHD SPORTS - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/54750/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - GHD SPORTS - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - GHD SPORTS - SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live2.jxa76.com/live/sd-6MwarbMJVgFmb11ntb_540p.m3u8?txSecret=c77177ef1ddb26c832a04a4a8ae95990&txTime=1A00C6E4098
-
-#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - Leauge+ Live - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - Leauge+ Live - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-http://193.47.62.42/hls/emmm.m3u8
-
-#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: South Korea vs Ecuador - Leauge+ Live - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: South Korea vs Ecuador - Leauge+ Live - SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-https://cdn8.zohanayaan.com:1686/hls/do52.m3u8?md5=H6GgS-r_D6D0ekDDvFGNNA&expires=1786899668
-
-#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - ZIGGO SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - ZIGGO SPORTS - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.56/hls/dmmmA.m3u8
+http://193.47.62.50/hls/FUUUAaAA.m3u8
 
 #EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - GHD SPORTS - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live2.jxa76.com/live/sd-6MxiZdZhBxcGJkjMdm_540p.m3u8?txSecret=df120d58cc86e0faf7f3785aaec65bd5&txTime=1A00C6B7B1F
-
-#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - DAZN SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - DAZN SPORTS - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-https://cdn7.zohanayaan.com:1686/hls/do18.m3u8?md5=kL7mhSLEBVAQqI4ht_vXhw&expires=1786899655
-
-#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - CBS SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - CBS SPORTS - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-https://cdn3.zohanayaan.com:1686/hls/do7.m3u8?md5=m9gN-1oeVe2d6UJb1FxnZA&expires=1786899653
-
-#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - Robin Hood - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - Robin Hood - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-https://cdn5.zohanayaan.com:1686/hls/do28.m3u8?md5=i9yUq5HEfpJ-9rRKMnj57Q&expires=1786899657
-
-#EXTINF:-1 tvg-id="874" tvg-name="International Friendly Games: China vs Maldives - DAZN SPORTS - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: China vs Maldives - DAZN SPORTS - SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=club-friendly/2026-08-16/s04-rma
-#EXTVLCOPT:http-origin=https://damitv.st/embed/?id=club-friendly/2026-08-16/s04-rma
-https://messi.damitv.st/live-hls/channel/club-friendly/2026-08-16/s04-rma/playlist.m3u8?tk=FCmawAi5DaunIL4dc1cgQQ&e=1786935637
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/FUUUAaAAA.m3u8
 
 #EXTINF:-1 tvg-id="875" tvg-name="International Friendly Games: Uzbekistan vs Iran - CBS GOLAZO AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Uzbekistan vs Iran - CBS GOLAZO AQ
 #KODIPROP:inputstream=inputstream.adaptive
