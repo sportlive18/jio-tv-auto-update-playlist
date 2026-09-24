@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:11:05 PM 09-23-2026
+#LAST_UPDATE:01:21 AM 09-24-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -668,20 +668,29 @@ https://chatgpt.hereisman.net/playlist/56802/load-playlist
 #EXTVLCOPT:http-origin=https://streamscenter.online
 https://edgestream1.pro/hls/377qj1h2727.m3u8
 
-#EXTINF:-1 tvg-id="760" tvg-name="Asian Games: AFG vs JPN - Sky Sports Cricket - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: AFG vs JPN - Sky Sports Cricket - HD
+#EXTINF:-1 tvg-id="760" tvg-name="Asian Games: AFG vs JPN - Willow Cricbuzz AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: AFG vs JPN - Willow Cricbuzz AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2fbb11f58d670ba448625bee36773fff:76e8bd546a74e60598e1d59df0b9b3cc
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uwxerw2eey/out/v1/14e8580d2e304df391b94c8eb68553a9/cenc.mpd
+
+#EXTINF:-1 tvg-id="760" tvg-name="Asian Games: AFG vs JPN - SonyLiv ENG AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: AFG vs JPN - SonyLiv ENG AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.42/hls/YVVV.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/AG2026_D2309/ENG/master.m3u8
 
-#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: HK vs MAS - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: HK vs MAS - FANCODE IN
+#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: HK vs MAS - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: HK vs MAS - FANCODE IN
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
 #EXTVLCOPT:http-referrer=https://fancode.com/
 https://dai-fancode.pages.dev/mumbai/4249173_english_hls_7428890b2635008_1ta-di_h264/index.m3u8
 
-#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: HK vs MAS - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: HK vs MAS - FANCODE IN
+#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: HK vs MAS - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: HK vs MAS - FANCODE IN
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
