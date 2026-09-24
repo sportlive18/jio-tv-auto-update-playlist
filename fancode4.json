@@ -2,52 +2,14 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "01:02:33 AM 25-09-2026",
-    "generated_at": "2026-09-24 19:40:06",
+    "source_last_updated": "04:44:51 AM 25-09-2026",
+    "generated_at": "2026-09-24 23:30:04",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 37,
-    "live_matches_count": 2,
-    "upcoming_matches_count": 35,
+    "live_matches_count": 0,
+    "upcoming_matches_count": 37,
     "matches": [
-        {
-            "event_category": "Cricket",
-            "match_id": "4249258_ENG",
-            "title": "DP World ILT20 Development Tournament 2026 [English]",
-            "match_name": "Gulf Giants Development vs Desert Vipers Development [English]",
-            "event_name": "DP World ILT20 Development Tournament 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/DP-World-ILT20-2026-Web_Final.png",
-            "team_1": "Gulf Giants Development",
-            "team_2": "Desert Vipers Development",
-            "status": "LIVE",
-            "startTime": "08:30:00 PM 24-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249258_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Golf",
-            "match_id": "4249104_ENG",
-            "title": "Presidents Cup 2026 [English]",
-            "match_name": "Day 1 - World Feed [English]",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 1 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "LIVE",
-            "startTime": "12:30:00 AM 25-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249104_ENG/english.m3u8"
-                }
-            ]
-        },
         {
             "event_category": "Cricket",
             "match_id": 4249278,
@@ -270,19 +232,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Motorsports",
-            "match_id": 4249606,
-            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
-            "match_name": "Feature Race 2",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
-            "status": "UPCOMING",
-            "startTime": "12:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Cricket",
             "match_id": 4249583,
             "title": "Keonjhar Miners vs Kataka Panthers (Odisha T20 League 2026)",
@@ -293,6 +242,19 @@
             "team_2": "Kataka Panthers",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Motorsports",
+            "match_id": 4249606,
+            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
+            "match_name": "Feature Race 2",
+            "event_name": "F2 AZERBAIJAN 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
+            "team_1": "Feature Race 2",
+            "team_2": "Baku",
+            "status": "UPCOMING",
+            "startTime": "12:30:00 PM 26-09-2026",
             "user-agent": null
         },
         {
@@ -502,48 +464,35 @@
             "status": "UPCOMING",
             "startTime": "06:30:00 PM 27-09-2026",
             "user-agent": null
-        }
-    ],
-    "live_matches": [
-        {
-            "event_category": "Cricket",
-            "match_id": "4249258_ENG",
-            "title": "DP World ILT20 Development Tournament 2026 [English]",
-            "match_name": "Gulf Giants Development vs Desert Vipers Development [English]",
-            "event_name": "DP World ILT20 Development Tournament 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/DP-World-ILT20-2026-Web_Final.png",
-            "team_1": "Gulf Giants Development",
-            "team_2": "Desert Vipers Development",
-            "status": "LIVE",
-            "startTime": "08:30:00 PM 24-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249258_ENG/english.m3u8"
-                }
-            ]
         },
         {
-            "event_category": "Golf",
-            "match_id": "4249104_ENG",
-            "title": "Presidents Cup 2026 [English]",
-            "match_name": "Day 1 - World Feed [English]",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 1 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "LIVE",
-            "startTime": "12:30:00 AM 25-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249104_ENG/english.m3u8"
-                }
-            ]
+            "event_category": "Football",
+            "match_id": 4248488,
+            "title": "Liverpool Women vs Everton Women (Barclays Women's Super League 2026-27)",
+            "match_name": "Liverpool Women vs Everton Women",
+            "event_name": "Barclays Women's Super League 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4248488_53038_LIV-W_EVE-W_fc-web.jpg",
+            "team_1": "Liverpool Women",
+            "team_2": "Everton Women",
+            "status": "UPCOMING",
+            "startTime": "06:30:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4248489,
+            "title": "Tottenham Hotspur Women vs Aston Villa Women (Barclays Women's Super League 2026-27)",
+            "match_name": "Tottenham Hotspur Women vs Aston Villa Women",
+            "event_name": "Barclays Women's Super League 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4248489_53038_TOT-W_AST-W_fc-web.jpg",
+            "team_1": "Tottenham Hotspur Women",
+            "team_2": "Aston Villa Women",
+            "status": "UPCOMING",
+            "startTime": "06:30:00 PM 27-09-2026",
+            "user-agent": null
         }
     ],
+    "live_matches": [],
     "upcoming_matches": [
         {
             "event_category": "Cricket",
@@ -767,19 +716,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Motorsports",
-            "match_id": 4249606,
-            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
-            "match_name": "Feature Race 2",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
-            "status": "UPCOMING",
-            "startTime": "12:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Cricket",
             "match_id": 4249583,
             "title": "Keonjhar Miners vs Kataka Panthers (Odisha T20 League 2026)",
@@ -790,6 +726,19 @@
             "team_2": "Kataka Panthers",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Motorsports",
+            "match_id": 4249606,
+            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
+            "match_name": "Feature Race 2",
+            "event_name": "F2 AZERBAIJAN 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
+            "team_1": "Feature Race 2",
+            "team_2": "Baku",
+            "status": "UPCOMING",
+            "startTime": "12:30:00 PM 26-09-2026",
             "user-agent": null
         },
         {
@@ -996,6 +945,32 @@
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4248487_53038_BIR-W_CP-W_fc-web.jpg",
             "team_1": "Birmingham City F.C. Women",
             "team_2": "Crystal Palace Women",
+            "status": "UPCOMING",
+            "startTime": "06:30:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4248488,
+            "title": "Liverpool Women vs Everton Women (Barclays Women's Super League 2026-27)",
+            "match_name": "Liverpool Women vs Everton Women",
+            "event_name": "Barclays Women's Super League 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4248488_53038_LIV-W_EVE-W_fc-web.jpg",
+            "team_1": "Liverpool Women",
+            "team_2": "Everton Women",
+            "status": "UPCOMING",
+            "startTime": "06:30:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4248489,
+            "title": "Tottenham Hotspur Women vs Aston Villa Women (Barclays Women's Super League 2026-27)",
+            "match_name": "Tottenham Hotspur Women vs Aston Villa Women",
+            "event_name": "Barclays Women's Super League 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4248489_53038_TOT-W_AST-W_fc-web.jpg",
+            "team_1": "Tottenham Hotspur Women",
+            "team_2": "Aston Villa Women",
             "status": "UPCOMING",
             "startTime": "06:30:00 PM 27-09-2026",
             "user-agent": null
