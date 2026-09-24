@@ -1,0 +1,103 @@
+name: Automated Sports JSON Updater
+
+on:
+  schedule:
+    - cron: '*/7 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: sports-json-updater
+  cancel-in-progress: false
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync and Update All Sources
+        run: |
+          export TZ="Asia/Kolkata"
+          git pull origin main --rebase
+
+          # ── FanCode ──────────────────────────────────────────────────────────
+          curl -sS -o fancode.json "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json"
+          curl -sS -L -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
+
+          curl -sS -o fancode2.json "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json"
+          curl -sS -L -o fancode2.m3u "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"
+
+          curl -sS -o fancode3.json "https://raw.githubusercontent.com/kajju027/Fancode-Events-Json/refs/heads/main/fancode.json"
+          curl -sS -L -o fancode3.m3u "https://raw.githubusercontent.com/kajju027/Fancode-Events-Json/refs/heads/main/fc.m3u"
+
+          curl -sS -o fancode4.json "https://allinonereborn2.online/fctest/json/fancode_latest.json"
+
+          # ── SonyLIV ──────────────────────────────────────────────────────────
+          curl -sS -f -o sonyliv.json "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.json" \
+            || echo "⚠️ sonyliv.json fetch failed"
+          curl -sS -f -L -o sonyliv.m3u "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" \
+            || echo "⚠️ sonyliv.m3u fetch failed"
+
+          curl -sS -f -o sonyliv2.json "https://raw.githubusercontent.com/doctor-8trange/zyphora/refs/heads/main/data/sony.json" \
+            || echo "⚠️ sonyliv2.json fetch failed"
+          curl -sS -f -L -o sonyliv2.m3u "https://raw.githubusercontent.com/doctor-8trange/zyphora/refs/heads/main/data/sony.m3u" \
+            || echo "⚠️ sonyliv2.m3u fetch failed"
+
+          # ── Zee5 ─────────────────────────────────────────────────────────────
+          curl -sS -f -o zee5.json "https://raw.githubusercontent.com/doctor-8trange/quarnex/refs/heads/main/data/zee5.json" \
+            || echo "⚠️ zee5.json fetch failed"
+          curl -sS -f -L -o zee5.m3u "https://raw.githubusercontent.com/doctor-8trange/quarnex/refs/heads/main/data/zee5.m3u" \
+            || echo "⚠️ zee5.m3u fetch failed"
+
+          # ── Willow ───────────────────────────────────────────────────────────
+          curl -sS -o willow.json "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json"
+          curl -sS -L -o willow.m3u "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
+
+          # ── Prime Sport ──────────────────────────────────────────────────────
+          curl -sS -o primesport.json "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json"
+          curl -sS -L -o primesport.m3u "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
+
+          # ── Log ──────────────────────────────────────────────────────────────
+          echo "🚀 All Sources Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | ID: $RANDOM" >> fancode.txt
+
+      - name: Commit and Push
+        run: |
+          export TZ="Asia/Kolkata"
+          git add \
+            fancode.json fancode.m3u \
+            fancode2.json fancode2.m3u \
+            fancode3.json fancode3.m3u \
+            fancode4.json \
+            sonyliv.json sonyliv.m3u \
+            sonyliv2.json sonyliv2.m3u \
+            zee5.json zee5.m3u \
+            willow.json willow.m3u \
+            primesport.json primesport.m3u \
+            fancode.txt
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Sports DB Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
+
+          for i in 1 2 3 4 5; do
+            if git push origin main; then
+              echo "✅ Pushed successfully"
+              exit 0
+            fi
+            echo "⚠️ Push rejected (attempt $i), rebasing and retrying..."
+            git pull origin main --rebase
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "❌ Push failed after 5 attempts"
+          exit 1
