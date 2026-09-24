@@ -2,6 +2,31 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-24 04:00:34 AM (BD Time)"
-# Total Active Links: 0
+#"last updated": "2026-09-24 06:00:54 AM (BD Time)"
+# Total Active Links: 5
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20Afghanistan.png" group-title="Asian Games 2026", Afghanistan vs Japan - Willow Cricket
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.bhalocast.com:7060/hls/willowsd.m3u8?md5=OcElxdzOvPv2ye0U9wefsw&expires=1790212840&ch=willowsd&s=0dd5823d3ab4c2c434f85b02568a4f42
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20Afghanistan.png" group-title="Asian Games 2026", Afghanistan vs Japan - Willow Xtra
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.bhalocast.com:7060/hls/wextres5.m3u8?md5=eggU2sF62HR3y4s5bTPnAA&expires=1790212843&ch=wextres5&s=ec997a51528c771f69e9c97ed9aef682
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20Afghanistan.png" group-title="Asian Games 2026", Afghanistan vs Japan - Sony Sports Ten 1
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.bhalocast.com:7060/hls/ten1co.m3u8?md5=2HMc0HGOsBn8lGVu0eG_Sw&expires=1790212846&ch=ten1co&s=f58a93454b2e3c45f0f8f8d9e2b4ab77
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20Afghanistan.png" group-title="Asian Games 2026", Afghanistan vs Japan - Willow HD
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.bhalocast.com:7060/hls/hdwillos5.m3u8?md5=cx08LcsomNXdJSMH85B-kQ&expires=1790212849&ch=hdwillos5&s=89316d2278e14aac61f826a186d0705b
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20Afghanistan.png" group-title="Asian Games 2026", Afghanistan vs Japan - CricGo 1
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.bhalocast.com:7060/hls/cricgo1.m3u8?md5=6DHhnFsFKgj2yjLIm2jbfQ&expires=1790212853&ch=cricgo1&s=51b3bb02c51b87472b8284db89927a0c
 
