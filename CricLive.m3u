@@ -2,31 +2,36 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-24 11:00:57 AM (BD Time)"
-# Total Active Links: 5
+#"last updated": "2026-09-24 04:01:05 PM (BD Time)"
+# Total Active Links: 6
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Malaysia.png" group-title="Asian Games 2026", Hong Kong, China vs Malaysia - Willow Cricket
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/South%20Africa%20vs%20Australia.png" group-title="Australia tour of South Africa, 2026", South Africa vs Australia - Willow Cricket
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.bhalocast.com:7060/hls/willowsd.m3u8?md5=8MOzaHP9Nj5-gIDGS8yT4Q&expires=1790230840&ch=willowsd&s=5da52af2aa5f16cb0713208f9c4f6d84
+https://mz02.bhalocast.com:7060/hls/willowsd.m3u8?md5=I73Ell6ZxWNZLdry_fd7kg&expires=1790248841&ch=willowsd&s=7cbb88ec0a6d0f2300d5bcc701aee8bd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Malaysia.png" group-title="Asian Games 2026", Hong Kong, China vs Malaysia - Willow Xtra
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/South%20Africa%20vs%20Australia.png" group-title="Australia tour of South Africa, 2026", South Africa vs Australia - A Sports HD
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.bhalocast.com:7060/hls/wextres5.m3u8?md5=MDFxNtXcnMc_XrW1BWW7ng&expires=1790230843&ch=wextres5&s=cf476ba85015b2db4f93e76dd912bd86
+https://mz02.bhalocast.com:7060/hls/asportspk.m3u8?md5=_VQhMLXVYoS3dBsR6n7RIw&expires=1790248848&ch=asportspk&s=d0a0bc780998c17f307f58c4cbb7152d
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Malaysia.png" group-title="Asian Games 2026", Hong Kong, China vs Malaysia - Sony Sports Ten 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/South%20Africa%20vs%20Australia.png" group-title="Australia tour of South Africa, 2026", South Africa vs Australia - Willow HD
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz02.bhalocast.com:7060/hls/ten1co.m3u8?md5=vfmsVEJ2zSUzTC124lSjLQ&expires=1790230846&ch=ten1co&s=e4b5287a36ebb976d8a4a2aaf0bb9467
+https://mz01.bhalocast.com:7060/hls/hdwillos5.m3u8?md5=1CaPYkaq9ic3WJlAN9h_-A&expires=1790248855&ch=hdwillos5&s=820f0e181780631dd4bbf4da73bb5db3
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Malaysia.png" group-title="Asian Games 2026", Hong Kong, China vs Malaysia - Willow HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/South%20Africa%20vs%20Australia.png" group-title="Australia tour of South Africa, 2026", South Africa vs Australia - CricGo 5
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.bhalocast.com:7060/hls/hdwillos5.m3u8?md5=5kxLkhOCgp3GryKha_1c7A&expires=1790230849&ch=hdwillos5&s=a1de653ac775b9c57365274f29fb0845
+https://mz02.bhalocast.com:7060/hls/cricgo5.m3u8?md5=wnfCn-4i8aIcNUW-jUn2Mw&expires=1790248858&ch=cricgo5&s=cf7022fcd7239c5824ba862b0b0b8e5f
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Malaysia.png" group-title="Asian Games 2026", Hong Kong, China vs Malaysia - CricGo 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/South%20Africa%20vs%20Australia.png" group-title="Australia tour of South Africa, 2026", South Africa vs Australia - Fox Cricket
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz02.bhalocast.com:7060/hls/cricgo1.m3u8?md5=f1S06nK89BGuLMhbLaKNpQ&expires=1790230857&ch=cricgo1&s=c059128a19cfefacc6b3576a1602b1f6
+https://mz01.bhalocast.com:7060/hls/cf0sp1.m3u8?md5=_OwjgekFV3bF2EC6LmCxCQ&expires=1790248861&ch=cf0sp1&s=5a56ecc22a67b9180525c5ca160995e1
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/South%20Africa%20vs%20Australia.png" group-title="Australia tour of South Africa, 2026", South Africa vs Australia - Sky Cricket
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.bhalocast.com:7060/hls/dodosky2.m3u8?md5=bjjzxLBsMWEbJhgbGDsxdQ&expires=1790248864&ch=dodosky2&s=17d9ce6f496dea644efa78d78d2f1bfd
 
