@@ -36,7 +36,7 @@ jobs:
       - name: Download and Update Playlist
         run: |
           echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
-          curl -sS -L -o jtvplus.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio.m3u"
+          curl -sS -L -o jtvplus.m3u "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
           echo "✅ Playlist downloaded successfully"
           echo "📝 File size: $(wc -c < jtvplus.m3u) bytes"
       
