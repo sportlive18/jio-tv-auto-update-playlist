@@ -1,7 +1,7 @@
 {
   "HeaderInfo": {
     "PlaylistName": "Prime Video Free Sports",
-    "LastUpdate": "12:02 AM 25-09-2026",
+    "LastUpdate": "02:32 AM 25-09-2026",
     "Telegram": "https://t.me/livesportsplay",
     "Owner": "Md Sohanur Rahman Hady"
   },
@@ -11,18 +11,21 @@
   },
   "Matches": [
     {
-      "match_id": "B0HJF16Z3L",
-      "title": "Sep 24 - PTT College Station",
-      "synopsis": "Sep 24 - PTT College Station",
+      "match_id": "B0HK85K47Y",
+      "title": "Serbia vs. Greece",
+      "synopsis": "Serbia vs. Greece",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2e48ba06-ae8f-4fe3-9fae-a11cdd94495e/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HJF16Z3L",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68359f3-6141-41c9-985c-d9ea506495a7/5/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HK85K47Y",
       "is_free": false,
       "stream_url": {
-        "Original Server": "https://ABIMILFAAAAAAAAMPMBV5JLF5YL73.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqyOzvBhpqtSZvA2pjbG91ZGZyb250Angpc3NpZDoxOGUyNjJlNy01M2E2LTRlNjUtODU1OS05YTIyODMxNzA1YTMZATihBaECeDMvOWM5c28zdzh4Ni9vdXQvdjEvYTQ2NzliMDEzNWM4NDVlNWJlZThiYjI0ZTU1OTc0MDMZATyBYlVTWCBHXnQFZCBZtmA2H-HyCBFy-mRffsQkMVf7Pfu7HNp7Cg/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/9c9so3w8x6/out/v1/a4679b0135c845e5bee8bb24e5597403/d947b7a7-73f1-41bc-8017-660597458fd1-cenc.mpd"
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd"
       },
-      "drm_key": "39713a6fc1ec354feef6804a2f627d7e:3da97e5e83e973fb2ddee1cf22eafa26"
+      "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
     },
     {
       "match_id": "B0HHJGTFSX",
