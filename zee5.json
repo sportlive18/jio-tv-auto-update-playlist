@@ -1,0 +1,82 @@
+{
+  "Author": "DOCTOR STRANGE",
+  "name": "ZEE5 Live API",
+  "last_updated": "03:15:11 PM 24-09-2026",
+  "app_settings": {
+    "PROXY": "OFF",
+    "state_code": "BR",
+    "MULTI_CDN": "ON",
+    "Debugging": "OFF",
+    "SUB_TYPE": "FREEMIUM",
+    "RECIVER": "OFF",
+    "REALTIME": "OFF",
+    "REPLACEMENT": "OFF",
+    "FREEPREVIEW": "AUTO",
+    "HMAC_PROXY": "OFF",
+    "ALL_IN_ONE": "OFF"
+  },
+  "matches": [
+    {
+      "id": "0-1-6z51083176",
+      "title": "HE Vs RRK",
+      "description": "Watch Haridwar Elmas Vs Rishikesh Falcons LIVE & Exclusive only on ZEE5. UPL'26",
+      "genres": [
+        {
+          "id": "Sports",
+          "value": "Sports"
+        }
+      ],
+      "contentOwner": "Zee Entertainment Enterprises Limited",
+      "businessType": "advertisement_downloadable",
+      "releaseDate": "Thursday, 24 September 2026",
+      "languages": [
+        "hindi"
+      ],
+      "audioLanguages": [
+        "hi"
+      ],
+      "images": {
+        "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083176/list/1920x1080listdc9c55c8ee1848a6865660da80291da2fc926db70de24478a9ca21508826927d.jpg",
+        "cover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083176/cover/1920x770b2f44d46053843678704302ca60e95a6ee5c3a2b179d48cea70957b8a03bb48775d9e834352341e68c1f5510a45ce8ff.jpg",
+        "appCover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083176/appCover/1920x1080appcoverc501259cf04947fda93ec21284b843154f149b7795994def9f1700bb6a406d53.jpg",
+        "verticalBanner": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083176/verticalBanner/845x1080cf1575e8a4c54daca7019809f23c50cb000243c5dc884fc89db3ac9b488fd91a.jpg"
+      },
+      "playback": {
+        "hindi": {
+          "playbackUrl": "https://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master.m3u8",
+          "bkp_playbackUrl": "Coming Soon",
+          "expire_at": "Friday 25th of September 2026 03:15:10 PM",
+          "auto_streams": "#EXTM3U\n#EXT-X-VERSION:4\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-STREAM-INF:BANDWIDTH=760320,AVERAGE-BANDWIDTH=760320,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=640x360,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master_360p.m3u8?hdntl=exp=1790329510~acl=%2f*~id=0-1-6z51083176_c50b08d7-28d1-4a3a-a7e8-34ac87905eb8~data=hdntl,2109038,UPL-M10,ENG,821795060a3c3f72965a051c26ec1c9acea582f27a197dc7c178eb72a41db356~hmac=fcd5b5db8d0dcee2f86b9f0543e70a2e7fe13658c97406d03548483f3e805d33\n#EXT-X-STREAM-INF:BANDWIDTH=1256200,AVERAGE-BANDWIDTH=1256200,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=854x480,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master_480p.m3u8?hdntl=exp=1790329510~acl=%2f*~id=0-1-6z51083176_c50b08d7-28d1-4a3a-a7e8-34ac87905eb8~data=hdntl,2109038,UPL-M10,ENG,821795060a3c3f72965a051c26ec1c9acea582f27a197dc7c178eb72a41db356~hmac=fcd5b5db8d0dcee2f86b9f0543e70a2e7fe13658c97406d03548483f3e805d33\n#EXT-X-STREAM-INF:BANDWIDTH=1525700,AVERAGE-BANDWIDTH=1525700,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1024x576,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master_576P.m3u8?hdntl=exp=1790329510~acl=%2f*~id=0-1-6z51083176_c50b08d7-28d1-4a3a-a7e8-34ac87905eb8~data=hdntl,2109038,UPL-M10,ENG,821795060a3c3f72965a051c26ec1c9acea582f27a197dc7c178eb72a41db356~hmac=fcd5b5db8d0dcee2f86b9f0543e70a2e7fe13658c97406d03548483f3e805d33\n#EXT-X-STREAM-INF:BANDWIDTH=2334200,AVERAGE-BANDWIDTH=2334200,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master_720p.m3u8?hdntl=exp=1790329510~acl=%2f*~id=0-1-6z51083176_c50b08d7-28d1-4a3a-a7e8-34ac87905eb8~data=hdntl,2109038,UPL-M10,ENG,821795060a3c3f72965a051c26ec1c9acea582f27a197dc7c178eb72a41db356~hmac=fcd5b5db8d0dcee2f86b9f0543e70a2e7fe13658c97406d03548483f3e805d33\n#EXT-X-STREAM-INF:BANDWIDTH=4598000,AVERAGE-BANDWIDTH=4598000,CODECS=\"avc1.640029,mp4a.40.2\",RESOLUTION=1920x1080,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master_1080p.m3u8?hdntl=exp=1790329510~acl=%2f*~id=0-1-6z51083176_c50b08d7-28d1-4a3a-a7e8-34ac87905eb8~data=hdntl,2109038,UPL-M10,ENG,821795060a3c3f72965a051c26ec1c9acea582f27a197dc7c178eb72a41db356~hmac=fcd5b5db8d0dcee2f86b9f0543e70a2e7fe13658c97406d03548483f3e805d33\n#EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE=\"eng\",NAME=\"English\",AUTOSELECT=YES,DEFAULT=YES,CHANNELS=\"2\",GROUP-ID=\"program_audio_0\",URI=\"https://falconstream.zee5.com/cmaf/live/2109038/UPL-M10_ENG/master_aud.m3u8?hdntl=exp=1790329510~acl=%2f*~id=0-1-6z51083176_c50b08d7-28d1-4a3a-a7e8-34ac87905eb8~data=hdntl,2109038,UPL-M10,ENG,821795060a3c3f72965a051c26ec1c9acea582f27a197dc7c178eb72a41db356~hmac=fcd5b5db8d0dcee2f86b9f0543e70a2e7fe13658c97406d03548483f3e805d33\""
+        }
+      }
+    }
+  ],
+  "upcoming": {
+    "0-1-6z51083982": {
+      "id": "0-1-6z51083982",
+      "title": "Super League Kerala | Starts Sept 25",
+      "description": "World-class football arrives as Super League Kerala kicks off on 25th September, only on Zee 5.",
+      "genres": [
+        {
+          "id": "Sports",
+          "value": "Sports"
+        }
+      ],
+      "contentOwner": "Zee Entertainment Enterprises Limited",
+      "businessType": "free",
+      "releaseDate": "Friday, 25 September 2026",
+      "languages": [
+        "en"
+      ],
+      "audioLanguages": [
+        "en"
+      ],
+      "images": {
+        "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/list/skl1920x1080listd2186857ccf64ae8bb4d0ef9f0a14383.jpg",
+        "cover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/cover/skl1920x770covere81d94c348b14db2ab908811187e4ad5.jpg",
+        "appCover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/appCover/skl1920x1080appcover26b2c02ae60b42d59c97b7b4e6c78fb2.jpg",
+        "verticalBanner": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/verticalBanner/skl845x1080verticalbannerda819c7d3828436fa2e106627d10db2f.jpg"
+      }
+    }
+  }
+}

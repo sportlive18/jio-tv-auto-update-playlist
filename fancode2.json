@@ -1,0 +1,2779 @@
+{
+  "Author": "DOCTOR_STRANGE",
+  "Telegram": "https://t.me/jitendraunatti_github",
+  "name": "FanCode Live Matches API",
+  "last_updated": "05:28:03 PM 03-09-2026",
+  "headers": {
+    "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+    "Referer": "https://fancode.com/"
+  },
+  "total_matches": 41,
+  "live_matches": 4,
+  "upcoming_matches": 37,
+  "matches": [
+    {
+      "category": "Cricket",
+      "title": "Lucknow Falcons Vs Meerut Mavericks",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248350,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "03 September 2026 02:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248350_53029_MER_LCK_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248350_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248350_53029_MER_LCK_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248350_53029_MER_LCK_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248350_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Lucknow Falcons",
+          "shortName": "LCK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8458f7",
+          "cricketScore": [
+            {
+              "runs": 145,
+              "overs": "19.3",
+              "balls": "117",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Meerut Mavericks",
+          "shortName": "MER",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MEERM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#191970",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "HINDI",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/240p.m3u8?hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/360p.m3u8?hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/480p.m3u8?hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/540p.m3u8?hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/720p.m3u8?hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B",
+          "cookie": "hdntl=Expires=1788511866~_GO=Generated~acl=/mumbai/4248350_hindi_hls_a546ddcc9a88485_1ta-di_h264/*~Signature=AfPHOv3odUmeBIVsEZ48w8CBil3BYOctUOTZ_i0j3crw7CjBLd8YbbivuJF9nCSjZcnCtV0bo92LwMgLE4i48hmqvG4B",
+          "cookie_valid": "1788511866",
+          "create_date": "Thursday, September 3, 2026, 2:21:06 PM",
+          "expire_date": "Friday, September 4, 2026, 2:21:06 PM",
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Lucknow Falcons Vs Meerut Mavericks",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248350,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "03 September 2026 02:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248350_53029_MER_LCK_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248350_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248350_53029_MER_LCK_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248350_53029_MER_LCK_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248350_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Lucknow Falcons",
+          "shortName": "LCK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8458f7",
+          "cricketScore": [
+            {
+              "runs": 145,
+              "overs": "19.3",
+              "balls": "117",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Meerut Mavericks",
+          "shortName": "MER",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MEERM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#191970",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BHOJPURI",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "BHOJPURI",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/240p.m3u8?hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/360p.m3u8?hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/480p.m3u8?hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/540p.m3u8?hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/720p.m3u8?hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK",
+          "cookie": "hdntl=Expires=1788511868~_GO=Generated~acl=/mumbai/4248350_bhojpuri_hls_822dcc259c83320_1ta-di_h264/*~Signature=AfPHOv1T9jN6ZC2yhnB0xui079BkNYMBbOetwOvyWqXL9I6cFcMeCQRu5Xgn2-EDAZbT0PEsZH9dCnAoUvWVCUg7JpcK",
+          "cookie_valid": "1788511868",
+          "create_date": "Thursday, September 3, 2026, 2:21:08 PM",
+          "expire_date": "Friday, September 4, 2026, 2:21:08 PM",
+          "language": "BHOJPURI"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Mussoorie Thunder Vs Selaqui Strikers",
+      "tournament": "Dehradun T20 League 2026",
+      "short_name": null,
+      "match_id": 4249065,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "03 September 2026 03:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249065_53058_MT_SS_fc-Web_fc-webtvbg.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249065_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4249065_53058_MT_SS_fc-Web_fc-webtvbg.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Dehradun-T20-League-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249065_53058_MT_SS_fc-Web_fc-webtvbg.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249065_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mussoorie Thunder",
+          "shortName": "MT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Mussoorie-Thunder.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Selaqui Strikers",
+          "shortName": "SS",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Selakui-Strikers.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/240p.m3u8?hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/360p.m3u8?hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/480p.m3u8?hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/540p.m3u8?hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/720p.m3u8?hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN",
+          "cookie": "hdntl=Expires=1788515887~_GO=Generated~acl=/mumbai/4249065_english_hls_25a1a01cab66933_1ta-di_h264/*~Signature=AfPHOv2D9nGdyNzk4-ylNNUuWtgnmUxPqL9ErJnPZOx86SdutPqkXoEUPYDw7kQecFbwtomdv3c3q9HMtsV5-sHpHlcN",
+          "cookie_valid": "1788515887",
+          "create_date": "Thursday, September 3, 2026, 3:28:07 PM",
+          "expire_date": "Friday, September 4, 2026, 3:28:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Mustafa Fragrance House Strikers Vs Muscat Thunders",
+      "tournament": "Oman D50 2026",
+      "short_name": null,
+      "match_id": 4248670,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "03 September 2026 04:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248670_53052_MF_MUT_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248670_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248670_53052_MF_MUT_fc-Web.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/02/OMAN-D50-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248670_53052_MF_MUT_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248670_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mustafa Fragrance House Strikers",
+          "shortName": "MF",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Mustafa-Fragrance-House-Strikers.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Muscat Thunders",
+          "shortName": "MUT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MSCT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#5438bd",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/240p.m3u8?hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/360p.m3u8?hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/480p.m3u8?hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/540p.m3u8?hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/720p.m3u8?hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD",
+          "cookie": "hdntl=Expires=1788517568~_GO=Generated~acl=/mumbai/4248670_english_hls_3f3edbce1c38940_1ta-di_h264/*~Signature=AfPHOv1qXJ-nhaaFGAMBXmfjP1g5M9gMx0CO5fJdO8Ba_aojcZ0Mlk7ky_28yP0Zq_R715fGXmJBWpAGaLxHRjtIIIAD",
+          "cookie_valid": "1788517568",
+          "create_date": "Thursday, September 3, 2026, 3:56:07 PM",
+          "expire_date": "Friday, September 4, 2026, 3:56:08 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Namibia Vs Zimbabwe",
+      "tournament": "South Africa and Zimbabwe tour of Namibia, 2026",
+      "short_name": null,
+      "match_id": 4248459,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "03 September 2026 05:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248459_53037_NAM_ZIM_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248459_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248459_53037_NAM_ZIM_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/t20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248459_53037_NAM_ZIM_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248459_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Namibia",
+          "shortName": "NAM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NMB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#112c80",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Zimbabwe",
+          "shortName": "ZIM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ZIM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dfd32c",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/240p.m3u8?hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/360p.m3u8?hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/480p.m3u8?hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/540p.m3u8?hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/720p.m3u8?hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN",
+          "cookie": "hdntl=Expires=1788521828~_GO=Generated~acl=/mumbai/4248459_english_hls_a664aa371853125_1ta-di_h264/*~Signature=AfPHOv0EyVn7Ge66ZVLP7e-8RlajfmxRa3yb7Shr8zKCxmd-ab2MKse2CizhfwrmV7cwc9rzhIrKHpupIZCA-AwkmXwN",
+          "cookie_valid": "1788521828",
+          "create_date": "Thursday, September 3, 2026, 5:07:08 PM",
+          "expire_date": "Friday, September 4, 2026, 5:07:08 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Fazilka Falcons Vs Mohali Kings",
+      "tournament": "Sher-E-Punjab T20, 2026",
+      "short_name": null,
+      "match_id": 4249124,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "03 September 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788273996424/4249124_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249124_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788273996424/4249124_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Shere-Panjab1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249124_53065_FAF_MOK_fc-web_1788345783982.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788273996424/4249124_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249124_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Fazilka Falcons",
+          "shortName": "FAF",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/FAZLIKAfalcons.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mohali Kings",
+          "shortName": "MOK",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/mohalikings.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Kashi Rudras Vs Noida Kings",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248349,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "03 September 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248349_53029_KAS_NOI_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248349_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248349_53029_KAS_NOI_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248349_53029_KAS_NOI_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248349_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Kashi Rudras",
+          "shortName": "KAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b46f2a",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Noida Kings",
+          "shortName": "NOI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOIDS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1aa231",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Bathinda Royals Vs Amritsar Soormas",
+      "tournament": "Sher-E-Punjab T20, 2026",
+      "short_name": null,
+      "match_id": 4249123,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 01:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788273996416/4249123_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249123_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788273996416/4249123_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Shere-Panjab1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249123_53065_BHT_AMS_fc-web_1788345784092.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788273996416/4249123_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249123_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bathinda Royals",
+          "shortName": "BHT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bathinda-Royals.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Amritsar Soormas",
+          "shortName": "AMS",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/AMRITSARsoormas.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Rishikesh Dragons Vs Vikasnagar Dhamaka",
+      "tournament": "Dehradun T20 League 2026",
+      "short_name": null,
+      "match_id": 4249066,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "03 September 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249066_53058_RD_VD_fc-Web_fc-webtvbg.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249066_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4249066_53058_RD_VD_fc-Web_fc-webtvbg.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Dehradun-T20-League-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249066_53058_RD_VD_fc-Web_fc-webtvbg.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249066_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Rishikesh Dragons",
+          "shortName": "RD",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Rishikesh-Dragons.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Vikasnagar Dhamaka",
+          "shortName": "VD",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Vikasnagar-Dhamaka.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Diriyah Vs Al Qadisiyah",
+      "tournament": "Roshn Saudi League 2026-2027",
+      "short_name": null,
+      "match_id": 4248654,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "03 September 2026 11:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248654_53025_DIR_ALQ_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248654_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248654_53025_DIR_ALQ_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248654_53025_DIR_ALQ_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248654_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Diriyah",
+          "shortName": "DIR",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Diriyah.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Al Qadisiyah",
+          "shortName": "ALQ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QAD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1234",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Real Sociedad Vs Rc Celta",
+      "tournament": "LALIGA 2026-27",
+      "short_name": null,
+      "match_id": 4247623,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788240399874/4247623_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247623_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788240399874/4247623_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247623_53004_RS_CEV_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788240399874/4247623_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247623_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Sociedad",
+          "shortName": "RS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ae7a05",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Saudi Arabia Vs Bahrain",
+      "tournament": "ACC Men’s Premier Cup 2026",
+      "short_name": null,
+      "match_id": 4248619,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 07:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248619_53050_SDA_BRN_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248619_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248619_53050_SDA_BRN_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ACCMENSPREMIERCUP.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248619_53050_SDA_BRN_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248619_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Saudi Arabia",
+          "shortName": "SDA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KSA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3e5e2d",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bahrain",
+          "shortName": "BRN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5142",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Singapore Vs Qatar",
+      "tournament": "ACC Men’s Premier Cup 2026",
+      "short_name": null,
+      "match_id": 4248620,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 07:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248620_53050_SIN_QAT_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248620_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248620_53050_SIN_QAT_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ACCMENSPREMIERCUP.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248620_53050_SIN_QAT_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248620_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Singapore",
+          "shortName": "SIN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SNG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6ECB51",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Qatar",
+          "shortName": "QAT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QTR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d15972",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Selaqui Strikers Vs Herbertpur Knight Riders",
+      "tournament": "Dehradun T20 League 2026",
+      "short_name": null,
+      "match_id": 4249067,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 09:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249067_53058_SS_HKR_fc-Web_fc-webtvbg.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249067_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4249067_53058_SS_HKR_fc-Web_fc-webtvbg.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Dehradun-T20-League-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249067_53058_SS_HKR_fc-Web_fc-webtvbg.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249067_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Selaqui Strikers",
+          "shortName": "SS",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Selakui-Strikers.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Herbertpur Knight Riders",
+          "shortName": "HKR",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Herbetpur_Knight_Riders.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Ludhiana Lions Vs Jalandhar Warriors",
+      "tournament": "Sher-E-Punjab T20, 2026",
+      "short_name": null,
+      "match_id": 4249125,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788273996413/4249125_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249125_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788273996413/4249125_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Shere-Panjab1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249125_53065_LLN_JLD_fc-web_1788345783978.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788273996413/4249125_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249125_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Ludhiana Lions",
+          "shortName": "LLN",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Ludhiana-Lions.png"
+          },
+          "isWinner": null,
+          "color": "#E87C03",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Jalandhar Warriors",
+          "shortName": "JLD",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jalandhar-Warriors.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Tbc Vs Tbc",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248344,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1786365450249.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248344_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1786365450249.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1786365450249.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248344_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "TBC",
+          "shortName": "TBC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TBC",
+          "shortName": "TBC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Doiwala Kings Vs Mussoorie Thunder",
+      "tournament": "Dehradun T20 League 2026",
+      "short_name": null,
+      "match_id": 4249068,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 03:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249068_53058_DK_MT_fc-Web_fc-webtvbg.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249068_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4249068_53058_DK_MT_fc-Web_fc-webtvbg.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Dehradun-T20-League-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249068_53058_DK_MT_fc-Web_fc-webtvbg.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249068_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Doiwala Kings",
+          "shortName": "DK",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Doiwala-Kings.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mussoorie Thunder",
+          "shortName": "MT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Mussoorie-Thunder.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Yalla Shabab Giants Vs Majees Titans",
+      "tournament": "Oman D50 2026",
+      "short_name": null,
+      "match_id": 4248671,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 04:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248671_53052_YSG_MAT_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248671_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248671_53052_YSG_MAT_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/02/OMAN-D50-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248671_53052_YSG_MAT_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248671_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Yalla Shabab Giants",
+          "shortName": "YSG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-YSG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#D11919",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Majees Titans",
+          "shortName": "MAT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAJ@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d8c50f",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Rishikesh Dragons Vs Selaqui Strikers",
+      "tournament": "Dehradun T20 League 2026",
+      "short_name": null,
+      "match_id": 4249069,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249069_53058_RD_SS_fc-Web_fc-webtvbg.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249069_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4249069_53058_RD_SS_fc-Web_fc-webtvbg.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Dehradun-T20-League-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249069_53058_RD_SS_fc-Web_fc-webtvbg.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249069_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Rishikesh Dragons",
+          "shortName": "RD",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Rishikesh-Dragons.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Selaqui Strikers",
+          "shortName": "SS",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Selakui-Strikers.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "St Kitts And Nevis Patriots Vs Saint Lucia Kings",
+      "tournament": "Caribbean Premier League, 2026",
+      "short_name": null,
+      "match_id": 4248297,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 04:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248297_53026_SKN_SLK_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248297_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248297_53026_SKN_SLK_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248297_53026_SKN_SLK_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248297_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "St Kitts and Nevis Patriots",
+          "shortName": "SKN",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/0.png"
+          },
+          "isWinner": null,
+          "color": "#3fd379",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Saint Lucia Kings",
+          "shortName": "SLK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KIGS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1e6583",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Fazilka Falcons Vs Amritsar Soormas",
+      "tournament": "Sher-E-Punjab T20, 2026",
+      "short_name": null,
+      "match_id": 4249118,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "02 September 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788273996414/4249118_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249118_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788273996414/4249118_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Shere-Panjab1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249118_53065_FAF_AMS_fc-web_1788345784081.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788273996414/4249118_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249118_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Fazilka Falcons",
+          "shortName": "FAF",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/FAZLIKAfalcons.png"
+          },
+          "isWinner": false,
+          "color": "#DCDCDC",
+          "cricketScore": [
+            {
+              "runs": 182,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 9
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Amritsar Soormas",
+          "shortName": "AMS",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/AMRITSARsoormas.png"
+          },
+          "isWinner": true,
+          "color": "#DCDCDC",
+          "cricketScore": [
+            {
+              "runs": 186,
+              "overs": "17.3",
+              "balls": "105",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Jalandhar Warriors Vs Bathinda Royals",
+      "tournament": "Sher-E-Punjab T20, 2026",
+      "short_name": null,
+      "match_id": 4249114,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "03 September 2026 01:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788273996413/4249114_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249114_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788273996413/4249114_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Shere-Panjab1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249114_53065_BHT_JLD_fc-web_1788345783965.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788273996413/4249114_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249114_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jalandhar Warriors",
+          "shortName": "JLD",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jalandhar-Warriors.png"
+          },
+          "isWinner": true,
+          "color": "#DCDCDC",
+          "cricketScore": [
+            {
+              "runs": 205,
+              "overs": "19.3",
+              "balls": "117",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bathinda Royals",
+          "shortName": "BHT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bathinda-Royals.png"
+          },
+          "isWinner": false,
+          "color": "#DCDCDC",
+          "cricketScore": [
+            {
+              "runs": 202,
+              "overs": "20",
+              "balls": "120",
+              "status": "IN_PROGRESS",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Practice Session",
+      "tournament": "F3 MONZA 2026",
+      "short_name": null,
+      "match_id": 139737,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 12:05 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card_1787814907564.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139737_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card_1787814907564.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Monza_1769074955123.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card_1787814907564.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139737_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice Session",
+          "shortName": "Practice Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5800",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monza",
+          "shortName": "Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Practice Session",
+      "tournament": "F2 MONZA 2026",
+      "short_name": null,
+      "match_id": 139646,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 01:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1787814548632.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139646_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1787814548632.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Italy_1769058503188.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1787814548632.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139646_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice Session",
+          "shortName": "Practice Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monza",
+          "shortName": "Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Live Events",
+      "title": "Uefa Women’s Champions League Draw",
+      "tournament": "UEFA Women’s Champions League Draw",
+      "short_name": null,
+      "match_id": 4249131,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 03:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249131_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Live-Event.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249131_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "UEFA Women’s Champions League Draw",
+          "shortName": "UEFA Women’s Champions League Draw",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/default_squad_image.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Nyon",
+          "shortName": "Nyon",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Al Shabab Fc Vs Al Hilal Sfc",
+      "tournament": "Roshn Saudi League 2026-2027",
+      "short_name": null,
+      "match_id": 4248655,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 11:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248655_53025_ASF_AHS_FC-Web_1788155166474.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248655_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248655_53025_ASF_AHS_FC-Web_1788155166474.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248655_53025_ASF_AHS_FC-Web_1788155166474.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248655_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al-Shabab FC",
+          "shortName": "ASF",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ASF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ca8e19",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Al Hilal SFC",
+          "shortName": "AHS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#031537",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Al Ahli Saudi Fc Vs Al Riyadh Sc",
+      "tournament": "Roshn Saudi League 2026-2027",
+      "short_name": null,
+      "match_id": 4248656,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 11:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248656_53025_AAS_ALR_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248656_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248656_53025_AAS_ALR_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248656_53025_AAS_ALR_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248656_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al-Ahli Saudi FC",
+          "shortName": "AAS",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Al-Ahli-Saudi-FC.png"
+          },
+          "isWinner": null,
+          "color": "#19ca84",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Al-Riyadh SC",
+          "shortName": "ALR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RIY@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ee2616",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Formula 1",
+      "title": "Practice 1",
+      "tournament": "F1 PIRELLI GRAN PREMIO D'ITALIA 2026",
+      "short_name": null,
+      "match_id": 139482,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 04:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA--old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139482_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA--old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Italy_1769027929730.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA--old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139482_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice 1",
+          "shortName": "P1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Autodromo Nazionale Monza",
+          "shortName": "Autodromo Nazionale Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Qualifying Session",
+      "tournament": "F3 MONZA 2026",
+      "short_name": null,
+      "match_id": 139738,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 05:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card_1787814907564.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139738_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card_1787814907564.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Monza_1769074955123.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card_1787814907564.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139738_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5800",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monza",
+          "shortName": "Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Namibia Vs South Africa",
+      "tournament": "South Africa and Zimbabwe tour of Namibia, 2026",
+      "short_name": null,
+      "match_id": 4248461,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 05:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248461_53037_NAM_SA_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248461_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248461_53037_NAM_SA_FC-WEB.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/t20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248461_53037_NAM_SA_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248461_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Namibia",
+          "shortName": "NAM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NMB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#112c80",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "South Africa",
+          "shortName": "SA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RSA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2d9251",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Real Betis Vs Real Madrid",
+      "tournament": "LALIGA 2026-27",
+      "short_name": null,
+      "match_id": 4247599,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247599_53004_RB_RM_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247599_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247599_53004_RB_RM_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247599_53004_RB_RM_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247599_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Betis",
+          "shortName": "RB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#19a661",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#004996",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Qualifying Session",
+      "tournament": "F2 MONZA 2026",
+      "short_name": null,
+      "match_id": 139647,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 06:25 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1787814548632.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139647_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1787814548632.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Italy_1769058503188.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1787814548632.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139647_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monza",
+          "shortName": "Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "London City Lionesses Vs Manchester United Women",
+      "tournament": "Barclays Women's Super League 2026-27",
+      "short_name": null,
+      "match_id": 4248463,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 11:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248463_53038_LCL_MUN-W_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248463_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248463_53038_LCL_MUN-W_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WSL-BARCLAYS.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248463_53038_LCL_MUN-W_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248463_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "London City Lionesses",
+          "shortName": "LCL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#045864",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Manchester United Women",
+          "shortName": "MUN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bcae34",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Formula 1",
+      "title": "Practice 2",
+      "tournament": "F1 PIRELLI GRAN PREMIO D'ITALIA 2026",
+      "short_name": null,
+      "match_id": 139483,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA--old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139483_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA--old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Italy_1769027929730.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA--old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139483_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice 2",
+          "shortName": "P2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Autodromo Nazionale Monza",
+          "shortName": "Autodromo Nazionale Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Las Palmas Vs Leganes",
+      "tournament": "LALIGA Hypermotion 2026-27",
+      "short_name": null,
+      "match_id": 4248644,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 12:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248644_53017_LAP_LEG_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248644_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248644_53017_LAP_LEG_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248644_53017_LAP_LEG_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248644_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Las Palmas",
+          "shortName": "LAP",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Las-Palmas.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Leganes",
+          "shortName": "LEG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#efd84e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Kuwait Vs Oman",
+      "tournament": "ACC Men’s Premier Cup 2026",
+      "short_name": null,
+      "match_id": 4248621,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 07:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248621_53050_KUW_OMA_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248621_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248621_53050_KUW_OMA_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ACCMENSPREMIERCUP.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248621_53050_KUW_OMA_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248621_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Kuwait",
+          "shortName": "KUW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KUW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#5a8543",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Oman",
+          "shortName": "OMA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ad1b0e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Malaysia Vs Hong Kong, China",
+      "tournament": "ACC Men’s Premier Cup 2026",
+      "short_name": null,
+      "match_id": 4248622,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 07:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248622_53050_MAS_HK_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248622_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248622_53050_MAS_HK_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ACCMENSPREMIERCUP.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248622_53050_MAS_HK_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248622_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Malaysia",
+          "shortName": "MAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffd800",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Hong Kong, China",
+          "shortName": "HK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c5190b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Practice Session",
+      "tournament": "Porsche Mobil 1 Supercup 2026",
+      "short_name": null,
+      "match_id": 4249096,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 September 2026 09:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249096_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/05/Porsche-Mobil-1-Supercup-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249096_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice Session",
+          "shortName": "Practice Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#06a355",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monza",
+          "shortName": "Monza",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Herbertpur Knight Riders Vs Mussoorie Thunder",
+      "tournament": "Dehradun T20 League 2026",
+      "short_name": null,
+      "match_id": 4249070,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 09:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249070_53058_HKR_MT_fc-Web_fc-webtvbg.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249070_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4249070_53058_HKR_MT_fc-Web_fc-webtvbg.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Dehradun-T20-League-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249070_53058_HKR_MT_fc-Web_fc-webtvbg.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249070_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Herbertpur Knight Riders",
+          "shortName": "HKR",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Herbetpur_Knight_Riders.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mussoorie Thunder",
+          "shortName": "MT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Mussoorie-Thunder.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Guyana Amazon Warriors Vs Jamaica Kingsmen",
+      "tournament": "Caribbean Premier League, 2026",
+      "short_name": null,
+      "match_id": 4248309,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 04:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248309_53026_GUY_JK_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248309_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248309_53026_GUY_JK_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248309_53026_GUY_JK_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248309_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Guyana Amazon Warriors",
+          "shortName": "GUY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b01018",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Jamaica Kingsmen",
+          "shortName": "JK",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jamaica-Kingsmen.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Fazilka Falcons Vs Bathinda Royals",
+      "tournament": "Sher-E-Punjab T20, 2026",
+      "short_name": null,
+      "match_id": 4249117,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 September 2026 01:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1788273996407/4249117_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4249117_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1788273996407/4249117_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Shere-Panjab1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4249117_53065_FAF_BHT_fc-web_1788345784718.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1788273996407/4249117_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4249117_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Fazilka Falcons",
+          "shortName": "FAF",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/FAZLIKAfalcons.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bathinda Royals",
+          "shortName": "BHT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bathinda-Royals.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
