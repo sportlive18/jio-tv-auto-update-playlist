@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:08:41 PM 09-25-2026
+#LAST_UPDATE:11:37 PM 09-25-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -635,6 +635,19 @@ https://chatgpt.hereisman.net/playlist/56802/load-playlist
 #EXTVLCOPT:http-origin=https://streamscenter.online
 https://edgestream1.pro/hls/377qj1h2727.m3u8
 
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games: MAS vs OMA - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: MAS vs OMA - Willow Cricbuzz - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ba8896d605246871ac424878491d86a1:8600d4153034b3cbc852f13ea4b7482c
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/cumxaj9bgt/out/v1/84156aa620d84a00bf9ec1a949d1cbd9/cenc.mpd
+
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games: MAS vs OMA - TAPMAD ENG- AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: MAS vs OMA - TAPMAD ENG- AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://tapmad.com
+https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
+
 #EXTINF:-1 tvg-id="759" tvg-name="Asian Games: AFG vs NEP - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: AFG vs NEP - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -899,33 +912,33 @@ http://193.47.62.59/hls/BB55AAAAAAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/add98371-b40a-4c3d-bc85-bd00e69df78c.m3u8
 
-#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Australia vs Brazil - SPORT TV BR FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Australia vs Brazil - SPORT TV BR FHD
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: USA vs Peru - SPORT TV BR FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - SPORT TV BR FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
 https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
 
-#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Australia vs Brazil - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Australia vs Brazil - GHD SPORTS SD
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: USA vs Peru - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 https://www.rtmpcdn.com/live/ea2089c8-a994-4c74-ac42-17b1ee90ecc0.m3u8
 
-#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Australia vs Brazil - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Australia vs Brazil - GHD SPORTS HD
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: USA vs Peru - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://soco.domainkqt.cc/
 https://live2.zundrixmediapipeline.com/live/channel28.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - GHD SPORTS HD
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.41/hls/GIIIA.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv HIN - AQ
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv HIN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -933,7 +946,7 @@ http://193.47.62.41/hls/GIIIA.m3u8
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Footlive2509/HIN/master.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv ENG - AQ
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv ENG - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -941,7 +954,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Footlive2509/HIN/master.
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/Footlive2509/ENG/master.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv TAM - AQ
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv TAM - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -949,7 +962,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/Footlive2509/ENG/master.
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/Footlive2509/TAM/master.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv TEL - AQ
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv TEL - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -957,7 +970,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/Footlive2509/TAM/master.
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Footlive2509/TEL/master.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv KAN - AQ
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv KAN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -965,7 +978,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Footlive2509/TEL/master.
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive2509/KAN/master.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv BEN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv BEN - AQ
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv BEN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv BEN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -973,19 +986,19 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive2509/KAN/master.
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Footlive2509/BEN/master.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - Sony TEN 2 HD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - Sony TEN 2 HD (IND IP)
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - Sony TEN 2 HD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - Sony TEN 2 HD (IND IP)
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - Sony TEN 2 SD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - Sony TEN 2 SD (IND IP)
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - Sony TEN 2 SD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - Sony TEN 2 SD (IND IP)
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
-#EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: USA vs Peru - PREMIER SPORTS - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - PREMIER SPORTS - AQ
+#EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: Mexico vs Colombia - PREMIER SPORTS - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Mexico vs Colombia - PREMIER SPORTS - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
@@ -1320,11 +1333,26 @@ https://www.rtmpcdn.com/live/dd713707-0e3c-4608-a515-71f8ae0968d0.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861052
 https://instreams.live/live/tv401861052/index.m3u8?st=V4BEH_3aXOjXu_stkhdPVQ&e=1790371851
 
+#EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Montenegro vs Cyprus - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Montenegro vs Cyprus - DAZN SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streame.center
+https://edgestream2.pro/hls/377qj1h2727.m3u8
+
 #EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Montenegro vs Cyprus - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Montenegro vs Cyprus - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/LIIIA.m3u8
+
+#EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Montenegro vs Cyprus - SonyLiv ENG AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Montenegro vs Cyprus - SonyLiv ENG AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/Footlive2509/ENG/master.m3u8
 
 #EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Montenegro vs Cyprus - HD SERVER" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Montenegro vs Cyprus - HD SERVER
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1339,6 +1367,20 @@ https://edgestream2.pro/hls/377qj1h2727.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/875dc817-28d2-4f7e-9804-051297192fb7.m3u8
 
+#EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Montenegro vs Cyprus - FUBO SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Montenegro vs Cyprus - FUBO SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=uefa-nations-league/2026-09-25/mne-cyp
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-09-25/mne-cyp/playlist.m3u8?tk=reMNX0biLjf8di15zRHRyw&e=1790404249
+
+#EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Montenegro vs Cyprus - DAZN SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Montenegro vs Cyprus - DAZN SPORTS SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861056
+https://instreams.pro/live/tv401861056/index.m3u8?st=U3jrG1c1QJvNWZapyhl9fA&e=1790371853
+
 #EXTINF:-1 tvg-id="1086" tvg-name="UEFA Nations League: Poland vs Bosnia & Herzegovina - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Poland vs Bosnia & Herzegovina - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1350,13 +1392,20 @@ http://193.47.62.59/hls/LIIIAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/caf0994c-efb4-442e-932c-8abf4681ef8e.m3u8
 
-#EXTINF:-1 tvg-id="1086" tvg-name="UEFA Nations League: Poland vs Bosnia & Herzegovina - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Poland vs Bosnia & Herzegovina - FAST SERVER HD
+#EXTINF:-1 tvg-id="1086" tvg-name="UEFA Nations League: Poland vs Bosnia & Herzegovina - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Poland vs Bosnia & Herzegovina - DAZN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
 https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8
+
+#EXTINF:-1 tvg-id="1086" tvg-name="UEFA Nations League: Poland vs Bosnia & Herzegovina - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Poland vs Bosnia & Herzegovina - DAZN SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861055
+https://instreams.pro/live/tv401861055/index.m3u8?st=GqQZjg9PPgMImqvknljk7Q&e=1790371854
 
 #EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Sweden vs Romania - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Sweden vs Romania - BeIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1480,6 +1529,11 @@ https://instreams.live/live/tv401861053/index.m3u8?st=F1RbfYXZP402xRrhiKjS0Q&e=1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/DTTT.m3u8
 
+#EXTINF:-1 tvg-id="1089" tvg-name="Africa Cup of Nations Qual.: Algeria vs Zambia - BeIN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Algeria vs Zambia - BeIN SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://play.aarray.cn/rrty/sd-1-4642690_gqzm.m3u8?auth_key=1790366526-0-0-8ed5afcd59cc06e7ddffcb45a6a8e58a&token=a9a61620c1105e7d&device=4&platform=rrty
+
 #EXTINF:-1 tvg-id="1090" tvg-name="Africa Cup of Nations Qual.: Sudan vs Ethiopia - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Sudan vs Ethiopia - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1493,6 +1547,11 @@ http://193.47.62.41/hls/NAAAQ.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.50/hls/DTTTAAAA.m3u8
 
+#EXTINF:-1 tvg-id="1091" tvg-name="Africa Cup of Nations Qual.: Morocco vs Gabon - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Morocco vs Gabon - GHD SPORTS SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://play.aarray.cn/rrty/sd-1-4642692_gqzm.m3u8?auth_key=1790366477-0-0-c26f447bdd9b15f26059bfc084d3dd07&token=dfafa5a1a14b01c2&device=4&platform=rrty
+
 #EXTINF:-1 tvg-id="1092" tvg-name="Africa Cup of Nations Qual.: Egypt vs Angola - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Egypt vs Angola - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1504,16 +1563,11 @@ https://www.rtmpcdn.com/live/4c83a480-06a7-4ab1-a8a0-ca20cde631a6.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.50/hls/DTTTAA.m3u8
 
-#EXTINF:-1 tvg-id="1093" tvg-name="Africa Cup of Nations Qual.: Mali vs Cabo Verde - BeIN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Mali vs Cabo Verde - BeIN SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://play.aarray.cn/rrty/sd-1-4642676_gqzm.m3u8?auth_key=1790279942-0-0-254db61e5da7598bdc960a95edb28e8a&token=4dc141f6817d3283&device=4&platform=rrty
-
 #EXTINF:-1 tvg-id="1093" tvg-name="Africa Cup of Nations Qual.: Mali vs Cabo Verde - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Mali vs Cabo Verde - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/FAFAFAFAZQQQQQQ.m3u8
+http://193.47.62.55/hls/DTTTAAA.m3u8
 
 #EXTINF:-1 tvg-id="770" tvg-name="Serie A: Inter vs Parma - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Inter vs Parma - BEIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
