@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR STRANGE",
   "name": "ZEE5 Live API",
-  "last_updated": "07:15:05 PM 25-09-2026",
+  "last_updated": "10:35:57 PM 25-09-2026",
   "app_settings": {
     "PROXY": "OFF",
     "state_code": "BR",
@@ -15,11 +15,46 @@
     "HMAC_PROXY": "OFF",
     "ALL_IN_ONE": "OFF"
   },
-  "matches": [],
+  "matches": [
+    {
+      "id": "0-1-6z51083169",
+      "title": "RRK Vs DW",
+      "description": "Watch Rishikesh River Kings Vs Dehradun Warriors LIVE &amp; Exclusive only on ZEE5. UPL'26",
+      "genres": [
+        {
+          "id": "Sports",
+          "value": "Sports"
+        }
+      ],
+      "contentOwner": "Zee Entertainment Enterprises Limited",
+      "businessType": "advertisement_downloadable",
+      "releaseDate": "Friday, 25 September 2026",
+      "languages": [
+        "hindi"
+      ],
+      "audioLanguages": [
+        "hi"
+      ],
+      "images": {
+        "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083169/list/1920x1080liste7f4f0ecd5414b2c9ad310bf43b2bf1d1192204d07584492b0d5c812c530d843.jpg",
+        "cover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083169/cover/1920x770def1bdf01df2475f8c952d0357f64f4cf502d6089f52430ba2d56aeb91d703579840d198d2f248ab8ee514f3bf9843ef.jpg",
+        "appCover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083169/appCover/1920x1080appcoverf0d6aae7a278458698601b69af93bd9e768895d433194127a2c7c72cb6e93b80.jpg",
+        "verticalBanner": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083169/verticalBanner/845x1080dd3ebc64fbe74c26a7b70cd3923a8ff62c08143058ad4a629b890c90e9ff5040.jpg"
+      },
+      "playback": {
+        "hindi": {
+          "playbackUrl": "https://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master.m3u8",
+          "bkp_playbackUrl": "Coming Soon",
+          "expire_at": "Saturday 26th of September 2026 10:33:55 PM",
+          "auto_streams": "#EXTM3U\n#EXT-X-VERSION:4\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-STREAM-INF:BANDWIDTH=760320,AVERAGE-BANDWIDTH=760320,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=640x360,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master_360p.m3u8?hdntl=exp=1790442235~acl=%2f*~id=0-1-6z51083169_42e46385-b68e-4316-bd2c-dcf9a863c750~data=hdntl,2109038,UPL-M14,ENG,741417c0e3de811a3363c0bdafa27b9d087dd31b708e934389460bb9084baa12~hmac=acad40957199dafee5bbcb6df725fa6608711778c20c72f2420fb907227a853f\n#EXT-X-STREAM-INF:BANDWIDTH=1256200,AVERAGE-BANDWIDTH=1256200,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=854x480,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master_480p.m3u8?hdntl=exp=1790442235~acl=%2f*~id=0-1-6z51083169_42e46385-b68e-4316-bd2c-dcf9a863c750~data=hdntl,2109038,UPL-M14,ENG,741417c0e3de811a3363c0bdafa27b9d087dd31b708e934389460bb9084baa12~hmac=acad40957199dafee5bbcb6df725fa6608711778c20c72f2420fb907227a853f\n#EXT-X-STREAM-INF:BANDWIDTH=1525700,AVERAGE-BANDWIDTH=1525700,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1024x576,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master_576P.m3u8?hdntl=exp=1790442235~acl=%2f*~id=0-1-6z51083169_42e46385-b68e-4316-bd2c-dcf9a863c750~data=hdntl,2109038,UPL-M14,ENG,741417c0e3de811a3363c0bdafa27b9d087dd31b708e934389460bb9084baa12~hmac=acad40957199dafee5bbcb6df725fa6608711778c20c72f2420fb907227a853f\n#EXT-X-STREAM-INF:BANDWIDTH=2334200,AVERAGE-BANDWIDTH=2334200,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master_720p.m3u8?hdntl=exp=1790442235~acl=%2f*~id=0-1-6z51083169_42e46385-b68e-4316-bd2c-dcf9a863c750~data=hdntl,2109038,UPL-M14,ENG,741417c0e3de811a3363c0bdafa27b9d087dd31b708e934389460bb9084baa12~hmac=acad40957199dafee5bbcb6df725fa6608711778c20c72f2420fb907227a853f\n#EXT-X-STREAM-INF:BANDWIDTH=4598000,AVERAGE-BANDWIDTH=4598000,CODECS=\"avc1.640029,mp4a.40.2\",RESOLUTION=1920x1080,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master_1080p.m3u8?hdntl=exp=1790442235~acl=%2f*~id=0-1-6z51083169_42e46385-b68e-4316-bd2c-dcf9a863c750~data=hdntl,2109038,UPL-M14,ENG,741417c0e3de811a3363c0bdafa27b9d087dd31b708e934389460bb9084baa12~hmac=acad40957199dafee5bbcb6df725fa6608711778c20c72f2420fb907227a853f\n#EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE=\"eng\",NAME=\"English\",AUTOSELECT=YES,DEFAULT=YES,CHANNELS=\"2\",GROUP-ID=\"program_audio_0\",URI=\"https://falconstream.zee5.com/cmaf/live/2109038/UPL-M14_ENG/master_aud.m3u8?hdntl=exp=1790442235~acl=%2f*~id=0-1-6z51083169_42e46385-b68e-4316-bd2c-dcf9a863c750~data=hdntl,2109038,UPL-M14,ENG,741417c0e3de811a3363c0bdafa27b9d087dd31b708e934389460bb9084baa12~hmac=acad40957199dafee5bbcb6df725fa6608711778c20c72f2420fb907227a853f\""
+        }
+      }
+    }
+  ],
   "upcoming": {
     "0-1-6z51083982": {
       "id": "0-1-6z51083982",
-      "title": "Super League Kerala | Starts Sept 25",
+      "title": "Super League Kerala | Season 3",
       "description": "World-class football arrives as Super League Kerala kicks off on 25th September, only on Zee 5.",
       "genres": [
         {
@@ -66,6 +101,5 @@
         "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51084794/list/000000005fd8b349c0a0c4c7794982c9975465bb5.jpg"
       }
     }
-  },
-  "status": "Offline / No Matches"
+  }
 }
