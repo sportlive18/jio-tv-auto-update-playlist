@@ -1,6 +1,6 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "25/9/2026, 4:48:49 am",
+  "updatedAt": "25/9/2026, 7:17:01 am",
   "total_matches": 37,
   "live_matches": 0,
   "upcoming_matches": 37,
@@ -177,6 +177,25 @@
       "auto_streams": {}
     },
     {
+      "category": "Cricket",
+      "title": "Delhi Dynamos vs Gurugram Gladiators",
+      "tournament": "NCR T20 League, 2026",
+      "match_id": "4249304",
+      "status": "UPCOMING",
+      "startTime": "01:00:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
       "category": "Formula 1",
       "title": "Qualifying",
       "tournament": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -216,12 +235,12 @@
     },
     {
       "category": "Cricket",
-      "title": "Delhi Dynamos vs Gurugram Gladiators",
-      "tournament": "NCR T20 League, 2026",
-      "match_id": "4249304",
+      "title": "Rourkela Superstars vs Bhubaneshwar Tigers",
+      "tournament": "Odisha T20 League 2026",
+      "match_id": "4249582",
       "status": "UPCOMING",
-      "startTime": "01:00:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
+      "startTime": "02:30:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -235,12 +254,12 @@
     },
     {
       "category": "Cricket",
-      "title": "Rourkela Superstars vs Bhubaneshwar Tigers",
-      "tournament": "Odisha T20 League 2026",
-      "match_id": "4249582",
+      "title": "Yamuna Warriors vs Aravali Avengers",
+      "tournament": "NCR T20 League, 2026",
+      "match_id": "4249305",
       "status": "UPCOMING",
-      "startTime": "02:30:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
+      "startTime": "05:00:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249305_53073_YAW_AAV_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -279,25 +298,6 @@
       "status": "UPCOMING",
       "startTime": "09:00:00 AM 26-09-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
-      "category": "Cricket",
-      "title": "Yamuna Warriors vs Aravali Avengers",
-      "tournament": "NCR T20 League, 2026",
-      "match_id": "4249305",
-      "status": "UPCOMING",
-      "startTime": "05:00:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249305_53073_YAW_AAV_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
