@@ -2,8 +2,8 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "05:22:04 PM 25-09-2026",
-    "generated_at": "2026-09-25 12:00:44",
+    "source_last_updated": "08:03:56 PM 25-09-2026",
+    "generated_at": "2026-09-25 14:35:10",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
@@ -11,6 +11,25 @@
     "upcoming_matches_count": 38,
     "matches": [
         {
+            "event_category": "Cricket",
+            "match_id": "4249581_ENG",
+            "title": "Odisha T20 League 2026 [English]",
+            "match_name": "Puri Titans vs Keonjhar Miners [English]",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249581_53080_PUT_KNM_fc-web_1790170352099.jpg",
+            "team_1": "Puri Titans",
+            "team_2": "Keonjhar Miners",
+            "status": "LIVE",
+            "startTime": "07:30:00 PM 25-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249581_ENG/english.m3u8"
+                }
+            ]
+        },
+        {
             "event_category": "Tennis",
             "match_id": "4248546_ENG",
             "title": "ATP 250 - Hangzhou Open 2026 [English]",
@@ -30,38 +49,6 @@
             ]
         },
         {
-            "event_category": "Formula 1",
-            "match_id": "139495_ENG",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [English]",
-            "match_name": "Qualifying [English]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Qualifying",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "05:30:00 PM 25-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139495_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249581,
-            "title": "Puri Titans vs Keonjhar Miners (Odisha T20 League 2026)",
-            "match_name": "Puri Titans vs Keonjhar Miners",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249581_53080_PUT_KNM_fc-web_1790170352099.jpg",
-            "team_1": "Puri Titans",
-            "team_2": "Keonjhar Miners",
-            "status": "UPCOMING",
-            "startTime": "07:30:00 PM 25-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Cricket",
             "match_id": 4249304,
             "title": "Delhi Dynamos vs Gurugram Gladiators (NCR T20 League, 2026)",
@@ -72,19 +59,6 @@
             "team_2": "Gurugram Gladiators",
             "status": "UPCOMING",
             "startTime": "01:00:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249998,
-            "title": "Rourkela Superstars vs Sambalpur Warriors (Odisha T20 League 2026)",
-            "match_name": "Rourkela Superstars vs Sambalpur Warriors",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Odisha-Pro-T20_FC-WEB.jpg",
-            "team_1": "Rourkela Superstars",
-            "team_2": "Sambalpur Warriors",
-            "status": "UPCOMING",
-            "startTime": "10:30:00 AM 26-09-2026",
             "user-agent": null
         },
         {
@@ -111,6 +85,19 @@
             "team_2": "Kataka Panthers",
             "status": "UPCOMING",
             "startTime": "02:30:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249998,
+            "title": "Rourkela Superstars vs Sambalpur Warriors (Odisha T20 League 2026)",
+            "match_name": "Rourkela Superstars vs Sambalpur Warriors",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Odisha-Pro-T20_FC-WEB.jpg",
+            "team_1": "Rourkela Superstars",
+            "team_2": "Sambalpur Warriors",
+            "status": "UPCOMING",
+            "startTime": "10:30:00 AM 26-09-2026",
             "user-agent": null
         },
         {
@@ -153,19 +140,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Golf",
-            "match_id": 4249105,
-            "title": "Day 2 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
-            "match_name": "Day 2 - World Feed",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 2 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "UPCOMING",
-            "startTime": "11:00:00 PM 25-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4248484,
             "title": "Charlton Athletic F.C Women vs Manchester City Women (Barclays Women's Super League 2026-27)",
@@ -176,6 +150,19 @@
             "team_2": "Manchester City Women",
             "status": "UPCOMING",
             "startTime": "06:00:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Golf",
+            "match_id": 4249105,
+            "title": "Day 2 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
+            "match_name": "Day 2 - World Feed",
+            "event_name": "Presidents Cup 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
+            "team_1": "Day 2 - World Feed",
+            "team_2": "Chicago, Illinois",
+            "status": "UPCOMING",
+            "startTime": "11:00:00 PM 25-09-2026",
             "user-agent": null
         },
         {
@@ -205,19 +192,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Motorsports",
-            "match_id": 4249606,
-            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
-            "match_name": "Feature Race 2",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
-            "status": "UPCOMING",
-            "startTime": "12:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4248485,
             "title": "London City Lionesses vs Brighton and Hove Albion Women (Barclays Women's Super League 2026-27)",
@@ -228,6 +202,19 @@
             "team_2": "Brighton and Hove Albion Women",
             "status": "UPCOMING",
             "startTime": "09:30:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Motorsports",
+            "match_id": 4249606,
+            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
+            "match_name": "Feature Race 2",
+            "event_name": "F2 AZERBAIJAN 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
+            "team_1": "Feature Race 2",
+            "team_2": "Baku",
+            "status": "UPCOMING",
+            "startTime": "12:30:00 PM 26-09-2026",
             "user-agent": null
         },
         {
@@ -541,9 +528,41 @@
             "status": "UPCOMING",
             "startTime": "09:00:00 AM 28-09-2026",
             "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249303,
+            "title": "Delhi Dynamos vs Noida Ninjas (NCR T20 League, 2026)",
+            "match_name": "Delhi Dynamos vs Noida Ninjas",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249303_53073_DEA_NNJ_fc-web.jpg",
+            "team_1": "Delhi Dynamos",
+            "team_2": "Noida Ninjas",
+            "status": "UPCOMING",
+            "startTime": "05:00:00 PM 28-09-2026",
+            "user-agent": null
         }
     ],
     "live_matches": [
+        {
+            "event_category": "Cricket",
+            "match_id": "4249581_ENG",
+            "title": "Odisha T20 League 2026 [English]",
+            "match_name": "Puri Titans vs Keonjhar Miners [English]",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249581_53080_PUT_KNM_fc-web_1790170352099.jpg",
+            "team_1": "Puri Titans",
+            "team_2": "Keonjhar Miners",
+            "status": "LIVE",
+            "startTime": "07:30:00 PM 25-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249581_ENG/english.m3u8"
+                }
+            ]
+        },
         {
             "event_category": "Tennis",
             "match_id": "4248546_ENG",
@@ -560,25 +579,6 @@
                 {
                     "language": "English",
                     "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4248546_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139495_ENG",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [English]",
-            "match_name": "Qualifying [English]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Qualifying",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "05:30:00 PM 25-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139495_ENG/english.m3u8"
                 }
             ]
         }
@@ -586,19 +586,6 @@
     "upcoming_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249581,
-            "title": "Puri Titans vs Keonjhar Miners (Odisha T20 League 2026)",
-            "match_name": "Puri Titans vs Keonjhar Miners",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249581_53080_PUT_KNM_fc-web_1790170352099.jpg",
-            "team_1": "Puri Titans",
-            "team_2": "Keonjhar Miners",
-            "status": "UPCOMING",
-            "startTime": "07:30:00 PM 25-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4249304,
             "title": "Delhi Dynamos vs Gurugram Gladiators (NCR T20 League, 2026)",
             "match_name": "Delhi Dynamos vs Gurugram Gladiators",
@@ -608,19 +595,6 @@
             "team_2": "Gurugram Gladiators",
             "status": "UPCOMING",
             "startTime": "01:00:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249998,
-            "title": "Rourkela Superstars vs Sambalpur Warriors (Odisha T20 League 2026)",
-            "match_name": "Rourkela Superstars vs Sambalpur Warriors",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Odisha-Pro-T20_FC-WEB.jpg",
-            "team_1": "Rourkela Superstars",
-            "team_2": "Sambalpur Warriors",
-            "status": "UPCOMING",
-            "startTime": "10:30:00 AM 26-09-2026",
             "user-agent": null
         },
         {
@@ -647,6 +621,19 @@
             "team_2": "Kataka Panthers",
             "status": "UPCOMING",
             "startTime": "02:30:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249998,
+            "title": "Rourkela Superstars vs Sambalpur Warriors (Odisha T20 League 2026)",
+            "match_name": "Rourkela Superstars vs Sambalpur Warriors",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Odisha-Pro-T20_FC-WEB.jpg",
+            "team_1": "Rourkela Superstars",
+            "team_2": "Sambalpur Warriors",
+            "status": "UPCOMING",
+            "startTime": "10:30:00 AM 26-09-2026",
             "user-agent": null
         },
         {
@@ -689,19 +676,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Golf",
-            "match_id": 4249105,
-            "title": "Day 2 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
-            "match_name": "Day 2 - World Feed",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 2 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "UPCOMING",
-            "startTime": "11:00:00 PM 25-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4248484,
             "title": "Charlton Athletic F.C Women vs Manchester City Women (Barclays Women's Super League 2026-27)",
@@ -712,6 +686,19 @@
             "team_2": "Manchester City Women",
             "status": "UPCOMING",
             "startTime": "06:00:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Golf",
+            "match_id": 4249105,
+            "title": "Day 2 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
+            "match_name": "Day 2 - World Feed",
+            "event_name": "Presidents Cup 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
+            "team_1": "Day 2 - World Feed",
+            "team_2": "Chicago, Illinois",
+            "status": "UPCOMING",
+            "startTime": "11:00:00 PM 25-09-2026",
             "user-agent": null
         },
         {
@@ -741,19 +728,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Motorsports",
-            "match_id": 4249606,
-            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
-            "match_name": "Feature Race 2",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
-            "status": "UPCOMING",
-            "startTime": "12:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4248485,
             "title": "London City Lionesses vs Brighton and Hove Albion Women (Barclays Women's Super League 2026-27)",
@@ -764,6 +738,19 @@
             "team_2": "Brighton and Hove Albion Women",
             "status": "UPCOMING",
             "startTime": "09:30:00 PM 26-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Motorsports",
+            "match_id": 4249606,
+            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
+            "match_name": "Feature Race 2",
+            "event_name": "F2 AZERBAIJAN 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
+            "team_1": "Feature Race 2",
+            "team_2": "Baku",
+            "status": "UPCOMING",
+            "startTime": "12:30:00 PM 26-09-2026",
             "user-agent": null
         },
         {
@@ -1076,6 +1063,19 @@
             "team_2": "Hangzhou, China",
             "status": "UPCOMING",
             "startTime": "09:00:00 AM 28-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249303,
+            "title": "Delhi Dynamos vs Noida Ninjas (NCR T20 League, 2026)",
+            "match_name": "Delhi Dynamos vs Noida Ninjas",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249303_53073_DEA_NNJ_fc-web.jpg",
+            "team_1": "Delhi Dynamos",
+            "team_2": "Noida Ninjas",
+            "status": "UPCOMING",
+            "startTime": "05:00:00 PM 28-09-2026",
             "user-agent": null
         }
     ]
