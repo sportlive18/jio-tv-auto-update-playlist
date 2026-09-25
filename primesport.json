@@ -1,12 +1,12 @@
 {
   "HeaderInfo": {
     "PlaylistName": "Prime Video Free Sports",
-    "LastUpdate": "12:32 PM 25-09-2026",
+    "LastUpdate": "01:02 PM 25-09-2026",
     "Telegram": "https://t.me/livesportsplay",
     "Owner": "Md Sohanur Rahman Hady"
   },
   "Stats": {
-    "LiveCount": 2,
+    "LiveCount": 4,
     "UpcomingCount": 0
   },
   "Matches": [
@@ -28,6 +28,23 @@
       "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
     },
     {
+      "match_id": "B0HK14NBRQ",
+      "title": "Auckland v Manawatu",
+      "synopsis": "Auckland v Manawatu",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.c549f15f-a20f-4d32-a466-f2e5f2c42a78/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HK14NBRQ",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd"
+      },
+      "drm_key": "63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3"
+    },
+    {
       "match_id": "B0HJJLKWSD",
       "title": "Tennis Today Live-Singapore-WTA, Seoul-WTA Quarterfinals; Chengdu-ATP & Hangzhou-ATP Early Rounds",
       "synopsis": "Tennis Today Live-Singapore-WTA, Seoul-WTA Quarterfinals; Chengdu-ATP & Hangzhou-ATP Early Rounds",
@@ -43,6 +60,20 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
       },
       "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
+    },
+    {
+      "match_id": "B0HK13D7DH",
+      "title": "Sep 25 - PTT Essen",
+      "synopsis": "Sep 25 - PTT Essen",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e381060a-98b9-406c-ae6a-f82385292dfa/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HK13D7DH",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpqyeMGBhpqthyGA2ZmYXN0bHkCeClzc2lkOjU4ZTc0ZWEzLWJkYjctNDAyZC1hN2I4LTRmNzYyMjdlMmVjZhkBOKEFoQJ4My84cmZnbmZlcmhjL291dC92MS81ZjQ2Y2MxNTc2NDU0YjE3YjBhYTU0MWNiZjNkMGRjYRkBPIFiVVNYIEg24Mm32ABJMMdlpXbm6fwFJWnjXsEx7EmUZE8na1ua/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/8rfgnferhc/out/v1/5f46cc1576454b17b0aa541cbf3d0dca/6384d17e-5c63-446d-b33c-3143d344a0b8-cenc.mpd"
+      },
+      "drm_key": "71a0b7f9037f110f74654a53079d72f8:4fffecef5088bf9ab1c399bf832b6215"
     }
   ]
 }
