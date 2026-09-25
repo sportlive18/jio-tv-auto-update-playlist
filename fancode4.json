@@ -2,30 +2,49 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "10:25:17 PM 25-09-2026",
-    "generated_at": "2026-09-25 17:05:10",
+    "source_last_updated": "01:47:13 AM 26-09-2026",
+    "generated_at": "2026-09-25 20:25:05",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 1,
-    "upcoming_matches_count": 39,
+    "live_matches_count": 2,
+    "upcoming_matches_count": 38,
     "matches": [
         {
-            "event_category": "Cricket",
-            "match_id": "4249581_ENG",
-            "title": "Odisha T20 League 2026 [English]",
-            "match_name": "Puri Titans vs Keonjhar Miners [English]",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249581_53080_PUT_KNM_fc-web_1790170352099.jpg",
-            "team_1": "Puri Titans",
-            "team_2": "Keonjhar Miners",
+            "event_category": "Football",
+            "match_id": "4249269_ENG",
+            "title": "LALIGA Hypermotion 2026-27 [English]",
+            "match_name": "Girona FC vs Albacete [English]",
+            "event_name": "LALIGA Hypermotion 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249269_53017_GIR_ALB_FC-Web.png",
+            "team_1": "Girona FC",
+            "team_2": "Albacete",
             "status": "LIVE",
-            "startTime": "07:30:00 PM 25-09-2026",
+            "startTime": "12:00:00 AM 26-09-2026",
             "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             "streams": [
                 {
                     "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249581_ENG/english.m3u8"
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249269_ENG/english.m3u8"
+                }
+            ]
+        },
+        {
+            "event_category": "Golf",
+            "match_id": "4249105_ENG",
+            "title": "Presidents Cup 2026 [English]",
+            "match_name": "Day 2 - World Feed [English]",
+            "event_name": "Presidents Cup 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
+            "team_1": "Day 2 - World Feed",
+            "team_2": "Chicago, Illinois",
+            "status": "LIVE",
+            "startTime": "11:00:00 PM 25-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249105_ENG/english.m3u8"
                 }
             ]
         },
@@ -57,19 +76,6 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249582,
-            "title": "Rourkela Superstars vs Bhubaneshwar Tigers (Odisha T20 League 2026)",
-            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
-            "team_1": "Rourkela Superstars",
-            "team_2": "Bhubaneshwar Tigers",
-            "status": "UPCOMING",
-            "startTime": "02:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4249583,
             "title": "Keonjhar Miners vs Kataka Panthers (Odisha T20 League 2026)",
             "match_name": "Keonjhar Miners vs Kataka Panthers",
@@ -95,29 +101,16 @@
             "user-agent": null
         },
         {
-            "event_category": "Football",
-            "match_id": 4249269,
-            "title": "Girona FC vs Albacete (LALIGA Hypermotion 2026-27)",
-            "match_name": "Girona FC vs Albacete",
-            "event_name": "LALIGA Hypermotion 2026-27",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249269_53017_GIR_ALB_FC-Web.png",
-            "team_1": "Girona FC",
-            "team_2": "Albacete",
+            "event_category": "Cricket",
+            "match_id": 4249582,
+            "title": "Rourkela Superstars vs Bhubaneshwar Tigers (Odisha T20 League 2026)",
+            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
+            "team_1": "Rourkela Superstars",
+            "team_2": "Bhubaneshwar Tigers",
             "status": "UPCOMING",
-            "startTime": "12:00:00 AM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Golf",
-            "match_id": 4249105,
-            "title": "Day 2 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
-            "match_name": "Day 2 - World Feed",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 2 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "UPCOMING",
-            "startTime": "11:00:00 PM 25-09-2026",
+            "startTime": "07:30:00 PM 26-09-2026",
             "user-agent": null
         },
         {
@@ -188,27 +181,27 @@
         {
             "event_category": "Tennis",
             "match_id": 4248540,
-            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
-            "match_name": "ATP 250 - Chengdu Open 2026",
+            "title": "Day 4 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
+            "match_name": "Day 4",
             "event_name": "ATP 250 - Chengdu Open 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
-            "team_1": "ATP 250 - Chengdu Open 2026",
+            "team_1": "Day 4",
             "team_2": "Chengdu, China",
             "status": "UPCOMING",
-            "startTime": "09:00:00 AM 26-09-2026",
+            "startTime": "10:30:00 AM 26-09-2026",
             "user-agent": null
         },
         {
             "event_category": "Tennis",
             "match_id": 4248547,
-            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
-            "match_name": "ATP 250 - Hangzhou Open 2026",
+            "title": "Day 4 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
+            "match_name": "Day 4",
             "event_name": "ATP 250 - Hangzhou Open 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
-            "team_1": "ATP 250 - Hangzhou Open 2026",
+            "team_1": "Day 4",
             "team_2": "Hangzhou, China",
             "status": "UPCOMING",
-            "startTime": "09:00:00 AM 26-09-2026",
+            "startTime": "11:00:00 AM 26-09-2026",
             "user-agent": null
         },
         {
@@ -535,25 +528,57 @@
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 28-09-2026",
             "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4249272,
+            "title": "Leganes vs Castellón (LALIGA Hypermotion 2026-27)",
+            "match_name": "Leganes vs Castellón",
+            "event_name": "LALIGA Hypermotion 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249272_53017_LEG_CAS_FC-Web.png",
+            "team_1": "Leganes",
+            "team_2": "Castellón",
+            "status": "UPCOMING",
+            "startTime": "12:00:00 AM 29-09-2026",
+            "user-agent": null
         }
     ],
     "live_matches": [
         {
-            "event_category": "Cricket",
-            "match_id": "4249581_ENG",
-            "title": "Odisha T20 League 2026 [English]",
-            "match_name": "Puri Titans vs Keonjhar Miners [English]",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249581_53080_PUT_KNM_fc-web_1790170352099.jpg",
-            "team_1": "Puri Titans",
-            "team_2": "Keonjhar Miners",
+            "event_category": "Football",
+            "match_id": "4249269_ENG",
+            "title": "LALIGA Hypermotion 2026-27 [English]",
+            "match_name": "Girona FC vs Albacete [English]",
+            "event_name": "LALIGA Hypermotion 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249269_53017_GIR_ALB_FC-Web.png",
+            "team_1": "Girona FC",
+            "team_2": "Albacete",
             "status": "LIVE",
-            "startTime": "07:30:00 PM 25-09-2026",
+            "startTime": "12:00:00 AM 26-09-2026",
             "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             "streams": [
                 {
                     "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249581_ENG/english.m3u8"
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249269_ENG/english.m3u8"
+                }
+            ]
+        },
+        {
+            "event_category": "Golf",
+            "match_id": "4249105_ENG",
+            "title": "Presidents Cup 2026 [English]",
+            "match_name": "Day 2 - World Feed [English]",
+            "event_name": "Presidents Cup 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
+            "team_1": "Day 2 - World Feed",
+            "team_2": "Chicago, Illinois",
+            "status": "LIVE",
+            "startTime": "11:00:00 PM 25-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249105_ENG/english.m3u8"
                 }
             ]
         }
@@ -587,19 +612,6 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249582,
-            "title": "Rourkela Superstars vs Bhubaneshwar Tigers (Odisha T20 League 2026)",
-            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
-            "team_1": "Rourkela Superstars",
-            "team_2": "Bhubaneshwar Tigers",
-            "status": "UPCOMING",
-            "startTime": "02:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4249583,
             "title": "Keonjhar Miners vs Kataka Panthers (Odisha T20 League 2026)",
             "match_name": "Keonjhar Miners vs Kataka Panthers",
@@ -625,29 +637,16 @@
             "user-agent": null
         },
         {
-            "event_category": "Football",
-            "match_id": 4249269,
-            "title": "Girona FC vs Albacete (LALIGA Hypermotion 2026-27)",
-            "match_name": "Girona FC vs Albacete",
-            "event_name": "LALIGA Hypermotion 2026-27",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249269_53017_GIR_ALB_FC-Web.png",
-            "team_1": "Girona FC",
-            "team_2": "Albacete",
+            "event_category": "Cricket",
+            "match_id": 4249582,
+            "title": "Rourkela Superstars vs Bhubaneshwar Tigers (Odisha T20 League 2026)",
+            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
+            "team_1": "Rourkela Superstars",
+            "team_2": "Bhubaneshwar Tigers",
             "status": "UPCOMING",
-            "startTime": "12:00:00 AM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Golf",
-            "match_id": 4249105,
-            "title": "Day 2 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
-            "match_name": "Day 2 - World Feed",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 2 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "UPCOMING",
-            "startTime": "11:00:00 PM 25-09-2026",
+            "startTime": "07:30:00 PM 26-09-2026",
             "user-agent": null
         },
         {
@@ -718,27 +717,27 @@
         {
             "event_category": "Tennis",
             "match_id": 4248540,
-            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
-            "match_name": "ATP 250 - Chengdu Open 2026",
+            "title": "Day 4 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
+            "match_name": "Day 4",
             "event_name": "ATP 250 - Chengdu Open 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
-            "team_1": "ATP 250 - Chengdu Open 2026",
+            "team_1": "Day 4",
             "team_2": "Chengdu, China",
             "status": "UPCOMING",
-            "startTime": "09:00:00 AM 26-09-2026",
+            "startTime": "10:30:00 AM 26-09-2026",
             "user-agent": null
         },
         {
             "event_category": "Tennis",
             "match_id": 4248547,
-            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
-            "match_name": "ATP 250 - Hangzhou Open 2026",
+            "title": "Day 4 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
+            "match_name": "Day 4",
             "event_name": "ATP 250 - Hangzhou Open 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
-            "team_1": "ATP 250 - Hangzhou Open 2026",
+            "team_1": "Day 4",
             "team_2": "Hangzhou, China",
             "status": "UPCOMING",
-            "startTime": "09:00:00 AM 26-09-2026",
+            "startTime": "11:00:00 AM 26-09-2026",
             "user-agent": null
         },
         {
@@ -1064,6 +1063,19 @@
             "team_2": "TBC",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 28-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4249272,
+            "title": "Leganes vs Castellón (LALIGA Hypermotion 2026-27)",
+            "match_name": "Leganes vs Castellón",
+            "event_name": "LALIGA Hypermotion 2026-27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249272_53017_LEG_CAS_FC-Web.png",
+            "team_1": "Leganes",
+            "team_2": "Castellón",
+            "status": "UPCOMING",
+            "startTime": "12:00:00 AM 29-09-2026",
             "user-agent": null
         }
     ]

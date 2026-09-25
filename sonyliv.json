@@ -1,55 +1,107 @@
 {
     "name": "Sonyliv Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "22:37:55 25-09-2026",
+    "last update time": "01:50:27 26-09-2026",
     "matches": [
         {
             "event_category": "Football",
             "isLive": true,
-            "contentId": "1090544260_ENG",
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023561/1788637773558485_UNL26_Georgia_vs_Northern_Ireland_live_landscape_thumb.jpg",
+            "contentId": "1090544525_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024810/1790351939736564_UNL2627_Turkiye_vs_France_landscape_thumb.jpg",
             "broadcast_channel": "Sony Sports Ten 2",
             "audioLanguageName": "ENG",
             "event_name": "UEFA Nations League 2026-27",
-            "match_name": "Georgia vs Northern Ireland - 25 Sep 2026 [ENG]",
-            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2037139/footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56",
-            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2037139/footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56",
-            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2037139/footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56"
+            "match_name": "T\u00fcrkiye vs France - 26 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120299/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120299/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120299/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
         },
         {
             "event_category": "Football",
             "isLive": true,
-            "contentId": "1090544263_ENG",
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023563/1788639748339213_UNL26_Armenia_vs_Latvia_live_landscape_thumb.jpg",
+            "contentId": "1090544524_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023596/1788702394472375_UNL26_Italy_vs_Belgium_live_landscape_thumb.jpg",
             "broadcast_channel": "Sony Sports Ten 2",
             "audioLanguageName": "ENG",
             "event_name": "UEFA Nations League 2026-27",
-            "match_name": "Armenia vs Latvia - 25 Sep 2026 [ENG]",
-            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2037140/footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56",
-            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2037140/footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56",
-            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2037140/footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56"
+            "match_name": "Italy vs Belgium - 26 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120300/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120300/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120300/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
         },
         {
-            "event_category": "Golf",
+            "event_category": "Tennis",
             "isLive": true,
-            "contentId": "1090544116_ENG",
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023647/1788844981232657_DP_World_Tour_FedEx_Open_de_France_Day2_landscape_thumb.jpg",
-            "broadcast_channel": "LIV",
-            "audioLanguageName": "ENG",
-            "event_name": "DP World Tour",
-            "match_name": "FedEx Open de France - Day 2 - 25 Sep 2026 [ENG]",
-            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2022320/golflive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56",
-            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2022320/golflive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56",
-            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2022320/golflive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790399273~acl=/*~id=79797537892118669297420693544570~hmac=5b26c06b517985703f119fe3b2d7cd048ca324a0df03ac5086e29fe200a7fc56"
-        },
-        {
-            "event_category": "Football",
-            "isLive": false,
-            "contentId": 1090544258,
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024807/1790348947649514_UNL26_Turkey_vs_France_Tonight_landscape_thumb.jpg",
+            "contentId": "1090544164_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024789/1790340619920764_Laver_cup26_day1_session2_live_landscape_thumb.jpg",
             "broadcast_channel": "Sony Sports Ten 5",
             "audioLanguageName": "ENG",
-            "event_name": "Upcoming - T\u00fcrkiye vs France - UEFA Nations League 2026-27"
+            "event_name": "Laver Cup 2026",
+            "match_name": "Day 1 - Session 2 - 25 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2022322/tennisli2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2022322/tennisli2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2022322/tennisli2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
+        },
+        {
+            "event_category": "Football",
+            "isLive": true,
+            "contentId": "1090544527_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023598/1788732930050414_UNL26_Poland_vs_Bosnia_live_landscape_thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 2",
+            "audioLanguageName": "ENG",
+            "event_name": "UEFA Nations League 2026-27",
+            "match_name": "Poland vs Bosnia & Herzegovina - 26 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2037141/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2037141/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2037141/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
+        },
+        {
+            "event_category": "Football",
+            "isLive": true,
+            "contentId": "1090544526_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023598/1788731876033414_UNL26_Hungary_vs_Ukraine_live_landscape_thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 2",
+            "audioLanguageName": "ENG",
+            "event_name": "UEFA Nations League 2026-27",
+            "match_name": "Hungary vs Ukraine - 26 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2022317/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2022317/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2022317/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
+        },
+        {
+            "event_category": "Football",
+            "isLive": true,
+            "contentId": "1090544528_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023876/1789123456609737_UNL_26_Sweden-vs-Romania_live_landscape_thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 2",
+            "audioLanguageName": "ENG",
+            "event_name": "UEFA Nations League 2026-27",
+            "match_name": "Sweden vs Romania - 26 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2037142/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2037142/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2037142/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
+        },
+        {
+            "event_category": "Football",
+            "isLive": true,
+            "contentId": "1090544529_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023876/1789123766036737_UNL_26_Montenegro-vs-Cyprus_live_landscape_thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 2",
+            "audioLanguageName": "ENG",
+            "event_name": "UEFA Nations League 2026-27",
+            "match_name": "Montenegro vs Cyprus - 26 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2022316/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2022316/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2022316/Footlive2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790410824~acl=/*~id=71096115601347172738106585647802~hmac=e1b91104a184d053aa0bad20bb12aa4f78d22967fc10e46eaf64b8bde195e3db"
+        },
+        {
+            "event_category": "Sports",
+            "isLive": false,
+            "contentId": 1090540014,
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024191/1789810486957132_ASIAN_GAME_2026_GOB_Landscape_Thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 5",
+            "audioLanguageName": "HIN",
+            "event_name": "Upcoming - Har Baar Bharat - 20th Asian Games Aichi-Nagoya 2026"
         },
         {
             "event_category": "Sports",
@@ -95,15 +147,6 @@
             "broadcast_channel": "Sony Sports Ten 5",
             "audioLanguageName": "ENG",
             "event_name": "Upcoming - Laver Cup 2026"
-        },
-        {
-            "event_category": "Sports",
-            "isLive": false,
-            "contentId": 1090540014,
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024191/1789810486957132_ASIAN_GAME_2026_GOB_Landscape_Thumb.jpg",
-            "broadcast_channel": "Sony Sports Ten 5",
-            "audioLanguageName": "HIN",
-            "event_name": "Upcoming - Har Baar Bharat - 20th Asian Games Aichi-Nagoya 2026"
         },
         {
             "event_category": "Cricket",
