@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:12:20 PM 09-25-2026
+#LAST_UPDATE:05:26 PM 09-25-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -144,24 +144,31 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.41/hls/UIIIAAA.m3u8
 
-#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - BEIN SPORTS FHD
+#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - BeIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0
+#EXTVLCOPT:http-referrer=https://www.amazon.com/
+#EXTVLCOPT:http-origin=https://www.amazon.com
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
-#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - GHD SPORTS - HD
+#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - BEIN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - BEIN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.55/hls/ELLLAA.m3u8
+http://193.47.62.50/hls/NAAAQQ.m3u8
 
-#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - GHD SPORTS SD
+#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - beIN sports Xtra HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - beIN sports Xtra HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/039a19f5-0fee-4e35-a534-e33fa11bb5cd.m3u8
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="395" tvg-name="Africa Cup of Nations Qual.: Senegal vs Mozambique - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Senegal vs Mozambique - FAST SERVER HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live3.dyrur1.com/live/j374oi0pgwvhgqo_00375a46bf33f4f64843a544a09072d0_540p.m3u8?auth_key=1790355489-0-0-54980e599648f60e652acef1121b8207
 
 #EXTINF:-1 tvg-id="441" tvg-name="Africa Cup of Nations Qual.: Nigeria vs Madagascar - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1848/image/dark" group-title="Football",Africa Cup of Nations Qual.: Nigeria vs Madagascar - BEIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -905,16 +912,84 @@ https://www.rtmpcdn.com/live/add98371-b40a-4c3d-bc85-bd00e69df78c.m3u8
 #KODIPROP:inputstream.adaptive.license_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
 https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
 
-#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Australia vs Brazil - TYC SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Australia vs Brazil - TYC SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - GHD SPORTS  - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - GHD SPORTS  - HD
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Australia vs Brazil - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Australia vs Brazil - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/JFFFA.m3u8
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+https://www.rtmpcdn.com/live/ea2089c8-a994-4c74-ac42-17b1ee90ecc0.m3u8
+
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Australia vs Brazil - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Australia vs Brazil - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://soco.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel28.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/GIIIA.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv HIN - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Footlive2509/HIN/master.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv ENG - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/Footlive2509/ENG/master.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv TAM - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/Footlive2509/TAM/master.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv TEL - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Footlive2509/TEL/master.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv KAN - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive2509/KAN/master.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - SonyLiv BEN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - SonyLiv BEN - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Footlive2509/BEN/master.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - Sony TEN 2 HD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - Sony TEN 2 HD (IND IP)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)
+https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
+
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: India vs Panama - Sony TEN 2 SD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: India vs Panama - Sony TEN 2 SD (IND IP)
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)
+https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
 #EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: USA vs Peru - PREMIER SPORTS - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - PREMIER SPORTS - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1092,28 +1167,41 @@ https://edgestream2.pro/hls/ueyeztrazb4.m3u8
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 https://chatgpt.hereisman.net/playlist/56670/load-playlist?&.m3u8
 
-#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Bangladesh vs Malaysia - Tapmad ENG AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Bangladesh vs Malaysia - Tapmad ENG AQ
+#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Indonesia vs Singapore - GHD SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Indonesia vs Singapore - GHD SPORTS FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9c7b6aaca62d4dc59567656b371eaa21:253951f121461cbb6b8aac526438b368
+https://tglmp02.akamaized.net/out/v1/8e5c0396bfbc4a668fac323649dc6aa1/manifest.mpd
+
+#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Indonesia vs Singapore - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Indonesia vs Singapore - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/NAAA.m3u8
+
+#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Indonesia vs Singapore - TAPMAD ENG FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Indonesia vs Singapore - TAPMAD ENG FHD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://tapmad.com/
 https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
 
-#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Bangladesh vs Malaysia - HD SERVER" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Bangladesh vs Malaysia - HD SERVER
+#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Indonesia vs Singapore - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Indonesia vs Singapore - DAZN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/dooo.m3u8
+https://godfather.bondsplive.online/borehd/logo.png?&e=.m3u8
 
-#EXTINF:-1 tvg-id="1080" tvg-name="UEFA Nations League: Armenia vs Latvia - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Armenia vs Latvia - GHD SPORTS HD
+#EXTINF:-1 tvg-id="1075" tvg-name="ASEAN Cup: Indonesia vs Singapore - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/37824/image/dark" group-title="Football",ASEAN Cup: Indonesia vs Singapore - FAST SERVER HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/af91c0fd-6732-4310-a7ea-01c14768668f.m3u8
+https://live2.zundrixmediapipeline.com/live/channel15.m3u8
 
-#EXTINF:-1 tvg-id="1080" tvg-name="UEFA Nations League: Armenia vs Latvia - FOX SOCCER + HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Armenia vs Latvia - FOX SOCCER + HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56993/load-playlist?&.m3u8
+#EXTINF:-1 tvg-id="1080" tvg-name="UEFA Nations League: Armenia vs Latvia - SPORT TV BR AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Armenia vs Latvia - SPORT TV BR AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
+https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
 
 #EXTINF:-1 tvg-id="1080" tvg-name="UEFA Nations League: Armenia vs Latvia - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Armenia vs Latvia - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
