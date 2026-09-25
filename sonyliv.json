@@ -1,42 +1,59 @@
 {
     "name": "Sonyliv Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "07:16:47 25-09-2026",
+    "last update time": "12:10:12 25-09-2026",
     "matches": [
         {
-            "event_category": "Athletics",
+            "event_category": "Sports",
             "isLive": true,
-            "contentId": "1090541378_ENG",
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024696/1790277062998446_AG26_25Sep_Athletics_Womens_Heptathlon_Long_Jump_live_landscape_thumb.jpg",
+            "contentId": "1090541381_ENG",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024234/1789852034881646_AG26_Stream1_generic_landscape_thumb.jpg",
             "broadcast_channel": "Sony Sports Ten 5",
             "audioLanguageName": "ENG",
             "event_name": "20th Asian Games Aichi-Nagoya 2026",
-            "match_name": "India In Action - Athletics - 25 Sep 2026 [ENG]",
-            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120307/AG_strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790344006~acl=/*~id=22683876105201282062986137670608~hmac=2647ad0717c172826d10b105ddc77c2bb4ff92b2eeac5162c39efd6b033fa44f",
-            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120307/AG_strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790344006~acl=/*~id=22683876105201282062986137670608~hmac=2647ad0717c172826d10b105ddc77c2bb4ff92b2eeac5162c39efd6b033fa44f",
-            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120307/AG_strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790344006~acl=/*~id=22683876105201282062986137670608~hmac=2647ad0717c172826d10b105ddc77c2bb4ff92b2eeac5162c39efd6b033fa44f"
-        },
-        {
-            "event_category": "Cricket",
-            "isLive": true,
-            "contentId": "1090541367_ENG",
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024653/1790246768445288_AG26_Mens-Cricket-CHINA-vs-OMAN_LIVE_landscape_thumb.jpg",
-            "broadcast_channel": "Sony Sports Ten 5",
-            "audioLanguageName": "ENG",
-            "event_name": "20th Asian Games Aichi-Nagoya 2026",
-            "match_name": "Hong Kong, China vs Oman - 25 Sep 2026 [ENG]",
-            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120302/AG_DXCri2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790344006~acl=/*~id=22683876105201282062986137670608~hmac=2647ad0717c172826d10b105ddc77c2bb4ff92b2eeac5162c39efd6b033fa44f",
-            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120302/AG_DXCri2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790344006~acl=/*~id=22683876105201282062986137670608~hmac=2647ad0717c172826d10b105ddc77c2bb4ff92b2eeac5162c39efd6b033fa44f",
-            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120302/AG_DXCri2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790344006~acl=/*~id=22683876105201282062986137670608~hmac=2647ad0717c172826d10b105ddc77c2bb4ff92b2eeac5162c39efd6b033fa44f"
+            "match_name": "Day 7 - 25 Sep 2026 [ENG]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120306/AG_Strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120306/AG_Strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120306/AG_Strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e"
         },
         {
             "event_category": "Sports",
-            "isLive": false,
-            "contentId": 1090540014,
-            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024191/1789810486957132_ASIAN_GAME_2026_GOB_Landscape_Thumb.jpg",
+            "isLive": true,
+            "contentId": "1090541381_TAM",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024234/1789852034881646_AG26_Stream1_generic_landscape_thumb.jpg",
             "broadcast_channel": "Sony Sports Ten 5",
-            "audioLanguageName": "HIN",
-            "event_name": "Upcoming - Har Baar Bharat - 20th Asian Games Aichi-Nagoya 2026"
+            "audioLanguageName": "ENG",
+            "event_name": "20th Asian Games Aichi-Nagoya 2026",
+            "match_name": "Day 7 - 25 Sep 2026 [TAM]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120304/AG_Strea2409/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120304/AG_Strea2409/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120304/AG_Strea2409/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e"
+        },
+        {
+            "event_category": "Sports",
+            "isLive": true,
+            "contentId": "1090541381_TEL",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024234/1789852034881646_AG26_Stream1_generic_landscape_thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 5",
+            "audioLanguageName": "ENG",
+            "event_name": "20th Asian Games Aichi-Nagoya 2026",
+            "match_name": "Day 7 - 25 Sep 2026 [TEL]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120303/AG_Strea2409/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120303/AG_Strea2409/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120303/AG_Strea2409/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e"
+        },
+        {
+            "event_category": "Sports",
+            "isLive": true,
+            "contentId": "1090541381_KAN",
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024234/1789852034881646_AG26_Stream1_generic_landscape_thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 5",
+            "audioLanguageName": "ENG",
+            "event_name": "20th Asian Games Aichi-Nagoya 2026",
+            "match_name": "Day 7 - 25 Sep 2026 [KAN]",
+            "dai_url": "https://sonydaimenew.akamaized.net/hls/live/2120305/AG_Strea2409/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "pub_url": "https://sonydaimenew.akamaized.net/hls/live/2120305/AG_Strea2409/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e",
+            "video_url": "https://sonydaimenew.akamaized.net/hls/live/2120305/AG_Strea2409/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790361611~acl=/*~id=97148654218517768293372819257769~hmac=f954394ebe9e8033f7609c3f9b344c61e96a69089673403848c9516af3ca118e"
         },
         {
             "event_category": "Football",
@@ -91,6 +108,15 @@
             "broadcast_channel": "Sony Sports Ten 5",
             "audioLanguageName": "ENG",
             "event_name": "Upcoming - Sri Lanka Tour of England 2026"
+        },
+        {
+            "event_category": "Sports",
+            "isLive": false,
+            "contentId": 1090540014,
+            "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024191/1789810486957132_ASIAN_GAME_2026_GOB_Landscape_Thumb.jpg",
+            "broadcast_channel": "Sony Sports Ten 5",
+            "audioLanguageName": "HIN",
+            "event_name": "Upcoming - Har Baar Bharat - 20th Asian Games Aichi-Nagoya 2026"
         },
         {
             "event_category": "Cricket",

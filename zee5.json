@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR STRANGE",
   "name": "ZEE5 Live API",
-  "last_updated": "07:30:10 PM 24-09-2026",
+  "last_updated": "11:30:03 AM 25-09-2026",
   "app_settings": {
     "PROXY": "OFF",
     "state_code": "BR",
@@ -17,9 +17,9 @@
   },
   "matches": [
     {
-      "id": "0-1-6z51083167",
-      "title": "MQW Vs DWW",
-      "description": "Watch Mussoorie Queens Women Vs Dehradun Warriors Women LIVE &amp; Exclusive only on ZEE5. UPL'26",
+      "id": "0-1-6z51083170",
+      "title": "HE Vs TT",
+      "description": "Watch Haridwar Elmas Vs Tehri Titans LIVE & Exclusive only on ZEE5. UPL'26",
       "genres": [
         {
           "id": "Sports",
@@ -28,7 +28,7 @@
       ],
       "contentOwner": "Zee Entertainment Enterprises Limited",
       "businessType": "advertisement_downloadable",
-      "releaseDate": "Thursday, 24 September 2026",
+      "releaseDate": "Friday, 25 September 2026",
       "languages": [
         "hindi"
       ],
@@ -36,17 +36,17 @@
         "hi"
       ],
       "images": {
-        "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083167/list/1920x1080list4831970bd2b647ec82074632768dadfc60dc73604a724f2e8bddaf83ad24af4e.jpg",
-        "cover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083167/cover/1920x7709b44bfad843b46b1a26ab332458cd072e5a1f9c2f72e4161a2b53a91191cd9638f428ed47e6448908c6c8c128fab7392.jpg",
-        "appCover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083167/appCover/1920x1080appcoveredfddf69935f414b86f281474a74f39f9101cdac30ff40e2a77579c47a080d10.jpg",
-        "verticalBanner": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083167/verticalBanner/845x1080e14c31f15930492a92854ab1bb7804399d3dffa0b24a49b5a1bd66cf227cdc36.jpg"
+        "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083170/list/1920x1080list9f6cffbb5b02467da92573c09e5bd2be4fea46a4e01541d098f8775ede921fbd.jpg",
+        "cover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083170/cover/1920x77056661a2afc504638890965d1ff68274a79cde9bf49074a76a3344755a517886f26d59ffe3176492e96dbb80141bdf5f9.jpg",
+        "appCover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083170/appCover/1920x1080appcover8c55ec469f8f48a890bc2bc9c02996e18654194df9004c7fb0d1de4c00fc2ab3.jpg",
+        "verticalBanner": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083170/verticalBanner/845x10800b539dba146b40e3b3ea232eae477fa41085c4de1e7745749e3adccac6b9b5bf.jpg"
       },
       "playback": {
         "hindi": {
-          "playbackUrl": "https://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master.m3u8",
+          "playbackUrl": "https://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master.m3u8",
           "bkp_playbackUrl": "Coming Soon",
-          "expire_at": "Friday 25th of September 2026 07:30:09 PM",
-          "auto_streams": "#EXTM3U\n#EXT-X-VERSION:4\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-STREAM-INF:BANDWIDTH=760320,AVERAGE-BANDWIDTH=760320,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=640x360,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master_360p.m3u8?hdntl=exp=1790344809~acl=%2f*~id=0-1-6z51083167_22980022-d84b-4cb9-a748-5ae6453cb846~data=hdntl,2109037,UPL-M11,ENG,c77877b7324e8dfb929f7493d3e4e9efd681e34b1814c86ad7ec43c405edd82a~hmac=97e4f836d0139273f97c5592126a1be43201d72a3f8a9f48ac6fcb10149d4f9e\n#EXT-X-STREAM-INF:BANDWIDTH=1256200,AVERAGE-BANDWIDTH=1256200,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=854x480,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master_480p.m3u8?hdntl=exp=1790344809~acl=%2f*~id=0-1-6z51083167_22980022-d84b-4cb9-a748-5ae6453cb846~data=hdntl,2109037,UPL-M11,ENG,c77877b7324e8dfb929f7493d3e4e9efd681e34b1814c86ad7ec43c405edd82a~hmac=97e4f836d0139273f97c5592126a1be43201d72a3f8a9f48ac6fcb10149d4f9e\n#EXT-X-STREAM-INF:BANDWIDTH=1525700,AVERAGE-BANDWIDTH=1525700,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1024x576,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master_576P.m3u8?hdntl=exp=1790344809~acl=%2f*~id=0-1-6z51083167_22980022-d84b-4cb9-a748-5ae6453cb846~data=hdntl,2109037,UPL-M11,ENG,c77877b7324e8dfb929f7493d3e4e9efd681e34b1814c86ad7ec43c405edd82a~hmac=97e4f836d0139273f97c5592126a1be43201d72a3f8a9f48ac6fcb10149d4f9e\n#EXT-X-STREAM-INF:BANDWIDTH=2334200,AVERAGE-BANDWIDTH=2334200,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master_720p.m3u8?hdntl=exp=1790344809~acl=%2f*~id=0-1-6z51083167_22980022-d84b-4cb9-a748-5ae6453cb846~data=hdntl,2109037,UPL-M11,ENG,c77877b7324e8dfb929f7493d3e4e9efd681e34b1814c86ad7ec43c405edd82a~hmac=97e4f836d0139273f97c5592126a1be43201d72a3f8a9f48ac6fcb10149d4f9e\n#EXT-X-STREAM-INF:BANDWIDTH=4598000,AVERAGE-BANDWIDTH=4598000,CODECS=\"avc1.640029,mp4a.40.2\",RESOLUTION=1920x1080,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master_1080p.m3u8?hdntl=exp=1790344809~acl=%2f*~id=0-1-6z51083167_22980022-d84b-4cb9-a748-5ae6453cb846~data=hdntl,2109037,UPL-M11,ENG,c77877b7324e8dfb929f7493d3e4e9efd681e34b1814c86ad7ec43c405edd82a~hmac=97e4f836d0139273f97c5592126a1be43201d72a3f8a9f48ac6fcb10149d4f9e\n#EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE=\"eng\",NAME=\"English\",AUTOSELECT=YES,DEFAULT=YES,CHANNELS=\"2\",GROUP-ID=\"program_audio_0\",URI=\"https://falconstream.zee5.com/cmaf/live/2109037/UPL-M11_ENG/master_aud.m3u8?hdntl=exp=1790344809~acl=%2f*~id=0-1-6z51083167_22980022-d84b-4cb9-a748-5ae6453cb846~data=hdntl,2109037,UPL-M11,ENG,c77877b7324e8dfb929f7493d3e4e9efd681e34b1814c86ad7ec43c405edd82a~hmac=97e4f836d0139273f97c5592126a1be43201d72a3f8a9f48ac6fcb10149d4f9e\""
+          "expire_at": "Saturday 26th of September 2026 11:15:07 AM",
+          "auto_streams": "#EXTM3U\n#EXT-X-VERSION:4\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-STREAM-INF:BANDWIDTH=760320,AVERAGE-BANDWIDTH=760320,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=640x360,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master_360p.m3u8?hdntl=exp=1790401507~acl=%2f*~id=0-1-6z51083170_4335824b-0a99-4564-ae92-9e5f4b2b84d7~data=hdntl,2109038,UPL-M12,ENG,46f6ace40a9fb1fed484d904b478e9e2c888322c6bdeee63546e810a3547b9b8~hmac=857c69f1c739202b5fe5ebdb8ee85a1660d5ee58493f573be574aae6884c00a6\n#EXT-X-STREAM-INF:BANDWIDTH=1256200,AVERAGE-BANDWIDTH=1256200,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=854x480,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master_480p.m3u8?hdntl=exp=1790401507~acl=%2f*~id=0-1-6z51083170_4335824b-0a99-4564-ae92-9e5f4b2b84d7~data=hdntl,2109038,UPL-M12,ENG,46f6ace40a9fb1fed484d904b478e9e2c888322c6bdeee63546e810a3547b9b8~hmac=857c69f1c739202b5fe5ebdb8ee85a1660d5ee58493f573be574aae6884c00a6\n#EXT-X-STREAM-INF:BANDWIDTH=1525700,AVERAGE-BANDWIDTH=1525700,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1024x576,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master_576P.m3u8?hdntl=exp=1790401507~acl=%2f*~id=0-1-6z51083170_4335824b-0a99-4564-ae92-9e5f4b2b84d7~data=hdntl,2109038,UPL-M12,ENG,46f6ace40a9fb1fed484d904b478e9e2c888322c6bdeee63546e810a3547b9b8~hmac=857c69f1c739202b5fe5ebdb8ee85a1660d5ee58493f573be574aae6884c00a6\n#EXT-X-STREAM-INF:BANDWIDTH=2334200,AVERAGE-BANDWIDTH=2334200,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master_720p.m3u8?hdntl=exp=1790401507~acl=%2f*~id=0-1-6z51083170_4335824b-0a99-4564-ae92-9e5f4b2b84d7~data=hdntl,2109038,UPL-M12,ENG,46f6ace40a9fb1fed484d904b478e9e2c888322c6bdeee63546e810a3547b9b8~hmac=857c69f1c739202b5fe5ebdb8ee85a1660d5ee58493f573be574aae6884c00a6\n#EXT-X-STREAM-INF:BANDWIDTH=4598000,AVERAGE-BANDWIDTH=4598000,CODECS=\"avc1.640029,mp4a.40.2\",RESOLUTION=1920x1080,FRAME-RATE=25.000,AUDIO=\"program_audio_0\"\nhttps://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master_1080p.m3u8?hdntl=exp=1790401507~acl=%2f*~id=0-1-6z51083170_4335824b-0a99-4564-ae92-9e5f4b2b84d7~data=hdntl,2109038,UPL-M12,ENG,46f6ace40a9fb1fed484d904b478e9e2c888322c6bdeee63546e810a3547b9b8~hmac=857c69f1c739202b5fe5ebdb8ee85a1660d5ee58493f573be574aae6884c00a6\n#EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE=\"eng\",NAME=\"English\",AUTOSELECT=YES,DEFAULT=YES,CHANNELS=\"2\",GROUP-ID=\"program_audio_0\",URI=\"https://falconstream.zee5.com/cmaf/live/2109038/UPL-M12_ENG/master_aud.m3u8?hdntl=exp=1790401507~acl=%2f*~id=0-1-6z51083170_4335824b-0a99-4564-ae92-9e5f4b2b84d7~data=hdntl,2109038,UPL-M12,ENG,46f6ace40a9fb1fed484d904b478e9e2c888322c6bdeee63546e810a3547b9b8~hmac=857c69f1c739202b5fe5ebdb8ee85a1660d5ee58493f573be574aae6884c00a6\""
         }
       }
     }
@@ -76,6 +76,29 @@
         "cover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/cover/skl1920x770covere81d94c348b14db2ab908811187e4ad5.jpg",
         "appCover": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/appCover/skl1920x1080appcover26b2c02ae60b42d59c97b7b4e6c78fb2.jpg",
         "verticalBanner": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51083982/verticalBanner/skl845x1080verticalbannerda819c7d3828436fa2e106627d10db2f.jpg"
+      }
+    },
+    "0-1-6z51084794": {
+      "id": "0-1-6z51084794",
+      "title": "ESP Vs PRK | Match Preview",
+      "description": "Coming up - ESP Vs PRK compete at the FIFA U-20 WWC Final, LIVE at 9:15 PM, 27th September.",
+      "genres": [
+        {
+          "id": "Sports",
+          "value": "Sports"
+        }
+      ],
+      "contentOwner": "Zee Entertainment Enterprises Limited",
+      "businessType": "free",
+      "releaseDate": "Friday, 25 September 2026",
+      "languages": [
+        "en"
+      ],
+      "audioLanguages": [
+        "en"
+      ],
+      "images": {
+        "list": "https://akamaividz2.zee5.com/image/upload/resources/0-1-6z51084794/list/000000005fd8b349c0a0c4c7794982c9975465bb5.jpg"
       }
     }
   }
