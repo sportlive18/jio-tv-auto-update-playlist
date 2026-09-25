@@ -2,6 +2,31 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-25 04:00:32 AM (BD Time)"
-# Total Active Links: 0
+#"last updated": "2026-09-25 07:00:59 AM (BD Time)"
+# Total Active Links: 5
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Oman.png" group-title="Asian Games 2026", Hong Kong, China vs Oman - Willow Cricket
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.bhalocast.com:7060/hls/willowsd.m3u8?md5=Bz0_spUskrVLHmXrx1QvAQ&expires=1790302842&ch=willowsd&s=e3de6afc487811d73f13a7c8872b1c26
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Oman.png" group-title="Asian Games 2026", Hong Kong, China vs Oman - Willow Xtra
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.bhalocast.com:7060/hls/wextres5.m3u8?md5=kEtCpuJv6_O75qB3iWz7kQ&expires=1790302850&ch=wextres5&s=6b499d2355c566318e6e28743b98226f
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Oman.png" group-title="Asian Games 2026", Hong Kong, China vs Oman - Sony Sports Ten 1
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.bhalocast.com:7060/hls/ten1co.m3u8?md5=NW5F-_bJP-_lrvyYD1Yj-A&expires=1790302853&ch=ten1co&s=ddcc524213fa42593daacb87b523c84e
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Oman.png" group-title="Asian Games 2026", Hong Kong, China vs Oman - Willow HD
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.bhalocast.com:7060/hls/hdwillos5.m3u8?md5=BhMdZc7vIrIeTEK-LzTriQ&expires=1790302856&ch=hdwillos5&s=9f484f8c48682581656cdc61c763a43f
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Hong%20Kong%2C%20China%20vs%20Oman.png" group-title="Asian Games 2026", Hong Kong, China vs Oman - CricGo 1
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.bhalocast.com:7060/hls/cricgo1.m3u8?md5=irVK6rayPjSMWhtP-fHcbw&expires=1790302858&ch=cricgo1&s=5c40f5dc29b1ec918e0d1ef27c8ccd21
 
