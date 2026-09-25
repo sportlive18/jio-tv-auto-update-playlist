@@ -3,8 +3,8 @@
 #  Developed by: Monirul Islam
 #  Telegram: https://t.me/monirul_Islam_SM
 #  Telegram channel : https://t.me/sm_iptv_bd
-#  Last Updated: 2026-09-26 03:03:42 AM (BD Time)
-#  Live Channels Count: 92
+#  Last Updated: 2026-09-26 05:43:09 AM (BD Time)
+#  Live Channels Count: 49
 #=================================
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NASCAR%20CUP%20SERIES%20Vs%20NASCAR%20CUP%20SERIES.jpg" group-title="Motorsports", NASCAR CUP SERIES Vs NASCAR CUP SERIES - FOX2 SPORTS FHD
@@ -17,6 +17,17 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1
 #KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/UAB%20Blazers%20Vs%20Navy%20Midshipmen.jpg" group-title="American football", UAB Blazers Vs Navy Midshipmen - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream4.pro/hls/uheyztezgj34.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/UAB%20Blazers%20Vs%20Navy%20Midshipmen.jpg" group-title="American football", UAB Blazers Vs Navy Midshipmen - TSN5 SPORTS FHD.
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Temple%20Owls%20Vs%20Army%20Knights.jpg" group-title="American football", Temple Owls Vs Army Knights - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
@@ -28,267 +39,6 @@ https://edgestream3.pro/hls/qsdnajbq32.m3u8
 #KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - DAZN SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=62743adac219756975f1381037833a60:5cfc130423094766b86683c56a2233cf
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ma4gaeu3qd/out/v1/2c8b7fb77a8c4c9ba8cbceddfe3c13d1/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - SPORTV2 BR FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - SPORT PR FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2357a3e2fe6f07c42c00ee9eec769a27:061d7a73d6f4b13160e3d9fdbc154a0a
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/orhlovwjv8/out/v1/3fbdf8c3ec6743d085d32dace1764176/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - UEFA TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/57055/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - SonyLiv (Asia)
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2022317/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - TV QUALITY
-http://162.251.160.53:8089/19035/index.m3u8http://162.251.160.53:8089/19035/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hungary%20Vs%20Ukraine.jpg" group-title="Football", Hungary Vs Ukraine - HD STREAMING
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/griogoehvn2.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - FOX2 SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - BEIN3 SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/hd-en-1-4517795.m3u8?txSecret=d643e4c7474cdbd0f14d89362972f8b8&txTime=6AB6D26C
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - SonyLiv (Asia)
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - TV QUALITY
-http://162.251.160.53:8089/16034/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - HD STREAMING
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream7.pro/hls/b0h5fNwDKH.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - HD QUALITY4
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/dd713707-0e3c-4608-a515-71f8ae0968d0.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/LIIIAAAQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Belgium.jpg" group-title="Football", Italy Vs Belgium - RAI SPORTS (ITALY VPN)
-https://raievent10-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - BeIN2 SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - SPORT TV FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/hd-en-1-4517796.m3u8?txSecret=c91332cd16b4fc096a89b244784b106c&txTime=6AB6D299
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - SonyLiv (Asia)
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - TV QUALITY
-http://162.251.160.53:8089/15489/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - HD STREAMING
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream7.pro/hls/sqdahach1ax.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - HD QUALITY4
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/5379da79-901c-4cc2-b511-47cdd1f2b9c0.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/T%C3%BCrkiye%20Vs%20France.jpg" group-title="Football", Türkiye Vs France - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/LIIIAAAQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - BeIN1 SPORTSFHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - ESPN5 ARG FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4e126297fc7af35c736bdffe98eecaaa:fdb0091cf67d9c596dbfb07cf6f4c8f5
-https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(80c74968-a2ef-4005-8661-045fe97408a8)/master.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - UEFA TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/57053/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/hd-en-1-4517799.m3u8?txSecret=8371efd438789f9776e310cbf6e420e3&txTime=6AB6D2C1
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - SonyLiv (Asia)
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037142/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - HD QUALITY4
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/97549ec0-bc8d-4970-ac61-af1cf3312f22.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - TV QUALITY
-http://162.251.160.53:8089/22105/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Romania.jpg" group-title="Football", Sweden Vs Romania - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/LIIIAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - UEFA TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/57056/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/hd-en-1-4517800.m3u8?txSecret=14356fdcc4cc8872f846ec647ed94498&txTime=6AB6D31D
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - SonyLiv (Asia)
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - HD QUALITY4
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/875dc817-28d2-4f7e-9804-051297192fb7.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - HD STREAMING
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/377qj1h2727.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - TV QUALITY
-http://162.251.160.53:8089/14034/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montenegro%20Vs%20Cyprus.jpg" group-title="Football", Montenegro Vs Cyprus - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/LIIIA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - FUBO SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - UEFA TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/57054/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/hd-en-1-4517798.m3u8?txSecret=c8e0ca5ced5c30abc0af62d237962823&txTime=6AB6D300
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - SonyLiv (Asia)
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037141/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - HD QUALITY4
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/caf0994c-efb4-442e-932c-8abf4681ef8e.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - TV QUALITY
-http://162.251.160.53:8089/18824/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - HD STREAMING
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Poland%20Vs%20Bosnia%20%26%20Herzegovina.jpg" group-title="Football", Poland Vs Bosnia & Herzegovina - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/LIIIAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Morocco%20Vs%20Gabon.jpg" group-title="Football", Morocco Vs Gabon - beIN SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/unzcostkkb/out/v1/2469724fa7754a4da6861d8ba80de958/b7b32205-0d9d-4cb7-8820-9d2816112664-cenc.mpd?aws_sessionId=5292552f-ba56-438a-8f69-c70bbc7975c5
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Morocco%20Vs%20Gabon.jpg" group-title="Football", Morocco Vs Gabon - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/sd-1-4642692.m3u8?txSecret=6f29312755c04217e068a8a8cf56577f&txTime=6AB6D33C
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Morocco%20Vs%20Gabon.jpg" group-title="Football", Morocco Vs Gabon - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/2b24f899-f079-4d3c-80a1-68f6044029c5.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Morocco%20Vs%20Gabon.jpg" group-title="Football", Morocco Vs Gabon - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/DTTTAAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Burkina%20Faso%20Vs%20Benin.jpg" group-title="Football", Burkina Faso Vs Benin - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/sd-1-4642689.m3u8?txSecret=47fbac22187b58d1a055a3a07123f495&txTime=6AB6D4F2
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Burkina%20Faso%20Vs%20Benin.jpg" group-title="Football", Burkina Faso Vs Benin - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/29557de5-4e27-45dd-8652-8a61e83d497a.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Burkina%20Faso%20Vs%20Benin.jpg" group-title="Football", Burkina Faso Vs Benin - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/DTTTA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Algeria%20Vs%20Zambia.jpg" group-title="Football", Algeria Vs Zambia - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/05b65a40-5e2b-4478-ae28-4b6acc5a7a99.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Algeria%20Vs%20Zambia.jpg" group-title="Football", Algeria Vs Zambia - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/DTTT.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Egypt%20Vs%20Angola.jpg" group-title="Football", Egypt Vs Angola - beIN SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/h3ufdbk8nt/out/v1/27aac1f9df984d65a9d4b95d234f4468/a32c079f-541f-4ecc-a16f-4bc16e337d3b-cenc.mpd?aws_sessionId=bc4f17a8-c58b-4c79-a50a-ba78968eff5d
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Egypt%20Vs%20Angola.jpg" group-title="Football", Egypt Vs Angola - beIN ARABIC FHD
-https://cdn.gamhed.online/hls/arena8x-2.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Egypt%20Vs%20Angola.jpg" group-title="Football", Egypt Vs Angola - FASTER QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/sd-1-4642693.m3u8?txSecret=f0885e7f6f0289101c6a7aa92801157d&txTime=6AB6D4DF
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Egypt%20Vs%20Angola.jpg" group-title="Football", Egypt Vs Angola - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/4c83a480-06a7-4ab1-a8a0-ca20cde631a6.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Egypt%20Vs%20Angola.jpg" group-title="Football", Egypt Vs Angola - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/DTTTAA.m3u8?
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Grenada%20Vs%20Cuba.jpg" group-title="Football", Grenada Vs Cuba - ESPN3 ARG FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8a60d7889ff126ee1895335e92254f8e:de1b0ce19fa804a1c473eb8ef2d5cf6d
@@ -297,98 +47,177 @@ https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(a38d1401-ee01-4802-812a-7cb
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Grenada%20Vs%20Cuba.jpg" group-title="Football", Grenada Vs Cuba - TV QUALITY
 http://162.251.160.53:8089/25179/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bermuda%20Vs%20Guadeloupe.jpg" group-title="Football", Bermuda Vs Guadeloupe - TV QUALITY
-http://162.251.160.53:8089/25179/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hartford%20Athletic%20Vs%20Louisville%20City%20FC.jpg" group-title="Football", Hartford Athletic Vs Louisville City FC - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bermuda%20Vs%20Guadeloupe.jpg" group-title="Football", Bermuda Vs Guadeloupe - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAAAQQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Dordrecht%20Vs%20Almere%20City%20FC.jpg" group-title="Football", FC Dordrecht Vs Almere City FC - TV QUALITY
-http://162.251.160.53:8089/29364/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Dordrecht%20Vs%20Almere%20City%20FC.jpg" group-title="Football", FC Dordrecht Vs Almere City FC - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAAAQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mali%20Vs%20Cabo%20Verde.jpg" group-title="Football", Mali Vs Cabo Verde - HD QUALITY
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-https://live.vivo155.com/live/sd-1-4642691.m3u8?txSecret=3c8cdbcbf199b81b6e9b5f81f384a84e&txTime=6AB6D8DF
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mali%20Vs%20Cabo%20Verde.jpg" group-title="Football", Mali Vs Cabo Verde - HD QUALITY
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/3e61ecee-cf52-40a1-b4a9-dc78b06bdc13.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mali%20Vs%20Cabo%20Verde.jpg" group-title="Football", Mali Vs Cabo Verde - BeIN SPORTS XTRA
-https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mali%20Vs%20Cabo%20Verde.jpg" group-title="Football", Mali Vs Cabo Verde - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.55/hls/DTTTAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/KK%20Partizan%20Mozzart%20Bet%20Vs%20EA7%20Emporio%20Armani%20Milano.jpg" group-title="Basketball", KK Partizan Mozzart Bet Vs EA7 Emporio Armani Milano - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/f5c6bee3-cc89-4f7a-a8a7-1016e3b4a3c7.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/KK%20Partizan%20Mozzart%20Bet%20Vs%20EA7%20Emporio%20Armani%20Milano.jpg" group-title="Basketball", KK Partizan Mozzart Bet Vs EA7 Emporio Armani Milano - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888A.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Leeds%20Rhinos%20Vs%20Warrington%20Wolves.jpg" group-title="Rugby", Leeds Rhinos Vs Warrington Wolves - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAAAQQQQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Leeds%20Rhinos%20Vs%20Warrington%20Wolves.jpg" group-title="Rugby", Leeds Rhinos Vs Warrington Wolves - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAAAQQQQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Ulster%20Rugby%20Vs%20Edinburgh%20Rugby.jpg" group-title="Rugby", Ulster Rugby Vs Edinburgh Rugby - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/G555AAAAQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Ulster%20Rugby%20Vs%20Edinburgh%20Rugby.jpg" group-title="Rugby", Ulster Rugby Vs Edinburgh Rugby - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/G555AAAAQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Benetton%20Treviso%20Vs%20Dragons.jpg" group-title="Rugby", Benetton Treviso Vs Dragons - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/G555AAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Benetton%20Treviso%20Vs%20Dragons.jpg" group-title="Rugby", Benetton Treviso Vs Dragons - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/G555AAAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Connacht%20Rugby%20Vs%20Stormers.jpg" group-title="Rugby", Connacht Rugby Vs Stormers - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/G555AAAAQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Connacht%20Rugby%20Vs%20Stormers.jpg" group-title="Rugby", Connacht Rugby Vs Stormers - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/G555AAAAQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Northampton%20Saints%20Vs%20Newcastle%20Red%20Bulls.jpg" group-title="Rugby", Northampton Saints Vs Newcastle Red Bulls - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Northampton%20Saints%20Vs%20Newcastle%20Red%20Bulls.jpg" group-title="Rugby", Northampton Saints Vs Newcastle Red Bulls - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Harlequin%20FC%20Vs%20Bath%20Rugby.jpg" group-title="Rugby", Harlequin FC Vs Bath Rugby - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Harlequin%20FC%20Vs%20Bath%20Rugby.jpg" group-title="Rugby", Harlequin FC Vs Bath Rugby - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AA.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Grenoble%20Rugby%20Vs%20Valence%20Romans%20Dr%C3%B4me.jpg" group-title="Rugby", FC Grenoble Rugby Vs Valence Romans Drôme - STREAM TV + HD
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAAAQQQQ.m3u8?
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/FC%20Grenoble%20Rugby%20Vs%20Valence%20Romans%20Dr%C3%B4me.jpg" group-title="Rugby", FC Grenoble Rugby Vs Valence Romans Drôme - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/K888AAAAQQQQ.m3u8?
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Racing%20Louisville%20Vs%20San%20Diego%20Wave%20FC.jpg" group-title="Football", Racing Louisville Vs San Diego Wave FC - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/River%20Plate%20Reserve%20Vs%20Boca%20Juniors%20Reserve.jpg" group-title="Football", River Plate Reserve Vs Boca Juniors Reserve - STREAM TV + HD
 https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Gr%C3%AAmio%20Novorizontino%20Vs%20S%C3%A3o%20Bernardo.jpg" group-title="Football", Grêmio Novorizontino Vs São Bernardo - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Red%20Sox%20Vs%20Chicago%20Cubs.jpg" group-title="Baseball", Boston Red Sox Vs Chicago Cubs - TNT1UK SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Red%20Sox%20Vs%20Chicago%20Cubs.jpg" group-title="Baseball", Boston Red Sox Vs Chicago Cubs - TSN2 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Red%20Sox%20Vs%20Chicago%20Cubs.jpg" group-title="Baseball", Boston Red Sox Vs Chicago Cubs - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Detroit%20Tigers%20Vs%20Pittsburgh%20Pirates.jpg" group-title="Baseball", Detroit Tigers Vs Pittsburgh Pirates - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream3.pro/hls/Czajafjihafch18.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Philadelphia%20Phillies%20Vs%20Tampa%20Bay%20Rays.jpg" group-title="Baseball", Philadelphia Phillies Vs Tampa Bay Rays - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream1.pro/hls/bzagLHzach19.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Washington%20Nationals%20Vs%20New%20York%20Mets.jpg" group-title="Baseball", Washington Nationals Vs New York Mets - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Washington%20Capitals%20Vs%20Boston%20Bruins.jpg" group-title="Ice hockey", Washington Capitals Vs Boston Bruins - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream4.pro/hls/uyopzarf50.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Rutgers%20Scarlet%20Knights%20Vs%20Howard%20Bison.jpg" group-title="American football", Rutgers Scarlet Knights Vs Howard Bison - HD STREAMING
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream1.pro/hls/oipozuezeji33.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD STREAM
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream3.pro/hls/zeuryuegn48.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD QUALITY SMK
+https://plex.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD SERVER
+#EXTVLCOPT:http-referrer=https://roxiestreams.info
+https://daffodil.demonpvp.fun/wwe.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD STREAMING
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream1.pro/hls/zeuryuegn48.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SmackDown HD
+https://raw.githubusercontent.com/athenapanda26/hls/refs/heads/main/smack.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD4
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD5
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD6
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SPORT CAST FHD5
+https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD1
+https://acumen.loreofeldenring.site/dailymotion/live/playlist/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE SMACKDOWN 5
+https://serendipity.loreofeldenring.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - USA TV (US VPN)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41
+https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Indiana%20Hoosiers%20Vs%20Northwestern%20Wildcats.jpg" group-title="American football", Indiana Hoosiers Vs Northwestern Wildcats - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/jnknjfzbk35.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Indiana%20Hoosiers%20Vs%20Northwestern%20Wildcats.jpg" group-title="American football", Indiana Hoosiers Vs Northwestern Wildcats - FOX DEPORTES FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Winnipeg%20Blue%20Bombers%20Vs%20Toronto%20Argonauts.jpg" group-title="American football", Winnipeg Blue Bombers Vs Toronto Argonauts - TSN3 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Winnipeg%20Blue%20Bombers%20Vs%20Toronto%20Argonauts.jpg" group-title="American football", Winnipeg Blue Bombers Vs Toronto Argonauts - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Japan%20Vs%20Nepal.jpg" group-title="Cricket", Japan Vs Nepal - ASIA CRICKET
+http://c8.vfruitfairy.com/Asiancrc12/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Barbados%20Vs%20Saint%20Lucia.jpg" group-title="Football", Barbados Vs Saint Lucia - TV QUALITY
+http://162.251.160.53:8089/25179/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Jamaica%20Vs%20Guatemala.jpg" group-title="Football", Jamaica Vs Guatemala - TV QUALITY
+http://162.251.160.53:8089/27149/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bonaire%20Vs%20Saint%20Kitts%20and%20Nevis.jpg" group-title="Football", Bonaire Vs Saint Kitts and Nevis - TV QUALITY
+http://162.251.160.53:8089/26743/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Baltimore%20Orioles.jpg" group-title="Baseball", New York Yankees Vs Baltimore Orioles - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream5.pro/hls/16yuitzaerghbhc16.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Yankees%20Vs%20Baltimore%20Orioles.jpg" group-title="Baseball", New York Yankees Vs Baltimore Orioles - HD STREAMING TV
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream6.pro/hls/ojzkajnach21.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Miami%20Marlins%20Vs%20Atlanta%20Braves.jpg" group-title="Baseball", Miami Marlins Vs Atlanta Braves - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream1.pro/hls/jnzkdzjfanch23.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20White%20Sox%20Vs%20Colorado%20Rockies.jpg" group-title="Baseball", Chicago White Sox Vs Colorado Rockies - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream4.pro/hls/kjhfzua25.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Toronto%20Blue%20Jays%20Vs%20Cincinnati%20Reds.jpg" group-title="Baseball", Toronto Blue Jays Vs Cincinnati Reds - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream5.pro/hls/ijfnakfidch22.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Kansas%20City%20Royals%20Vs%20Cleveland%20Guardians.jpg" group-title="Baseball", Kansas City Royals Vs Cleveland Guardians - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream6.pro/hls/fskjanach24.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Milwaukee%20Brewers%20Vs%20St.%20Louis%20Cardinals.jpg" group-title="Baseball", Milwaukee Brewers Vs St. Louis Cardinals - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream3.pro/hls/dzjhkfazbka26.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Minnesota%20Wild%20Vs%20Dallas%20Stars.jpg" group-title="Ice hockey", Minnesota Wild Vs Dallas Stars - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream3.pro/hls/lmdsjkfgv52.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Islanders%20Vs%20New%20York%20Rangers.jpg" group-title="Ice hockey", New York Islanders Vs New York Rangers - STREAM HD + LIVE
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/hjksgdfauzy51.m3u8
