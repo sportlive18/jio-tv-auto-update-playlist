@@ -1,11 +1,17 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode | Sportlink (5 channels) =====
+#===== Fancode | Sportlink (10 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Saturday, 26 September 2026 at 1:07:19 pm
+#DATE:- Saturday, 26 September 2026 at 3:07:20 pm
 
 #EXTINF:-1 tvg-id="4249304" tvg-name="Delhi Dynamos Vs Gurugram Gladiators @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-App.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Delhi Dynamos Vs Gurugram Gladiators
 https://dai-fancode.pages.dev/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4249583" tvg-name="Keonjhar Miners Vs Kataka Panthers @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249583_53080_KNM_CUT_fc-web_1790170352097.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Keonjhar Miners Vs Kataka Panthers
+https://dai-fancode.pages.dev/mumbai/4249583_english_hls_a79d60a11a81662_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4249526" tvg-name="Sreenidi Deccan Fc Vs Northeast United Fc @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/MM.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Sreenidi Deccan Fc Vs Northeast United Fc
+https://dai-fancode.pages.dev/mumbai/4249526_english_hls_a8622be15a66305_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4248540" tvg-name="Day 4 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Day 4
 https://dai-fancode.pages.dev/mumbai/4248540_english_hls_3e77a8d72330957_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -16,44 +22,43 @@ https://dai-fancode.pages.dev/mumbai/4248547_english_hls_700559ec8061753_1ta-di_
 #EXTINF:-1 tvg-id="4249606" tvg-name="Feature Race 2 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Feature Race 2
 https://dai-fancode.pages.dev/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#===== SonyLIV | Sportlink (5 channels) =====
-#EXTINF:-1 tvg-name="India In Action - Badminton - 26 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024851/1790378714876351_AG26_25Sep_Badminton_Womens_Doubles_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India In Action - Badminton - 26 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/AG_strea2509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790452687~acl=/*~id=42006234206372074304583876778781~hmac=ac98230081434d0622071aeddd502c22601bb1e142d199129b977a92cc372708
+#EXTINF:-1 tvg-id="139496" tvg-name="Race @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Race
+https://dai-fancode.pages.dev/mumbai/139496_english_hls_640ac045ad71610_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-name="India In Action - Badminton - 26 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024851/1790378714876351_AG26_25Sep_Badminton_Womens_Doubles_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India In Action - Badminton - 26 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/AG_strea2509/HIN/std_lrh-800300010.m3u8?hdnea=exp=1790452687~acl=/*~id=42006234206372074304583876778781~hmac=ac98230081434d0622071aeddd502c22601bb1e142d199129b977a92cc372708
+#EXTINF:-1 tvg-id="139496" tvg-name="Race @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg" tvg-language="Hindi" group-title="Fancode | Sportlink",HIN | Race
+https://dai-fancode.pages.dev/mumbai/139496_hindi_hls_ffe03c684c50482_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-name="India In Action - Badminton - 26 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024851/1790378714876351_AG26_25Sep_Badminton_Womens_Doubles_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India In Action - Badminton - 26 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/AG_strea2509/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790452687~acl=/*~id=42006234206372074304583876778781~hmac=ac98230081434d0622071aeddd502c22601bb1e142d199129b977a92cc372708
+#EXTINF:-1 tvg-id="139496" tvg-name="Race @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg" tvg-language="Tamil" group-title="Fancode | Sportlink",TAM | Race
+https://dai-fancode.pages.dev/mumbai/139496_tamil_hls_125d2fc0f018682_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-name="India In Action - Badminton - 26 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024851/1790378714876351_AG26_25Sep_Badminton_Womens_Doubles_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India In Action - Badminton - 26 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/AG_strea2509/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790452687~acl=/*~id=42006234206372074304583876778781~hmac=ac98230081434d0622071aeddd502c22601bb1e142d199129b977a92cc372708
+#===== SonyLIV | Sportlink (4 channels) =====
+#EXTINF:-1 tvg-name="India vs Iran - Kabaddi - 26 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024890/1790405394254677_AG_INDvsIRA_Mens_Kabbadi_final_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India vs Iran - Kabaddi - 26 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Strea2609/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790459973~acl=/*~id=51483125081522870130592852960843~hmac=5ad7052e45f541633850e47e2eb5d65bd9026e57a216bd0f95dcc5ac0e951f13
 
-#EXTINF:-1 tvg-name="India In Action - Badminton - 26 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024851/1790378714876351_AG26_25Sep_Badminton_Womens_Doubles_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India In Action - Badminton - 26 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/AG_strea2509/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790452687~acl=/*~id=42006234206372074304583876778781~hmac=ac98230081434d0622071aeddd502c22601bb1e142d199129b977a92cc372708
+#EXTINF:-1 tvg-name="India vs Iran - Kabaddi - 26 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024890/1790405394254677_AG_INDvsIRA_Mens_Kabbadi_final_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India vs Iran - Kabaddi - 26 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Strea2609/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790459973~acl=/*~id=51483125081522870130592852960843~hmac=5ad7052e45f541633850e47e2eb5d65bd9026e57a216bd0f95dcc5ac0e951f13
+
+#EXTINF:-1 tvg-name="India vs Iran - Kabaddi - 26 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024890/1790405394254677_AG_INDvsIRA_Mens_Kabbadi_final_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India vs Iran - Kabaddi - 26 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Strea2609/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790459973~acl=/*~id=51483125081522870130592852960843~hmac=5ad7052e45f541633850e47e2eb5d65bd9026e57a216bd0f95dcc5ac0e951f13
+
+#EXTINF:-1 tvg-name="India vs Iran - Kabaddi - 26 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024890/1790405394254677_AG_INDvsIRA_Mens_Kabbadi_final_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India vs Iran - Kabaddi - 26 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Strea2609/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790459973~acl=/*~id=51483125081522870130592852960843~hmac=5ad7052e45f541633850e47e2eb5d65bd9026e57a216bd0f95dcc5ac0e951f13
 
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:02:02 PM 26-09-2026
+#LAST_UPDATE:04:02 PM 26-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:11
 
-#===== Prime Video | Sportlink (5 channels) =====
+#===== Prime Video | Sportlink (4 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:02:02 PM 26-09-2026
+#LAST_UPDATE:04:02 PM 26-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:4
 #UPCOMING_COUNT:0
-
-#EXTINF:-1 tvg-id="B0HFHJZTYX" tvg-name="Predator Pro Billiard Series: Vietnam @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.97c308f7-4df4-4358-b7b8-5f8edb70f55c/18/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Predator Pro Billiard Series: Vietnam
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HJZX2WN2" tvg-name="Hong Kong, China v Samoa @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.18cdf138-eb37-4bab-ad32-f6e7b1095740/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Hong Kong, China v Samoa
 #KODIPROP:inputstream=inputstream.adaptive
@@ -62,46 +67,50 @@ https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9
 #KODIPROP:inputstream.adaptive.license_key=63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3
 https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HHNJV5KR" tvg-name="Shanghai Sprints, Day 1 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.47391a8a-dc15-4a0f-b910-be9c5c0848d3/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Shanghai Sprints, Day 1
+#EXTINF:-1 tvg-id="B0HJJJP396" tvg-name="Athletics 08 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.0268bb97-4d09-47be-89a9-e21025415a99/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Athletics 08
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HJLQ77VN" tvg-name="Tennis Today Live-Singapore-WTA, Seoul-WTA Semifinals; Hangzhou-ATP & Chengdu-ATP Early Rounds @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.d377550b-f356-4528-8596-21c8284be518/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Tennis Today Live-Singapore-WTA, Seoul-WTA Semifinals; Hangzhou-ATP & Chengdu-ATP Early Rounds
+#EXTINF:-1 tvg-id="B0GRBND72N" tvg-name="Finals, Second Semifinal: TBA @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.d5f5174c-5fa0-4c0b-93fd-d447c9a7ebf8/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Finals, Second Semifinal: TBA
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
 
-#===== AXS | Sportlink (6 channels) =====
+#===== AXS | Sportlink (7 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 2:02:28 PM 26-09-2026
+#last update time: 4:02:26 PM 26-09-2026
 
 #EXTINF:-1 tvg-name="WTA Seoul - WTA Seoul @virat10" tvg-id="83902" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Seoul.jpg" group-title="AXS | Sportlink", WTA Seoul - WTA Seoul
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1790496150-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-19449146e5a5711e26972f80ca577d90
-
-#EXTINF:-1 tvg-name="North Harbour vs Otago - NPC @virat10" tvg-id="68339" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/North%20Harbour%20vs%20Otago.jpg" group-title="AXS | Sportlink", North Harbour vs Otago - NPC
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1790496153-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c7a12c350eb9297f30535a650c461062
-
-#EXTINF:-1 tvg-name="AzerbaijanRace 2 - FIA Formula 2 Championship Feature Race @virat10" tvg-id="72917" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Baku%2C%20AzerbaijanRace%202.jpg" group-title="AXS | Sportlink", Baku, AzerbaijanRace 2 - FIA Formula 2 Championship Feature Race
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790496156-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-78ab42592b91628ac4b0e4a498b27336
-
-#EXTINF:-1 tvg-name="WTA Singapore - WTA Singapore @virat10" tvg-id="83904" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Singapore.jpg" group-title="AXS | Sportlink", WTA Singapore - WTA Singapore
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143074/720p/chunks.m3u8?is_vip=false&token=1790496159-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c71ed21e486d6a8009a80eecb9cbb84e
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1790503349-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b173b0f6de477cb7690fb4f1cdd1333c
 
 #EXTINF:-1 tvg-name="ATP Chengdu - ATP Chengdu @virat10" tvg-id="83905" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ATP%20Chengdu.jpg" group-title="AXS | Sportlink", ATP Chengdu - ATP Chengdu
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790496167-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-14e0da5ab98908bc0802c3798859d70e
+https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790503352-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2c3ef790c878cb2e13b7ca7f6b2c8286
+
+#EXTINF:-1 tvg-name="WTA Singapore - WTA Singapore @virat10" tvg-id="83904" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Singapore.jpg" group-title="AXS | Sportlink", WTA Singapore - WTA Singapore
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143074/720p/chunks.m3u8?is_vip=false&token=1790503354-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7156d2ad56d9f5ba030c05cc80fef144
+
+#EXTINF:-1 tvg-name="ATP Hangzhou - ATP Hangzhou @virat10" tvg-id="83906" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ATP%20Hangzhou.jpg" group-title="AXS | Sportlink", ATP Hangzhou - ATP Hangzhou
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790503357-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-fd482e28b00ff514a0368b325f1f2ec6
+
+#EXTINF:-1 tvg-name="Pakistan vs Thailand - FIFA Asean Cup @virat10" tvg-id="81553" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Pakistan%20vs%20Thailand.jpg" group-title="AXS | Sportlink", Pakistan vs Thailand - FIFA Asean Cup
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9976857cb66c539a0afc5d/chunks.m3u8?is_vip=false&token=1790503363-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-10600b81f97eeb98bff2526e1ef4cacf
+
+#EXTINF:-1 tvg-name="Azerbaijan Grand Prix 2026 - Grand Prix Sunday @virat10" tvg-id="72918" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Azerbaijan%20Grand%20Prix%202026.jpg" group-title="AXS | Sportlink", Azerbaijan Grand Prix 2026 - Grand Prix Sunday
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790503369-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-99aec651a57fc7b931d10e2abdb77b5a
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
