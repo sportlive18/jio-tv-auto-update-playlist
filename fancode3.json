@@ -1,6 +1,6 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "26/9/2026, 8:31:36 pm",
+  "updatedAt": "26/9/2026, 8:42:40 pm",
   "total_matches": 40,
   "live_matches": 3,
   "upcoming_matches": 37,
@@ -200,13 +200,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Cricket",
-      "title": "Puri Titans vs Sambalpur Warriors",
-      "tournament": "Odisha T20 League 2026",
-      "match_id": "4249584",
+      "category": "Football",
+      "title": "London City Lionesses vs Brighton and Hove Albion Women",
+      "tournament": "Barclays Women's Super League 2026-27",
+      "match_id": "4248485",
       "status": "UPCOMING",
-      "startTime": "07:30:00 PM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
+      "startTime": "09:30:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248485_53038_LCL_BHA-W_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -219,13 +219,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Football",
-      "title": "London City Lionesses vs Brighton and Hove Albion Women",
-      "tournament": "Barclays Women's Super League 2026-27",
-      "match_id": "4248485",
+      "category": "Cricket",
+      "title": "Puri Titans vs Sambalpur Warriors",
+      "tournament": "Odisha T20 League 2026",
+      "match_id": "4249584",
       "status": "UPCOMING",
-      "startTime": "09:30:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248485_53038_LCL_BHA-W_fc-web.jpg",
+      "startTime": "07:30:00 PM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
