@@ -1,10 +1,43 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "26/9/2026, 12:06:06 pm",
+  "updatedAt": "26/9/2026, 1:35:01 pm",
   "total_matches": 40,
-  "live_matches": 2,
-  "upcoming_matches": 38,
+  "live_matches": 4,
+  "upcoming_matches": 36,
   "matches": [
+    {
+      "category": "Cricket",
+      "title": "Delhi Dynamos vs Gurugram Gladiators [English]",
+      "tournament": "NCR T20 League, 2026",
+      "match_id": "4249304",
+      "status": "LIVE",
+      "startTime": "01:00:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/1080p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/240p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/360p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/480p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/540p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/720p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/1080p.m3u8?hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN"
+          },
+          "cookie": "hdntl=Expires=1790493829~_GO=Generated~acl=/mumbai/4249304_english_hls_061bcaa95e55942_1ta-di_h264/*~Signature=AUh_zpWxdfLVhvqduRiYtTcjAMJ7FUvpwWhn6QMH9CaBMn419I0w7KXkTsxgDlmGXyGP3EbNdZmU-TjNrcpdGWpGAHAN",
+          "expires": "1790493829",
+          "expire_date": ""
+        }
+      }
+    },
     {
       "category": "Tennis",
       "title": "Day 4 [English]",
@@ -72,23 +105,37 @@
       }
     },
     {
-      "category": "Cricket",
-      "title": "Delhi Dynamos vs Gurugram Gladiators",
-      "tournament": "NCR T20 League, 2026",
-      "match_id": "4249304",
-      "status": "UPCOMING",
-      "startTime": "01:00:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
+      "category": "Motorsports",
+      "title": "Feature Race 2 [English]",
+      "tournament": "F2 AZERBAIJAN 2026",
+      "match_id": "4249606",
+      "status": "LIVE",
+      "startTime": "12:30:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
       "language": "ENGLISH",
       "streams": {
-        "primary": "",
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
         "fancode_cdn": "",
         "fancode_bd_cdn": "",
         "fancode_np_cdn": "",
         "fancode_lk_cdn": "",
         "backup": {}
       },
-      "auto_streams": {}
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/240p.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/360p.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/480p.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/540p.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/720p.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE"
+          },
+          "cookie": "hdntl=Expires=1790492618~_GO=Generated~acl=/mumbai/4249606_english_hls_88a50cb1f216229_1ta-di_h264/*~Signature=AUh_zpUA4sFgL5jP0x_a4WXTB0MCJtE_5b5KVPQhaF7zlppnePTHWJx2I0xMJp9qdMQL21hGUF-PioEEv7xM4ygoQwgE",
+          "expires": "1790492618",
+          "expire_date": ""
+        }
+      }
     },
     {
       "category": "Cricket",
@@ -148,25 +195,6 @@
       "auto_streams": {}
     },
     {
-      "category": "Cricket",
-      "title": "Puri Titans vs Kataka Panthers",
-      "tournament": "Odisha T20 League 2026",
-      "match_id": "4249574",
-      "status": "UPCOMING",
-      "startTime": "10:30:00 AM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249574_53080_PUT_CUT_fc-web_1790170352051.jpg",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
       "category": "Football",
       "title": "Sreenidi Deccan FC vs NorthEast United FC",
       "tournament": "IFA Shield 2026",
@@ -186,13 +214,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Football",
-      "title": "Charlton Athletic F.C Women vs Manchester City Women",
-      "tournament": "Barclays Women's Super League 2026-27",
-      "match_id": "4248484",
+      "category": "Cricket",
+      "title": "Puri Titans vs Kataka Panthers",
+      "tournament": "Odisha T20 League 2026",
+      "match_id": "4249574",
       "status": "UPCOMING",
-      "startTime": "06:00:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248484_53038_CHL-W_MCI-W_fc-web.jpg",
+      "startTime": "10:30:00 AM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249574_53080_PUT_CUT_fc-web_1790170352051.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -212,6 +240,44 @@
       "status": "UPCOMING",
       "startTime": "01:00:00 PM 27-09-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
+      "category": "Cricket",
+      "title": "South Africa vs Australia",
+      "tournament": "Australia tour of South Africa, 2026",
+      "match_id": "4249779",
+      "status": "UPCOMING",
+      "startTime": "01:30:00 PM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
+      "category": "Football",
+      "title": "Charlton Athletic F.C Women vs Manchester City Women",
+      "tournament": "Barclays Women's Super League 2026-27",
+      "match_id": "4248484",
+      "status": "UPCOMING",
+      "startTime": "06:00:00 PM 26-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248484_53038_CHL-W_MCI-W_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -269,44 +335,6 @@
       "status": "UPCOMING",
       "startTime": "10:00:00 PM 26-09-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/4249270_53017_TFE_CDZ_FC-Web.png",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
-      "category": "Cricket",
-      "title": "South Africa vs Australia",
-      "tournament": "Australia tour of South Africa, 2026",
-      "match_id": "4249779",
-      "status": "UPCOMING",
-      "startTime": "01:30:00 PM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
-      "category": "Motorsports",
-      "title": "Feature Race 2",
-      "tournament": "F2 AZERBAIJAN 2026",
-      "match_id": "4249606",
-      "status": "UPCOMING",
-      "startTime": "12:30:00 PM 26-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -395,13 +423,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Football",
-      "title": "Calcutta Customs Club vs Punjab FC",
-      "tournament": "IFA Shield 2026",
-      "match_id": "4249523",
+      "category": "Cricket",
+      "title": "Puri Titans vs Sambalpur Warriors",
+      "tournament": "Odisha T20 League 2026",
+      "match_id": "4249584",
       "status": "UPCOMING",
-      "startTime": "02:30:00 PM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
+      "startTime": "07:30:00 PM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -414,13 +442,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Cricket",
-      "title": "Puri Titans vs Sambalpur Warriors",
-      "tournament": "Odisha T20 League 2026",
-      "match_id": "4249584",
+      "category": "Football",
+      "title": "Calcutta Customs Club vs Punjab FC",
+      "tournament": "IFA Shield 2026",
+      "match_id": "4249523",
       "status": "UPCOMING",
-      "startTime": "07:30:00 PM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
+      "startTime": "02:30:00 PM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",

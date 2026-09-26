@@ -2,14 +2,33 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "11:53:15 AM 26-09-2026",
-    "generated_at": "2026-09-26 06:35:06",
+    "source_last_updated": "01:24:05 PM 26-09-2026",
+    "generated_at": "2026-09-26 08:05:09",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 2,
-    "upcoming_matches_count": 38,
+    "live_matches_count": 4,
+    "upcoming_matches_count": 36,
     "matches": [
+        {
+            "event_category": "Cricket",
+            "match_id": "4249304_ENG",
+            "title": "NCR T20 League, 2026 [English]",
+            "match_name": "Delhi Dynamos vs Gurugram Gladiators [English]",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
+            "team_1": "Delhi Dynamos",
+            "team_2": "Gurugram Gladiators",
+            "status": "LIVE",
+            "startTime": "01:00:00 PM 26-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249304_ENG/english.m3u8"
+                }
+            ]
+        },
         {
             "event_category": "Tennis",
             "match_id": "4248540_ENG",
@@ -49,17 +68,23 @@
             ]
         },
         {
-            "event_category": "Cricket",
-            "match_id": 4249304,
-            "title": "Delhi Dynamos vs Gurugram Gladiators (NCR T20 League, 2026)",
-            "match_name": "Delhi Dynamos vs Gurugram Gladiators",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
-            "team_1": "Delhi Dynamos",
-            "team_2": "Gurugram Gladiators",
-            "status": "UPCOMING",
-            "startTime": "01:00:00 PM 26-09-2026",
-            "user-agent": null
+            "event_category": "Motorsports",
+            "match_id": "4249606_ENG",
+            "title": "F2 AZERBAIJAN 2026 [English]",
+            "match_name": "Feature Race 2 [English]",
+            "event_name": "F2 AZERBAIJAN 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
+            "team_1": "Feature Race 2",
+            "team_2": "Baku",
+            "status": "LIVE",
+            "startTime": "12:30:00 PM 26-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249606_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -111,6 +136,32 @@
             "team_2": "Kataka Panthers",
             "status": "UPCOMING",
             "startTime": "10:30:00 AM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249299,
+            "title": "Noida Ninjas vs Faridabad Firebirds (NCR T20 League, 2026)",
+            "match_name": "Noida Ninjas vs Faridabad Firebirds",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
+            "team_1": "Noida Ninjas",
+            "team_2": "Faridabad Firebirds",
+            "status": "UPCOMING",
+            "startTime": "01:00:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249779,
+            "title": "South Africa vs Australia (Australia tour of South Africa, 2026)",
+            "match_name": "South Africa vs Australia",
+            "event_name": "Australia tour of South Africa, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
+            "team_1": "South Africa",
+            "team_2": "Australia",
+            "status": "UPCOMING",
+            "startTime": "01:30:00 PM 27-09-2026",
             "user-agent": null
         },
         {
@@ -180,45 +231,6 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249299,
-            "title": "Noida Ninjas vs Faridabad Firebirds (NCR T20 League, 2026)",
-            "match_name": "Noida Ninjas vs Faridabad Firebirds",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
-            "team_1": "Noida Ninjas",
-            "team_2": "Faridabad Firebirds",
-            "status": "UPCOMING",
-            "startTime": "01:00:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Motorsports",
-            "match_id": 4249606,
-            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
-            "match_name": "Feature Race 2",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
-            "status": "UPCOMING",
-            "startTime": "12:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249779,
-            "title": "South Africa vs Australia (Australia tour of South Africa, 2026)",
-            "match_name": "South Africa vs Australia",
-            "event_name": "Australia tour of South Africa, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
-            "team_1": "South Africa",
-            "team_2": "Australia",
-            "status": "UPCOMING",
-            "startTime": "01:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4249585,
             "title": "Rourkela Superstars vs Keonjhar Miners (Odisha T20 League 2026)",
             "match_name": "Rourkela Superstars vs Keonjhar Miners",
@@ -270,19 +282,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Football",
-            "match_id": 4249523,
-            "title": "Calcutta Customs Club vs Punjab FC (IFA Shield 2026)",
-            "match_name": "Calcutta Customs Club vs Punjab FC",
-            "event_name": "IFA Shield 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
-            "team_1": "Calcutta Customs Club",
-            "team_2": "Punjab FC",
-            "status": "UPCOMING",
-            "startTime": "02:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Cricket",
             "match_id": 4249584,
             "title": "Puri Titans vs Sambalpur Warriors (Odisha T20 League 2026)",
@@ -293,6 +292,19 @@
             "team_2": "Sambalpur Warriors",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4249523,
+            "title": "Calcutta Customs Club vs Punjab FC (IFA Shield 2026)",
+            "match_name": "Calcutta Customs Club vs Punjab FC",
+            "event_name": "IFA Shield 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
+            "team_1": "Calcutta Customs Club",
+            "team_2": "Punjab FC",
+            "status": "UPCOMING",
+            "startTime": "02:30:00 PM 27-09-2026",
             "user-agent": null
         },
         {
@@ -545,6 +557,25 @@
     ],
     "live_matches": [
         {
+            "event_category": "Cricket",
+            "match_id": "4249304_ENG",
+            "title": "NCR T20 League, 2026 [English]",
+            "match_name": "Delhi Dynamos vs Gurugram Gladiators [English]",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
+            "team_1": "Delhi Dynamos",
+            "team_2": "Gurugram Gladiators",
+            "status": "LIVE",
+            "startTime": "01:00:00 PM 26-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249304_ENG/english.m3u8"
+                }
+            ]
+        },
+        {
             "event_category": "Tennis",
             "match_id": "4248540_ENG",
             "title": "ATP 250 - Chengdu Open 2026 [English]",
@@ -581,22 +612,28 @@
                     "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4248547_ENG/english.m3u8"
                 }
             ]
+        },
+        {
+            "event_category": "Motorsports",
+            "match_id": "4249606_ENG",
+            "title": "F2 AZERBAIJAN 2026 [English]",
+            "match_name": "Feature Race 2 [English]",
+            "event_name": "F2 AZERBAIJAN 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
+            "team_1": "Feature Race 2",
+            "team_2": "Baku",
+            "status": "LIVE",
+            "startTime": "12:30:00 PM 26-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249606_ENG/english.m3u8"
+                }
+            ]
         }
     ],
     "upcoming_matches": [
-        {
-            "event_category": "Cricket",
-            "match_id": 4249304,
-            "title": "Delhi Dynamos vs Gurugram Gladiators (NCR T20 League, 2026)",
-            "match_name": "Delhi Dynamos vs Gurugram Gladiators",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
-            "team_1": "Delhi Dynamos",
-            "team_2": "Gurugram Gladiators",
-            "status": "UPCOMING",
-            "startTime": "01:00:00 PM 26-09-2026",
-            "user-agent": null
-        },
         {
             "event_category": "Cricket",
             "match_id": 4249583,
@@ -647,6 +684,32 @@
             "team_2": "Kataka Panthers",
             "status": "UPCOMING",
             "startTime": "10:30:00 AM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249299,
+            "title": "Noida Ninjas vs Faridabad Firebirds (NCR T20 League, 2026)",
+            "match_name": "Noida Ninjas vs Faridabad Firebirds",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
+            "team_1": "Noida Ninjas",
+            "team_2": "Faridabad Firebirds",
+            "status": "UPCOMING",
+            "startTime": "01:00:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249779,
+            "title": "South Africa vs Australia (Australia tour of South Africa, 2026)",
+            "match_name": "South Africa vs Australia",
+            "event_name": "Australia tour of South Africa, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
+            "team_1": "South Africa",
+            "team_2": "Australia",
+            "status": "UPCOMING",
+            "startTime": "01:30:00 PM 27-09-2026",
             "user-agent": null
         },
         {
@@ -716,45 +779,6 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249299,
-            "title": "Noida Ninjas vs Faridabad Firebirds (NCR T20 League, 2026)",
-            "match_name": "Noida Ninjas vs Faridabad Firebirds",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
-            "team_1": "Noida Ninjas",
-            "team_2": "Faridabad Firebirds",
-            "status": "UPCOMING",
-            "startTime": "01:00:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Motorsports",
-            "match_id": 4249606,
-            "title": "Feature Race 2 vs Baku (F2 AZERBAIJAN 2026)",
-            "match_name": "Feature Race 2",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
-            "status": "UPCOMING",
-            "startTime": "12:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249779,
-            "title": "South Africa vs Australia (Australia tour of South Africa, 2026)",
-            "match_name": "South Africa vs Australia",
-            "event_name": "Australia tour of South Africa, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
-            "team_1": "South Africa",
-            "team_2": "Australia",
-            "status": "UPCOMING",
-            "startTime": "01:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4249585,
             "title": "Rourkela Superstars vs Keonjhar Miners (Odisha T20 League 2026)",
             "match_name": "Rourkela Superstars vs Keonjhar Miners",
@@ -806,19 +830,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Football",
-            "match_id": 4249523,
-            "title": "Calcutta Customs Club vs Punjab FC (IFA Shield 2026)",
-            "match_name": "Calcutta Customs Club vs Punjab FC",
-            "event_name": "IFA Shield 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
-            "team_1": "Calcutta Customs Club",
-            "team_2": "Punjab FC",
-            "status": "UPCOMING",
-            "startTime": "02:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Cricket",
             "match_id": 4249584,
             "title": "Puri Titans vs Sambalpur Warriors (Odisha T20 League 2026)",
@@ -829,6 +840,19 @@
             "team_2": "Sambalpur Warriors",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4249523,
+            "title": "Calcutta Customs Club vs Punjab FC (IFA Shield 2026)",
+            "match_name": "Calcutta Customs Club vs Punjab FC",
+            "event_name": "IFA Shield 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
+            "team_1": "Calcutta Customs Club",
+            "team_2": "Punjab FC",
+            "status": "UPCOMING",
+            "startTime": "02:30:00 PM 27-09-2026",
             "user-agent": null
         },
         {
