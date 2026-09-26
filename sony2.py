@@ -4,7 +4,7 @@ import requests
 from datetime import datetime, timezone, timedelta
 
 # ---------- configuration ----------
-CHANNELS_URL = "https://sportlink-jtv.pages.dev/sony.json"
+CHANNELS_URL = "https://sportlink-jtv.pages.dev/s.json"
 COOKIES_URL  = "https://allinonereborn2.online/jstrweb2/cookies.json"
 OUTPUT_FILE  = "sony.json"
 
