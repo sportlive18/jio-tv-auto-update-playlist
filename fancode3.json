@@ -1,6 +1,6 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "26/9/2026, 4:52:05 am",
+  "updatedAt": "26/9/2026, 7:11:41 am",
   "total_matches": 40,
   "live_matches": 0,
   "upcoming_matches": 40,
@@ -272,6 +272,25 @@
       "auto_streams": {}
     },
     {
+      "category": "Cricket",
+      "title": "Noida Ninjas vs Faridabad Firebirds",
+      "tournament": "NCR T20 League, 2026",
+      "match_id": "4249299",
+      "status": "UPCOMING",
+      "startTime": "01:00:00 PM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
       "category": "Formula 1",
       "title": "Race",
       "tournament": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -298,25 +317,6 @@
       "status": "UPCOMING",
       "startTime": "06:30:00 PM 26-09-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
-      "category": "Cricket",
-      "title": "Noida Ninjas vs Faridabad Firebirds",
-      "tournament": "NCR T20 League, 2026",
-      "match_id": "4249299",
-      "status": "UPCOMING",
-      "startTime": "01:00:00 PM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -367,6 +367,25 @@
       "auto_streams": {}
     },
     {
+      "category": "Cricket",
+      "title": "Capital Cruisers vs Ghaziabad Giants",
+      "tournament": "NCR T20 League, 2026",
+      "match_id": "4249302",
+      "status": "UPCOMING",
+      "startTime": "05:00:00 PM 27-09-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249302_53073_CRU_GGT_fc-web.jpg",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
       "category": "Tennis",
       "title": "ATP 250 - Chengdu Open 2026",
       "tournament": "ATP 250 - Chengdu Open 2026",
@@ -393,25 +412,6 @@
       "status": "UPCOMING",
       "startTime": "09:00:00 AM 27-09-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
-      "category": "Cricket",
-      "title": "Capital Cruisers vs Ghaziabad Giants",
-      "tournament": "NCR T20 League, 2026",
-      "match_id": "4249302",
-      "status": "UPCOMING",
-      "startTime": "05:00:00 PM 27-09-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249302_53073_CRU_GGT_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",

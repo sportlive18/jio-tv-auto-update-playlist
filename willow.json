@@ -1,34 +1,47 @@
 {
   "HeaderInfo": {
     "PlaylistName": "Willow Cricket Event Info",
-    "LastUpdate": "05:02 AM 26-09-2026",
+    "LastUpdate": "07:32 AM 26-09-2026",
     "Telegram": "https://t.me/livesportsplay",
     "Owner": "Md Sohanur Rahman Hady"
   },
   "Stats": {
-    "LiveCount": 0,
-    "UpcomingCount": 13
+    "LiveCount": 1,
+    "UpcomingCount": 12
   },
   "Matches": [
     {
       "match_id": "B0HC388PM2",
       "title": "Asian Games 2026 - 5th Match - Japan vs Nepal",
       "synopsis": "Asian Games 2026 - 5th Match - Japan vs Nepal",
-      "status": "UPCOMING",
-      "time": "Live at 6 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ee5bbfc7-49e6-45ec-a62e-c01a45755953/1/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "5:40 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ee5bbfc7-49e6-45ec-a62e-c01a45755953/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HC388PM2?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/idczxkgq7l/out/v1/169a00dcc2444e119f18bb2638b0e368/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/idczxkgq7l/out/v1/169a00dcc2444e119f18bb2638b0e368/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/idczxkgq7l/out/v1/169a00dcc2444e119f18bb2638b0e368/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/idczxkgq7l/out/v1/169a00dcc2444e119f18bb2638b0e368/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/idczxkgq7l/out/v1/169a00dcc2444e119f18bb2638b0e368/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/brhm0lukoo/out/v1/48d2d472bf554f69a5830b766d301aab/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/brhm0lukoo/out/v1/48d2d472bf554f69a5830b766d301aab/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/brhm0lukoo/out/v1/48d2d472bf554f69a5830b766d301aab/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/brhm0lukoo/out/v1/48d2d472bf554f69a5830b766d301aab/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/brhm0lukoo/out/v1/48d2d472bf554f69a5830b766d301aab/cenc.mpd"
+      },
+      "drm_key": "2bf67287e378212a80fc35288f2d1b17:160eca864d89bdff4e8f1256ba7646ec"
     },
     {
       "match_id": "B0HHXDYBND",
       "title": "Asian Games 2026 - 6th Match - Malaysia vs Oman",
       "synopsis": "Asian Games 2026 - 6th Match - Malaysia vs Oman",
       "status": "UPCOMING",
-      "time": "Live at 11 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.80ec8794-a58f-4dd5-9522-64a7a311779b/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "time": "Live at 10:30 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.80ec8794-a58f-4dd5-9522-64a7a311779b/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HHXDYBND?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
       "stream_url_alpha": "",

@@ -1,8 +1,15 @@
 #EXTM3U
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:05:02 AM 26-09-2026
+#LAST_UPDATE:07:32 AM 26-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:13
+#LIVE_COUNT:1
+#UPCOMING_COUNT:12
+
+#EXTINF:-1 tvg-id="B0HC388PM2" tvg-name="Asian Games 2026 - 5th Match - Japan vs Nepal" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ee5bbfc7-49e6-45ec-a62e-c01a45755953/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Cricket",Asian Games 2026 - 5th Match - Japan vs Nepal
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2bf67287e378212a80fc35288f2d1b17:160eca864d89bdff4e8f1256ba7646ec
+https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/idczxkgq7l/out/v1/169a00dcc2444e119f18bb2638b0e368/cenc.mpd
 
