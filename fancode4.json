@@ -2,49 +2,30 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "04:46:07 PM 26-09-2026",
-    "generated_at": "2026-09-26 11:25:08",
+    "source_last_updated": "08:28:33 PM 26-09-2026",
+    "generated_at": "2026-09-26 15:05:06",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
-    "total_matches": 42,
-    "live_matches_count": 8,
-    "upcoming_matches_count": 34,
+    "total_matches": 40,
+    "live_matches_count": 3,
+    "upcoming_matches_count": 37,
     "matches": [
         {
             "event_category": "Cricket",
-            "match_id": "4249304_ENG",
-            "title": "NCR T20 League, 2026 [English]",
-            "match_name": "Gurugram Gladiators vs Delhi Dynamos [English]",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
-            "team_1": "Gurugram Gladiators",
-            "team_2": "Delhi Dynamos",
-            "status": "LIVE",
-            "startTime": "01:00:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249304_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": "4249583_ENG",
+            "match_id": "4249582_ENG",
             "title": "Odisha T20 League 2026 [English]",
-            "match_name": "Keonjhar Miners vs Kataka Panthers [English]",
+            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers [English]",
             "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249583_53080_KNM_CUT_fc-web_1790170352097.jpg",
-            "team_1": "Keonjhar Miners",
-            "team_2": "Kataka Panthers",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
+            "team_1": "Rourkela Superstars",
+            "team_2": "Bhubaneshwar Tigers",
             "status": "LIVE",
-            "startTime": "02:30:00 PM 26-09-2026",
+            "startTime": "07:30:00 PM 26-09-2026",
             "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             "streams": [
                 {
                     "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249583_ENG/english.m3u8"
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249582_ENG/english.m3u8"
                 }
             ]
         },
@@ -68,112 +49,23 @@
             ]
         },
         {
-            "event_category": "Motorsports",
-            "match_id": "4249606_ENG",
-            "title": "F2 AZERBAIJAN 2026 [English]",
-            "match_name": "Feature Race 2 [English]",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
+            "event_category": "Golf",
+            "match_id": "4249106_ENG",
+            "title": "Presidents Cup 2026 [English]",
+            "match_name": "Day 3 - World Feed [English]",
+            "event_name": "Presidents Cup 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
+            "team_1": "Day 3 - World Feed",
+            "team_2": "Chicago, Illinois",
             "status": "LIVE",
-            "startTime": "12:30:00 PM 26-09-2026",
+            "startTime": "06:30:00 PM 26-09-2026",
             "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             "streams": [
                 {
                     "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249606_ENG/english.m3u8"
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249106_ENG/english.m3u8"
                 }
             ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139496_ENG",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [English]",
-            "match_name": "Race [English]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Race",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "04:30:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139496_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139496_HIN",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [Hindi]",
-            "match_name": "Race [Hindi]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Race",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "04:30:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "Hindi",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139496_HIN/hindi.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139496_TAM",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [Tamil]",
-            "match_name": "Race [Tamil]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Race",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "04:30:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "Tamil",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139496_TAM/tamil.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": "4249305_ENG",
-            "title": "NCR T20 League, 2026 [English]",
-            "match_name": "Yamuna Warriors vs Aravali Avengers [English]",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249305_53073_YAW_AAV_fc-web.jpg",
-            "team_1": "Yamuna Warriors",
-            "team_2": "Aravali Avengers",
-            "status": "LIVE",
-            "startTime": "05:00:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249305_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249582,
-            "title": "Rourkela Superstars vs Bhubaneshwar Tigers (Odisha T20 League 2026)",
-            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
-            "team_1": "Rourkela Superstars",
-            "team_2": "Bhubaneshwar Tigers",
-            "status": "UPCOMING",
-            "startTime": "07:30:00 PM 26-09-2026",
-            "user-agent": null
         },
         {
             "event_category": "Cricket",
@@ -241,16 +133,16 @@
             "user-agent": null
         },
         {
-            "event_category": "Football",
-            "match_id": 4248484,
-            "title": "Charlton Athletic F.C Women vs Manchester City Women (Barclays Women's Super League 2026-27)",
-            "match_name": "Charlton Athletic F.C Women vs Manchester City Women",
-            "event_name": "Barclays Women's Super League 2026-27",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4248484_53038_CHL-W_MCI-W_fc-web.jpg",
-            "team_1": "Charlton Athletic F.C Women",
-            "team_2": "Manchester City Women",
+            "event_category": "Cricket",
+            "match_id": 4249584,
+            "title": "Puri Titans vs Sambalpur Warriors (Odisha T20 League 2026)",
+            "match_name": "Puri Titans vs Sambalpur Warriors",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
+            "team_1": "Puri Titans",
+            "team_2": "Sambalpur Warriors",
             "status": "UPCOMING",
-            "startTime": "06:00:00 PM 26-09-2026",
+            "startTime": "07:30:00 PM 27-09-2026",
             "user-agent": null
         },
         {
@@ -293,19 +185,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Cricket",
-            "match_id": 4249584,
-            "title": "Puri Titans vs Sambalpur Warriors (Odisha T20 League 2026)",
-            "match_name": "Puri Titans vs Sambalpur Warriors",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
-            "team_1": "Puri Titans",
-            "team_2": "Sambalpur Warriors",
-            "status": "UPCOMING",
-            "startTime": "07:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4249523,
             "title": "Calcutta Customs Club vs Punjab FC (IFA Shield 2026)",
@@ -319,19 +198,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Golf",
-            "match_id": 4249106,
-            "title": "Day 3 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
-            "match_name": "Day 3 - World Feed",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 3 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "UPCOMING",
-            "startTime": "06:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4248486,
             "title": "Manchester United Women vs West Ham United Women (Barclays Women's Super League 2026-27)",
@@ -342,32 +208,6 @@
             "team_2": "West Ham United Women",
             "status": "UPCOMING",
             "startTime": "05:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Tennis",
-            "match_id": 4248541,
-            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
-            "match_name": "ATP 250 - Chengdu Open 2026",
-            "event_name": "ATP 250 - Chengdu Open 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
-            "team_1": "ATP 250 - Chengdu Open 2026",
-            "team_2": "Chengdu, China",
-            "status": "UPCOMING",
-            "startTime": "09:00:00 AM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Tennis",
-            "match_id": 4248548,
-            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
-            "match_name": "ATP 250 - Hangzhou Open 2026",
-            "event_name": "ATP 250 - Hangzhou Open 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
-            "team_1": "ATP 250 - Hangzhou Open 2026",
-            "team_2": "Hangzhou, China",
-            "status": "UPCOMING",
-            "startTime": "09:00:00 AM 27-09-2026",
             "user-agent": null
         },
         {
@@ -420,6 +260,32 @@
             "team_2": "Arsenal Women",
             "status": "UPCOMING",
             "startTime": "09:00:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248541,
+            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
+            "match_name": "ATP 250 - Chengdu Open 2026",
+            "event_name": "ATP 250 - Chengdu Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
+            "team_1": "ATP 250 - Chengdu Open 2026",
+            "team_2": "Chengdu, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248548,
+            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
+            "match_name": "ATP 250 - Hangzhou Open 2026",
+            "event_name": "ATP 250 - Hangzhou Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
+            "team_1": "ATP 250 - Hangzhou Open 2026",
+            "team_2": "Hangzhou, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 27-09-2026",
             "user-agent": null
         },
         {
@@ -603,44 +469,103 @@
             "status": "UPCOMING",
             "startTime": "09:00:00 AM 29-09-2026",
             "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249298,
+            "title": "Aravali Avengers vs Ghaziabad Giants (NCR T20 League, 2026)",
+            "match_name": "Aravali Avengers vs Ghaziabad Giants",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249298_53073_AAV_GGT_fc-web.jpg",
+            "team_1": "Aravali Avengers",
+            "team_2": "Ghaziabad Giants",
+            "status": "UPCOMING",
+            "startTime": "01:00:00 PM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248543,
+            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
+            "match_name": "ATP 250 - Chengdu Open 2026",
+            "event_name": "ATP 250 - Chengdu Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
+            "team_1": "ATP 250 - Chengdu Open 2026",
+            "team_2": "Chengdu, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248550,
+            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
+            "match_name": "ATP 250 - Hangzhou Open 2026",
+            "event_name": "ATP 250 - Hangzhou Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
+            "team_1": "ATP 250 - Hangzhou Open 2026",
+            "team_2": "Hangzhou, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4250040,
+            "title": "Kolhan King vs Chaibasa Challengers (West Singhbhum T20 League 2026)",
+            "match_name": "Kolhan King vs Chaibasa Challengers",
+            "event_name": "West Singhbhum T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+            "team_1": "Kolhan King",
+            "team_2": "Chaibasa Challengers",
+            "status": "UPCOMING",
+            "startTime": "01:00:00 PM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249297,
+            "title": "Gurugram Gladiators vs Faridabad Firebirds (NCR T20 League, 2026)",
+            "match_name": "Gurugram Gladiators vs Faridabad Firebirds",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249297_53073_GGL_FFI_fc-web.jpg",
+            "team_1": "Gurugram Gladiators",
+            "team_2": "Faridabad Firebirds",
+            "status": "UPCOMING",
+            "startTime": "05:00:00 PM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4249527,
+            "title": "NorthEast United FC vs Mohun Bagan Super Giant (IFA Shield 2026)",
+            "match_name": "NorthEast United FC vs Mohun Bagan Super Giant",
+            "event_name": "IFA Shield 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
+            "team_1": "NorthEast United FC",
+            "team_2": "Mohun Bagan Super Giant",
+            "status": "UPCOMING",
+            "startTime": "02:30:00 PM 29-09-2026",
+            "user-agent": null
         }
     ],
     "live_matches": [
         {
             "event_category": "Cricket",
-            "match_id": "4249304_ENG",
-            "title": "NCR T20 League, 2026 [English]",
-            "match_name": "Gurugram Gladiators vs Delhi Dynamos [English]",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249304_53073_DEA_GGL_fc-web.jpg",
-            "team_1": "Gurugram Gladiators",
-            "team_2": "Delhi Dynamos",
-            "status": "LIVE",
-            "startTime": "01:00:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249304_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": "4249583_ENG",
+            "match_id": "4249582_ENG",
             "title": "Odisha T20 League 2026 [English]",
-            "match_name": "Keonjhar Miners vs Kataka Panthers [English]",
+            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers [English]",
             "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249583_53080_KNM_CUT_fc-web_1790170352097.jpg",
-            "team_1": "Keonjhar Miners",
-            "team_2": "Kataka Panthers",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
+            "team_1": "Rourkela Superstars",
+            "team_2": "Bhubaneshwar Tigers",
             "status": "LIVE",
-            "startTime": "02:30:00 PM 26-09-2026",
+            "startTime": "07:30:00 PM 26-09-2026",
             "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             "streams": [
                 {
                     "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249583_ENG/english.m3u8"
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249582_ENG/english.m3u8"
                 }
             ]
         },
@@ -664,97 +589,21 @@
             ]
         },
         {
-            "event_category": "Motorsports",
-            "match_id": "4249606_ENG",
-            "title": "F2 AZERBAIJAN 2026 [English]",
-            "match_name": "Feature Race 2 [English]",
-            "event_name": "F2 AZERBAIJAN 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Bakuu.png",
-            "team_1": "Feature Race 2",
-            "team_2": "Baku",
+            "event_category": "Golf",
+            "match_id": "4249106_ENG",
+            "title": "Presidents Cup 2026 [English]",
+            "match_name": "Day 3 - World Feed [English]",
+            "event_name": "Presidents Cup 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
+            "team_1": "Day 3 - World Feed",
+            "team_2": "Chicago, Illinois",
             "status": "LIVE",
-            "startTime": "12:30:00 PM 26-09-2026",
+            "startTime": "06:30:00 PM 26-09-2026",
             "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             "streams": [
                 {
                     "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249606_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139496_ENG",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [English]",
-            "match_name": "Race [English]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Race",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "04:30:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139496_ENG/english.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139496_HIN",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [Hindi]",
-            "match_name": "Race [Hindi]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Race",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "04:30:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "Hindi",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139496_HIN/hindi.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Formula 1",
-            "match_id": "139496_TAM",
-            "title": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 [Tamil]",
-            "match_name": "Race [Tamil]",
-            "event_name": "F1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Azerbaijan-Grand-Prix-2026_web_1790152860785.jpg",
-            "team_1": "Race",
-            "team_2": "Baku City Circuit",
-            "status": "LIVE",
-            "startTime": "04:30:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "Tamil",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_139496_TAM/tamil.m3u8"
-                }
-            ]
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": "4249305_ENG",
-            "title": "NCR T20 League, 2026 [English]",
-            "match_name": "Yamuna Warriors vs Aravali Avengers [English]",
-            "event_name": "NCR T20 League, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249305_53073_YAW_AAV_fc-web.jpg",
-            "team_1": "Yamuna Warriors",
-            "team_2": "Aravali Avengers",
-            "status": "LIVE",
-            "startTime": "05:00:00 PM 26-09-2026",
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-            "streams": [
-                {
-                    "language": "English",
-                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249305_ENG/english.m3u8"
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249106_ENG/english.m3u8"
                 }
             ]
         }
@@ -762,19 +611,6 @@
     "upcoming_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249582,
-            "title": "Rourkela Superstars vs Bhubaneshwar Tigers (Odisha T20 League 2026)",
-            "match_name": "Rourkela Superstars vs Bhubaneshwar Tigers",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249582_53080_ROR_BBT_fc-web_1790170352075.jpg",
-            "team_1": "Rourkela Superstars",
-            "team_2": "Bhubaneshwar Tigers",
-            "status": "UPCOMING",
-            "startTime": "07:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4249574,
             "title": "Puri Titans vs Kataka Panthers (Odisha T20 League 2026)",
             "match_name": "Puri Titans vs Kataka Panthers",
@@ -839,16 +675,16 @@
             "user-agent": null
         },
         {
-            "event_category": "Football",
-            "match_id": 4248484,
-            "title": "Charlton Athletic F.C Women vs Manchester City Women (Barclays Women's Super League 2026-27)",
-            "match_name": "Charlton Athletic F.C Women vs Manchester City Women",
-            "event_name": "Barclays Women's Super League 2026-27",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4248484_53038_CHL-W_MCI-W_fc-web.jpg",
-            "team_1": "Charlton Athletic F.C Women",
-            "team_2": "Manchester City Women",
+            "event_category": "Cricket",
+            "match_id": 4249584,
+            "title": "Puri Titans vs Sambalpur Warriors (Odisha T20 League 2026)",
+            "match_name": "Puri Titans vs Sambalpur Warriors",
+            "event_name": "Odisha T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
+            "team_1": "Puri Titans",
+            "team_2": "Sambalpur Warriors",
             "status": "UPCOMING",
-            "startTime": "06:00:00 PM 26-09-2026",
+            "startTime": "07:30:00 PM 27-09-2026",
             "user-agent": null
         },
         {
@@ -891,19 +727,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Cricket",
-            "match_id": 4249584,
-            "title": "Puri Titans vs Sambalpur Warriors (Odisha T20 League 2026)",
-            "match_name": "Puri Titans vs Sambalpur Warriors",
-            "event_name": "Odisha T20 League 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249584_53080_PUT_SAW_fc-web_1790170352055.jpg",
-            "team_1": "Puri Titans",
-            "team_2": "Sambalpur Warriors",
-            "status": "UPCOMING",
-            "startTime": "07:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4249523,
             "title": "Calcutta Customs Club vs Punjab FC (IFA Shield 2026)",
@@ -917,19 +740,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Golf",
-            "match_id": 4249106,
-            "title": "Day 3 - World Feed vs Chicago, Illinois (Presidents Cup 2026)",
-            "match_name": "Day 3 - World Feed",
-            "event_name": "Presidents Cup 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Presidents-Cup_fc-web.jpg",
-            "team_1": "Day 3 - World Feed",
-            "team_2": "Chicago, Illinois",
-            "status": "UPCOMING",
-            "startTime": "06:30:00 PM 26-09-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4248486,
             "title": "Manchester United Women vs West Ham United Women (Barclays Women's Super League 2026-27)",
@@ -940,32 +750,6 @@
             "team_2": "West Ham United Women",
             "status": "UPCOMING",
             "startTime": "05:30:00 PM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Tennis",
-            "match_id": 4248541,
-            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
-            "match_name": "ATP 250 - Chengdu Open 2026",
-            "event_name": "ATP 250 - Chengdu Open 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
-            "team_1": "ATP 250 - Chengdu Open 2026",
-            "team_2": "Chengdu, China",
-            "status": "UPCOMING",
-            "startTime": "09:00:00 AM 27-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Tennis",
-            "match_id": 4248548,
-            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
-            "match_name": "ATP 250 - Hangzhou Open 2026",
-            "event_name": "ATP 250 - Hangzhou Open 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
-            "team_1": "ATP 250 - Hangzhou Open 2026",
-            "team_2": "Hangzhou, China",
-            "status": "UPCOMING",
-            "startTime": "09:00:00 AM 27-09-2026",
             "user-agent": null
         },
         {
@@ -1018,6 +802,32 @@
             "team_2": "Arsenal Women",
             "status": "UPCOMING",
             "startTime": "09:00:00 PM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248541,
+            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
+            "match_name": "ATP 250 - Chengdu Open 2026",
+            "event_name": "ATP 250 - Chengdu Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
+            "team_1": "ATP 250 - Chengdu Open 2026",
+            "team_2": "Chengdu, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 27-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248548,
+            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
+            "match_name": "ATP 250 - Hangzhou Open 2026",
+            "event_name": "ATP 250 - Hangzhou Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
+            "team_1": "ATP 250 - Hangzhou Open 2026",
+            "team_2": "Hangzhou, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 27-09-2026",
             "user-agent": null
         },
         {
@@ -1200,6 +1010,84 @@
             "team_2": "Saranda Worriers",
             "status": "UPCOMING",
             "startTime": "09:00:00 AM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249298,
+            "title": "Aravali Avengers vs Ghaziabad Giants (NCR T20 League, 2026)",
+            "match_name": "Aravali Avengers vs Ghaziabad Giants",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249298_53073_AAV_GGT_fc-web.jpg",
+            "team_1": "Aravali Avengers",
+            "team_2": "Ghaziabad Giants",
+            "status": "UPCOMING",
+            "startTime": "01:00:00 PM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248543,
+            "title": "ATP 250 - Chengdu Open 2026 vs Chengdu, China (ATP 250 - Chengdu Open 2026)",
+            "match_name": "ATP 250 - Chengdu Open 2026",
+            "event_name": "ATP 250 - Chengdu Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
+            "team_1": "ATP 250 - Chengdu Open 2026",
+            "team_2": "Chengdu, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Tennis",
+            "match_id": 4248550,
+            "title": "ATP 250 - Hangzhou Open 2026 vs Hangzhou, China (ATP 250 - Hangzhou Open 2026)",
+            "match_name": "ATP 250 - Hangzhou Open 2026",
+            "event_name": "ATP 250 - Hangzhou Open 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
+            "team_1": "ATP 250 - Hangzhou Open 2026",
+            "team_2": "Hangzhou, China",
+            "status": "UPCOMING",
+            "startTime": "09:00:00 AM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4250040,
+            "title": "Kolhan King vs Chaibasa Challengers (West Singhbhum T20 League 2026)",
+            "match_name": "Kolhan King vs Chaibasa Challengers",
+            "event_name": "West Singhbhum T20 League 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+            "team_1": "Kolhan King",
+            "team_2": "Chaibasa Challengers",
+            "status": "UPCOMING",
+            "startTime": "01:00:00 PM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249297,
+            "title": "Gurugram Gladiators vs Faridabad Firebirds (NCR T20 League, 2026)",
+            "match_name": "Gurugram Gladiators vs Faridabad Firebirds",
+            "event_name": "NCR T20 League, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249297_53073_GGL_FFI_fc-web.jpg",
+            "team_1": "Gurugram Gladiators",
+            "team_2": "Faridabad Firebirds",
+            "status": "UPCOMING",
+            "startTime": "05:00:00 PM 29-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Football",
+            "match_id": 4249527,
+            "title": "NorthEast United FC vs Mohun Bagan Super Giant (IFA Shield 2026)",
+            "match_name": "NorthEast United FC vs Mohun Bagan Super Giant",
+            "event_name": "IFA Shield 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/MM.png",
+            "team_1": "NorthEast United FC",
+            "team_2": "Mohun Bagan Super Giant",
+            "status": "UPCOMING",
+            "startTime": "02:30:00 PM 29-09-2026",
             "user-agent": null
         }
     ]
