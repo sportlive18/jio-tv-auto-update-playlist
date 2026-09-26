@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:07:31 AM 09-26-2026
+#LAST_UPDATE:12:26 PM 09-26-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="One Day International: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",One Day International: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -583,82 +583,20 @@ https://chatgpt.hereisman.net/playlist/56802/load-playlist
 #EXTVLCOPT:http-origin=https://streamscenter.online
 https://edgestream1.pro/hls/377qj1h2727.m3u8
 
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - Premier Sports - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - Premier Sports - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - ESPN ESPANOL HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - ESPN ESPANOL HD
+#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - DAZN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56818/load-playlist?&.m3u8
-
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - FANCODE FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - FANCODE FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - D SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - D SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd
-
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/KTTTVAQQQQQQ.m3u8
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2532/index.m3u8
 
 #EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8
 
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - ESPN DEPORTES" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - ESPN DEPORTES
+#EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - DAZN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-origin=https://streame.center
-https://edgestream2.pro/hls/377qj1h2727.m3u8
-
-#EXTINF:-1 tvg-id="756" tvg-name="Liga F Moeve: FC Badalona vs Granada CF - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs Granada CF - FAST SERVER HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=laliga/2026-09-20/dep-bet
-#EXTVLCOPT:http-origin=https://ondemand.st/embed/?id=laliga/2026-09-20/dep-bet
-https://messi.damitv.st/live-hls/channel/laliga/2026-09-20/dep-bet/playlist.m3u8?tk=MwbCoC5s35Dn-aiRGSD4Mg&e=1789963209
-
-#EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - BeIN SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - FANCODE - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-
-#EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - FAST SERVER HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56819/load-playlist?&.m3u8
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2531/index.m3u8
 
 #EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -667,19 +605,6 @@ https://chatgpt.hereisman.net/playlist/56819/load-playlist?&.m3u8
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
 https://edgestream2.pro/hls/sqdahach1ax.m3u8
-
-#EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - GHD SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401882857
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401882857
-https://instreams.pro/live/tv401882857/index.m3u8?st=zLlPcNdgXfJ-TcIl_E8BGg&e=1789930811
-
-#EXTINF:-1 tvg-id="757" tvg-name="Liga F Moeve: R. Sociedad vs Real Madrid - CN SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: R. Sociedad vs Real Madrid - CN SERVER HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8
 
 #EXTINF:-1 tvg-id="760" tvg-name="Asian Games: JPN vs NEP - Willow Cricbuzz AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Cricket",Asian Games: JPN vs NEP - Willow Cricbuzz AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -706,8 +631,8 @@ http://193.47.62.55/hls/sddd.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=38e634c62e5bcfdece23f441a2d3047b:05132fb19865e6e274357a6ef6862c42
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xyod0psaxc/out/v1/a6643b443bf84856a6e2ca892bc38c14/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=5aab7e7ac344b32e7e1acea2d92c78f3:d6c5d1c0ed77d1f1a0a87af823591c78
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xhys43gbgu/out/v1/ec2d6860db184a459d59d66c5e560b8b/cenc.mpd
 
 #EXTINF:-1 tvg-id="761" tvg-name="Asian Games: MAS vs OMA - SonyLiv ENG AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: MAS vs OMA - SonyLiv ENG AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -715,7 +640,13 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xyod0psaxc/out/v1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/AG2026_D2309/ENG/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/AG_DXcri2509/ENG/master.m3u8
+
+#EXTINF:-1 tvg-id="761" tvg-name="Asian Games: MAS vs OMA - Willow cricket HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11158/image/dark" group-title="Football",Asian Games: MAS vs OMA - Willow cricket HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/sddd.m3u8
 
 #EXTINF:-1 tvg-id="764" tvg-name="Bundesliga: Union Berlin vs Elversberg - SPORT TV - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Union Berlin vs Elversberg - SPORT TV - FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -753,47 +684,16 @@ http://193.47.62.59/hls/VIIIAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/2a2734b3-43b4-414a-aef1-9f745d58dba7.m3u8
 
-#EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - Premier Sports FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - Premier Sports FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-origin=https://amazon.com
-https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-
-#EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - BEIN SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-origin=https://amazon.com
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - FANCODE - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+#EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - DAZN SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2531/index.m3u8
 
 #EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/vlllq.m3u8
-
-#EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - GHD SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://play.aarray.cn/rrty/hd-zh-1-4565429_gqzm.m3u8?auth_key=1789934647-0-0-5c0323126b2ef77b2c30a2f0e4a75c25&token=71a89ee106e862fe&device=4&platform=rrty
-
-#EXTINF:-1 tvg-id="768" tvg-name="Liga F Moeve: LogroÃ±o vs FC Barcelona - ESPN DEPORTES HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: LogroÃ±o vs FC Barcelona - ESPN DEPORTES HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/56850/load-playlist?&.m3u8
 
 #EXTINF:-1 tvg-id="769" tvg-name="Serie A: Genoa vs Fiorentina - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Genoa vs Fiorentina - BeIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -847,63 +747,10 @@ http://193.47.62.59/hls/BB55AAAAAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/ecfe4922-dea3-4b8e-af9b-0303281df4fc.m3u8
 
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - BeIN2 SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - BeIN2 SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - FANCODE - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - FANCODE - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - D Sports - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - D Sports - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - FAST SERVER HD
+#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - DAZN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b36-hd/chunks.m3u8?is_vip=false&token=1789930967-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-941f2ec35fe8745ef3d7a564b782c006
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/LALALA.m3u8
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - ESPN DEPORTES HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - ESPN DEPORTES HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-origin=https://streame.center
-https://edgestream2.pro/hls/377qj1h2727.m3u8
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - ESPN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - ESPN SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=laliga/2026-09-19/sev-bar
-#EXTVLCOPT:http-origin=https://ondemand.st/embed/?id=laliga/2026-09-19/sev-bar
-https://messi.damitv.st/live-hls/channel/laliga/2026-09-19/sev-bar/playlist.m3u8?tk=r9-xH4Ys2mZ451hiS9T8OQ&e=1789885810
-
-#EXTINF:-1 tvg-id="800" tvg-name="Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - ESPN SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Madrid CFF vs Deportivo AlavÃ©s - ESPN SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b36-hd/chunks.m3u8?is_vip=false&token=1789930066-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a9193578b928c9fa1dcafec84f42f196
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2532/index.m3u8
 
 #EXTINF:-1 tvg-id="804" tvg-name="Liga Portugal Betclic: Casa Pia vs Santa Clara - Sport Digital FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="Football",Liga Portugal Betclic: Casa Pia vs Santa Clara - Sport Digital FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1024,12 +871,10 @@ http://193.47.62.59/hls/BB55AAAAAAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/add98371-b40a-4c3d-bc85-bd00e69df78c.m3u8
 
-#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: USA vs Peru - SPORT TV BR FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - SPORT TV BR FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
-https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
+#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: USA vs Peru - TELEMUNDO - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - TELEMUNDO - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_720.m3u8
 
 #EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: USA vs Peru - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: USA vs Peru - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1044,73 +889,22 @@ https://www.rtmpcdn.com/live/ea2089c8-a994-4c74-ac42-17b1ee90ecc0.m3u8
 #EXTVLCOPT:http-referrer=https://soco.domainkqt.cc/
 https://live2.zundrixmediapipeline.com/live/channel28.m3u8
 
+#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - TSN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - TSN SPORTS FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-origin=https://amazon.com
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
+
 #EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.41/hls/GIIIA.m3u8
 
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv HIN - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Footlive2509/HIN/master.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv ENG - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/Footlive2509/ENG/master.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv TAM - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/Footlive2509/TAM/master.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv TEL - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Footlive2509/TEL/master.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv KAN - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive2509/KAN/master.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - SonyLiv BEN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - SonyLiv BEN - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Footlive2509/BEN/master.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - Sony TEN 2 HD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - Sony TEN 2 HD (IND IP)
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-
-#EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Canada vs Chile - Sony TEN 2 SD (IND IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Canada vs Chile - Sony TEN 2 SD (IND IP)
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
-#EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: Mexico vs Colombia - PREMIER SPORTS - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Mexico vs Colombia - PREMIER SPORTS - AQ
+#EXTINF:-1 tvg-id="857" tvg-name="International Friendly Games: Mexico vs Colombia - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Mexico vs Colombia - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
