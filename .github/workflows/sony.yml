@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['sony.py']
+    paths: ['sony.py', 'sony3.py']
 
 # Do NOT cancel in progress — a mid-push cancel corrupts state.
 concurrency:
@@ -43,10 +43,12 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run Script
-        run: python sony.py
+      - name: Run Scripts
+        run: |
+          python sony.py
+          python sony3.py
 
-      - name: Debug — show what the script produced
+      - name: Debug — show what the scripts produced
         run: |
           echo "===== repo root ====="
           ls -la
@@ -54,6 +56,8 @@ jobs:
           find . -name '*.m3u*' -not -path './.git/*' -exec ls -la {} \;
           echo "===== sony5.m3u head ====="
           head -20 sony5.m3u || echo "sony5.m3u NOT FOUND"
+          echo "===== sony6.m3u head ====="
+          head -20 sony6.m3u || echo "sony6.m3u NOT FOUND"
           echo "===== git status ====="
           git status --porcelain
 
@@ -64,8 +68,12 @@ jobs:
             echo "::error::sony5.m3u was not created by sony.py"
             exit 1
           fi
+          if [ ! -f sony6.m3u ]; then
+            echo "::error::sony6.m3u was not created by sony3.py"
+            exit 1
+          fi
 
-          git add sony5.m3u
+          git add sony5.m3u sony6.m3u
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -86,7 +94,7 @@ jobs:
             git fetch origin main
 
             # Replay our commit on top of latest remote.
-            # -X theirs: if sony5.m3u conflicts, keep OUR generated version.
+            # -X theirs: if sony5.m3u or sony6.m3u conflicts, keep OUR generated version.
             if ! git rebase -X theirs origin/main; then
               echo "Rebase conflict — aborting and retrying."
               git rebase --abort || true
