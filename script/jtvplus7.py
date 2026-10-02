@@ -1,318 +1,236 @@
-#!/usr/bin/env python3
-import requests
-import re
 import os
+import json
+import base64
+import requests
+from typing import Dict, List, Set, Any, Optional
 from datetime import datetime
+from urllib.parse import urlparse, parse_qs, urlunparse
 
-# ------------------ CONFIGURATION ------------------
-PLAYLISTS = [
-    {"name": "FANCODE", "icon": "🏏", "url": "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"},
-    {"name": "SONYLIV", "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
-    {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
-    {"name": "PRIMEVIDEO", "icon": "📺", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"},
-    {"name": "JIO-TV", "icon": "📡", "url": "hhttps://raw.githubusercontent.com/sportlink-10/playlist/refs/heads/main/jtvplus7.m3u"},
-    {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
-    {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
-    {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
-    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlink-10/playlist/refs/heads/main/hotstar.m3u"},
-]
+CHANNELS_URL = "https://sportlink10-ajp.pages.dev/jtv.json"
+COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
+SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
-OUTPUT_FILE = "Combined.m3u"
-EPG_URL = "https://www.tsepg.cf/epg.xml.gz"
+USER_AGENT = "Virat"
+REFERER = "https://www.jiotv.com/"
+ORIGIN = "https://www.jiotv.com/"
+UPLOAD_TO_GITHUB = True
 
-# ------------------ BRANDING SUFFIXES ------------------
-SPORTLINK_SUFFIX = " | Sportlink"
-VIRAT10_SUFFIX = " @virat10"
 
-# ============================================================
-# ------------------ SPORTS FOLDER SETUP --------------------
-# ============================================================
-SPORTS_CATEGORY = "Sports"
+def to_base64(text: str) -> str:
+    return base64.b64encode(text.encode("utf-8")).decode("ascii")
 
-# True  -> EVERY channel matching SPORTS_KEYWORDS lands in the Sports folder,
-#          even if it came from Fancode / SonyLIV / Willow / PrimeVideo.
-# False -> Those sources keep their own folders; only the general playlists
-#          (JioTV, Sony, Zee, Sun, Hotstar) feed the Sports folder.
-SPORTS_TAKES_PRIORITY = True
+def get_json(url: str) -> Any:
+    cache_buster = f"{'&' if '?' in url else '?'}t={int(datetime.now().timestamp() * 1000)}"
+    fresh_url = url + cache_buster
+    headers = {"Cache-Control": "no-cache", "Pragma": "no-cache"}
+    resp = requests.get(fresh_url, headers=headers)
+    resp.raise_for_status()
+    return resp.json()
 
-# Any channel whose title contains one of these goes to "Sports | Sportlink"
-SPORTS_KEYWORDS = [
-    # --- Generic ---
-    "sport", "sports", "sports channel", "sportschannel",
+def split_url_query(url: str) -> tuple:
+    """Return (base_url, query_string). query_string is None if absent."""
+    parsed = urlparse(url)
+    base = urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, "", ""))
+    query = parsed.query if parsed.query else None
+    return base, query
 
-    # --- Sports broadcasters / networks ---
-    "star sports", "sony sports", "sony ten", "sony six", "sony espn",
-    "ten sports", "ten 1", "ten 2", "ten 3", "ten 4", "ten 5",
-    "espn", "eurosport", "sky sports", "fox sports", "bein sports",
-    "dazn", "supersport", "astro supersport", "premier sports",
-    "free sports", "ziggo sport", "sportv", "canal sport", "tsn",
-    "willow", "willow cricket", "dd sports", "sports18", "star sports 1",
-    "star sports 2", "star sports 3", "star sports select", "star sports first",
-    "star sports hindi", "star sports tamil", "star sports telugu",
 
-    # --- Sports by discipline ---
-    "cricket", "football", "soccer", "boxing", "baseball", "basketball",
-    "tennis", "badminton", "hockey", "kabaddi", "golf", "racing",
-    "motogp", "formula 1", "formula one", "olympics", "wwe", "ufc",
-    "wrestling", "athletics", "swimming", "volleyball", "handball",
-    "rugby", "cycling", "snooker", "table tennis", "esports", "darts",
-    "skiing", "surfing", "mma", "kabaddi",
+def get_normal_cookie() -> str:
+    data = get_json(COOKIE_URL)
+    if isinstance(data, str):
+        return data
+    if isinstance(data, list):
+        for item in data:
+            if isinstance(item, dict) and "cookie" in item:
+                return item["cookie"]
+        return ""
+    if isinstance(data, dict):
+        return data.get("cookie", "")
+    return ""
 
-    # --- Leagues / tournaments / events ---
-    "ipl", "isl", "t20", "odi", "test match", "world cup",
-    "premier league", "champions league", "europa league", "copa",
-    "serie a", "bundesliga", "ligue 1", "mls", "nba", "nfl", "mlb",
-    "nhl", "fifa", "icc", "grand slam", "wimbledon", "us open",
-    "australian open", "french open", "super bowl", "playoffs",
-]
+def get_sports_data() -> Dict[str, Any]:
+    data = get_json(SPORTS_COOKIE_URL)
+    sports_cookies = {}
+    results = data.get("successful_results", []) + data.get("failed_results", [])
 
-# ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
-SOURCE_CATEGORY_OVERRIDE = {
-    "FANCODE":     "Fancode",
-    "SONYLIV":     "SonyLIV",
-    "Jio Hotstar": "Jio Hotstar",
-    "WILLOW":      "Willow",
-    "PRIMEVIDEO":  "Prime Video",
-    "HOTSTAR":     "Hotstar",
-    "Sports Special": "Sports Special",
-}
-
-# ------------------ KEYWORD CATEGORY MAPPING ------------------
-# NOTE: Cricket / Football / Boxing / Baseball were removed from here
-#       because they are now handled by SPORTS_KEYWORDS above.
-CATEGORY_MAP = {
-    "Assamese":   ["assamese", "asomiya"],
-    "Bengali":    ["bengali", "bangla", "bn"],
-    "Bhojpuri":   ["bhojpuri", "bho"],
-    "Gujarati":   ["gujarati", "guj"],
-    "Haryanvi":   ["haryanvi"],
-    "Kannada":    ["kannada", "kn"],
-    "Malayalam":  ["malayalam", "ml"],
-    "Marathi":    ["marathi", "mr"],
-    "Odia":       ["odia", "oriya"],
-    "Punjabi":    ["punjabi", "pa"],
-    "Tamil":      ["tamil", "ta"],
-    "Telugu":     ["telugu", "te"],
-    "Urdu":       ["urdu"],
-    "English":    ["english", "en"],
-    "French":     ["french", "fr"],
-    "Sun":        ["sun tv", "surya", "sun music", "sun news", "sun action", "sun life"],
-    "Zee":        ["zee", "zee tv", "zee cinema", "zee news", "zee marathi", "zee bangla"],
-    "Sony":       ["sony", "set", "sab", "sony liv", "sony max"],
-    "Star":       ["star", "star plus", "star movies", "star gold"],
-    "Colors":     ["colors", "viacom", "mtv"],
-    "Discovery":  ["discovery", "dci"],
-    "Nat Geo":    ["nat geo", "national geographic"],
-    "Cartoon":    ["cartoon", "cn", "pogo", "nick"],
-    "News":       ["news", "ndtv", "republic", "times now", "cnn", "bbc"],
-    "Business":   ["business", "finance", "cnbc", "bloomberg"],
-    "Devotional": ["devotional", "bhakti", "god"],
-    "Entertainment": ["entertainment", "ent", "tv", "movies", "series"],
-    "Infotainment":  ["infotainment", "documentary", "history", "discovery", "national geographic"],
-    "Knowledge":     ["knowledge", "learning", "education"],
-}
-DEFAULT_CATEGORY = "Other"
-
-# ------------------ CATEGORY ORDER (first = top) ------------------
-CATEGORY_ORDER = [
-    "Sports | Sportlink",          # <-- NEW: all sports channels land here
-    "Sports Special | Sportlink",
-    "Live Events | Sportlink",
-    "Fancode | Sportlink",
-    "SonyLIV | Sportlink",
-    "Willow | Sportlink",
-    "Prime Video | Sportlink",
-    "Hotstar | Sportlink",
-    "Jio Hotstar | Sportlink",
-]
-
-# ------------------ HELPER FUNCTIONS ------------------
-def fetch_playlist(url):
-    try:
-        print(f"  📥 Fetching: {url}")
-        resp = requests.get(url, timeout=20)
-        resp.raise_for_status()
-        lines = resp.text.replace('\r\n', '\n').split('\n')
-        print(f"  ✅ Fetched {len(lines)} lines")
-        return lines
-    except Exception as e:
-        print(f"  ❌ Failed: {e}")
-        return []
-
-def clean_line(line):
-    return line.strip()
-
-def extract_channel_blocks(lines):
-    block = []
-    for line in lines:
-        line = clean_line(line)
-        if not line:
+    for item in results:
+        channel_id = item.get("channel_id")
+        if not channel_id:
             continue
-        if line.startswith('#EXTM3U'):
+        final_url = item.get("final_url") or item.get("error_details", {}).get("final_url", "")
+        if not final_url:
             continue
-        if line.startswith('#EXTINF') and block:
-            yield block
-            block = []
-        block.append(line)
-    if block:
-        yield block
+        modified_url = final_url.replace("/output/", "/WDVLive/")
+        sports_cookies[str(channel_id)] = modified_url
 
-def get_channel_title(block):
-    for line in block:
-        if line.startswith('#EXTINF'):
-            parts = line.rsplit(',', 1)
-            if len(parts) > 1:
-                return parts[1].strip()
-    return None
+    return {
+        "sportsIds": set(sports_cookies.keys()),
+        "sportsCookies": sports_cookies,
+    }
 
-def is_sports_channel(title):
-    """Return True if the channel title matches any sports keyword."""
-    if not title:
-        return False
-    title_lower = title.lower()
-    for kw in SPORTS_KEYWORDS:
-        if kw in title_lower:
-            return True
-    return False
 
-def categorize_channel(title):
-    if not title:
-        return DEFAULT_CATEGORY
-    title_lower = title.lower()
-    # Sports check comes FIRST so "Star Sports" doesn't get caught by "Star"
-    if is_sports_channel(title):
-        return SPORTS_CATEGORY
-    for category, keywords in CATEGORY_MAP.items():
-        for kw in keywords:
-            if kw in title_lower:
-                return category
-    return DEFAULT_CATEGORY
+def create_channel_entry(channel: Dict[str, Any],
+                         normal_cookie: str = "",
+                         sports_cookies: Dict[str, str] = {}) -> str:
+    name = channel.get("name", "")
+    logo = channel.get("logo", "")
+    group = channel.get("group") or channel.get("category") or "Other"
+    url = channel.get("url", "")
+    channel_id = str(channel.get("id", ""))
 
-def fix_channel_block(block, category):
-    """Apply branding suffixes and set correct group-title."""
-    new_block = []
-    for line in block:
-        if line.startswith('#EXTINF'):
-            # --- 1. Append @virat10 to tvg-name (or add it if missing) ---
-            if 'tvg-name=' in line:
-                line = re.sub(
-                    r'tvg-name="([^"]*)"',
-                    lambda m: f'tvg-name="{m.group(1).strip()}{VIRAT10_SUFFIX}"',
-                    line
-                )
-            else:
-                parts = line.rsplit(',', 1)
-                if len(parts) > 1:
-                    title = parts[1].strip()
-                    if line.startswith('#EXTINF:-1 '):
-                        line = line.replace(
-                            '#EXTINF:-1 ',
-                            f'#EXTINF:-1 tvg-name="{title}{VIRAT10_SUFFIX}" ',
-                            1
-                        )
+    lines = []
 
-            # --- 2. Set group-title to the category (which already has | Sportlink) ---
-            if 'group-title=' in line:
-                line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', line)
-            else:
-                line = re.sub(r'(#EXTINF:[^,]+)', r'\1 group-title="' + category + '"', line)
+    lines.append(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
 
-            new_block.append(line)
+    is_mpd = (channel.get("type") == "dash") or (".mpd" in url.lower() and ("?" in url.lower() or url.lower().endswith(".mpd")))
+
+    if is_mpd:
+        lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+        lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+
+        # Clearkey logic
+        if channel.get("keyId") and channel.get("key"):
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={channel['keyId']}:{channel['key']}")
+        elif "clearkey" in channel and isinstance(channel["clearkey"], dict) and channel["clearkey"]:
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            key_id, key = next(iter(channel["clearkey"].items()))
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}")
+        elif channel.get("license_url"):
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={channel['license_url']}")
+
+    # Resolve final URL (sports override or append normal cookie as query)
+    sports_url = sports_cookies.get(channel_id)
+    if sports_url:
+        final_url_with_query = sports_url
+    else:
+        if normal_cookie:
+            sep = "&" if "?" in url else "?"
+            final_url_with_query = f"{url}{sep}{normal_cookie}"
         else:
-            new_block.append(line)
-    return new_block
+            final_url_with_query = url
 
-# ------------------ MAIN ------------------
-def main():
-    print("🚀 Starting playlist merge with category grouping...")
-    print("=" * 50)
+    base_url, cookie_query = split_url_query(final_url_with_query)
 
-    all_channels = []
-    sports_count = 0
+    # --- Optional: KODIPROP stream_headers (useful for ExoPlayer / TiviMate) ---
+    if cookie_query:
+        stream_headers = (
+            f"User-Agent={USER_AGENT}"
+            f"&Referer={REFERER}"
+            f"&Origin={ORIGIN}"
+            f"&Cookie={cookie_query}"
+        )
+        lines.append(
+            "#KODIPROP:inputstream.adaptive.stream_headers="
+            + stream_headers
+        )
 
-    for playlist in PLAYLISTS:
-        name = playlist["name"]
-        icon = playlist["icon"]
-        url = playlist["url"]
-        print(f"\n📺 Processing: {icon} {name}")
-        lines = fetch_playlist(url)
-        if not lines:
-            continue
+    # --- VLC-style options (what you asked to add) ---
+    lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+    lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
 
-        override_cat = SOURCE_CATEGORY_OVERRIDE.get(name)
+    if cookie_query:
+        lines.append(f"#EXTVLCOPT:http-cookie={cookie_query}")
 
-        for block in extract_channel_blocks(lines):
-            title = get_channel_title(block)
-            sport = is_sports_channel(title)
+    # --- EXTHTTP JSON blob (used by some IPTV players) ---
+    if cookie_query:
+        exthttp = {
+            "User-Agent": USER_AGENT,
+            "Referer": REFERER,
+            "Origin": ORIGIN,
+            "Cookie": cookie_query,
+        }
+        lines.append(f"#EXTHTTP:{json.dumps(exthttp)}")
 
-            # ---------- CATEGORY DECISION ----------
-            if sport and (SPORTS_TAKES_PRIORITY or not override_cat):
-                # Sports wins -> everything goes into ONE Sports folder
-                base_category = SPORTS_CATEGORY
-                sports_count += 1
+    lines.append(base_url)
 
-            elif override_cat:
-                base_category = override_cat
+    return "\n".join(lines)
 
-            else:
-                base_category = categorize_channel(title)
 
-                # ---------- JIO-TV SPECIAL HANDLING ----------
-                # Only non-sports JioTV channels get the "Jiotv " prefix,
-                # so the Sports folder isn't split into two.
-                if name == "JIO-TV":
-                    base_category = f"Jiotv {base_category}"
-                # ---------------------------------------------
+def generate_m3u() -> str:
+    channels = get_json(CHANNELS_URL)
+    normal_cookie = get_normal_cookie()
+    sports_data = get_sports_data()
 
-            # Append Sportlink suffix to every category
-            category = f"{base_category}{SPORTLINK_SUFFIX}"
-            all_channels.append((category, block))
+    print(f"Channels loaded: {len(channels)}")
+    print(f"Sports-specific URLs loaded: {len(sports_data['sportsIds'])}")
 
-    # Group by category
-    groups = {}
-    for cat, block in all_channels:
-        groups.setdefault(cat, []).append(block)
+    entries = []
+    for ch in channels:
+        entries.append(create_channel_entry(ch, normal_cookie, sports_data["sportsCookies"]))
 
-    # Order categories
-    ordered_cats = []
-    for cat in CATEGORY_ORDER:
-        if cat in groups:
-            ordered_cats.append(cat)
-    remaining = sorted([cat for cat in groups.keys() if cat not in CATEGORY_ORDER])
-    ordered_cats.extend(remaining)
+    print(f"Channels generated: {len(entries)}")
+    return "#EXTM3U\n\n" + "\n\n".join(entries)
 
-    # Build output
-    out_lines = [f'#EXTM3U x-tvg-url="{EPG_URL}"']
 
-    total = 0
-    for cat in ordered_cats:
-        blocks = groups[cat]
-        count = len(blocks)
-        total += count
-        out_lines.append(f'#===== {cat} ({count} channels) =====')
-        for block in blocks:
-            fixed = fix_channel_block(block, cat)
-            out_lines.extend(fixed)
-            out_lines.append('')   # one blank line after each channel
+def upload_to_github(content: str) -> bool:
+    repo_owner = os.environ.get("GITHUB_OWNER")
+    repo_name = os.environ.get("GITHUB_REPO")
+    token = os.environ.get("GITHUB_TOKEN")
 
-    # Remove trailing blank lines
-    while out_lines and out_lines[-1] == '':
-        out_lines.pop()
+    if not all([repo_owner, repo_name, token]):
+        print("⚠️  GitHub credentials missing. Skipping upload.")
+        return False
 
-    # Write file
+    if not UPLOAD_TO_GITHUB:
+        print("⚠️  Upload disabled by UPLOAD_TO_GITHUB flag. Skipping.")
+        return False
+
+    path = "jtvplus3.m3u"
+    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{path}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "User-Agent": "Python-Script",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+    existing_resp = requests.get(api_url, headers=headers)
+    sha = None
+    existing_content = ""
+    if existing_resp.status_code == 200:
+        existing_json = existing_resp.json()
+        sha = existing_json.get("sha")
+        if existing_json.get("content"):
+            existing_content = base64.b64decode(existing_json["content"]).decode("utf-8")
+
+    def normalize(s: str) -> str:
+        return s.strip().replace("\r", "")
+
+    if sha and normalize(existing_content) == normalize(content):
+        print("No changes detected. Skipping commit.")
+        return True
+
+    payload = {
+        "message": f"Auto update playlist {datetime.now().isoformat()}",
+        "content": to_base64(content),
+        "sha": sha,
+    }
+
+    put_resp = requests.put(api_url, headers=headers, json=payload)
+    if not put_resp.ok:
+        print(f"❌ GitHub upload failed: {put_resp.status_code} - {put_resp.text}")
+        return False
+
+    print(f"✅ GitHub upload successful ({put_resp.status_code})")
+    return True
+
+
+def main(output_file: str = "jtvplus7.m3u"):
     try:
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(out_lines))
-            f.write('\n')  # final newline
-        print("\n" + "=" * 50)
-        print(f"✅ Successfully created {OUTPUT_FILE}")
-        print(f"📊 Total channels: {total}")
-        print(f"🏆 Sports channels in Sports folder: {sports_count}")
-        print(f"📅 Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}")
-        print(f"📁 File size: {os.path.getsize(OUTPUT_FILE)} bytes")
-        print(f"\n📂 Categories (in order): {', '.join(ordered_cats)}")
+        m3u = generate_m3u()
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(m3u)
+        print(f"📁 Playlist saved locally as '{output_file}'")
+
+        upload_to_github(m3u)
+
+        print("✅ Playlist updated successfully")
     except Exception as e:
-        print(f"❌ Error writing file: {e}")
+        print(f"❌ Error: {e}")
+        raise
+
 
 if __name__ == "__main__":
     main()
