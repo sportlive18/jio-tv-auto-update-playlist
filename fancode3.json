@@ -1,9 +1,9 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "3/10/2026, 1:03:25 pm",
+  "updatedAt": "3/10/2026, 1:23:46 pm",
   "total_matches": 40,
-  "live_matches": 7,
-  "upcoming_matches": 33,
+  "live_matches": 8,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -45,7 +45,7 @@
       "match_id": "4249295",
       "status": "LIVE",
       "startTime": "01:00:00 PM 03-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/DelhiDynamosVSYamunaWarriors_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "https://in-mc-flive.fancode.com/mumbai/4249295_english_hls_ad60127e3874258_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791098537~_GO=Generated~acl=/mumbai/4249295_english_hls_ad60127e3874258_1ta-di_h264/*~Signature=ARxeIm-CGLdXDQJAFpRdDqirvG2u1pJZu7gkr30WIkzIpYSuAC1dhJp9BOfu9yO72y6_DZ4Q0WAz9QPtr_KWFBKKOcMC",
@@ -237,6 +237,39 @@
       }
     },
     {
+      "category": "Formula 1",
+      "title": "Qualifying [English]",
+      "tournament": "F1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
+      "match_id": "4248244",
+      "status": "LIVE",
+      "startTime": "01:30:00 PM 03-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-GULF-AIR-BAHRAIN-GRAND-PRIX-IN-MALAYSIA-2026-old-match-card.png",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+        "fancode_cdn": "",
+        "fancode_bd_cdn": "",
+        "fancode_np_cdn": "",
+        "fancode_lk_cdn": "",
+        "backup": {}
+      },
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/240p.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/360p.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/480p.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/540p.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/720p.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC"
+          },
+          "cookie": "hdntl=Expires=1791100358~_GO=Generated~acl=/mumbai/4248244_english_hls_24875b046c69353_1ta-di_h264/*~Signature=ARxeIm8LAV0T8dVmZgnpksvae9j4mTf6H-TFYgNybJhaiVU0jq9Kh1KtLt2oyzPEYmVI_XnkWMbzAXw1xmb3NJpAvskC",
+          "expires": "1791100358",
+          "expire_date": ""
+        }
+      }
+    },
+    {
       "category": "Cricket",
       "title": "India Champions vs Australia Champions",
       "tournament": "World Championship of Legends, 2026",
@@ -262,7 +295,7 @@
       "match_id": "4249309",
       "status": "UPCOMING",
       "startTime": "05:00:00 PM 03-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FaridabadFirebirdsvsGhaziabadGiants_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -409,12 +442,12 @@
     },
     {
       "category": "Cricket",
-      "title": "Sharjah vs Dubai",
-      "tournament": "Emirates D10, 2026",
-      "match_id": "4250079",
+      "title": "Brampton Blitz vs Montreal Royal Tigers",
+      "tournament": "Canada Super 60, 2026",
+      "match_id": "4249825",
       "status": "UPCOMING",
-      "startTime": "11:15:00 PM 03-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4250079_53103_SHA_DUB_FC-WEB.jpg",
+      "startTime": "11:15:00 AM 04-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249825_53099_BBZ_MRT_FC-Web.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -428,12 +461,12 @@
     },
     {
       "category": "Cricket",
-      "title": "Brampton Blitz vs Montreal Royal Tigers",
-      "tournament": "Canada Super 60, 2026",
-      "match_id": "4249825",
+      "title": "Sharjah vs Dubai",
+      "tournament": "Emirates D10, 2026",
+      "match_id": "4250079",
       "status": "UPCOMING",
-      "startTime": "11:15:00 AM 04-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249825_53099_BBZ_MRT_FC-Web.png",
+      "startTime": "11:15:00 PM 03-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4250079_53103_SHA_DUB_FC-WEB.jpg",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -503,25 +536,6 @@
       "auto_streams": {}
     },
     {
-      "category": "Football",
-      "title": "Cádiz vs Leganes",
-      "tournament": "LALIGA Hypermotion 2026-27",
-      "match_id": "4249262",
-      "status": "UPCOMING",
-      "startTime": "10:00:00 PM 03-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249262_53017_CDZ_LEG_FC-Web.png",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "",
-        "fancode_bd_cdn": "",
-        "fancode_np_cdn": "",
-        "fancode_lk_cdn": "",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
       "category": "Cricket",
       "title": "Kolhan King vs Chakradharpur Royals",
       "tournament": "West Singhbhum T20 League 2026",
@@ -541,13 +555,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Formula 1",
-      "title": "Qualifying",
-      "tournament": "F1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
-      "match_id": "4248244",
+      "category": "Football",
+      "title": "Cádiz vs Leganes",
+      "tournament": "LALIGA Hypermotion 2026-27",
+      "match_id": "4249262",
       "status": "UPCOMING",
-      "startTime": "01:30:00 PM 03-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-GULF-AIR-BAHRAIN-GRAND-PRIX-IN-MALAYSIA-2026-old-match-card.png",
+      "startTime": "10:00:00 PM 03-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249262_53017_CDZ_LEG_FC-Web.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
