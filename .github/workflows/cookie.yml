@@ -43,7 +43,7 @@ jobs:
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
-          git add cookie.json sportcookie.json
+          git add cookies.json sportcookies.json
           git commit -m "Auto-update cookies: $(date -u)" || echo "No changes to commit"
 
           for i in 1 2 3 4 5; do
