@@ -29,7 +29,7 @@ def fetch_and_save(url, filename):
 
 if __name__ == "__main__":
     # Fetch and save the first URL
-    fetch_and_save(url1, "cookie.json")
+    fetch_and_save(url1, "cookies.json")
 
     # Fetch and save the second URL
-    fetch_and_save(url2, "sportcookie.json")
+    fetch_and_save(url2, "sportcookies.json")
