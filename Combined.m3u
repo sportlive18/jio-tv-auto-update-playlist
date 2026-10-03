@@ -5,14 +5,14 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=465e30cbfd3748843f54933153276ed8:0f9351d5b352b8f7939bd6695e38afe3
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/w5ucrsei9m/out/v1/3e217bead6614b57bc2b68cd77fb1bc5/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/w5ucrsei9m/out/v1/3e217bead6614b57bc2b68cd77fb1bc5/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HHNLND4Y" tvg-name="Brown vs. Rhode Island @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.865d7c84-e036-4c32-be70-9389ecd081aa/38/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png" group-title="Sports | Sportlink",Brown vs. Rhode Island
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7b87c59bba50e62ca4fef8ba2f79b99a:417b7577df2477d1842a4bb9eee852bc
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sxp9uvyez/out/v1/4484a71af5204219a7881175306e68a9/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sxp9uvyez/out/v1/4484a71af5204219a7881175306e68a9/cenc.mpd
 
 #EXTINF:-1 tvg-id="204" tvg-name="DD Sports @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png" group-title="Sports | Sportlink",DD Sports
 #KODIPROP:inputstream=inputstream.adaptive
@@ -872,32 +872,29 @@ https://jcevents.hotstar.com/bpk-tv/JS_News18Odia/JioHotstar/JS_News18Odia.m3u8
 #EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1791111125~acl=%2f*~id=7deede707fdb214536d0d627f3d5c94c~data=hdntl~hmac=0e5144eb1bbb831c7197b3aacdc681ae377ac89f92c6348f80bb640ac7c35e2d"}
 https://jcevents.hotstar.com/bpk-tv/e03bbf7688f4b14faa3782e78851c3d9_CTV/Fallback/index2.m3u8
 
-#===== Fancode | Sportlink (3 channels) =====
+#===== Fancode | Sportlink (2 channels) =====
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249656_53086_NAM_UAE_fc-web.png" group-title="Fancode | Sportlink", ICC CWC League 2 USA, 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4249656_english_hls_f7482524e782286_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791125819~_GO=Generated~acl=/mumbai/4249656_english_hls_f7482524e782286_1ta-di_h264/*~Signature=ARxeIm_X7KTnhUbrTyJpNM13QVFkDcRJN_ni5hsaBO6Pg1L1oxepiTrdUp_wwqglqZbEOD6RXuqj-6YohQ-xwkij2bMG
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250078_53103_AJM_EMR_FC-WEB.jpg" group-title="Fancode | Sportlink", Emirates D10, 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4250078_english_hls_127ea57f6056043_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791127032~_GO=Generated~acl=/mumbai/4250078_english_hls_127ea57f6056043_1ta-di_h264/*~Signature=ARxeIm9r3bGZyHSTyC99abkit2rSa1dORO4hp0w3fxneFzhyLbxK5vISiu5zxruBSU4lG0td2jmfVK9hWcXub9xdWJUO
 
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249262_53017_CDZ_LEG_FC-Web.png" group-title="Fancode | Sportlink", LALIGA Hypermotion 2026-27 [English]
 https://in-mc-flive.fancode.com/mumbai/4249262_english_hls_8d37caa25d51263_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791130679~_GO=Generated~acl=/mumbai/4249262_english_hls_8d37caa25d51263_1ta-di_h264/*~Signature=ARxeIm_u4tdVu08wcu5kHAnnu4cwOJn5-0bMV2fsdtSeLqO135W4qdeeyWE5WJg6_bXD31lqEuUyF6pPrLc3tZa-kHYG
 
 #===== SonyLIV | Sportlink (4 channels) =====
 #EXTINF:-1 tvg-name="Croatia vs England - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025380/1790747906736683_UNL2627_Croatia_vs_England_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Croatia vs England - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2022322/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791088829~acl=/*~id=86022892315272474347690534797673~hmac=a440e7e66b666e5a52875ca8cba71f27a99fc7036330901b9f79ad90b3197aa3
+https://sonydaimenew.akamaized.net/hls/live/2022322/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791091259~acl=/*~id=62254662611948905038215771794830~hmac=482feb4b2223335eb02d47b7f8b437f58effbcf15b65b7c174a0e90dacf98e31
 
 #EXTINF:-1 tvg-name="Iceland vs Bulgaria - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025380/1790748023774683_UNL2627_Iceland_vs_Bulgaria_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Iceland vs Bulgaria - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2037139/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791088829~acl=/*~id=86022892315272474347690534797673~hmac=a440e7e66b666e5a52875ca8cba71f27a99fc7036330901b9f79ad90b3197aa3
+https://sonydaimenew.akamaized.net/hls/live/2037139/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791091259~acl=/*~id=62254662611948905038215771794830~hmac=482feb4b2223335eb02d47b7f8b437f58effbcf15b65b7c174a0e90dacf98e31
 
 #EXTINF:-1 tvg-name="Estonia vs Luxembourg - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025380/1790748351517683_UNL2627_Estonia_vs_Luxembourg_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Estonia vs Luxembourg - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2037141/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791088829~acl=/*~id=86022892315272474347690534797673~hmac=a440e7e66b666e5a52875ca8cba71f27a99fc7036330901b9f79ad90b3197aa3
+https://sonydaimenew.akamaized.net/hls/live/2037141/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791091259~acl=/*~id=62254662611948905038215771794830~hmac=482feb4b2223335eb02d47b7f8b437f58effbcf15b65b7c174a0e90dacf98e31
 
 #EXTINF:-1 tvg-name="Belarus vs San Marino - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025380/1790748179104683_UNL2627_Belarus_vs_San_Marino_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Belarus vs San Marino - 3 Oct 2026  [ENG] - UEFA Nations League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2037140/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791088829~acl=/*~id=86022892315272474347690534797673~hmac=a440e7e66b666e5a52875ca8cba71f27a99fc7036330901b9f79ad90b3197aa3
+https://sonydaimenew.akamaized.net/hls/live/2037140/Footlive0310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791091259~acl=/*~id=62254662611948905038215771794830~hmac=482feb4b2223335eb02d47b7f8b437f58effbcf15b65b7c174a0e90dacf98e31
 
 #===== Willow | Sportlink (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:10:32 PM 03-10-2026
+#LAST_UPDATE:11:02 PM 03-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -908,14 +905,14 @@ https://sonydaimenew.akamaized.net/hls/live/2037140/Footlive0310/ENG/std_lrh-800
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=465e30cbfd3748843f54933153276ed8:0f9351d5b352b8f7939bd6695e38afe3
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/w5ucrsei9m/out/v1/3e217bead6614b57bc2b68cd77fb1bc5/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/w5ucrsei9m/out/v1/3e217bead6614b57bc2b68cd77fb1bc5/cenc.mpd
 
-#===== Prime Video | Sportlink (8 channels) =====
+#===== Prime Video | Sportlink (7 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:10:32 PM 03-10-2026
+#LAST_UPDATE:11:02 PM 03-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:8
+#LIVE_COUNT:7
 #UPCOMING_COUNT:0
 
 #EXTINF:-1 tvg-id="B0H9J7D329" tvg-name="Ben Whittaker v Conor Wallace @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b22b2f40-7c69-48e9-b6aa-1f7628d19304/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Ben Whittaker v Conor Wallace
@@ -923,7 +920,7 @@ https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/w5ucrsei9m/out/v1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=99f2d8b38451875101393cfda6cc5e77:3d32bdfa5fe52cf74567eb20716b5a65
-https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3akahygf9y/out/v1/cc0ca029222b46b3a36e610e0a85fe91/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3akahygf9y/out/v1/cc0ca029222b46b3a36e610e0a85fe91/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HGM7LHTT" tvg-name="Elite, Central Regional 1 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9151ca7e-820e-4122-97c1-849ecc0c744a/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Elite, Central Regional 1
 #KODIPROP:inputstream=inputstream.adaptive
@@ -944,14 +941,14 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7b87c59bba50e62ca4fef8ba2f79b99a:417b7577df2477d1842a4bb9eee852bc
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sxp9uvyez/out/v1/4484a71af5204219a7881175306e68a9/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sxp9uvyez/out/v1/4484a71af5204219a7881175306e68a9/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H61VC91R" tvg-name="1st Match - India Champions vs Australia Champions @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.a005780a-3440-4b24-b9ab-9cf7401ad902/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",1st Match - India Champions vs Australia Champions
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HKG1S4BH" tvg-name="Saskatchewan Heat vs. Rocky Mountain Rage @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.7e2a42c0-1331-45c8-88c6-f77d6b5380c3/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Saskatchewan Heat vs. Rocky Mountain Rage
 #KODIPROP:inputstream=inputstream.adaptive
@@ -959,13 +956,6 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwep
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HCWYNGBR" tvg-name="Swedish Open, Semifinal @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.71be6708-751f-4327-99cf-2c488caf5081/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Swedish Open, Semifinal
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
